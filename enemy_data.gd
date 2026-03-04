@@ -1,0 +1,31 @@
+class_name EnemyData
+extends RefCounted
+
+const ENEMIES = {
+    "A": { "level": 1, "min_floor": 1, "max_floor": 2, "agro_range": 3, "skill": "噛みつき" },
+    "B": { "level": 1, "min_floor": 1, "max_floor": 2, "agro_range": 3, "skill": "噛みつき" },
+    "C": { "level": 1, "min_floor": 1, "max_floor": 2, "agro_range": 3, "skill": "体当たり" },
+    "D": { "level": 1, "min_floor": 1, "max_floor": 2, "agro_range": 3, "skill": "ひっかき" },
+    "E": { "level": 1, "min_floor": 1, "max_floor": 2, "agro_range": 3, "skill": "ひっかき" },
+    "F": { "level": 2, "min_floor": 2, "max_floor": 3, "agro_range": 4, "skill": "ひっかき" },
+    "G": { "level": 2, "min_floor": 2, "max_floor": 3, "agro_range": 4, "skill": "噛みつき" },
+    "H": { "level": 2, "min_floor": 2, "max_floor": 3, "agro_range": 4, "skill": "毒液" },
+    "I": { "level": 2, "min_floor": 2, "max_floor": 3, "agro_range": 4, "skill": "噛みつき" },
+    "J": { "level": 2, "min_floor": 2, "max_floor": 3, "agro_range": 4, "skill": "毒液" },
+    "K": { "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "飛びかかり" },
+    "L": { "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "噛みつき" },
+    "M": { "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "噛みつき" },
+    "N": { "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "噛みつき" },
+    "O": { "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "ひっかき" },
+    "P": { "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "ひっかき" },
+    "Q": { "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "毒液" },
+    "R": { "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "毒液" },
+    "S": { "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "噛みつき" },
+    "T": { "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "毒液" },
+    "U": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "ひっかき" },
+    "V": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "毒液" },
+    "W": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "飛びかかり" },
+    "X": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "ひっかき" },
+    "Y": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "飛びかかり" },
+    "Z": { "level": 5, "min_floor": 5, "max_floor": 5, "agro_range": 7, "skill": "毒液" },
+}
