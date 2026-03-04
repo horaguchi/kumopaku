@@ -35,3 +35,7 @@ theme/custom_font="uid://cx5v7ff6irohx"
 rendering_device/driver.windows="d3d12"
 renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://localization.en.translation", "res://localization.ja.translation", "res://localization.zh.translation")

@@ -1,0 +1,731 @@
+keys,en,ja,zh
+Ant,Ant,アント,蚂蚁
+Bat,Bat,バット,蝙蝠
+Cobra,Cobra,コブラ,眼镜蛇
+Dragon,Dragon,ドラゴン,龙
+Ent,Ent,エント,树精
+Fly,Fly,フライ,苍蝇
+Goblin,Goblin,ゴブリン,哥布林
+Harpy,Harpy,ハーピー,哈皮
+Imp,Imp,インプ,小恶魔
+Jelly,Jelly,ジェリー,果冻怪
+Kobold,Kobold,コボルド,狗头人
+Lizard,Lizard,リザード,蜥蜴
+Mummy,Mummy,マミー,木乃伊
+Naga,Naga,ナーガ,纳迦
+Orc,Orc,オーク,兽人
+Pixie,Pixie,ピクシー,小仙女
+Coarl,Coarl,クアール,夸尔
+Rat,Rat,ラット,老鼠
+Slime,Slime,スライム,史莱姆
+Troll,Troll,トロール,巨魔
+Undead,Undead,アンデッド,不死族
+Vampire,Vampire,ヴァンパイア,吸血鬼
+Wolf,Wolf,ウルフ,狼
+Xalthis,Xalthis,ザルティス,扎尔提斯
+Yeti,Yeti,イエティ,雪人
+Zombie,Zombie,ゾンビ,僵尸
+Bite,Bite,噛みつき,咬
+Tackle,Tackle,体当たり,撞击
+Scratch,Scratch,ひっかき,抓
+Venom,Venom,毒液,毒液
+Pounce,Pounce,飛びかかり,扑
+Punch,Punch,殴る,殴打
+Slash,Slash,斬る,斩击
+Stab,Stab,突く,刺
+Shoot,Shoot,撃つ,射击
+Burn,Burn,燃やす,燃烧
+Freeze,Freeze,凍らせる,冻结
+Trap,Trap,罠,陷阱
+Curse,Curse,呪う,诅咒
+Pray,Pray,祈る,祈祷
+Escape,Escape,逃げる,逃跑
+Persuade,Persuade,説得,说服
+Hide,Hide,隠れる,隐藏
+Deceive,Deceive,騙す,欺骗
+Intimidate,Intimidate,威圧,威压
+Flatter,Flatter,媚びる,谄媚
+Bribe,Bribe,買収,贿赂
+Poison,Poison,毒,毒
+Sing,Sing,歌う,唱歌
+Dance,Dance,踊る,跳舞
+Spirit,Spirit,気合,斗志
+Attacked with Punch and won!,Attacked with Punch and won!,殴るで攻撃し、勝利した！,用殴打攻击并获胜！
+Punch didn't work and lost...,Punch didn't work and lost...,殴るが効かず、敗北した...,殴打无效，败北了...
+Attacked with Slash and won!,Attacked with Slash and won!,斬るで攻撃し、勝利した！,用斩击攻击并获胜！
+Slash didn't work and lost...,Slash didn't work and lost...,斬るが効かず、敗北した...,斩击无效，败北了...
+Attacked with Stab and won!,Attacked with Stab and won!,突くで攻撃し、勝利した！,用刺攻击并获胜！
+Stab didn't work and lost...,Stab didn't work and lost...,突くが効かず、敗北した...,刺无效，败北了...
+Attacked with Shoot and won!,Attacked with Shoot and won!,撃つで攻撃し、勝利した！,用射击攻击并获胜！
+Shoot didn't work and lost...,Shoot didn't work and lost...,撃つが効かず、敗北した...,射击无效，败北了...
+Attacked with Burn and won!,Attacked with Burn and won!,燃やすで攻撃し、勝利した！,用燃烧攻击并获胜！
+Burn didn't work and lost...,Burn didn't work and lost...,燃やすが効かず、敗北した...,燃烧无效，败北了...
+Attacked with Freeze and won!,Attacked with Freeze and won!,凍らせるで攻撃し、勝利した！,用冻结攻击并获胜！
+Freeze didn't work and lost...,Freeze didn't work and lost...,凍らせるが効かず、敗北した...,冻结无效，败北了...
+Attacked with Trap and won!,Attacked with Trap and won!,罠で攻撃し、勝利した！,用陷阱攻击并获胜！
+Trap didn't work and lost...,Trap didn't work and lost...,罠が効かず、敗北した...,陷阱无效，败北了...
+Attacked with Curse and won!,Attacked with Curse and won!,呪うで攻撃し、勝利した！,用诅咒攻击并获胜！
+Curse didn't work and lost...,Curse didn't work and lost...,呪うが効かず、敗北した...,诅咒无效，败北了...
+Attacked with Pray and won!,Attacked with Pray and won!,祈るで攻撃し、勝利した！,用祈祷攻击并获胜！
+Pray didn't work and lost...,Pray didn't work and lost...,祈るが効かず、敗北した...,祈祷无效，败北了...
+Attacked with Escape and won!,Attacked with Escape and won!,逃げるで攻撃し、勝利した！,用逃跑攻击并获胜！
+Escape didn't work and lost...,Escape didn't work and lost...,逃げるが効かず、敗北した...,逃跑无效，败北了...
+Attacked with Persuade and won!,Attacked with Persuade and won!,説得で攻撃し、勝利した！,用说服攻击并获胜！
+Persuade didn't work and lost...,Persuade didn't work and lost...,説得が効かず、敗北した...,说服无效，败北了...
+Attacked with Hide and won!,Attacked with Hide and won!,隠れるで攻撃し、勝利した！,用隐藏攻击并获胜！
+Hide didn't work and lost...,Hide didn't work and lost...,隠れるが効かず、敗北した...,隐藏无效，败北了...
+Attacked with Deceive and won!,Attacked with Deceive and won!,騙すで攻撃し、勝利した！,用欺骗攻击并获胜！
+Deceive didn't work and lost...,Deceive didn't work and lost...,騙すが効かず、敗北した...,欺骗无效，败北了...
+Attacked with Intimidate and won!,Attacked with Intimidate and won!,威圧で攻撃し、勝利した！,用威压攻击并获胜！
+Intimidate didn't work and lost...,Intimidate didn't work and lost...,威圧が効かず、敗北した...,威压无效，败北了...
+Attacked with Flatter and won!,Attacked with Flatter and won!,媚びるで攻撃し、勝利した！,用谄媚攻击并获胜！
+Flatter didn't work and lost...,Flatter didn't work and lost...,媚びるが効かず、敗北した...,谄媚无效，败北了...
+Attacked with Bribe and won!,Attacked with Bribe and won!,買収で攻撃し、勝利した！,用贿赂攻击并获胜！
+Bribe didn't work and lost...,Bribe didn't work and lost...,買収が効かず、敗北した...,贿赂无效，败北了...
+Attacked with Poison and won!,Attacked with Poison and won!,毒で攻撃し、勝利した！,用毒攻击并获胜！
+Poison didn't work and lost...,Poison didn't work and lost...,毒が効かず、敗北した...,毒无效，败北了...
+Attacked with Sing and won!,Attacked with Sing and won!,歌うで攻撃し、勝利した！,用唱歌攻击并获胜！
+Sing didn't work and lost...,Sing didn't work and lost...,歌うが効かず、敗北した...,唱歌无效，败北了...
+Attacked with Dance and won!,Attacked with Dance and won!,踊るで攻撃し、勝利した！,用跳舞攻击并获胜！
+Dance didn't work and lost...,Dance didn't work and lost...,踊るが効かず、敗北した...,跳舞无效，败北了...
+Attacked with Spirit and won!,Attacked with Spirit and won!,気合で攻撃し、勝利した！,用斗志攻击并获胜！
+Spirit didn't work and lost...,Spirit didn't work and lost...,気合が効かず、敗北した...,斗志无效，败北了...
+MSG_ENTER_DUNGEON,Entered the dungeon...,ダンジョンに入った...,进入了地牢...
+MSG_REACH_FLOOR,Reached floor {floor}.,{floor}F に到達した。,到达了第 {floor} 层。
+DESC_GO_DOWN,Go down,下に降りる,下到下一层
+MSG_REPLACE_SKILL,Discarded {old} and set {new}.,{old} を捨て、「{new}」をセットした。,丢弃了 {old}，设置了 {new}。
+MSG_GIVE_UP_SKILL,Gave up on {skill}.,「{skill}」を諦めた。,放弃了 {skill}。
+MSG_GAME_CLEAR,Cleared all floors! GAME CLEAR!!,全てのフロアを制覇した！ゲームクリア！！,征服了所有楼层！游戏通关！！
+MSG_CHANGE_SKILL,Changed active skill to {skill}.,有効スキルを「{skill}」に変更した。,将有效技能更改为 {skill}。
+MSG_FIND_ITEM,Found an item! It was {skill}.,アイテムを拾った！「{skill}」を見つけた。,捡到了道具！发现了 {skill}。
+MSG_SKILL_FULL,Skills are full. Click a skill to discard or click the bottom to give up the new skill.,スキルがいっぱいだ。左のリストから捨てるスキルをクリックするか、一番下をクリックして新しいスキルを捨ててくれ。,技能已满。点击左侧列表中的技能进行丢弃，或点击最下方放弃新技能。
+MSG_FIND_STAIRS,Found stairs. Click "Go down" in the skill area to proceed.,階段を見つけた。スキルエリアの「下に降りる」を押せば次の階に行ける。,发现了楼梯。点击技能区的“下到下一层”即可进入下一层。
+MSG_ENEMY_ATTACK,Enemy {name} attacks with {skill}!,敵 {name} の {skill} 攻撃！,敌人 {name} 发动了 {skill} 攻击！
+MSG_DEFEAT_ENEMY,Defeated enemy {name}!,敵 {name} を倒した！,打败了敌人 {name}！
+MSG_GAME_OVER,You died... GAME OVER,あなたは死んでしまった... GAME OVER,你死了... 游戏结束
+PLAY,PLAY,プレイ,进入游戏
+LANG_NAME,English,日本語,简体中文
+MSG_C_PUNCH_A_WIN,You crushed the ant's hard exoskeleton with your fist. It fell to the ground and ceased to move.,アリの硬い外骨格を拳で粉砕した。地面に這いつくばったまま動かなくなった。,你的拳头粉碎了蚂蚁坚硬的外骨骼。它趴在地上再也一动不动了。
+MSG_C_PUNCH_B_WIN,"You accurately struck the flying bat out of the air. It slammed into the wall with a dull thud.",宙を舞うコウモリを的確に叩き落とした。鈍い音とともに壁に激突した。,你精准地击落了盘旋在空中的蝙蝠。随着沉闷的声响，它狠狠撞在了墙上。
+MSG_C_PUNCH_C_WIN,You powerfully struck the cobra as it reared its head. The fight was over before its fangs could reach you.,鎌首をもたげるコブラの頭部を力強く殴りつけた。毒牙が届く前に勝負は決した。,你有力地击中了正欲昂首攻击的眼镜蛇头部。在毒牙触及你之前，胜负已分。
+MSG_C_PUNCH_D_WIN,You landed a full-force blow on the dragon's snout. Even its massive body couldn't withstand the impact.,巨大なドラゴンの鼻先に渾身の一撃を叩き込んだ。流石の巨躯もたまらず崩れ落ちた。,你使出浑身解数，一拳轰在巨龙的鼻尖。即便强如巨龙也承受不住，轰然倒地。
+MSG_C_PUNCH_E_WIN,Your powerful fist snapped the spirit's wooden trunk. The silence of the forest returned once more.,木の精霊の硬い幹を拳の力でへし折った。森の静寂が再び戻ってきた。,你的拳劲折断了树精坚硬的躯干。森林的宁静再次降临。
+MSG_C_PUNCH_F_WIN,You swatted the annoying fly out of the air in one blow. Its small buzzing will never be heard again.,目障りなハエを空中で一撃の下に仕留めた。小さな羽音は二度と聞こえない。,你在空中一拳解决了那只碍眼的苍蝇。再也听不到那细微的嗡鸣声了。
+MSG_C_PUNCH_G_WIN,You struck the goblin's jaw cleanly knocking it unconscious. Its cowardly grin vanished instantly.,ゴブリンの顎を的確に打ち抜き、意識を刈り取った。卑屈な笑みは消え去った。,你精准地击中了哥布林的下颚，令其失去意识。那猥琐的笑脸也随之消失。
+MSG_C_PUNCH_H_WIN,You dodged the harpy's sharp claws and landed a deep blow to her belly. She fell powerless to the earth.,ハーピーの鋭い爪を掻い潜り、腹部に深手を負わせた。彼女は力なく地上へ墜落した。,你躲过哈皮锐利的爪子，重创了她的腹部。她无力地坠落到了地面。
+MSG_C_PUNCH_I_WIN,You slammed the arrogant imp into the floor with sheer strength. The demon's whispers were cut short.,小生意気なインプを力任せに床へと叩きつけた。悪魔のささやきは断ち切られた。,你凭借蛮力将那只傲慢的小恶魔摔在地上。恶魔的低语戛然而止。
+MSG_C_PUNCH_J_WIN,Your punch pierced the jelly's core with surgical precision. Its gelatinous form dissolved into nothing.,ジェリーの核を正確に貫く一拳を放った。スライム状の肉体は形を保てず霧散した。,你那一拳精确地贯穿了果冻怪的核心。它那胶状的躯体再也无法维持形状，散作一团。
+MSG_C_PUNCH_K_WIN,You surprised the kobold with a heavy blow to the nose. It didn't even have time to yelp.,コボルドの不意を突き、その鼻筋に重い一撃を加えた。キャンと鳴く暇も与えなかった。,你趁狗头人不备，重重击中了它的鼻梁。它甚至连哀鸣一声的时间都没有。
+MSG_C_PUNCH_L_LOSS,The lizard's scales were far too hard for your fists. As you recoiled in pain its claws dug in.,リザードの全身を覆う鱗はあまりに硬かった。拳を痛めた隙に鋭い爪が食い込んだ。,遍布蜥蜴全身的鳞片实在太硬了。当你感到拳头生疼之际，它锐利的爪子已刺入了你的身体。
+MSG_C_PUNCH_M_WIN,You shattered the mummy's brittle chest. Freed from its ancient curse it crumbled into sand.,干からびたマミーの胸板を力強く打ち砕いた。古の呪縛から解き放たれ、砂へと還った。,你有力地击碎了干枯木乃伊的胸膛。它从古老的束缚中解脱，重归尘土。
+MSG_C_PUNCH_N_LOSS,The naga's supple movements caused your punch to miss. Its tail coiled around you in an instant.,ナーガのしなやかな動きに拳は空を切った。体勢を崩したところを尾に締め上げられた。,纳迦灵活的动作让你的一拳落空了。当你失去平衡时，它的尾巴迅速缠了上来。
+MSG_C_PUNCH_O_LOSS,The orc's massive muscles absorbed your blow. The undaunted monster's weapon swung from above.,オークの頑強な筋肉に打撃は吸収された。怯まぬ怪物の一振りが頭上から降り注いだ。,兽人强健的肌肉吸收了你的打击。那毫不畏惧的怪物从头顶挥下了重力一击。
+MSG_C_PUNCH_P_LOSS,You were toyed with by the pixie's swift flight. Shrouded in confusing dust your mind went dark.,ピクシーの素早い飛行に翻弄され、拳は届かない。幻惑の鱗粉に包まれ、意識が遠のく。,你被小仙女敏捷的飞行耍得团团转。被迷幻的鳞粉包围，你的意识渐渐远去。
+MSG_C_PUNCH_Q_LOSS,The coarl's electromagnetic fur repelled your blow. Lightning sparked mocking your numbed arm.,クアールの電磁場を帯びた毛並みに拳が阻まれた。痺れる腕を嘲笑うかのように、雷が走った。,夸尔带有电磁场的皮毛阻隔了你的拳头。闪电划过，仿佛在嘲笑你那麻木的手臂。
+MSG_C_PUNCH_R_LOSS,You couldn't catch the swift rat pack. Countless fangs closed in from below draining your strength.,素早いラットの群れを捉えきることができない。無数の牙が足元から忍び寄り、体力を削った。,你无法捕捉敏捷的老鼠群。无数毒牙从脚边袭来，不断削减你的体力。
+MSG_C_PUNCH_S_LOSS,Your fist sank deep into the slime's elastic body. Its sticky mucus bound you as you struggled.,スライムの弾力ある体に拳が深く埋まった。抜けなくなった腕を嘲笑うかのように、粘液が絡みつく。,你的拳头深深陷入了史莱ーム充满弹性的身体里。粘液缠绕而上，仿佛在嘲笑你那无法拔出的手臂。
+MSG_C_PUNCH_T_LOSS,Your blows were meaningless against the troll's regeneration. Its club crushed everything in its path.,トロールの驚異的な再生能力に打撃は無意味だった。巨大な棍棒の一振りが全てを粉砕した。,面对巨魔惊人的再生能力，打击毫无意义。巨大木棒的一挥便粉砕了一切。
+MSG_C_PUNCH_U_LOSS,Your fist passed uselessly through the incorporeal undead. A cold chill of death froze your heart.,実体のないアンデッドの体を拳が虚しく通り抜けた。冷たい死の気配が心臓を凍りつかせた。,你的拳头徒劳地穿过了不死族虚幻的身体。冰冷的死亡气息令你的心脏感到冻结。
+MSG_C_PUNCH_V_LOSS,The vampire's inhuman speed made your punch miss. From the shadows his hands sought your throat.,ヴァンパイアの超人的な反応速度に拳は空を舞った。闇に消えた彼の手が、背後から首元を狙う。,面对吸血鬼超人般的反应速度，你的一拳落空了。消失在黑暗中的他正从背后瞄准你的咽喉。
+MSG_C_PUNCH_W_LOSS,The wolf's agile dodge caused your strike to veer off. The pack leaped at you with bared fangs.,ウルフの俊敏な回避によって一撃が逸らされた。牙を剥き出しにした獣の群れが、一斉に飛びかかる。,狼敏捷地躲过了你的一击。露出獠牙的野兽群一拥而上，向你扑来。
+MSG_C_PUNCH_X_LOSS,Toyed with by Xalthis's many legs you couldn't aim. Its venomous limbs crept up and stung you.,ザルティスの不気味な多足に翻弄され、狙いが定まらない。毒を持つ足が静かに忍び寄り、あなたを刺した。,被扎尔提斯诡异的多肢玩弄于股掌，你无法瞄准。它那带有剧毒的足悄然逼近，刺中了你。
+MSG_C_PUNCH_Y_LOSS,The yeti's thick fur neutralized your punch's impact. A blizzard-like chill slowed your body.,イエティの分厚い毛皮が拳の威力を完全に殺した。吹雪のような冷気が、あなたの動きを鈍らせる。,雪人厚实的毛皮完全化解了你拳头的威力。如暴风雪般的冷气令你的动作变得迟缓。
+MSG_C_PUNCH_Z_LOSS,Every punch into the zombie's rotting flesh felt foul. Resisting the unfeeling dead barehanded was folly.,ゾンビの腐敗した肉体を殴るたび、不快な感触が広がる。痛みを感じぬ死者に、素手での抵抗は無謀だった。,每当打在僵尸腐烂的肉体上，不快感便蔓延开来。对毫无痛觉的死者行赤手空拳的抵抗终究是鲁莽的。
+MSG_C_SLASH_A_WIN,A sharp slash cut the ant's thin waist in two. Its struggling legs soon fell still.,鋭い斬撃がアリの細い腰を真っ二つにした。もがく脚もやがて静止した。,锐利的斩击将蚂蚁纤细的腰柄一分为二。挣扎的肢体不久便停止了动弹。
+MSG_C_SLASH_B_WIN,A flash clearing the dark severed the bat's wing at its base. It fell soundlessly to the ground.,闇を切り裂く一閃が、コウモリの翼を根元から断った。それは音もなく地面へ落ちた。,划破黑暗的一闪从根部斩断了蝙蝠的翅膀。它无声无息地掉落在了地面。
+MSG_C_SLASH_C_WIN,The descending blade beautifully cleaved the cobra's long body. Its venomous head rolled away.,急降下する刃がコブラの長い体躯を美しく断ち割った。猛毒の宿る頭部が転がった。,降下的利刃华丽地劈开了眼镜蛇的长躯。那颗蕴含剧毒的头颅滚落到了地面。
+MSG_C_SLASH_D_WIN,Legendary swordsmanship pierced the dragon's reverse scale. Its sky-shaking roar became its final breath.,伝説の剣技がドラゴンの堅牢な逆鱗を貫いた。天を揺るがす咆哮は、最期の吐息へと変わった。,传说中的剑技穿透了巨龙坚硬的逆鳞。震撼天空的咆哮化为了最后的喘息。
+MSG_C_SLASH_E_WIN,Your honed blade easily sliced through the Ent's ancient bark. The forest's malice dispersed.,研ぎ澄まされた刃が、エントの古びた樹皮を易々と切り裂いた。森の怨念は霧散した。,磨砺至极的利刃轻而易举地切开了树精古老的树皮。森林的怨念随之消散。
+MSG_C_SLASH_F_WIN,A delicate swing cutting the air halved the small fly. A single line of the cut remained in the air.,空気を切り裂く繊細な一振りが、小さなハエを両断した。一筋の切断面が空中に残った。,划破空气的细腻一挥将小苍蝇两断。空中留下了一道不易察觉的斩痕。
+MSG_C_SLASH_G_LOSS,The goblin's cunning defense predicted your strike. A counter-thrust pierced the gap in your armor.,ゴブリンの狡猾な防御に剣筋を読まれた。反撃の一刺しが、あなたの防具の隙間を貫いた。,哥布林狡猾的防御看穿了你的剑路。反击的一刺穿透了你盔甲的缝隙。
+MSG_C_SLASH_H_WIN,You vividly hacked off the rampaging harpy's wings. Without the sky she fell in despair.,荒れ狂うハーピーの翼を鮮やかに切り落とした。空を失った魔物は、絶望とともに墜落した。,干净利落地斩下了疯狂哈皮的翅膀。失去了天空的魔物带着绝望坠向地面。
+MSG_C_SLASH_I_WIN,A horizontal slash tore through the imp's wings and pride. The encroachment from Hell was stopped.,横一文字の斬撃が、インプの翼とプライドを引き裂いた。魔界からの浸食は食い止められた。,横向的一文字斩撕裂了小恶魔的翅膀与自尊。来自魔界的侵蚀被阻断了。
+MSG_C_SLASH_J_WIN,Countless slashes turned the jelly into inorganic shards. A blitz that left no time for regeneration.,無数の斬撃がジェリーの肉体を無機質な破片へと変えた。再生の暇さえ与えぬ速攻だった。,无数的斩击将果冻怪的身体变成了无机的碎片。这是连再生时间都不给的速攻。
+MSG_C_SLASH_K_WIN,You deflected the kobold's dagger and cut deep into its chest. The proud canine warrior collapsed.,コボルドの短剣を弾き飛ばし、その胸元を深く切り裂いた。誇り高き犬戦士は膝を突いた。,弹开了狗头人的短剑，并深深切开了它的胸膛。高傲的犬战士跪倒在地。
+MSG_C_SLASH_L_WIN,A precise strike at the scale's gap pierced the lizard's throat. Its cold eyes lost their light.,鱗の隙間を狙った精密な一撃が、リザードの喉元を突いた。冷血な瞳が光を失っていく。,瞄准鳞片缝隙的精密一击刺穿了蜥蜴的咽喉。冰冷的瞳孔渐渐失去了光彩。
+MSG_C_SLASH_M_WIN,You sliced through the mummy's heart bandages and all. Its millennia-long wandering finally ended.,腐食した包帯ごと、マミーの呪われた心臓を切り裂いた。数千年の彷徨が、今終わりを迎えた。,连同腐蚀的绷带一起切开了木乃伊被诅咒的心脏。几千年的彷徨在此刻迎来了终焉。
+MSG_C_SLASH_N_WIN,You cut through the naga's supple body with one stroke. The beautiful serpent's end was a pitiful cry.,ナーガのしなやかな胴体を一文字に切り捨てた。美しき人面蛇の最期は、哀れな叫びだった。,将纳迦曲线优美的胴体一刀两断。美丽人面蛇的最后，是可怜的哀鸣。
+MSG_C_SLASH_O_LOSS,Your sword was repelled by the orc's massive axe. A follow-up strike assaulted your numbed arm.,オークの巨大な斧と正面からぶつかり、剣が弾き返された。衝撃で痺れた腕を、怪力の追撃が襲う。,你的剑与兽人的巨斧正面碰撞，被弹了回来。强力的追击袭向了你因冲击而麻木的手臂。
+MSG_C_SLASH_P_WIN,Slicing through the phantom light you caught the hidden pixie. Its small life vanished as a beam.,幻惑の光を切り裂き、身を隠したピクシーの居場所を捉えた。小さな命は一筋の光となって消えた。,斩开了幻惑之光，捕捉到了隐藏行踪的小仙女。微小的生命化作一道光芒消失了。
+MSG_C_SLASH_Q_WIN,A lightning-fast slash severed both the coarl's feelers. Deprived of its weapon the beast fell.,電光石火の斬撃が、クアールの二本の触角を同時に切り離した。最大の武器を失い、獣は倒れた。,电光石火般的斩击同时切断了夸尔的两根触角。失去了最强武器的猛兽倒下了。
+MSG_C_SLASH_R_WIN,One sweep scattered the rats and killed their leader. The leaderless pack dispersed in a panic.,ラットの集団を一薙ぎで蹴散らし、ボスと思しき個体を仕留めた。統率を失った群れは霧散した。,横扫一圈击散了老鼠群，并解决了看似头领的个体。失去统帅的鼠群四散奔逃。
+MSG_C_SLASH_S_WIN,Despite the sticky sludge you cut the slime's core in two. The monster returned to a mere puddle.,粘液に足を取られながらも、スライムの核を真っ二つに切り裂いた。怪物はただの水まりへと還った。,虽被粘液绊住了脚，你还是将史莱姆的核心一分为二。怪物变回了一滩平凡的水渍。
+MSG_C_SLASH_T_LOSS,The troll's thick fat and regeneration blocked your blade. Before its healing your sword snapped.,トロールの分厚い脂肪と驚異の再生力が、刃の到達を拒んだ。絶望的な回復を前に、あなたの剣は折れた。,巨魔肥厚的脂肪和惊人的再生力挡住了刃尖。在令人绝望的恢复力面前，你的剑折断了。
+MSG_C_SLASH_U_WIN,Your magically infused blade cut through the ghostly undead like mist. It was bathed in purifying light.,魔力が込められた刃が、実体のないアンデッドを霧のように切り裂いた。亡霊は浄化の光に包まれた。,注入魔力的利刃像切开雾气般斩开了虚幻的不死族。亡灵被净化之光包围了。
+MSG_C_SLASH_V_WIN,Predicting the vampire's speed you drove the silver blade into his chest. The noble turned to ash., ヴァンパイアの高速移動を見切り、その胸中央に白銀の刃を立てた。闇の貴族は灰へと崩れ去った。,看破了吸血鬼的高速移动，将白银之刃刺入了他的胸心。黑暗贵族化作灰烬消逝了。
+MSG_C_SLASH_W_LOSS,Your sword only cut the air against the wolf's agility. A packmate's fangs caught your leg.,ウルフの俊敏な身のこなしに、剣は空を裂くばかりだ。闇から現れた仲間の牙が、あなたの脚を捉えた。,狼敏捷的身法让你只能空砍。从黑暗中现身的同伴毒牙攫住了你的小腿。
+MSG_C_SLASH_X_LOSS,Xalthis's many legs entangled and sealed your sword. A venomous tail aimed for your throat.,ザルティスの入り組んだ多足が剣を絡め取り、封じた。死を運ぶ尾の毒針が、静かに喉元を狙う。,扎尔提斯错综复杂的多肢纠缠住并封锁了你的剑。死神的尾部毒针静静地瞄准了你的咽喉。
+MSG_C_SLASH_Y_WIN,Cutting through the blizzard you drove your blade into the yeti's heart. The giant fell into eternal sleep.,吹雪を切り払い、イエティの心臓目掛けて渾身の突きを放った。雪山の巨人は静かに眠りについた。,斩开了暴风雪，对着雪人的心脏使出全身力气的一刺。雪山巨人静静地进入了长眠。
+MSG_C_SLASH_Z_LOSS,No matter how much you sliced the zombie didn't stop. Caught by its arms you knew despair.,腐った肉を何度斬り裂こうとも、ゾンビは止まらない。生気を吸い取る腕に捕まり、あなたは絶望を知る。,无论切开腐肉多少次，僵尸都没有停止。被那吸取生气的双臂抓住，你感到了绝望。
+MSG_C_STAB_A_LOSS,You stabbed at the ant's hard shell but your spear glided off. The impact numbed your arm.,アリの硬い甲羅を突いたが、槍先が滑ってしまった。弾き返された衝撃で、腕の感覚が麻痺する。,你刺向蚂蚁坚硬的甲壳，枪尖却打滑了。被反弹回来的冲击力震得手臂一阵发麻。
+MSG_C_STAB_B_WIN,You pierced the bat's vital spot. The small body fell to the cold earth without a single flap.,コウモリの急所を的確に貫いた。小さな体は、羽ばたくことも叶わず、冷たい大地へと沈んだ。,你精准地贯穿了蝙蝠的要害。那娇小的身体甚至没来得及振翅，便沉入了冰冷的大地。
+MSG_C_STAB_C_WIN,A lightning-fast thrust shot through the cobra's head. Its venomous fangs trembled uselessly at your feet.,毒蛇の鎌首を、稲妻のような一突きが射抜いた。猛毒の宿る牙が、あなたの足元で空しく震えた。,如闪电般的一刺射穿了毒蛇的头。那对蕴含剧毒的獠牙在你脚边徒劳地颤抖。
+MSG_C_STAB_D_WIN,You drove your spear deep into the dragon's eye. A sky-tearing cry echoed as the ancient monster fell.,巨竜の瞳へと槍を深く突き立てた。天をも裂く断末魔が響き渡り、最古の怪物が崩れ去った。,你将长枪深深刺入了巨龙的眼瞳。震撼天空的临死哀鸣响彻四周，最古老的怪物轰然倒下。
+MSG_C_STAB_E_WIN,You stabbed the wood spirit's core knot without hesitation. The old tree withered in silence.,木の精霊の核となる節を、迷いなく突き落とした。生命の循環が絶たれ、古木は静かに枯れ果てた。,你毫不犹豫地刺中了树精的核心节疤。生命循环被切断，枯木静静地彻底干涸。
+MSG_C_STAB_F_WIN,Your spearpoint beautifully caught the fly in mid-air. Even the wind silenced at the delicate blow.,宙を舞うハエを、一本の槍先が美しく捉えた。あまりに繊細な一撃に、風さえも沈黙した。,枪尖优美地捉住了在空中盘旋的苍蝇。面对这极其细腻的一击，连风都陷入了沉寂。
+MSG_C_STAB_G_WIN,One thrust through the goblin's heart ended the fight. Its cowardly cry vanished into the air.,ゴブリンの心臓を一突きで貫き、戦いを終わらせた。卑屈な叫びは空気中に消え、静寂が戻った。,一枪刺穿了哥布林的心脏，结束了这场战斗。卑鄙的嚎叫消散在空中，宁静重归。
+MSG_C_STAB_H_WIN,A cold blade shot through the harpy's white throat. Her beautiful wings folded as she fell into the abyss.,ハーピーの白い喉元を、冷たい刃が射抜いた。美しき翼は力なく折れ、彼女は奈落へと墜ちた。,冰冷的刃尖射穿了哈皮雪白的咽喉。美丽的羽翼无力地折断，她坠入了深渊。
+MSG_C_STAB_I_WIN,A precise thrust through the imp's brow silenced it. Its demonic wisdom was sealed forever.,小生意気なインプの眉間を、正確無比な一突きが貫いた。悪魔的な知恵は、永遠に封じられた。,准确无误的一刺贯穿了傲慢小恶魔的眉心。那恶魔般的智慧被永远封印了。
+MSG_C_STAB_J_WIN,A lightning thrust shattered the jelly's transparent core. The monster returned to a simple puddle.,ジェリーの透き通った核を、電光石火の突きが破壊した。怪物はただの水まりへと還った。,电光石火的一刺破坏了果冻怪透明的核心。怪物还原成了一滩平凡的水渍。
+MSG_C_STAB_K_LOSS,"The kobold's shield blocked your thrust, throwing you off. Its low-held blade aimed for your legs.",コボルドの盾に槍先を阻まれ、体勢を崩してしまった。低く構えた奴の刃が、あなたの脚を狙う。,枪尖被狗头人的盾牌挡住，令你失去了平衡。压低身位的它的白刃瞄准了你的腿部。
+MSG_C_STAB_L_WIN,You shot precisely through a thin point in the lizard's neck scales. Light faded from its cold eyes.,リザードの喉元、鱗の薄い一点を正確に射抜いた。冷血な獣の瞳から、急速に光が失われていった。,你准确射穿了蜥蜴咽喉处鳞片薄弱的一点。那冷血禽兽的瞳孔中迅速失去了光彩。
+MSG_C_STAB_M_LOSS,Your spear got stuck deep in the mummy's dry bandages. Sand-cursed arms moved to choke you.,マミーの乾いた包帯に槍先が深く沈み、抜けなくなった。呪われた砂の腕が、あなたの首を絞めにかかる。,枪尖深陷木乃伊干燥的绷带中无法拔出。被诅咒的沙之臂开始锁向你的咽喉。
+MSG_C_STAB_N_LOSS,Your spear grazed the naga's body but did no fatal damage. The enraged serpent coiled around you.,ナーガのしなやかな胴体に槍が掠めたが、致命傷には至らない。激昂した半人半蛇が、あなたを締め上げる。,长枪划过了纳迦曲折的胴体，但并未造成致命伤。激怒的半人半蛇迅速缠上了你的身体。
+MSG_C_STAB_O_WIN,You parried the orc's bulk and stabbed deep into its belly. Its roar became a gurgling death cry.,オークの巨体を受け流し、その分厚い腹部を深く突いた。怪物の咆哮は、不快な音を立てて絶命へと変わった。,避开了兽人的巨体，并深深刺入了它厚实的腹部。怪物的咆哮伴随着不快的声音转为临终的哀鸣。
+MSG_C_STAB_P_WIN,"Slicing phantom light, you took the pixie's core with one thrust. It vanished into the void as a beam.",幻惑の光を切り裂き、ピクシーの核を一突きで仕留めた。小さな命は一筋の光となって、虚空へと消えた。,刺破迷幻之光，一枪解决了小仙女的核心。微小的生命化作一道光芒消逝在虚空中。
+MSG_C_STAB_Q_LOSS,The coarl's whiskers caught your spear and channeled lightning. The beast leaped at your numbed body.,クアールの鋭い髭が槍を絡め取り、電撃を流し込んできた。痺れる全身を嘲笑うかのように、獣が飛びかかる。,夸尔锐利的胡须缠住了长枪，并传导来了点击。猛兽飞扑向你那因麻痹而嘲笑般动弹不得的全身。
+MSG_C_STAB_R_LOSS,Surrounded in a tight spot there was no room to swing your spear. Countless fangs drained you.,狭い場所でラットの群れに囲まれ、槍を振るう空間がない。無数の牙が足元から忍び寄り、体力を削る。,在狭窄之处被老鼠群包围，没有挥舞长枪的空间。无数毒牙从脚边袭来，不断削减体力。
+MSG_C_STAB_S_LOSS,Your spear's power was absorbed by the slime's elastic body. Covered in mucus it's just a stick now.,スライムの弾力ある体に槍が埋まり、威力が吸収された。粘液に覆われた武器は、もはや棒切れも同然だ。,长枪陷入了史莱姆弹性的身体中，威力被完全吸收。覆盖着粘液的武器如今已与棍棒无异。
+MSG_C_STAB_T_LOSS,The troll's fat blocked your spear from its heart. As it healed a massive club swung down.,トロールの分厚い皮下脂肪に槍が阻まれ、急所を外した。驚異の再生が始まる中、巨大な棍棒が振り下ろされる。,巨魔肥厚的皮下脂肪挡住了枪头，偏离了要害。在惊人的再生开始之际，巨大的木棒挥了下来。
+MSG_C_STAB_U_LOSS,Your spear passed uselessly through the ghostly undead's chest. Death's cold chill froze your heart.,アンデッドの実体のない胸を槍が虚しく通り抜けた。冷たい死の気配が、あなたの心臓を凍りつかせた。,长枪透过了不死族虚幻的胸膛。冰冷的死亡气息令你的心脏感到冻结。
+MSG_C_STAB_V_LOSS,The vampire's speed made your thrust miss. From the shadows his hands sought your throat.,ヴァンパイアの超人的な反応速度に突きは外された。闇に消えた彼の手が、背後から首元を狙う。,面对吸血鬼超人般的反应速度，你的一刺落空了。消失在黑暗中的他正从背后瞄准你的咽喉。
+MSG_C_STAB_W_LOSS,The wolf's agile dodge left your thrust hitting empty air. From your blind spot fangs closed in.,ウルフの俊敏な回避により、一突きが虚空を射抜いた。群れの連携は完璧で、死角から牙が迫る。,由于狼敏捷的躲避，一枪直射虚空。它们的协作完美无瑕，毒牙从死角逼近。
+MSG_C_STAB_X_LOSS,Xalthis's many legs entangled your spear diverting it. A venomous tail closed in on your throat.,ザルティスの不気味な多足が槍を絡め取り、あらぬ方向へ逸らされた。死を告げる尾の毒針が、喉元へ迫る。,扎尔提斯诡异的多肢缠住了长枪，将其带离了方向。预告死亡的尾部毒针逼近了你的咽喉。
+MSG_C_STAB_Y_LOSS,The yeti's blizzard-like chill froze your spear arm. The weapon slipped from your unfeeling hand.,イエティの吹雪のような冷気が、槍を操る腕を凍らせた。感覚のなくなった手から、獲物が滑り落ちる。,雪人如暴风雪般的冷气冻结了你操纵长枪的手臂。失去知觉的手中，猎物滑落了。
+MSG_C_STAB_Z_LOSS,Your spear buried into the zombie's rotting chest but it felt no pain. It grabbed the shaft trapping you.,ゾンビの腐敗した胴体に槍が埋まるが、奴は痛みを感じない。汚れた手で槍を掴まれ、逃げ場を失った。,长枪陷入了僵尸腐烂的胴体，但它感觉不到疼痛。那双肮脏的手抓住了枪身，令你无处可逃。
+MSG_C_SHOOT_A_WIN,A precise shot from afar pierced the ant's vital spot. A perfect victory that didn't let it near.,遠距離からの正確な射撃が、アリの急所を貫いた。近づくことさえ許さぬ、完璧な勝利だ。,远距离的精准射击贯穿了蚂蚁的要害。这是一场甚至没让对方靠近的完美胜利。
+MSG_C_SHOOT_B_WIN,You read the bat's flight and let an arrow fly. With its wing pierced it fell powerless to the ground.,宙を舞うコウモリの動きを読み、矢を放った。翼を射抜かれた魔物は、力なく地上へと墜ちた。,看准了盘旋在空中的蝙蝠的动作，射出了一箭。被射穿翅膀的魔物无力地坠向地面。
+MSG_C_SHOOT_C_LOSS,The cobra's supple movements caused your arrow to miss. While you aimed its fangs closed in.,毒蛇のしなやかな動きに、矢は空を切るばかりだ。狙いを定める隙を突かれ、猛毒の牙が迫る。,纳迦灵活的动作让你的一箭落空了。趁你瞄准之机，剧毒的牙齿已逼向了你。
+MSG_C_SHOOT_D_WIN,You drove a magic-infused arrow into the dragon's brow. It was a supreme blow fit to slay a legend.,巨竜の眉間へと、魔力を帯びた一矢を叩き込んだ。伝説の怪物を沈めるに十分な、至高の一撃だった。,向巨龙的眉心射入了一支蕴含魔力的箭。这是一足以击沉传说怪物的至高一击。
+MSG_C_SHOOT_E_WIN,While the Wood Spirit was still you shot through its core. The guardian vanished back into the forest.,木の精霊の静止した隙を突き、その核を射抜いた。森の守護者は、静かに草木へと消えていった。,趁树精静止之机，射穿了它的核心。森林的守护者静静地消失在草木之中。
+MSG_C_SHOOT_F_WIN,You shot down the bothersome fly with god-like aim. Your arrowhead didn't hesitate for a second.,視界を遮るハエを、神業の射撃で射ち落とした。小さな標的を捉えた矢尻に、迷いはなかった。,凭借神一般的射技射落了遮挡视线的苍蝇。捕捉到微小目标的箭头上毫无犹豫。
+MSG_C_SHOOT_G_LOSS,The goblin hid behind its shield giving you no opening. As they mocked you the pack closed in.,ゴブリンが盾に隠れ、射撃の機会を与えない。奴らが嘲笑う間、周囲から仲間が忍び寄ってきた。,哥布林躲在盾牌后，不给你射击的机会。在它们嘲笑你时，同伴已从周围悄悄逼近。
+MSG_C_SHOOT_H_WIN,A sharp arrow pierced the circling harpy's wing. Deprived of the sky she let out a cry of despair.,旋回するハーピーの翼を、鋭い一矢が射抜いた。空の優位を奪われた彼女は、絶望の叫びを上げた。,锐利的一箭射穿了盘旋中哈皮的翅膀。失去了天空优势的她发出了绝望的嚎叫。
+MSG_C_SHOOT_I_WIN,A precise shot pierced the imp's brow. The denizen of Hell was obliterated by your arrow of light.,小生意気なインプの額を、正確な射撃が射抜いた。魔界の住人は、光の矢に消滅させられた。,精准的射击射穿了傲慢小恶魔的额头 gold。魔界的居民被光之箭消灭了。
+MSG_C_SHOOT_J_WIN,You aimed for the jelly's core and let loose a piercing shot. It dissolved into mist as it died.,ジェリーの核を一点に絞り、貫通力のある一射を放った。怪物は形を保てず、水蒸気となって消えた。,瞄准果冻怪的核心，射出了极具贯穿力的一箭。怪物无法维持形状，化作水蒸气消失了。
+MSG_C_SHOOT_K_LOSS,The kobold's swift movements left your arrow hitting dirt. Its eyes gleam sure of its victory.,コボルドの素早い身のこなしに、矢は地に突き刺さった。獲物を追い詰めたと信じる奴らの瞳が、ギラリと光る。,面对狗头人敏捷的身手，箭矢只是钉在了地上。坚信已将猎物逼入绝境的它们的眼睛闪着寒光。
+MSG_C_SHOOT_L_WIN,Your arrow beautifully pierced the lizard's long neck. The cold beast collapsed without a word.,リザードの長い首を、矢が美しく射抜いた。冷血な獣は声もなく、その場に崩れ落ちた。,这一箭华丽地射穿了蜥蜴的长颈。冷血的野兽默不作声，当场瘫软。
+MSG_C_SHOOT_M_LOSS,Your arrow buried itself into the mummy's bandages to no effect. The undead only drew closer.,マミーの包帯に矢が埋まり、致命傷を与えることができない。不死の怪物は止まらず、あなたへと距離を詰める。,箭矢陷入木乃伊的绷带，无法造成致命伤。不死的怪物并未止步，正向你拉近距离。
+MSG_C_SHOOT_N_WIN,A triple-volley caught the naga's supple body. The beautiful serpent met a pitiful silent end.,ナーガのしなやかな胴体を、三連射の矢が捉えた。美しき人面蛇の最期は、哀れな沈黙だった。,三连发的箭矢捕捉到了纳迦曲线优美的胴体。美丽人面蛇的最后是可怜的沉默。
+MSG_C_SHOOT_O_LOSS,Your shots were blocked by the orc's stout shield. You knew fear as the giant monster closed in.,オークの頑強な盾に射撃を阻まれた。怯まずに接近する怪力の圧迫感に、あなたは恐怖を知る。,射击被兽人坚固的盾牌挡住了。面对毫不畏缩地逼近的怪力压迫感，你感到了恐惧。
+MSG_C_SHOOT_P_LOSS,You couldn't aim through the pixie's phantom light. Your arrow missed and mist shrouded you.,ピクシーの幻惑の光に狙いが定まらない。放たれた矢は虚しく虚空へ消え、あなたは深い霧に包まれた。,被小仙女迷幻的光芒干扰，无法瞄准。射出的箭矢徒劳地消失在虚空中，你被浓雾包围了。
+MSG_C_SHOOT_Q_WIN,You read the coarl's field and fired your fastest arrow. Even lightning couldn't escape sonic death.,クアールの電磁場を見切り、最速の一矢を放った。雷を纏う獣も、音速の死からは逃れられなかった。,看穿了夸尔的电磁场，射出了最速的一箭。缠绕闪电的野兽也无法逃离音速的死神。
+MSG_C_SHOOT_R_LOSS,A swarm of rats pushed in making it impossible to aim. Bitten you fell to your knees.,無数のラットが押し寄せ、対象を絞ることができない。足元を噛み切られ、あなたは地に膝を突いた。,无数老鼠涌来，让你无法锁定目标。脚踝被咬穿，你跪倒在了地上。
+MSG_C_SHOOT_S_LOSS,Your arrow was swallowed and dissolved by the slime. Physical attacks were useless against it.,スライムの体内に矢が飲み込まれ、ゆっくりと溶かされていく。物理的な攻撃は、この怪物には通用しない。,箭矢被吸入了史莱姆体内，正被缓慢溶解。物理攻击对这个怪物毫无作用。
+MSG_C_SHOOT_T_LOSS,The troll's healing sealed your arrow wounds instantly. Your quiver went empty before its regeneration.,トロールの再生力が、矢による傷を瞬時に塞いでいく。絶望的な回復能力を前に、あなたの矢筒は空になった。,巨魔的再生力瞬间愈合了箭伤。在令人绝望的恢复能力面前，你的箭轴已经空了。
+MSG_C_SHOOT_U_LOSS,Your arrow passed uselessly through the ghostly undead. Its malice clung to your shaft dragging it down.,アンデッドの実体のない体を、矢が虚しく通り抜けた。死者の怨念が矢に絡みつき、地面へと墜落した。,箭矢徒劳地穿过了不死族虚幻的身体。死者的怨念缠绕其上，令其坠落在地。
+MSG_C_SHOOT_V_LOSS,The vampire swatted all your arrows out of the air. Vanishing into dark he now bares his fangs behind you.,ヴァンパイアの超人的な反応速度に、矢は全て叩き落とした。闇に消えた彼が、あなたの背後で牙を剥く。,面对吸血鬼超人般的反应速度，所有箭矢都被击落了。消失在黑暗中的他正于你身后露出獠牙。
+MSG_C_SHOOT_W_LOSS,The wolf's agile dodge caused all your shots to miss. The leader howled as the pack closed in.,ウルフの俊敏な身のこなしに、剣は空を裂くばかりだ。闇から現れた仲間の牙が、あなたの脚を捉えた。,由于狼敏捷的躲避，所有射击都落空了。随着头领的一声嚎叫，獠牙从四面八方逼近。
+MSG_C_SHOOT_X_LOSS,You couldn't aim through Xalthis's complex movements. Its venomous limbs drew you into the abyss.,ザルティスの複雑な動きに狙いが定まらない。毒を持つ足が静かに忍び寄り、あなたを深淵へと誘う。,面对扎尔提斯复杂的动作，你无法瞄准。带有剧毒的足悄然逼近，引诱你进入深渊。
+MSG_C_SHOOT_Y_LOSS,You couldn't shoot through the yeti's blizzard. Blinded and frozen you dropped your bow.,イエティの吹雪を射抜くことはできなかった。視界を奪われ、冷気に支配された手から弓が滑り落ちる。,你无法射穿雪人的暴风雪。视线被夺走，长弓从被冷气支配的手中滑落。
+MSG_C_SHOOT_Z_LOSS,Arrows stuck in the zombie's rotting body did nothing. The unfeeling corpse slowly cornered you.,ゾンビの腐敗した体に矢が突き刺さるが、奴は止まらない。痛みを感じぬ死者が、ゆっくりとあなたを追い詰める。,箭矢刺入僵尸腐烂的身体，但它并未止步。毫无痛觉的死者慢慢将你逼入绝境。
+MSG_C_BURN_A_WIN,Magic flames engulfed the ant pack in an instant. Their charred exoskeletons scattered in the heat.,魔法の炎がアリの群れを一瞬で包み込んだ。カリカリに焼かれた外骨格が、熱風の中に散った。,魔法之火瞬间吞没了蚁群。被烤得焦脆的外骨骼在热浪中四散开来。
+MSG_C_BURN_B_WIN,Hellfire lighting the dark scorched the bat's wings. The falling fireball let out a final light.,闇夜を照らす劫火がコウモリの翼を焼き尽くした。落ちていく火の玉は、最期の光を放った。,照亮黑夜的劫火烧尽了蝙蝠的翅膀。坠落的火球放射出了最后的光芒。
+MSG_C_BURN_C_WIN,A flame storm trapped the venomous snake. Unable to bear the heat the cobra turned to ash.,火炎の嵐が猛毒の蛇を渦巻く炎の中に閉じ込めた。熱に耐えかねたコブラは、力なく灰へと還った。,火焰风暴将剧毒长蛇困在了漩涡之中。无法忍受高温的眼镜蛇无力地化为了灰烬。
+MSG_C_BURN_D_WIN,You unleashed ultimate fire that scorched even the dragon's scales. The giant fell to the solar heat.,ドラゴンの逆鱗ごと、全てを焼き払う究極の火を放った。伝説の巨躯も、太陽の熱の前には無力だった。,放出了连同逆鳞一并烧尽的究极之火。即便传说的巨体，在太阳的高温面前也显得苍白无力。
+MSG_C_BURN_E_WIN,The tree spirit became a massive torch. With a cry echoing through the forest its life vanished.,木の精霊は、自身の体そのものが巨大な松明と化した。森に響く叫びとともに、古き生命は灰に消えた。,树精的身体本身化作了巨大的火炬。随着响彻森林的哀鸣，古老的生命消失在灰烬中。
+MSG_C_BURN_F_LOSS,You couldn't catch the swift fly with flames. Mocked by the heat you wiped your brow.,すばしっこいハエを炎で捉えることはできない。空しく上がる熱気に嘲笑われ、あなたは汗を拭った。,无法用火焰捕捉到敏捷的苍蝇。被徒劳升腾的热气所嘲笑，你抹去了额头的汗水。
+MSG_C_BURN_G_WIN,Purifying flames scorched the goblin's nest. Their vile laughs died in the crackling fire.,ゴブリンの住処ごと、浄化の炎で焼き尽くした。卑屈な笑い声は、パチパチと爆ぜる火の音に消えた。,用净化之火将哥布林的巢穴烧得精光。卑劣的笑声淹没在了木柴燃烧的劈啪声中。
+MSG_C_BURN_H_WIN,A flame arrow shot through the harpy's wing. Burning she fell like an ominous meteor.,旋回するハーピーの羽を炎の矢が射抜いた。火を纏い墜ちる彼女の姿は、不吉な流星のようだった。,火箭射中了盘旋中哈皮的羽翼。缠绕火焰坠落的她，犹如一颗不祥的流星。
+MSG_C_BURN_I_LOSS,To the imp from Hell fire was just a toy. Your magic dispersed in its hands.,魔界から来たインプにとって、火は使い慣れた玩具に過ぎなかった。炎を操る奴の手元で、あなたの魔法は霧散した。,对于来自魔界的小仙女来说，火不过是玩腻了的玩具。在它操纵火焰的手中，你的魔法烟消云散。
+MSG_C_BURN_J_LOSS,The jelly reflected the fire and steam filled the air. The monster seemed empowered by the heat.,ジェリーの水分が炎を跳ね返し、不快な蒸気が辺りを包んだ。熱を吸収した怪物は、さらなる活力を得たようだ。,果冻怪体内的水分弹开了火焰，不快的气息包围了四周。吸收了热能的怪物似乎变得更加活力。
+MSG_C_BURN_K_WIN,The kobold's fur burned leaving a foul stench. The confused beasts trampled each other to flee.,コボルドの毛皮が激しく燃え上がり、辺りに異臭が漂った。混乱した獣たちは、互いを突き飛ばし逃げ惑った。,狗头人的毛皮剧烈燃烧，四周弥漫着异臭。混乱的兽群为了逃命互相推搡。
+MSG_C_BURN_L_LOSS,The lizard's scales blocked the fire. Its cold eyes enduring the heat presaged your end.,リザードの堅牢な鱗が炎を遮り、ダメージすら通らない。熱に耐え忍ぶ冷酷な瞳が、絶望を予感させる。,蜥蜴坚固的鳞片隔绝了火焰，连一点伤害都没造成。忍受酷热的冷酷瞳孔预示着绝望。
+MSG_C_BURN_M_WIN,Fire was lethal to the dry mummy. Bandages and curse both were incinerated by purifying light.,干からびたマミーに火は致命的だった。古の呪縛ごと、不浄な死体は浄化の光に包まれ焼失した。,火对于干枯的木乃伊是致命的。连同古老的诅咒，不洁的尸体在净化之光中燃尽了。
+MSG_C_BURN_N_LOSS,Flames grazed the naga but did no real damage. Protected by water she coiled around you.,ナーガのしなやかな胴体に炎が掠めるが、致命傷には程遠い。水の加護を得た彼女が、蛇身であなたを締め上げる。,火焰掠过纳迦曲折的胴体，但离致命伤还远得很。得到水之庇护的她用蛇身将你死死缠住。
+MSG_C_BURN_O_LOSS,The orc charged through the fire wall ignoring burns. Its raw pressure sealed your magic.,オークは火傷を厭わず、炎の壁を突き破ってきた。猛り狂う怪物の圧力に、あなたの魔法は封じられた。,兽人不顾烧伤，冲破了火焰之墙。在发狂怪物的压力面前，你的魔法被封锁了。
+MSG_C_BURN_P_LOSS,The pixie's dust colored your flames and diverted them. Lured by the lights your mind went dark.,ピクシーの放つ幻惑の鱗粉が、炎の色を美しく変え、威力をそらした。誘われるまま、あなたの意識は遠のく。,小仙女散布的幻惑鳞粉改变了火焰的颜色并化解了威力。在诱导下，你的意识渐渐远去。
+MSG_C_BURN_Q_LOSS,The coarl's field warped the fire's path. Its glowing eyes mocked your growing panic.,クアールの電磁場が炎の軌道を狂わせ、背後の壁を焼くばかりだ。闇に光る瞳が、あなたの焦りを嘲笑う。,夸尔的电磁场偏转了火焰的轨道，只是烧焦了背后的墙壁。黑暗中发光的瞳孔嘲笑着你的焦躁。
+MSG_C_BURN_R_LOSS,Fire pushed back the rats briefly but it was futile. Countless fangs sought your legs.,炎でラットの群れを一時的に退けたが、焼け石に水だった。次々と現れる無数の牙が、あなたの脚を執拗に狙う。,虽然用火焰暂时退敌，但只是杯水车薪。接连出现的无数毒牙执拗地瞄准了你的小腿。
+MSG_C_BURN_S_LOSS,The slime's mucus absorbed the fire completely. The heated monster began to writhe ominously.,スライムの粘液が炎を吸収し、威力を完全に殺してしまった。熱を帯びた怪物が、さらに不気味に蠢き始める。,史莱姆的粘液吸收了火焰，完全杀死了威力。吸热后的怪物开始更加诡异地蠕动。
+MSG_C_BURN_T_LOSS,The troll's regeneration healed even burns instantly. Faced with despair your mana ran dry.,トロールの再生は火傷さえも瞬時に癒やしていく。尽きぬ絶望を前に、あなたの手元から魔力が失われた。,巨魔的再生力连烧伤也瞬间治愈了。在无尽的绝望面前，你手中的魔力枯竭了。
+MSG_C_BURN_U_LOSS,Without a physical form the undead couldn't be burned. Death's cold chill froze your heart.,アンデッドには実体がないため、熱を通すことができない。冷たい死の気配が、あなたの心臓を凍りつかせた。,因为不死族没有实态，无法传导热能。冰冷的死亡气息令你的心脏感到冻结。
+MSG_C_BURN_V_LOSS,The vampire dodged the fire elegantly and vanished into shadows. He sought your throat from the dark.,ヴァンパイアは炎を優雅に回避し、背後の影へと姿を消した。闇に紛れた霧が、あなたの首元を静かに狙う。,吸血鬼优雅地避开了火焰，消失在身后的影子中。隐于黑暗的雾气静静地瞄准了你的咽喉。
+MSG_C_BURN_W_LOSS,The wolf you repelled with fire leaped from your blind spot. The pack's teamwork surpassed your magic.,炎の壁で引き離したはずのウルフが、死角から飛びかかってきた。群れの連携は、あなたの魔法さえも上回る。,本应用火焰墙隔开的狼，却从死角扑了过来。狼群的协作甚至超越了你的魔法。
+MSG_C_BURN_X_LOSS,Xalthis's many legs swatted the fire away. Silenced by its tenacity you could only watch it close in.,ザルティスの不気味な多足が炎を振り払い、あなたへと迫る。業火を厭わぬ魔物の執念に、あなたは言葉を失った。,扎尔提斯诡异的多肢扫开了火焰，向你逼近。面对不顾业火的魔物的执念，你哑口无言。
+MSG_C_BURN_Y_LOSS,The yeti's blizzard extinguished your magic fire instantly. The ice giant's swing ended your life.,イエティの吹雪のような冷気が、魔法の炎を瞬時にかき消した。氷の巨人の一振りが、あなたの命を刈り取る。,雪人如暴风雪般的冷气瞬间熄灭了魔法之火。冰巨人的重击收割了你的性命。
+MSG_C_BURN_Z_LOSS,Burning its rotting flesh didn't stop the zombie. You despaired as the melting corpse drew near.,ゾンビの腐敗した肉体を焼こうとも、ゾンビに痛みは伝わらない。ドロドロに溶けながらも迫りくる死体に、あなたは絶望した。,即使烧掉腐肉，僵尸也感觉不到痛苦。面对一边融化一边逼近的尸体，你陷入了绝望。
+MSG_C_FREEZE_A_LOSS,The ant's hard shell blocked the chill. Unstopped you were surrounded by countless legs.,アリの硬い外骨格は冷気をも通さない。動きを止められないまま、あなたは無数の脚に囲まれた。,蚂蚁坚硬的外骨骼连冷气都能隔绝。在你未能阻止其行动时，已被无数肢体包围。
+MSG_C_FREEZE_B_WIN,Magic frost froze the bat's wings. Turned into an ice statue it shattered upon the ground.,魔法の冷気がコウモリの翼を凍りつかせた。氷の彫像と化した魔物は、砕け散りながら地面へ落ちた。,魔法冷气冻结了蝙蝠的翅膀。化作冰雕的魔物一边粉碎一边掉落在了地面。
+MSG_C_FREEZE_C_WIN,Absolute zero took the cobra's movement. Encased in beautiful ice it will never move again.,急降下する毒蛇の動きを、絶対零度の冷気が奪った。美しい氷に閉じ込められたコブラは、二度と動かない。,绝对零度的冷气夺走了俯冲毒蛇的动作。被关进美丽冰层中的眼镜蛇再也不会动弹。
+MSG_C_FREEZE_D_WIN,You unleashed extreme cold that froze even the dragon's breath. The giant fell into eternal sleep.,ドラゴンの熱い息吹をも凍らせる極致の冷気を放った。氷獄に捕らわれた伝説の巨体は、永劫の眠りについた。,放出了连巨龙的热息都能冻结的极致冷气。被困在冰狱中的传说巨体进入了永劫的长眠。
+MSG_C_FREEZE_E_WIN,You froze the sap within the tree spirit instantly. The ancient life stood as a crystal in the forest.,木の精霊の内部を通る樹液を瞬時に凍らせた。古の生命は、繊細なクリスタルとなって森に佇んだ。,瞬间冻结了在树精内部流动的树液。古老的生命化作细腻的晶体屹立在森林中。
+MSG_C_FREEZE_F_WIN,You trapped the fly in a small ice pellet. A moment of silence followed its jewel-like end.,宙を舞うハエを、小さな氷の粒に閉じ込めた。光り輝く宝飾品のような最期に、一時の静寂が訪れた。,将将在空中飞舞的苍蝇囚禁在了小小的冰粒里。这如发光饰品般的最后落幕带来了短暂的宁静。
+MSG_C_FREEZE_G_WIN,The goblin's cunning grin became an ice statue. With its eerie look intact it shattered silently.,ゴブリンの狡猾な笑みを氷の彫像へと変えた。不気味な表情を保ったまま、奴は静かに砕け散った。,将哥布林狡猾的笑脸变成了冰雕。它保持着那诡异的表情，静静地粉碎散落。
+MSG_C_FREEZE_H_WIN,An ice arrow pierced the harpy's chest freezing her whole. The queen of the sky fell as a heavy headstone.,氷の矢がハーピーの胸元を射抜き、その全身を凍土へと変えた。空の支配者は、重い墓標となって墜落した。,冰箭射穿了哈皮的胸膛，将其全身化为了冻土。天空的支配者化作沉重的墓碑坠落了。
+MSG_C_FREEZE_I_WIN,You sealed the imp's small malice with magic frost. Enclosed in ice it will never whisper again.,インプの小さな悪意を、魔法の冷気で封じ込めた。氷に閉ざされた悪魔は、二度とささやくことはない。,用魔法冷气封锁了小仙女微小的恶意。被关在冰层里的恶魔再也无法发出低语。
+MSG_C_FREEZE_J_LOSS,The jelly absorbed the cold and grew into hard sharp ice. The monster pierced you ruthlessly.,ジェリーは冷気を取り込み、より硬く鋭い氷の塊へと成長した。凶器と化した怪物が、あなたを冷酷に突く。,果冻吸入了冷气，成长为更加坚硬锋利的冰块。化为凶器的怪物冷酷地刺向了你。
+MSG_C_FREEZE_K_LOSS,You couldn't catch the nimble kobold. On the frozen ground you fell into its trap.,コボルドの身軽な動きを冷気で捉えることはできない。空虚に凍りつく地面の上で、あなたは奴らの罠に嵌まった。,无法用冷气捕捉到狗头人轻盈的动作。在空虚冻结的地面上，你落入了它们的陷阱。
+MSG_C_FREEZE_L_LOSS,The lizard had high cold resistance despite low metabolism. The unfrozen monster bared its venomous claws.,リザードの代謝は低いが、その分冷気への耐性も高い。氷に閉ざされぬ魔物が、毒の爪を光らせる。,虽然蜥蜴代谢缓慢，但其耐寒性极高。未被冰封的魔物闪烁着剧毒的利爪。
+MSG_C_FREEZE_M_WIN,Frost soaked the mummy's dry body turning it to brittle ice. Milennia of memory shattered in one blow.,マミーの乾いた肉体に冷気が染み込み、脆い氷へと変えた。衝撃一つで、数千年の記憶は微塵に砕けた。,冷气渗入了木乃伊干枯的肉体，将其变成了脆弱的冰块。只需一击，几千年的记忆便碎成粉末。
+MSG_C_FREEZE_N_LOSS,The naga's high resistance parried the frost wave easily. The beautiful serpent's tail sought your neck.,ナーガの魔法耐性は高く、冷気の波を易々と受け流した。美しき人面蛇の尾が、あなたの首元を狙う。,纳迦的魔法抗性很高，轻易地化解了冷气波。美丽人面蛇的尾巴瞄准了你的咽喉。
+MSG_C_FREEZE_O_WIN,The orc's bulk was weighed down by ice silencing it. The strong monster was helpless before the frost.,オークの巨体を氷の重圧で押さえつけ、沈黙させた。力自慢の怪物も、凍てつく静寂の前には無力だった。,用冰的重压压制住了兽人的巨体使其沉默。自负蛮力的怪物在冻结的静寂面前也无能为力。
+MSG_C_FREEZE_P_LOSS,The pixie's light warped the frost blooming ice flowers in space. As you watched death whispered.,ピクシーの幻惑の光が冷気の軌道を狂わせ、虚空に氷の華を咲かせた。見惚れるあなたの背後で、死が囁く。,小仙女迷幻的光芒歪曲了冷气的轨道，在虚空中绽放出了冰之华。在你着迷之际，死神在背后低语。
+MSG_C_FREEZE_Q_LOSS,The coarl's field manipulated the air to neutralize the frost. Instead numbing cold struck your arm.,クアールの電磁場が空気の熱動を操作し、冷気を無力化した。痺れる冷たさが、逆にあなたの腕を襲う。,夸尔的电磁场操控了空气的热动，使冷气无效化。反而是那麻木的寒冷袭向了你的手臂。
+MSG_C_FREEZE_R_LOSS,It was impossible to freeze the whole rat pack. Ignoring the sacrifice of one they bit through your armor.,数に勝るラットの群れを完全に凍らせることは不可能だ。一匹の犠牲を厭わぬ奴らが、あなたの防具を食い破る。,想要完全冻结数量占优的老鼠群是不可能的。不顾同伴牺牲的它们咬破了你的防具。
+MSG_C_FREEZE_S_LOSS,The slime absorbed the frost and became even more elastic. The eerie body swallowed the ice and you.,スライムは冷気を吸収し、その弾力性をさらに増した。氷さえも飲み込む不気味な肉体が、あなたを包み込む。,史莱姆吸收了冷气，弹力进一步增加。连冰块都能吞噬的诡异肉体正将你包围。
+MSG_C_FREEZE_T_LOSS,The troll outhealed the spreading frost. As it froze its flesh burst back and its club swung.,トロールの再生は冷気の蔓延をも上回る速さだ。凍りつくそばから肉が弾け、巨大な棍棒が振り下ろされる。,巨魔的再生速度超过了冷气的蔓延。在冻结的同时肉芽已经迸发，巨大的木棒挥了下来。
+MSG_C_FREEZE_U_LOSS,Freezing failed against the incorporeal undead. The spirits' malice froze your soul directly.,実体のないアンデッドに、冷気による凍結は通用しない。死者の怨念が、あなたの魂を直接凍りつかせた。,冻结对没有实态的不死族毫无作用。死者的怨念直接冻结了你的灵魂。
+MSG_C_FREEZE_V_LOSS,The vampire misted through the frost wave and appeared behind you. A white breath heralded death.,ヴァンパイアは冷気の波を霧散して回避し、背後の影から現れた。白い吐息が、死の訪れを告げる。,吸血鬼化作雾气避开了冷气波，并从身后的影子中出现。白色的吐息预告着死亡的降临。
+MSG_C_FREEZE_W_LOSS,The wolf's dodge left the frost only whitening the ground. From your blind spot fangs sought your throat.,ウルフの俊敏な回避により、冷気は虚しく地面を白く染めるだけだった。死角から迫る牙が、あなたの喉を狙う。,由于狼敏捷的躲避，冷气只是徒劳地染白了地面。从死角逼近的毒牙正瞄准你的咽喉。
+MSG_C_FREEZE_X_LOSS,Xalthis's many legs shattered the ice as it approached. You feared the monster's will to resist.,ザルティスの不気味な多足が氷を砕きながら接近する。冷気に抗う魔物の意志に、あなたは恐怖した。,扎尔提斯诡异的多肢一边粉碎冰块一边逼近。你被这反抗冷气的魔物意志所震惊。
+MSG_C_FREEZE_Y_WIN,Your magic surpassed the yeti's mastery of cold. The ice giant fell into silence a statue of ice.,冷気の本場であるイエティの力を、魔法が上回った。氷の巨人は永劫の沈黙に包まれ、静かなる氷山となった。,魔法的力量超越了身为冷气本家的雪人。冰巨人被永远的沉默包围，化作了一座寂静的冰山。
+MSG_C_FREEZE_Z_LOSS,The zombie's rotting flesh kept moving even when frozen. Cold dead arms choked your life away.,ゾンビの腐敗した肉体は、凍りついても動きを止めない。感覚を失った死の腕が、あなたの命を絞め上げる。,僵尸腐烂的肉体即使被冻住也不会停止行动。失去知觉的死亡之臂正绞杀你的生命。
+MSG_C_TRAP_A_WIN,Magic traps entangled the ant pack. Trapped the insects fell into a panic and self-destructed.,足元に仕掛けられた魔法の罠がアリの群れを絡め取った。逃げ場を失った虫たちは、パニックに陥り自滅した。,布在脚下的魔法陷阱缠住了蚁群。失去退路的昆虫们陷入恐慌，最终自取灭亡。
+MSG_C_TRAP_B_WIN,Invisible chains from the dark crushed the bat's wings. Stripped of flight the monster hit the dirt.,闇から放たれた目に見えぬ鎖が、コウモリの翼を打ち砕いた。空の自由を奪われた魔物は、地に這いつくばった。,从黑暗中射出的无形锁链击碎了蝙蝠的翅膀。被夺走飞行自由的魔物狼狈地趴在了地上。
+MSG_C_TRAP_C_WIN,You placed a blade trap in the cobra's path. Its beautifully patterned body was hacked to pieces.,急降下する毒蛇の通り道に、鋭利な刃の罠を設置した。美しき模様を持つ長躯は、無残にも切り刻まれた。,在剧毒长蛇俯冲的必经之路上设置了利刃陷阱。那有着美丽花纹的长躯被残忍地切成了碎片。
+MSG_C_TRAP_D_WIN,You triggered legendary restraints on the dragon. Its sky-shaking roars couldn't overcome its despair.,巨竜の足を封じる伝説の拘束具を起動した。天をも揺るがす咆哮も、地に縫い付けられた絶望には勝てなかった。,启动了足以封锁巨龙脚步的传说拘束具。震撼天空的咆哮也无法战胜被钉在地面上的绝望。
+MSG_C_TRAP_E_WIN,You set a mana-draining trap beneath the tree spirit. Deprived of life the ancient tree withered.,木の精霊の根が張る地面に、魔力を吸い取る罠を仕掛けた。生命の源を絶たれた古木は、そのまま立ち枯れた。,在树精扎根的地面设置了吸取魔力的陷阱。被断绝了生命之源的古木就这样枯萎在了原地。
+MSG_C_TRAP_F_WIN,You set a micro-suction trap for the fly. The small target vanished into the void as if swallowed.,鬱陶しいハエの飛行進路に、微細な吸引の罠を張った。小さな標的は吸い込まれるように、虚空へと消えた。,在讨厌苍蝇的飞行航线上布下了微细吸引陷阱。微小的目标仿佛被吸入一般，消失在了虚空中。
+MSG_C_TRAP_G_WIN,You set a trap more complex than the goblin's wit. Drowned in its own plots it met a grisly end.,ゴブリンの狡猾な知恵をも上回る、複雑怪奇な罠を仕掛けた。自らの策略に溺れた奴は、無惨な最期を遂げた。,设置了超越哥布林狡猾智慧的复杂怪异陷阱。溺死在自己策略中的它迎来了凄惨的末路。
+MSG_C_TRAP_H_WIN,A gravity trap slammed the circling harpy down. The queen of the sky died from the impact.,旋回するハーピーを、重力操作の罠が地上へ叩き落とした。空の女王は落下の衝撃に耐えられず、沈黙した。,重力操作陷阱将旋回中的哈皮重重摔在了地上。天空之女王无法承受坠落的冲击，陷入了沉默。
+MSG_C_TRAP_I_WIN,You sealed the imp's pranks with a viler trap. Bound by icy chains it could only tremble in fear.,小生意気なインプの悪魔的な悪戯を、より悪烈な拘束の罠で封じ込めた。氷のような鎖に繋がれた奴は、ただ怯えるばかりだ。,用更加恶毒的拘束陷阱封锁了小仙女恶魔般的恶作剧。被冰冷锁链拴住的它只能瑟瑟发抖。
+MSG_C_TRAP_J_WIN,You set a flash-freeze trap for the jelly. The monster turned into grisly shards of ice.,ジェリーの通り道に瞬間冷凍の罠を仕掛けた。形を保てなくなった怪物は、無残な氷の破片へと変わった。,在果冻怪的必经之路上设置了瞬间冷冻陷阱。无法维持形状的怪物变成了凄惨的冰之碎片。
+MSG_C_TRAP_K_WIN,A shadow trap from a blind spot caught the nimble kobold. Dragged into the dark it never returned.,コボルドの身軽な動きを、死角に潜む影の罠が捉えた。闇に引きずり込まれた奴は、二度と姿を見せなかった。,在死角潜伏的影子陷阱捉住了狗头人轻盈的身影。被拽入黑暗之中的它再也没有现身。
+MSG_C_TRAP_L_LOSS,The lizard sensed your trap beforehand. Mocking your failure it attacked from the shadows.,リザードの鋭い感覚は、あなたの罠の気配を事前に察知した。空振りした罠を嘲笑うかのように、奴は影から襲いかかる。,蜥蜴敏锐的感知预先察觉到了你陷阱的气息。它嘲笑着落空的陷阱，并从影子中发起了袭击。
+MSG_C_TRAP_M_LOSS,Since mummies feel no pain physical traps are useless. The undead draws near dragging its broken body.,マミーは痛みを感じないため、肉体を損なう罠も意味をなさない。壊れた体を引きずりながら、不死の怪物が迫る。,因为木乃伊感觉不到痛苦，损伤肉体的陷阱毫无意义。拖着残破的身体，不死的怪物逼近了。
+MSG_C_TRAP_N_WIN,Spear traps from the earth pierced the naga's body. It was a fitting stage for her beautiful end.,ナーガのしなやかな蛇身を、大地から突き出した槍の罠が貫いた。美しい最期を望んだ彼女に、ふさわしい舞台だった。,从大地刺出的长枪陷阱贯穿了纳迦的蛇身。对于渴望华丽落幕的她来说，这是个合适的舞台。
+MSG_C_TRAP_O_LOSS,The orc smashed your trap with brute force bleed and all. Your plot failed before the savage beast.,オークは自らの血を流しながら、罠を力任せに破壊した。蛮勇の怪物を前に、あなたの計略は脆くも崩れ去った。,兽人流着鲜血，凭蛮力破坏了陷阱。在蛮勇的怪物面前，你的计策脆弱地崩塌了。
+MSG_C_TRAP_P_LOSS,The pixie's light warped your trap's timing. The monster vanished into mist as the trap failed.,ピクシーの幻惑の光が、罠の発動タイミングを狂わせた。空しく空を切る仕掛けを尻目に、魔物は霧へと消えた。,小仙女迷幻的光芒扰乱了陷阱の発动时机。魔物无视徒劳空响的机关，消失在了雾中。
+MSG_C_TRAP_Q_LOSS,The coarl's field read the air and neutralized your trap. Your reward was a powerful lightning strike.,クアールの電磁場が空気の振動を読み、設置した罠を無効化した。失敗の報酬は、獣が放つ強烈な雷撃だった。,夸尔的电磁场通过读取空气振动使设置的陷阱无效化。失败的回报是猛兽放出的强烈雷击。
+MSG_C_TRAP_R_WIN,You triggered a massive explosion trap amidst the rats. Their numbers failed against the flames.,ラットの群れが通りかかる瞬間に、大規模な爆破罠を起動した。数に勝る群れも、化学の力の灯火には勝てなかった。,在老鼠群经过的瞬间启动了大规模爆炸陷阱。数量占优的鼠群也无法战胜化学之力的火焰。
+MSG_C_TRAP_S_LOSS,Slime mucus swallowed your trap's gears stopping it. Swallowed by sticky dark you knew despair.,スライムの粘液が罠の機構を飲み込み、その働きを止めてしまった。粘つく闇に飲まれたあなたは、絶望を知る。,史莱姆的粘液吞噬了陷阱的机关，使其停止了运作。被粘稠黑暗吞没的你感到了绝望。
+MSG_C_TRAP_T_LOSS,The troll's healing sealed even trap wounds instantly. Before that despair your hands shook.,トロールの再生力は、罠による重傷さえも一瞬で癒やしてしまった。絶望の光景を前に、あなたの手は震えた。,巨魔的再生力瞬间治愈了陷阱造成的重伤。面对这绝望的光景，你的双手颤抖了。
+MSG_C_TRAP_U_LOSS,Material traps had no effect on the ghostly undead. Death's cold chill froze your heart.,実体のないアンデッドに、物質的な罠は一切の効果を発揮しない。冷たい死の気配が、あなたの心臓を凍りつかせた。,对没有实态的不死族，物质陷阱毫无效果。冰冷的死亡气息令你的心脏感到冻结。
+MSG_C_TRAP_V_LOSS,The vampire dodged your trap with grace and took your back. From the dark he aimed for your neck.,ヴァンパイアは優雅なステップで罠を回避し、あなたの背後へ。闇に消えた彼の手が、静かに喉元を狙う。,吸血鬼以优雅的步法避开陷阱，绕到了你身后。消失在黑暗中的他正静静地瞄准你的咽喉。
+MSG_C_TRAP_W_LOSS,The wolf's dodge left your trap snapping at empty air. From your blind spot fangs closed in.,ウルフの俊敏な回避により、罠はただ空しく虚空を噛むだけだった。群れの連携は完璧で、死角から牙が迫る。,由于狼敏捷的躲避，陷阱只是徒劳地咬在了虚空中。它们的协作完美无瑕，毒牙从死角逼近。
+MSG_C_TRAP_X_LOSS,Xalthis's many legs entangled and smashed your trap. A venomous tail aimed for your throat.,ザルティスの不気味な多足が罠を絡め取り、あべこべに破壊した。死を運ぶ尾の毒針が、静かに喉元を狙う。,扎尔提斯诡异的多肢缠绕并破坏了陷阱。死神的尾部毒针静静地瞄准了你的咽喉。
+MSG_C_TRAP_Y_LOSS,The yeti's blizzard froze your trap's trigger silencing it. The weapon slipped from your numb hand.,イエティの吹雪のような冷気が、罠の起動部を凍らせ、沈黙させた。感覚のなくなった手から、獲物が滑り落ちる。,雪人如暴风雪般的冷气冻结了陷阱的触发部使其沉默。从失去知觉的手中，猎物滑落了。
+MSG_C_TRAP_Z_WIN,You set a sticky trap for the zombie. You delivered the final blow as it rotted where it stood.,ゾンビの足元に強粘着の罠を仕掛けた。動けないまま腐敗していく死体に、あなたは最後の一撃を加えた。,在僵尸脚下设置了强力粘着陷阱。对着无法动弹、渐趋腐烂的尸体，你使出了最后一击。
+MSG_C_CURSE_A_WIN,Dark words cursed the ants into infighting. Losing all reason the pack collapsed.,闇の呪言がアリの精神を汚染し、仲間同士で争わせた。理性を失った群れは、自ら崩壊していった。,黑暗呪言污染了蚂蚁的精神，令其自相残杀。失去理性的蚁群就这样自我崩解。
+MSG_C_CURSE_B_WIN,A curse warped the bat's sense of direction. It crashed into walls until its life faded.,魔法の呪いがコウモリの方向感覚を狂わせた。壁に激突し続ける魔物は、やがて力尽き地に堕ちた。,魔法诅咒扰乱了蝙蝠的方向感。不断撞墙的魔物最终耗尽力气，坠落在地。
+MSG_C_CURSE_C_LOSS,The cobra held its' own taboo power and repelled your curse. Its enraged fangs closed in.,毒蛇は自らも禁忌の力を宿しており、あなたの呪いを容易に弾き返した。激昂したコブラの牙が迫る。,毒蛇自身也孕育着禁忌之力，轻易弹回了你的诅咒。激怒的眼镜蛇长牙正向你逼近。
+MSG_C_CURSE_D_WIN,An ancient curse ate the dragon's life from within. The legend died crushed by its own power.,古の禁呪が巨竜の不滅の生命力を内側から侵食した。伝説の怪物は、自身の力に耐えきれず絶命した。,古老的禁呪从内部侵蚀了巨龙不灭的生命力。传说的怪物因无法承受自身的力量而毙命。
+MSG_C_CURSE_E_LOSS,The wood spirit was the forest's avatar immune to foul curses. You despaired at its holy rage.,木の精霊は森そのものの化身であり、不浄な呪いなど寄せ付けない。聖なる怒りに触れ、あなたは絶望した。,树精是森林本身的化身，不净的诅咒根本无法靠近。触及其神圣之怒，你陷入了绝望。
+MSG_C_CURSE_F_LOSS,You couldn't curse a mere fly. Your mana spun in vain against such a small existence.,吹けば飛ぶようなハエに呪いをかけることはできない。あまりにちっぽけな存在に、あなたの魔力は空転した。,无法对弱不禁风的苍蝇施加诅咒。面对如此微小的存在，你的魔力只是在空写。
+MSG_C_CURSE_G_WIN,You painted over the goblin's evil with darker curses. Its soul shook in terror as it died.,ゴブリンの邪悪な精神を、さらに深い闇の呪いで塗りつぶした。奴の魂は恐怖に震え、その場で息絶えた。,用更深沉的黑暗诅咒抹杀了哥布林邪恶的精神。它的灵魂在恐惧中颤抖，当场断气。
+MSG_C_CURSE_H_LOSS,The harpy's pure madness rejected all outside curses. With a single cry she attacked.,ハーピーの純粋な狂気が、外からの呪いを受け入れない。叫び声一つで呪言をかき消し、彼女は襲いかかる。,哈皮纯粹的疯狂拒接一切外来诅咒。仅凭一声尖叫就盖过了呪言，她随后发起了进攻。
+MSG_C_CURSE_I_LOSS,To the imp curses were just daily bread. With a fearless grin it swallowed your magic.,魔界の住人であるインプにとって、呪いは日常の糧に過ぎなかった。不敵な笑みとともに、奴はそれを飲み込んだ。,对于身为魔界居民的小仙女来说，诅咒不过是家常便饭。带着不羁的笑脸，它将其吞入腹由。
+MSG_C_CURSE_J_WIN,You soaked the jelly with deathly curses. The shapeless mucus turned into a foul purple pool.,ジェリーの無機質な肉体に死の呪いを染み込ませた。形を保てなくなった粘液は、不気味な紫色の沼へと化した。,让死亡詛咒渗入了果冻怪无机的肉体。无法维持现状的粘液化作了诡异的紫色沼泽。
+MSG_C_CURSE_K_LOSS,The kobold's wild nature slipped through your complex hex. You panicked at its raw vitality.,コボルドの素朴な野性が、複雑な呪術の網を潜り抜けた。理屈を超えた生命力に、あなたは焦りを覚える。,狗头人朴素的野性钻过了复杂呪术的网眼。面对超越常理的生命力，你感到了一阵焦躁。
+MSG_C_CURSE_L_WIN,You cursed the lizard to lose its voice and strength. The predator became a pitiful prey.,リザードの喉元に、声を奪い、体を萎えさせる呪いを放った。冷酷な捕食者は、今や憐れな獲物へと成り果てた。,对着蜥蜴的咽喉发出了夺走声音、令其衰落的诅咒。冷酷的掠食者如今沦为了可怜的猎物。
+MSG_C_CURSE_M_LOSS,Since it's already dead mummies ignore deathly curses. Its bandages absorbed your magic as it drew near.,すでに死んでいるマミーに、死の呪いは無意味だった。古の包帯に呪言が吸い取られ、怪物が静かに歩み寄る。,对于已经死去的木乃伊，死之诅咒毫无意义。古老的绷带吸走了呪言，怪物静静步步逼近。
+MSG_C_CURSE_N_LOSS,The naga's pure bloodline purified your foul curse. It was your soul that burned in holy light.,ナーガの清らかな血筋が、あなたの不浄な呪いを浄化した。聖なる光に焼かれたのは、あなたの魂の方だった。,纳迦清澈的血统净化了你那不净的诅咒。被神圣之光灼烧的，反而是你的灵魂。
+MSG_C_CURSE_O_WIN,You cast a weakening curse that ate the orc from within. The strong monster fell of its own weight.,オークの強靭な肉体を内側から蝕む衰弱の呪いをかけた。力尽きた怪物は、自らの重みに耐えきれず膝を突いた。,施加了从内部侵蚀兽人强韧肉体的衰弱诅咒。耗尽力气的怪物因无法承受自身重量而跪倒。
+MSG_C_CURSE_P_LOSS,The pixie's light turned your curse into a melody neutralizing it. Your mind went dark in its trap.,ピクシーの放つ幻惑の光が、呪言の響きを旋律へと変え、無力化した。美しき罠に嵌まり、あなたの意識は遠のく。,小仙女发出的迷幻光芒将呪言的回响变成了旋律，使其无效化。坠入美丽的陷阱，你的意识渐渐远去。
+MSG_C_CURSE_Q_LOSS,The coarl's extrasensory perception blocked your curse. Your reward was a baptism of lightning.,クアールの持つ超常的な感覚が呪いの気配を察知し、未然に防いだ。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官察觉到了诅咒的气息并预先防备。失败的回报是强烈的电击洗礼。
+MSG_C_CURSE_R_WIN,You spread a plague curse through the rat pack. The cries of self-consuming beasts filled the dark.,ラットの群れに疫病の呪いを蔓延させ、統率を奪った。互いに食らい合う獣たちの叫びが、闇に響き渡った。,在老鼠群中蔓延了疫病诅咒使其失去统领。互相吞噬的兽群叫声在黑暗中四处回响。
+MSG_C_CURSE_S_LOSS,Since slimes have no hearts mental curses failed. Swallowing your vile words the monster grew.,スライムに心はないため、精神を蝕む呪いは届かない。不浄な言葉さえも飲み込み、怪物はさらに肥大化した。,因为史莱姆没有心智，侵蚀精神的诅咒无法传达。它甚至吞下了不净之言，变得更加肥大。
+MSG_C_CURSE_T_LOSS,The troll's healing surpassed your curse's rot. Blackened flesh peeled away to reveal new skin.,トロールの再生力は、呪いによる腐食さえも上回る。黒ずんだ肉が瞬時に剥がれ落ち、新たな皮が再生される。,巨魔的再生力连诅咒造成的腐蚀都能克服。变黑的肉块瞬间脱落，长出了新的皮肤。
+MSG_C_CURSE_U_LOSS,The undead were already cursed and new hexes only fed them. Your mana was just a snack.,アンデッドはすでに呪われた存在であり、新たな呪いは溶け込むだけだ。あなたの魔力は奴の糧に過ぎなかった。,不死族本身就是被诅咒的存在，新的诅咒仅仅是融入其中。你的魔力不过是它的食粮。
+MSG_C_CURSE_V_LOSS,The vampire walking the edge of death laughed at your hex. From the dark he aimed for your neck.,ヴァンパイアは死の淵を歩む者であり、あなたの呪いを嘲笑った。闇に消えた彼の手が、あなたの首元を狙う。,游走在死亡边缘的吸血鬼嘲笑着你的诅咒。消失在黑暗中的他正瞄准你的咽喉。
+MSG_C_CURSE_W_LOSS,The wolf's wild instinct guarded it from the curse wave. The leader's howl announced your end.,ウルフの野生の直感が、呪いの波から身を守った。群れのリーダーの遠吠えが、あなたの最期を告げる旋律となる。,狼的野性直觉保护它免受诅咒波的侵害。狼群首领的远嚎成了预告你终焉的旋律。
+MSG_C_CURSE_X_LOSS,Xalthis swatted away the curse mist and closed in. Its tenacity corrupted your own mind.,ザルティスの不気味な多足が呪いの霧を振り払い、接近を許さない。魔物の執念が、あなたの精神を逆に汚染した。,扎尔提斯诡异的多肢驱散了诅咒之雾，不让其靠近。魔物的执念反倒污染了你的精神。
+MSG_C_CURSE_Y_LOSS,The yeti's blizzard froze your foul curse solid. The weapon slipped from your unfeeling hand.,イエティの吹雪のような冷気が、不浄な呪いをそのまま凍りつかせた。感覚のなくなった手から、獲物が滑り落ちる。,雪人如暴风雪般的冷气直接将不净的诅咒冻结。从失去知觉的手中，猎物滑落了。
+MSG_C_CURSE_Z_LOSS,Death curses don't stop the moving dead. Scattering rotting flesh the zombie cornered you.,ゾンビに死の呪いをかけても、動く死体は止まらない。腐った肉片を撒き散らしながら、奴はあなたを追い詰める。,施加死之诅咒也无法阻止会动的尸体。撒播着腐烂肉片的它，正将你逼入绝境。
+MSG_C_PRAY_A_WIN,A pure prayer calmed the ants. Forgetting the fight the insects returned to their nest.,清らかな祈りがアリの群れを包み込み、その闘争心を鎮めた。戦う理由を忘れた虫たちは、静かに巣へと帰っていった。,清澈的祈祷包围了蚁群，平息了它们的斗争心。忘记了战斗理由的昆虫们静静地回到了巢穴。
+MSG_C_PRAY_B_WIN,A merciful prayer healed the bat and ended its frenzy. It chirped in thanks and vanished.,慈悲深き祈りがコウモリの翼を癒やし、狂乱から解き放った。魔物は感謝の鳴き声を上げ、夜の空へと消えた。,慈悲的祈祷治愈了蝙蝠的翅膀，令其从狂乱中解脱。魔物发出感谢的鸣叫，消失在夜空。
+MSG_C_PRAY_C_WIN,A holy prayer purified the cobra's venom and calmed its soul. It coiled up and slept.,神聖な祈りが毒蛇の体内の毒を浄化し、その荒ぶる魂を鎮めた。コブラは静かにとぐろを巻き、眠りについた。,神圣的祈祷净化了毒蛇体内的剧毒，平息了它狂躁的灵魂。眼镜蛇静静地盘起身体，陷入了沉睡。
+MSG_C_PRAY_D_WIN,A prayer reached the dragon's heart and brought peace. The legend departed beyond the clouds.,星々に届く祈りが巨竜の逆鱗を鎮め、悠久の平穏をもたらした。伝説の怪物は、静かに雲の彼方へと去っていった。,传达到星辰的祈祷平息了巨龙的逆鳞，带来了悠久的平稳。传说的怪物静静地离去，消失在云端。
+MSG_C_PRAY_E_WIN,A prayer for the earth brought rain to the tree spirit. The forest guardian slept once more.,大地への祈りが木の精霊に恵みの雨をもたらし、その怒りを癒やした。森の守護者は、再び静かな眠りについた。,对大地的祈祷为树精带来了恩惠之雨，治愈了它的愤怒。森林守护者再次陷入了寂静的眠梦。
+MSG_C_PRAY_F_LOSS,The prayer failed to reach the tiny fly and vanished. Its wings mocked your failed magic.,祈りの言葉は小さなハエにまで届かず、虚しく消えた。無邪気な羽音が、あなたの焦りを嘲笑う。,祈祷之言未能传达给微小的苍蝇，徒劳地消散了。天真烂漫的羽翼拍打声，嘲笑着你的焦躁。
+MSG_C_PRAY_G_WIN,A purifying prayer crushed the goblin's malice giving it peace. It turned to dust with a smile.,浄化の祈りがゴブリンの卑屈な精神を打ち砕き、最期の安らぎを与えた。奴は初めて安らかな表情で、塵へと還った。,净化的祈祷粉碎了哥布林卑下的精神，赋予了它最后的安宁。它第一次露出安详的表情，化为了尘埃。
+MSG_C_PRAY_H_WIN,The ringing prayer cleared the harpy's madness. Singing beautifully she ascended to Heaven.,響き渡る祈りがハーピーの狂気を取り払い、その声を美しい歌声に変えた。彼女は涙を流しながら、天へと昇った。,响彻云霄的祈祷驱散了哈皮的疯狂，将她的叫声变成了美丽的歌声。她流着泪，升向了天际。
+MSG_C_PRAY_I_WIN,A sincere prayer broke the imp's contract and its chains. It vanished into the light in shock.,誠実な祈りがインプの悪魔的な契約を破棄し、その身を縛る楔を解いた。奴は驚きの表情のまま、光の中に消えた。,诚挚的祈祷废除了小仙女恶魔般的契约，解开了约束它身体的木楔。它带着惊愕的表情消失在光芒中。
+MSG_C_PRAY_J_WIN,A prayer for life stabilized the jelly into a crystal. It became a poem of eternal beauty.,命への祈りがジェリーの不安定な存在を安定させ、無機質な結晶へと変えた。それは永遠の美しさを保つ、一編の詩となった。,对生命的祈祷稳定了果冻怪不稳定的存在，将其变成了无机的晶体。它化作了一首保持永恒之美的诗篇。
+MSG_C_PRAY_K_WIN,A loving prayer quenched the kobolds' hunger. Thanking you they returned to their mountains.,慈愛の祈りがコボルドたちの飢えと渇きを癒やし、戦う意志を消し去った。彼らはあなたに礼を言い、山へと帰った。,慈爱的祈祷治愈了狗头人们的饥渴，消除了战斗意志。它们向你致谢，随后回到了山林。
+MSG_C_PRAY_L_WIN,A prayer for nature calmed the lizard and rainbowed its scales. It faded into the water.,自然への祈りがリザードの冷酷な本能を鎮め、その鱗に虹色の輝きを与えた。魔物は静かに水面へと消えていった。,对自然的祈祷平息了蜥蜴冷酷的天性，为它的鳞片披上了虹色的光辉。魔物静静地没入了水面。
+MSG_C_PRAY_M_LOSS,Prayer couldn't reach the mummy long abandoned by gods. The corpse draw near immune to magic.,すでに神に見捨てられたマミーに、祈りの声は届かない。呪言さえも拒絶する死体が、ゆっくりと歩み寄る。,祈祷之声无法传达给早已被神遗弃的木乃伊。拒绝一切呪言的尸体，正缓缓步步逼近。
+MSG_C_PRAY_N_WIN,A holy prayer sublimated the naga's soul into a messenger of god. She returned to the sky.,聖なる祈りがナーガの魂を昇華させ、彼女を神の使いへと変えた。美しき人面蛇は光の羽を纏い、天へと還った。,神圣的祈祷升华了纳迦的灵魂，令其化作了神之使者。美丽的人面蛇披上光之羽翼，重返天际。
+MSG_C_PRAY_O_LOSS,The orc believing only in blood and force crushed your prayer. Your holy words failed.,オークは自らの血と暴力のみを信じ、神聖な祈りを踏みにじった。理不尽な力の前に、あなたの祈りは途絶えた。,兽人仅信仰自己的鲜血与暴力，践踏了神圣的祈祷。在蛮横的力量面前，你的祈祷中断了。
+MSG_C_PRAY_P_WIN,A heartfelt prayer returned the pixie to a light spirit. She smiled and blessed your journey.,心からの祈りがピクシーのいたずら心を鎮め、彼女を光の精霊へと戻した。彼女は微笑み、あなたの旅に祝福を与えた。,发自内心的祈祷平息了小仙女的恶作剧心态，令其重回光之精灵。她微笑着，为你的旅途送上了祝福。
+MSG_C_PRAY_Q_LOSS,The coarl's senses perceived your prayer and neutralized it. You were met with lightning.,クアールの持つ超常的な感覚が祈りの波動をも感知し、事前にその効果を霧散させた。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官甚至感知到了祈祷的波动，预先使效果烟消云散。失败的回报是强烈的电击洗礼。
+MSG_C_PRAY_R_LOSS,There was no room for prayer in the endless rat pack. Nature's harsh rule ignored your words.,尽きることのないラットの群れに、祈りが浸透する隙はなかった。弱肉強食の摂理を前に、あなたの祈りは届かない。,面对无穷无尽的老鼠群，祈祷根本没有渗透的余地。在弱肉强食的摄理面前，你的祈祷无法传达。
+MSG_C_PRAY_S_LOSS,The slime lacked a heart to receive your prayer. It swallowed the holy waves and wriggled on.,スライムには祈りを受け取る心が存在しなかった。清らかな波動さえも飲み込み、怪物は不気味に蠢き続ける。,史莱姆并不存在能够接受祈祷的心智。它连清澈的波动都一并吞下，继续诡异地蠕动。
+MSG_C_PRAY_T_WIN,A prayer for miracles turned the troll into a flowerbed. Silenced it became a bed for new life.,奇跡を求める祈りがトロールの再生力を暴走させ、その肉体を清らかな花園へと変えた。怪物は沈黙し、新たな命の苗床となった。,祈求奇迹的祈祷令巨魔的再生力暴走，将其肉体变成了清净的花园。怪物陷入沉默，成为了新生命的苗床。
+MSG_C_PRAY_U_LOSS,The undead souls that refused salvation took your prayer as a curse. Their malice froze you.,アンデッドは救いを拒む魂の成れの果てであり、あなたの祈りを呪いとして受け取った。死者の怨念が、あなたの魂を直接凍りつかせた。,不死族是由于拒绝救赎而形成的灵魂残渣，它们将你的祈祷视作诅咒。死者的怨念直接冻结了你的灵魂。
+MSG_C_PRAY_V_LOSS,The vampire laughed elegantly at your prayer from the edge of death. He sought your throat.,ヴァンパイアは死の淵を歩む者であり、あなたの祈りを優雅に嘲笑った。闇に消えた彼の手が、あなたの首元を狙う。,游走在死亡边缘的吸血鬼优雅地嘲笑着你的祈祷。消失在黑暗中的他正静静地瞄准你的咽喉。
+MSG_C_PRAY_W_LOSS,The wolf's instinct sensed the prayer and avoided it. The pack cooperated to corner you.,ウルフの野生の直感が祈りの波動を警戒し、接近を許さなかった。群れの連携は完璧で、死角から牙が迫る。,狼的野性直觉警戒着祈祷的波动，不让其靠近。它们的协作完美无瑕，毒牙从死角逼近。
+MSG_C_PRAY_X_LOSS,Xalthis swatted away the prayer mist and closed in. Its tenacity corrupted your own mind.,ザルティスの不気味な多足が祈りの霧を振り払い、接近を許さない。魔物の執念が、あなたの精神を逆に汚染した。,扎尔提斯诡异的多肢驱散了祈祷之雾，不让其靠近。魔物的执念反倒污染了你的精神。
+MSG_C_PRAY_Y_LOSS,The yeti's blizzard froze your holy words solid. The weapon slipped from your unfeeling hand.,イエティの吹雪のような冷気が、神聖な祈りの言葉をそのまま凍りつかせた。感覚のなくなった手から、獲物が滑り落ちる。,雪人如暴风雪般的冷气直接将神圣的祈祷之言冻结。从失去知觉的手中，猎物滑落了。
+MSG_C_PRAY_Z_LOSS,Prayers for salvation don't stop the moving dead. Scattering rot the zombie cornered you.,ゾンビに救いの祈りを捧げても、動く死体は止まらない。腐った肉片を撒き散らしながら、奴はあなたを追い詰める。,即使向僵尸献上救赎的祈祷，会动的尸体也不会停止。撒播着腐烂肉片的它，正将你逼入绝境。
+MSG_C_ESCAPE_A_WIN,You escaped elegantly as the ant pack lost coordination. The insects were left confused.,アリの群れが連携を乱した隙に、あなたは鮮やかにその場を脱出した。残された虫たちは、獲物を見失い当惑している。,趁蚁群协作混乱之际，你利落地脱离了现场。被留下的昆虫们因失去目标而感到困惑。
+MSG_C_ESCAPE_B_LOSS,The bat's sonar predicted your escape and blocked the path. Its eyes mocked your panic.,コウモリの超音波があなたの逃走経路を先読みし、退路を断った。闇に光る瞳が、あなたの焦りを嘲笑う。,蝙蝠的超音波预判了你的逃跑路线，断绝了退路。黑暗中发光的瞳孔嘲笑着你的焦躁。
+MSG_C_ESCAPE_C_WIN,You vanished like smoke during the cobra's strike. It bit the air and hissed in frustration.,毒蛇の攻撃する一瞬の隙を突き、あなたは煙のように姿を消した。コブラは空虚な空間を噛み、苛立ちを露わにした。,抓住毒蛇攻击的瞬间空隙，你如烟雾般消失了。眼镜蛇咬在了虚空中，流露出焦躁。
+MSG_C_ESCAPE_D_WIN,You escaped the dragon's breath with miraculous speed. Even the legend was shocked by your flight.,巨竜の放つ灼熱のブレスから、奇跡的な速度で脱出した。伝説の魔物さえも、あなたの執念の逃走には驚きを隠せなかった。,以奇迹般的速度逃离了巨龙喷出的灼热吐息。连传说的魔物也对你那执着的逃亡感到吃惊。
+MSG_C_ESCAPE_E_WIN,You vanished into the woods before the tree spirit could react. It only heard the wind.,木の精霊が根を伸ばすより速く、あなたは森の奥深くへと消えた。古き生命は、ただ静かに風の音を聞くだけだった。,在树精延伸树根之前，你就已经消失在了森林深处。古老的生命只能静静地聆听风声。
+MSG_C_ESCAPE_F_WIN,You slipped past the fly's gaze and successfully retreated. The tiny target noticed nothing.,鬱陶しいハエの警戒を鮮やかに潜り抜け、あなたは撤退に成功した。小さな標的は、獲物が消えたことにも気づいていない。,漂亮地躲过了讨厌苍蝇的警戒，你成功撤退。微小的目标甚至没有察觉到猎物消失了。
+MSG_C_ESCAPE_G_LOSS,The goblin's trap caught your leg preventing escape. With vile laughs the monsters closed in.,ゴブリンの仕掛けた罠があなたの足を捕らえ、逃走を許さなかった。卑屈な笑い声と共に、魔物たちが距離を詰める。,哥布林设置的陷阱抓住了你的脚，不让你逃走。伴随着卑下的笑声，魔物们拉近了距离。
+MSG_C_ESCAPE_H_WIN,You escaped into the harpy's blind spot. By the time she checked the ground you were gone.,旋回するハーピーの死角へ飛び込み、あなたは戦線を離脱した。空の女王が地上を確認したときには、すでにあなたの姿はなかった。,冲入盘旋中哈皮的死角，你脱离了战线。当天之女王确认地面时，已经不见了你的踪影。
+MSG_C_ESCAPE_I_WIN,Using the imp's magic against it you escaped in the mist. It hissed in frustration.,インプの悪魔的な幻術を逆手に取り、あなたは霧に紛れて脱出した。奴は自分の魔法が破られたことに、不満げな声を上げている。,反过来利用小仙女恶魔般的幻术，你混入雾气中逃脱了。它因魔法被破而发出了不满的叫声。
+MSG_C_ESCAPE_J_WIN,You jumped clear just before the jelly surrounded you. The monster wobbled in empty space.,ジェリーの粘つく包囲網が完成する直前に、あなたは鮮やかな跳躍で脱出した。怪物は形を崩しながら、ただ虚空を揺らしている。,在果冻怪粘稠的包围网完成前，你利落的一跃而起成功逃脱。怪物崩解了形状，在虚空中摇晃。
+MSG_C_ESCAPE_K_WIN,You broke the kobold line with split-second judgment. You were gone before they could regroup.,コボルドの包囲網を、一瞬の判断で突破した。彼らが互いに指示を出し合う間に、あなたの姿は地平線の彼方へ消えた。,凭瞬间的判断突破了狗头人的包围网。趁它们互相下达指示之际，你的身影已消失在地平线。
+MSG_C_ESCAPE_L_WIN,You used a decoy to trick the lizard and escaped. The predator bit the lure while you fled.,リザードの鋭い感覚を欺くため、あなたは囮を使い撤退した。冷酷な捕食者が囮に食いつく間に、自由を手に入れた。,为了欺骗蜥蜴敏锐的感官，你使用诱饵撤退。趁冷酷的掠食者咬住诱饵之际，你重获自由。
+MSG_C_ESCAPE_M_LOSS,The mummy's cursed chains tied your legs blocking flight. The undead drew near slowly.,マミーの放つ呪いの鎖があなたの脚を縛り、逃走を拒んだ。不死の怪物がゆっくりと、しかし確実に距離を詰める。,木乃伊发出的诅咒锁链绑住了你的脚，拒绝你逃走。不死的怪物缓慢但确实地拉近了距离。
+MSG_C_ESCAPE_N_LOSS,The naga's flexible body blocked your exit perfectly. Her tail sought your neck relentlessly.,ナーガのしなやかな胴体があなたの退路を完璧に塞いだ。美しき人面蛇の尾が、あなたの首元を執拗に狙う。,纳迦弯曲的胴体完美封锁了你的退路。美丽人面蛇的尾巴正执拗地瞄准你的咽喉。
+MSG_C_ESCAPE_O_WIN,Leaving the orc's roar behind you fled at full speed. Dodging its charge you felt the wind.,オークの咆哮を背に、あなたは一目散にその場を離脱した。力任せの突撃を華麗にかわし、あなたは自由の風を感じた。,背对着兽人的咆哮，你头也不回地脱离了现场。华丽地避开蛮力突击，你感受到了自由之风。
+MSG_C_ESCAPE_P_WIN,Using patterns of light to hide your true form you fled. The pixie noticed too late.,ピクシーの幻惑の光を逆に利用し、あなたは本物の姿を隠して逃走した。光の精霊が気づいたとき、あなたはすでに安全な場所へ。,反过来利用小仙女迷幻的光芒掩护真身并逃跑。当光之精灵察觉时，你已身处安全地带。
+MSG_C_ESCAPE_Q_LOSS,The coarl's field disrupted your balance making flight impossible. You met with lightning.,クアールの電磁場があなたの平衡感覚を奪い、逃走を困難にした。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔的电磁场夺走了你的平衡感，令逃跑变得困难。失败的回报是强烈的电击洗礼。
+MSG_C_ESCAPE_R_LOSS,Countless rats filled your escape route leaving no exit. You despaired at nature's rule.,数に勝るラットの群れがあなたの退路を埋め尽くし、逃げ場を失わせた。弱肉強食の摂理を前に、あなたは絶望を知る。,数量占优的老鼠群填满了你的退路，让你无处可逃。在弱肉强食的摄理面前，你感到了绝望。
+MSG_C_ESCAPE_S_LOSS,Slime mucus covered the ground slowing your steps. Swallowed by the dark you faced death.,スライムの粘液が地面を覆い、あなたの足取りを重くさせた。粘つく闇に飲まれたあなたは、逃れることのできない死を悟る。,史莱姆的粘液覆盖了地面，令你举步维艰。被粘稠黑暗吞没的你，领悟到了无法逃避之死。
+MSG_C_ESCAPE_T_LOSS,The troll's massive body stood as a wall blocking you. Before this despair your heart broke.,トロールの巨体が壁となって立ちはだかり、あなたの脱出を阻んだ。絶望の光景を前に、あなたの心は折れた。,巨魔的巨体化作高墙拦住了你的去路。面对这绝望的光景，你的心志崩溃了。
+MSG_C_ESCAPE_U_LOSS,Without physical forms the undead followed you like shadows. Death's cold chill froze you.,アンデッドには実体がないため、影のようにあなたを追跡し続ける。冷たい死の気配が、あなたの心臓を凍りつかせた。,由于不死族没有实态，它们如影随形般地追迹着你。冰冷的死亡气息令你的心脏感到冻结。
+MSG_C_ESCAPE_V_LOSS,The vampire moved through the dark to block your path. A white breath announced your end.,ヴァンパイアは闇に紛れて先回りし、あなたの行く手を遮った。白い吐息が、死の訪れを告げる旋律となる。,吸血鬼隐于黑暗并预先绕到了前方，拦住了去路。白色的吐息化作了预告死亡降临的旋律。
+MSG_C_ESCAPE_W_LOSS,The wolf pack blocked your exit with perfect teamwork. The leader's howl announced your end.,ウルフの群れが完璧な連携であなたの退路を断った。リーダーの遠吠えが、あなたの最期を告げる旋律となる。,狼群以完美的协作断绝了你的退路。首领的远嚎成了预告你终焉的旋律。
+MSG_C_ESCAPE_X_LOSS,Xalthis predicted your path and refused to let you go. Its tenacity filled you with despair.,ザルティスの不気味な多足があなたの逃走経路を先読みし、接近を許さない。魔物の執念が、あなたの精神を絶望で満たした。,扎尔提斯诡异的多肢预判了你的逃跑路线，不让你离开。魔物的执念令你的精神充满了绝望。
+MSG_C_ESCAPE_Y_LOSS,The yeti's blizzard froze your feet to the ground. The weapon slipped from your unfeeling hand.,イエティの吹雪のような冷気が、あなたの足を地面に凍りつかせた。感覚のなくなった手から、獲物が滑り落ちる。,雪人如暴风雪般的冷气将你的脚冻在了地面上。从失去知觉的手中，猎物滑落了。
+MSG_C_HIDE_Z_LOSS,Rotting eyes saw through your physical cover. The moving dead cornered you in the dark.,濁った瞳はあなたの隠密術を嘲笑うかのように、最短距離であなたを追跡した。ゾンビは腐臭を撒き散らし、あなたの逃走を許さない。,浑浊的瞳孔仿佛在嘲笑你的隐密术一般，以最短路线追踪着你。僵尸撒播着腐臭，不让你逃走。
+MSG_C_DECEIVE_A_WIN,You left a false scent trail that confused the ants. The colony marched away from your true location.,アリの触覚を欺く偽のフェロモンを撒き、偽装の足跡を残した。群れはあなたの仕掛けた囮に誘導され、反対方向へと行進していった。,你撒播了欺骗蚂蚁触角的伪造费洛蒙，留下了伪装的足迹。蚁群在你的诱导下，朝着相反的方向行进了。
+MSG_C_DECEIVE_B_WIN,You threw a stone to trick the bat's sonar. It dove for the noise while you slipped away.,小石を投げ、コウモリの超音波に「偽の獲物」を誤認させた。魔物が音のした方へ急降下する間に、あなたは闇へと消えた。,你投掷小石子，令蝙蝠的超音波误认出了“虚假猎物”。在魔物冲向声音源头之际，你已消失在黑暗中。
+MSG_C_DECEIVE_C_WIN,You used a branch to mimic your movement. The cobra bit the wood allowing you to vanish.,木の枝を使い、自分の影が動いたように見せかけた。毒蛇が枯れ木に噛みついた一瞬の隙に、あなたは戦線を離脱した。,你利用树枝映射出影子的晃动。趁毒蛇咬住枯树枝的一瞬空隙，你脱离了战线。
+MSG_C_DECEIVE_D_WIN,You created a localized mist to hide your exit. The dragon searched the empty cloud in confusion.,魔法的な霧を発生させ、自らの逃走経路を完全に眩ませた。伝説の怪物は空っぽの雲を睨みつけ、獲物の行方をいぶかしんだ。,你产生了魔法雾气，彻底迷惑了自己的脱逃路线。传说的怪物瞪视着空荡荡的云雾，纳闷猎物的去向。
+MSG_C_DECEIVE_E_WIN,You used an old log to trick the tree spirit's sense. The guardian guarded the wrong place.,朽ちた倒木に自分の匂いを移し、木の精霊の感知を狂わせた。守護者は身代わりの丸太を執拗に監視し、あなたを見失った。,你将自己的气味转移至腐烂的倒木上，扰乱了树精的感知。守护者执拗地监视着替身木桩，失去了你的踪影。
+MSG_C_DECEIVE_F_LOSS,The fly's chaotic focus wasn't fooled by your trick. It kept circling your head relentlessly.,ハエの支離滅裂な視点に、あなたの高度な欺瞞は通用しなかった。小さな羽音は囮を無視し、執拗にあなたの顔の周りを飛び回る。,在苍蝇支离破碎的视点面前，你高超的欺瞒毫无用武之地。微小的羽翼声无视了诱饵，执拗地在你的脸庞周围飞来飞去。
+MSG_C_DECEIVE_G_WIN,You pointed at a non-existent gold coin. The goblin's greed blinded it as you successfully fled.,「あそこに金貨が落ちてるぞ！」という見え透いた嘘でゴブリンを釣った。欲に目がくらんだ魔物は、あなたが消えたことにも気づかない。,你用“那儿掉了一枚金币！”这种显而易见的谎言钓到了哥布林。利令智昏的魔物甚至没发现你已消失。
+MSG_C_DECEIVE_H_LOSS,The harpy's aerial view saw through your clumsy decoy. She dove straight for your true position.,上空からのパノラマ視界に、あなたの稚拙な囮は通用しなかった。空の女王はあなたの立ち位置を正確に射抜き、鋭い爪を剥いた。,在来自上空的鸟瞰视角下，你稚拙的诱饵毫无用处。天之女王准确刺穿了你的立足点，露出了锐利的爪子。
+MSG_C_DECEIVE_I_WIN,You mimicked the imp's own signs to confuse it. The demon chased its own tail in frustration.,インプの使う不可解な合図を模倣し、奴の注意を逸らした。小悪魔は自らの影を獲物だと勘違いし、虚空を掴もうと躍起になった。,你模仿小仙女使用的不可思议的信号，转移了它的注意力。小恶魔错把自己的影子当成了猎物，为了抓住虚空而焦头烂额。
+MSG_C_DECEIVE_J_WIN,You left an organic trail leading away. The jelly followed the scent while you escaped.,生体反応のある粘液を別方向に撒き、ジェリーの捕食本能を誘導した。怪物は囮に向かってゆっくりと移動し、あなたの脱出を許した。,你在另一个方向撒播了具有生物反应的粘液，诱导了果冻怪的捕食本能。怪物朝着诱饵缓慢移动，放任你逃脱了。
+MSG_C_DECEIVE_K_LOSS,The kobold pack used their smell to verify your position. Your visual tricks failed against their noses.,コボルドたちは視覚的な欺瞞に対し、嗅覚による「裏取り」を行った。姿を隠しても、風に乗るあなたの恐怖の匂いが奴らに場所を教える。,狗头人们对应视觉上的欺瞒，通过嗅觉进行了“确认”。即使隐藏身影，顺风而来的恐惧气味也会向它们告知你的方位。
+MSG_C_DECEIVE_L_LOSS,The lizard's heat-sensing pits detected your true body. Your visual decoys were ignored.,リザードの持つ赤外線感知能力は、あなたの体温を正確に追跡していた。残像を残して逃げようと、怪物の氷のような瞳はあなたを射抜く。,蜥蜴持有的红外线感知能力准确追踪着体温。即便你想留下残像逃跑，怪物冰冷的瞳孔依然死死盯着你。
+MSG_C_DECEIVE_M_LOSS,The mummy's eternal curse kept its focus locked on you. No trick could break its spiritual link.,マミーに刻まれた呪縛の鎖は、あなたの魂を直接繋ぎとめていた。いかなる欺瞞を弄そうとも、不死の番人は迷わずあなたへと歩み寄る。,刻在木乃伊身上的束缚锁链直接将你的灵魂相连。无论你耍弄何种欺瞒，不死的守卫都会毫不犹豫地向你走来。
+MSG_C_DECEIVE_N_WIN,You tricked the naga with a complex illusion. The wise serpent searched the false light.,高度な幻術を編み上げ、ナーガの優れた知性に偽の情報を与えた。美しき賢者は実体のない光の残像を追い、あなたの逃走を許した。,你编织了高超的幻术，向纳迦优秀的智力提供了虚假信息。美丽的贤者追逐着没有实态的光辉残像，放任你逃离了现场。
+MSG_C_DECEIVE_O_WIN,You used a classic pit trap decoy to stop the orc. It charged into empty air while you fled.,オークの猪突猛進な性格を利用し、偽の罠を意識させて足を止めさせた。力任せの突撃が空振りに終わる間に、あなたは戦線を離脱した。,你利用兽人横冲直撞的性格，让它意识到虚假的陷阱从而停下了脚步。趁蛮力的突击落空之际，你脱离了战线。
+MSG_C_DECEIVE_P_LOSS,The pixie laughed as she saw through your trick instantly. You can't outfox a trickster.,ピクシーはあなたの欺瞞を瞬時に見破り、愉快そうに羽を動かした。いたずらの天才を相手に、小細工が通用するはずもなかった。,小仙女瞬时看穿了你的欺瞒，愉快地扇动着羽翼。对手可是恶作剧的天才，这种小把戏根本行不通。
+MSG_C_DECEIVE_Q_WIN,You used an electrical grounding trick to foil the coarl. It struck the fake target with thunder.,微かな電流を別の場所に誘導し、クアールの超感覚を撹乱した。怪物は囮の岩に向かって強烈な電撃を放ち、その間にあなたは消えた。,你将微弱的电流诱导至别处，扰乱了夸尔的超感官。怪物朝着作为诱饵的岩石放出了强烈的电击，在那期间你已消失踪影。
+MSG_C_DECEIVE_R_WIN,You threw high-protein food to split the rat swarm. They fought each other while you left.,高タンパクな携行食を群れの中心へ投げ込み、彼らの食欲を分断した。ネズミたちが互いに争い始めた隙に、あなたは安全な場所へ。,你将高蛋白携带粮投向鼠群中心，分化了它们的食欲。趁老鼠们开始内斗之际，你已身处安全地带。
+MSG_C_DECEIVE_S_LOSS,The slime sensed your movement through ground vibrations. Your visual decoys were meaningless.,あなたの足音から伝わる僅かな振動が、スライムにあなたの位置を伝えていた。視覚的な囮をいくら並べようと、怪物は迷わず迫る。,你脚步传达的微弱震动，向史莱姆告知了你的位置。无论你摆出多少视觉诱饵，怪物都会毫不犹豫地逼近。
+MSG_C_DECEIVE_T_LOSS,The troll's primal fury wouldn't be distracted by tricks. It focused solely on crushing you.,トロールの狂暴な破壊衝動は、付け焼刃の欺瞞で逸らせるものではなかった。怪物は囮など歯牙にもかけず、あなたの心臓を狙う。,巨魔狂暴的破坏冲动绝非临阵磨枪的欺瞒所能转移。怪物根本不理会什么诱饵，一门心思瞄准了你的心脏。
+MSG_C_DECEIVE_U_LOSS,The spirits saw the warmth of your soul through illusions. Your bag of tricks was empty here.,実体のない死者たちに、視覚的な欺瞞など通用するはずもなかった。彼らはあなたの魂が放つ命の灯を見つめ、静かに距離を詰める。,在没有实态的死者面前，视觉欺瞒根本行不通。它们盯着你的灵魂散发的生命之灯，静静地缩短着距离。
+MSG_C_DECEIVE_V_LOSS,The vampire's ancient wisdom saw through your ruse. He mocked your desperate effort.,ヴァンパイアの悠久の知恵は、あなたの企みを最初から見通していた。夜の王は冷たい笑みを浮かべ、あなたの背後で優雅に指を鳴らした。,吸血鬼悠久的智慧从一开始就看穿了你的企图。夜之王浮现出冰冷的笑容，在你身后优雅地打了下响指。
+MSG_C_DECEIVE_W_LOSS,The pack followed your scent ignoring your decoys. The wolves' teamwork trapped you.,ウルフの群れはあなたの残した囮を鼻先で笑い飛ばし、匂いだけを頼りに追跡した。統制された連携の前に、欺瞞の余地はなかった。,狼群用鼻尖嗅了嗅并嘲笑了你留下的诱饵，仅凭气味进行追踪。在统合的协作面前，根本没有欺瞒的余地。
+MSG_C_DECEIVE_X_LOSS,Xalthis enjoyed your desperate yelling. It only made your final end more satisfying for it.,ザルティスの無数の複眼は、あらゆる角度からあなたの欺瞞を暴き出した。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯无数的复眼从方方面面揭穿了你的欺瞒。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_DECEIVE_Y_LOSS,The yeti's blizzard destroyed any scent or visual trail. Your trick vanished in the whiteout.,吹き荒れる雪嵐はあなたの残した囮を瞬時に埋め、無力化させた。ホワイトアウトの中では、欺瞞も真実もただ白く塗り潰される。,肆虐的雪暴瞬间埋没了你留下的诱饵并令其无效化。在白茫茫的视野中，无论是欺瞒还是真实都会被一并刷白。
+MSG_C_DECEIVE_Z_LOSS,Rotting minds cannot be tricked by complex logic. The zombie only sees your flesh.,理性の欠片もない壊れた脳に、高度な欺瞞は通用しなかった。ゾンビはただ目の前にある「生きた肉」のみを求め、手を伸ばしてくる。,在毫无理性的崩坏脑中，高超的欺瞒行不通。僵尸仅追求眼前的“活生生的肉”，并伸出了手。
+MSG_C_INTIMIDATE_A_WIN,You mimicked the sounds of a giant anteater. The ant colony panicked and retreated in chaos.,アリの天敵である巨大な捕食者の鳴き声を模倣し、群れの恐怖を煽った。規律正しかった虫たちはパニックに陥り、散り散りに逃げ出した。,你模仿蚂蚁天敌——巨大掠食者的叫声，煽动了蚁群的恐惧。原本纪律严明的昆虫们陷入了恐慌，四散奔逃。
+MSG_C_INTIMIDATE_B_WIN,You emitted a high-frequency roar that shook the bat. Terrified it lost flight and fled.,コウモリの感覚を揺さぶる強烈な咆哮を放ち、その精神を圧倒した。恐怖に震える魔物はバランスを崩し、闇へと這い逃げていった。,你发出了动摇蝙蝠感官的强烈咆哮，压倒了它的精神。因恐惧而颤抖的魔物失去了平衡，爬向黑暗逃走了。
+MSG_C_INTIMIDATE_C_WIN,You projected an aura of predator superiority. The cobra coiled back in fear and fled.,自らの中に眠る闘争本能を剥き出しにし、圧倒的な威圧感を放った。毒蛇はその覇気に気圧され、戦うことなく森へ消えた。,你展露了沉眠于体内的斗争本能，散发出压倒性的威慑感。毒蛇在那份霸气面前败下阵来，尚未战斗便消失在了森林里。
+MSG_C_INTIMIDATE_D_WIN,You stood firm against the dragon's presence. Respecting your steel will it left you alone.,伝説の怪物を前にしても微塵も揺らがぬ不屈の意志を、剣の切っ先に込めた。巨竜はあなたの魂の輝きを認め、静かに首を振って去った。,即使在传说的怪物面前，你的剑尖也饱含着不曾动摇分毫的不屈意志。巨龙认可了你灵魂的光辉，静静地摇头离去。
+MSG_C_INTIMIDATE_E_WIN,You showed the tree spirit the power of destructive fire. The ancient guardian yielded to stay alive.,古き精霊に対し、森を焼き尽くす「破壊の象徴」としての決意を示した。木の守護者はあなたの内に秘めた猛火を恐れ、枝を畳んで道を開けた。,你向古老的精灵展示了作为烧尽森林的“破坏象征”的决心。树精由于畏惧你内心潜藏的猛火，收起枝条让开了道路。
+MSG_C_INTIMIDATE_F_WIN,You swatted the air with enough force to create a vacuum. The fly fled for its tiny life.,真空を作り出すほどの凄まじい風圧で、ハエの逃げ道を完全に塞いだ。小さな羽音は死の予感に震え、一目散にその場から逃走した。,你以足以产生真空间的惊人风压制，彻底封锁了苍蝇的退路。微小的翅鸣声因死亡预感而颤抖，头也不回地逃离了现场。
+MSG_C_INTIMIDATE_G_WIN,You stared down the goblin with the cold eyes of a killer. It dropped its weapon and ran away.,一寸の迷いもない処刑人の瞳で、ゴブリンの卑屈な精神を射抜いた。魔物は恐怖のあまり武器を投げ出し、情けない悲鳴を上げて逃げた。,你用毫不迟疑的处刑人之瞳，刺穿了哥布林卑下的精神。魔物因极度恐惧扔下了武器，发出难听的惨叫逃走了。
+MSG_C_INTIMIDATE_H_LOSS,The harpy shrieked back louder and dove. Your threats only fueled her hunting instinct.,あなたの威嚇をハーピーは激しい叫びで返し、さらに速度を上げて降下した。空の女王にとって、あなたの強気はただの「新鮮な刺激」でしかなかった。,哈皮以剧烈的尖嚎回敬了你的威吓，并以更快的速度降下。对于天之女王来说，你的强势不过是“新鲜的刺激”。
+MSG_C_INTIMIDATE_I_LOSS,The imp found your serious threats hilarious. It danced around mockingly giggling at you.,インプはあなたの威嚇を最高に面白い「見世物」として受け取った。小悪魔はあなたの怒りを嘲笑うように、奇怪なステップで空中を舞う。,小仙女将你的威吓视作最有趣的“表演”。小恶魔仿佛在嘲笑你的愤怒，踏着奇怪的舞步在空中飞舞。
+MSG_C_INTIMIDATE_J_WIN,You stomped the ground creating a shockwave. The jelly dispersed in fear and fled.,大地を揺らす力強い踏み込みで、凄まじい振動波をジェリーに浴びせた。怪物の肉体は恐怖の共鳴に耐えきれず、散り散りになって逃げ去った。,你以撼动大地的强力践踏，令果冻怪沐浴在惊人的振动波中。怪物的肉体无法承受恐惧的共鸣，四散奔逃。
+MSG_C_INTIMIDATE_K_LOSS,The kobold pack didn't fear a solitary fighter. Your yell was met with a chorus of growls.,単身での威嚇は、結束の固いコボルドの群れを揺るがすには至らなかった。あなたの咆哮は奴らの笑い声にかき消され、包囲網はさらに狭まる。,单枪匹马的威吓无法动摇团结一致的狗头人群。你的咆哮被它们的嘲笑声所淹没，包围圈进一步缩小了。
+MSG_C_INTIMIDATE_L_LOSS,The lizard's cold blood didn't react to your heat. It stared you down with robotic predator's eyes.,リザードの冷徹な本能は、あなたの感情的な威圧を一切受け付けなかった。怪物の瞳はプログラムされた機械のように、ただあなたの急所を狙う。,蜥蜴冷彻的天性对你感性的威压丝毫不予理会。怪物的瞳孔如程序化的机械一般，仅一味瞄准你的要害。
+MSG_C_INTIMIDATE_M_WIN,You invoked the authority of an elder god. The mummy shivered in spiritual fear and bowed out.,いにしえの神々の名を借り、マミーの魂に直接命令を下した。死を忘れた魔物はかつての畏怖を思い出し、恭しく頭を下げて棺へと消えた。,你借用古老神明之名，直接向木乃伊的灵魂下达了命令。遗忘死亡的魔物想起了曾经的畏惧，恭顺地低头消失在棺木中。
+MSG_C_INTIMIDATE_N_WIN,You matched the naga's dignity with your own aura. She recognized a peer and withdrew calmly.,ナーガの放つ静かな威厳に対し、あなたは不遜なまでの覇気で対峙した。美しき賢者はあなたの格を対等と認め、静かに深淵へと引いていった。,面对纳迦散发的寂静威严，你展现出了近乎狂放的霸气。美丽的贤者认可了你的地位，静静地退回了深渊。
+MSG_C_INTIMIDATE_O_WIN,You roared louder than the orc's entire life. Stunned by your lungs it backed off in shock.,オークの全人生を否定するほどの凄まじい咆哮を、奴の眼前で叩きつけた。暴力の化身は自分を上回る野性に気圧され、狼狽えながら退散した。,你在兽人面前爆发出了足以否定其整个人生的惊人咆哮。暴力的化身被超越自身的野性所压制，狼狈不堪地退散了。
+MSG_C_INTIMIDATE_P_LOSS,The pixie laughed at your attempt to scare her. She dazzled your eyes with shimmering dust.,あなたの強面をピクシーは面白がり、無邪気な笑い声を上げた。威嚇の効果はゼロ。代わりに彼女は、あなたの鼻先で煌めく粉を撒き散らした。,小仙女以逗乐的心情看着你的凶样，并发出了天真烂漫的笑声。威吓效果为零，她反倒在你鼻尖撒下了闪耀的粉末。
+MSG_C_INTIMIDATE_Q_WIN,You challenged the coarl with an even brighter aura. Overwhelmed by your energy it fled away.,クアールの放つ雷光を上回る、凄烈なまでの闘気を全身から放った。魔物はあなたの内に制御不能なエネルギーを感じ、本能的に逃走を選んだ。,你全身散发出更甚于夸尔雷光的烈性斗气。魔物察觉到你体内不受控的能量，本能地选择了逃跑。
+MSG_C_INTIMIDATE_R_LOSS,The rats only understood the gravity of hunger. Your threats were ignored by the swarm.,ラットの群れには、個への恐怖より優先される集団の飢えがあった。あなたの叫びは数万の足音にかき消され、死の津波があなたを呑み込む。,在老鼠群中，集体的饥饿感更甚于对个人的恐惧。你的尖叫被成千上万的脚步声没入，死亡的海啸吞没了你。
+MSG_C_INTIMIDATE_S_LOSS,The slime felt no fear as it lacked a nervous system. Your screams only vibrated its goo.,スライムには恐怖という感情を感じる器官そのものが存在しなかった。あなたの咆哮は怪物の半透明な肉体を心地よく揺らす、ただの振動でしかなかった。,史莱姆并不存在能感受恐惧感的器官。你的咆哮仅是令怪物半透明肉体感到舒适颤动的物理振动。
+MSG_C_INTIMIDATE_T_WIN,You made the troll remember the pain of total fire. Terrified it covered its head and fled.,かつてトロールが受けた、焼き尽くされるような苦痛の記憶を呼び覚ました。怪物は過去のトラウマに打ち震え、頭を抱えて逃走していった。,你唤醒了巨魔曾经遭受过的、仿佛被烧尽般的痛苦记忆。怪物因过去的创伤而颤抖，抱头逃窜。
+MSG_C_INTIMIDATE_U_LOSS,The dead souls only fear the light of true god. Your mortal threats were empty words here.,すでに死を通り越した者たちに、命を奪うという威嚇は通用しなかった。アンデッドはあなたの焦りを嘲笑うかのように、氷のような指を伸ばす。,对于已经超越死亡的存在，剥夺生命的威吓毫无用处。不死族仿佛在嘲笑你的焦躁，伸出了冰冷的手指。
+MSG_C_INTIMIDATE_V_LOSS,The vampire met your gaze with eyes of ancient power. Your will broke before his noble shadow.,ヴァンパイアの不遜な瞳に射抜かれ、あなたの覇気は一瞬で霧散した。夜の王は余裕の笑みを浮かべ、震えるあなたの首元へ優雅に手を伸ばした。,被吸血鬼不逊的瞳孔所刺穿，你的霸气瞬间烟消云散。夜之王浮现出游刃有余的笑容，将手优雅地伸向了你颤抖的咽喉。
+MSG_C_INTIMIDATE_W_LOSS,The wolves snarled back as a coordinated unit. Your yelling only exposed your neck further.,ウルフの群れは一糸乱れぬ咆哮で返し、あなたの威嚇を真っ向から粉砕した。リーダーの冷たい瞳が、あなたの不自然な虚勢を完全に見破っていた。,狼群以整齐划一的咆哮回敬，正面粉碎了你的威吓。首领冰冷的瞳孔彻底看穿了你那不自然虚张声势。
+MSG_C_INTIMIDATE_X_LOSS,Xalthis enjoyed your desperate yelling. It only made your final end more satisfying for it.,ザルティスはあなたの必死の威嚇を、甘美な旋律のように楽しんだ。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯如欣赏甘美旋律般享受着你拼命的威吓。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_INTIMIDATE_Y_LOSS,The yeti's roar silenced any threat you could make. Its mass made your will seem small.,イエティの放つ地鳴りのような咆哮が、あなたの小さな叫びを完全に呑み込んだ。圧倒的な存在感の前に、あなたの威嚇はただの独り言に変わった。,雪人发出如地鸣般的咆哮，彻底吞没了你微小的叫喊。在压倒性的存在感面前，你的威吓变成了自言自语。
+MSG_C_INTIMIDATE_Z_LOSS,"The dead feel no fear, only the hunger for life. Your threats were lost on the moving rot.",理性も感情も枯れ果てたゾンビに、恐怖の感情は存在しなかった。奴はあなたの声すら認識せず、ただ肉を喰らうために腕を突き出す。,在理性与感情都枯竭的僵尸面前，并不存在恐惧。它甚至没有识别出你的声音，仅是为了噬肉而伸出了手臂。
+MSG_C_FLATTER_A_WIN,You praised the ants' perfect organization. Flattered by your respect the colony let you through.,アリの群れの完璧な秩序と働きぶりを絶賛し、女王への敬意を示した。虫たちはあなたの礼儀正しさに感じ入り、隊列を割って道を作った。,你盛赞了蚁群完美的秩序与辛劳，并向蚁后献上了敬意。昆虫们被你的礼遇所打动，破开队列让出了道路。
+MSG_C_FLATTER_B_WIN,You complimented the bat's elegant flight. Charming it with words it danced and left you.,コウモリの夜空を舞う優雅な身のこなしを、情緒的な言葉で称えた。魔物はあなたの詩的な感性を気に入り、満足げに旋回して去っていった。,你用抒情的语言赞美了蝙蝠飞舞夜空的优雅身姿。魔物很中意你那富有诗意的感性，满意地盘旋离去。
+MSG_C_FLATTER_C_WIN,You called the cobra the master of the emerald forest. Enchanted it relaxed its coil and fled.,毒蛇の鱗に宿る宝石のような輝きを称え、森の支配者と呼んだ。魔物は誇らしげに鎌首を揺らし、あなたに寛大な態度を示して去った。,你称赞了毒蛇鳞片上如宝石般的光辉，称其为森林支配者。魔物自豪地摇晃着镰颈，对你展现出宽大的态度后离去。
+MSG_C_FLATTER_D_WIN,You recognized the dragon's place in eternal history. Your deep respect moved the legendary heart.,巨竜の持つ歴史の重みと、その気高き美しさを古語を交えて称賛した。伝説の怪物はあなたの深い教養に免じ、静かに戦場を譲った。,你运用古语盛赞了巨龙持有的历史厚重感及其崇高的美丽。传说的怪物看在你深厚教养的份上，静静地让出了战场。
+MSG_C_FLATTER_E_WIN,You praised the forest's guardian for its timeless life. The spirit hummed in joy and let you pass.,木の精霊こそが森の真の主であると説き、その長き功績を称えた。古き守護者はあなたの言葉を喜び、慈愛の風を吹かせて道を開けた。,你说明了树精才是森林真正的主人，盛赞了其悠久功勋。古老的守护者为你的话语而喜悦，吹起慈爱之风为其让路。
+MSG_C_FLATTER_F_WIN,You called the fly the swiftest dancer of the air. It buzzed happily and flew off in a loop.,ハエの電光石火の如き回避能力を、空の芸術家として称えた。小さな命はあなたの観察眼に喜びを爆発させ、アクロバティックに飛び去った。,你称赞了苍蝇电光石火般的回避能力，称其为天空艺术家。微小的生命因你的观察眼而喜悦，以杂耍般的飞行动作离去。
+MSG_C_FLATTER_G_LOSS,The goblin's low self-esteem made it doubt your praise. It saw your words as a deceptive trap.,ゴブリンは自らの卑屈さゆえに、あなたの称賛を「何かを企んだ嘘」と疑った。魔物は怒りを爆発させ、罵り声を上げながら殴りかかった。,哥布林由于自身的卑微，怀疑你的称赞是“图谋不轨的谎言”。魔物爆发了愤怒，一边谩骂一边殴打过来。
+MSG_C_FLATTER_H_LOSS,"The harpy desired only your meat, not your empty flattery. Her sharp beak shut you up instantly.",ハーピーが求めていたのはあなたの賞賛ではなく、あなたの柔らかな肉だった。女王の冷酷な瞳は、あなたの甘い言葉を無慈悲に切り裂いた。,哈皮渴求的并非你的盛赞，而是你鲜美的肉。女王冷酷的瞳孔无情地撕裂了你那甜言蜜语。
+MSG_C_FLATTER_I_WIN,You complimented the imp's clever tricks. It giggled in pride and vanished into the shadows.,インプの悪戯の独創性を称え、悪魔的なセンスに脱帽した。小悪魔は自分の「作品」を認められたことに有頂天になり、満足げに消えた。,你称赞了小仙女恶作剧的独创性，对其恶魔般的品味表示脱帽致敬。小恶魔为自己的“作品”获得认可而心花怒放，满意地消失了。
+MSG_C_FLATTER_J_LOSS,The mindless jelly couldn't process your sweet words. It only wanted to absorb your presence.,説美しきジェリーよ、という甘い呼びかけも無機質な肉体には届かなかった。心なき怪物には称賛を解する知性など、一欠片も存在しない。,即便甜言蜜语地称其为美丽的果冻怪，声音也无法传达到无机的肉体。在没心没肺的怪物中，并不存在理解称赞的理智。
+MSG_C_FLATTER_K_LOSS,The kobolds took your praise as weak signs of yielding. They grew more aggressive and closed in.,あなたの称賛をコボルドたちは「降伏の予兆」として受け取り、傲慢さを増した。魔物たちは勝ち誇った鳴き声を上げ、情け容赦なく襲う。,狗头人们将你的称赞视作“投降的前兆”，变得愈发傲慢。魔物们发出得胜的鸣叫，毫不留情地袭来。
+MSG_C_FLATTER_L_LOSS,The lizard's logic ignored your emotional appeal. It found the concept of praise inefficient.,感情を排したリザードの論理にとって、称賛という概念はただの「無駄な情報」だった。怪物はあなたの言葉の隙を突き、無慈悲に爪を振るった。,对于排除了感情的蜥蜴逻辑来说，称赞这一概念不过是“无用的信息”。怪物抓住你言语间的空隙，无情地挥动了爪子。
+MSG_C_FLATTER_M_LOSS,The mummy's pride belonged to a dead world. Your mortal praise felt offensive to its status.,マミーにとって生者の称賛は、神聖な静寂を乱す不快な雑音でしかなかった。不死の守護者は侮辱を受けたと判断し、呪いの力を増大させた。,对于木乃伊来说，生者的称赞不过是扰乱神圣寂静的令人不爽的噪音。不死的守护者判断自己受到了侮辱，增强了诅咒之力。
+MSG_C_FLATTER_N_LOSS,The naga saw through your insincere silver tongue. She found your attempts at manipulation insulting.,ナーガの叡智は、あなたの言葉に込められた僅かな打算を見逃さなかった。美しき賢者はあなたの不純な動機を叱責し、冷たい視線を向けた。,纳迦的睿智没有放过你言语中包含的些许打算。美丽的贤者斥责了你那不纯的动机，投来了冷淡的视线。
+MSG_C_FLATTER_O_WIN,You called the orc the mightiest conqueror. Proud of its strength it let you live as a trophy.,オークの強大な筋肉と闘争心を、戦士としての最高の名誉だと称えた。力自慢の魔物は鼻高々と胸を張り、あなたを「話のわかる奴」と見なした。,你称赞了兽人强大的肌肉与斗争心，称其为作为战士的最高名誉。自诩蛮力的魔物昂首挺胸，将你视作“懂行的家伙”。
+MSG_C_FLATTER_P_LOSS,The pixie mocked your obvious attempt at manipulation. She responded with an explosion of dust.,あなたの見え透いたお世辞をピクシーは笑い飛ばし、より激しい悪戯で応えた。彼女を操ろうという試みは、あなたの視界を奪う光に変えられた。,小仙女嘲笑你那浅显的阿谀奉承，并用更激烈的恶作剧作为回礼。企图操纵她的尝试，反而变成了夺走你视野的光芒。
+MSG_C_FLATTER_Q_LOSS,The coarl sensed your biological stress through flattery. Its lightning silenced your words.,お世辞を言うあなたの身体的な強張りを、クアールの超感覚が検知した。欺瞞の報酬は、あなたの舌先を焼き切るような強烈な電撃だった。,夸尔的超感官察觉到了阿谀奉承时你身体的紧绷感。欺瞒的回报，是足以烧焦你舌尖的强烈电击。
+MSG_C_FLATTER_R_LOSS,The rats had no ears for anything but hunger's call. Your praise was lost in the squeaking swarm.,飽くなき食欲に支配されたラットの群れに、称賛の言葉が響く隙間はなかった。数万の鳴き声があなたの声をかき消し、死の奔流が迫る。,在被无尽食欲支配的老鼠群中，并没有称赞之言响起的余地。成千上万的鸣叫声淹没了你的声音，死亡奔流近在咫尺。
+MSG_C_FLATTER_S_WIN,You complimented the slime's beautiful transparency. It wiggled happily and became your friend.,スライムの透明感溢れる美しさを称え、宝石のようだと囁いた。怪物はあなたの言葉の響きに満足したのか、プルプルと震えて敵意を消した。,你称赞了史莱姆充满透明感的美丽，耳语道其宛如宝石。怪物似乎满意于你那言语的回响，Q弹地颤抖着消除了敌意。
+MSG_C_FLATTER_T_WIN,You called the troll the king of the mountain. It flexed its muscles with a grin and let you go.,トロールの巨体を「山の王」と呼び、その強大な力を畏怖するフリをした。自尊心をくすぐられた怪物は満足げに笑い、あなたに道を開けた。,你称呼巨魔的巨体为“山之王”，并假装畏惧其强大的力量。被挠到痒处的怪物满意地笑着，为你让开了道路。
+MSG_C_FLATTER_U_LOSS,The dead found no meaning in the living's words. Your praise only attracted more cold malice.,死者の魂にとって、生者の言葉は意味を持たない塵芥と同じだった。あなたの称賛は逆に彼らの寂寥感を刺激し、死の誘いを強めさせた。,对于死者的灵魂来说，生者的话语等同于毫无意义的尘埃。你的称赞反而刺激了它们的寂寥感，增强了对死亡的诱导。
+MSG_C_FLATTER_V_LOSS,The vampire found your common flattery beneath his dignity. He mocked your low-class effort.,ヴァンパイアに対する凡庸なお世辞は、彼の高潔な自尊心をかえって傷つけた。夜の王は「退屈な茶番だ」と切り捨て、牙を剥いた。,对吸血鬼那平庸的阿谀奉承，反而伤到了他那高洁的自尊心。夜之王将其斥为“无聊的闹剧”，露出了獠牙。
+MSG_C_FLATTER_W_LOSS,"The wolf pack only respected strength, not soft words. Your flattery was met with a growl.",ウルフの群れが重んじるのは力だけ。媚びるようなあなたの言葉は、軽蔑混じりの低い唸り声によって即座に拒絶された。,狼群看重的只有力量。你那谄媚的话声，被掺杂着蔑视的低沉咆哮声当场拒绝了。
+MSG_C_FLATTER_X_LOSS,Xalthis toyed with your logic through its many voices. It found your desperation very tasty.,ザルティスはあなたの媚びへつらいを、甘美な旋律のように楽しんだ。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯如欣赏甘美旋律般享受着你的谄媚。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_FLATTER_Y_LOSS,The yeti's blizzard swallowed your soft words instantly. Survival was its only concern.,イエティには言葉を介する知性はなく、あなたの称賛は吹雪の中に虚しく消えた。極寒の支配者が求めているのは、命を繋ぐ糧だけだった。,由于雪人并不具备沟通的智力，你的称赞徒劳地消失在暴风雪中。极寒的支配者所渴求的，仅是维系生命的粮食。
+MSG_C_FLATTER_Z_LOSS,The zombie lacked the mind to even process your speech. It only sought your living heart.,腐り果てた脳には、言葉を理解する機能など一欠片も残っていなかった。ゾンビは称賛の言葉を吐くあなたの口を塞ごうと、死の手を伸ばす。,在腐烂的脑中，根本没有残存半点理解语言的功能。僵尸为了封住正吐露称赞之言的你的嘴，伸出了死之手。
+MSG_C_BRIBE_A_WIN,You offered the ants a jar of rare honey. They accepted the payment and let the colony pass.,アリの群れに最高級の蜜を献上した。虫たちは甘い香りに我を忘れ、あなたを「良き供給者」として丁重に見送った。,你向蚁群献上了一罐稀有的蜂蜜。昆虫们陶醉在甜美的香气中，将你作为“优秀的供应商”郑重地送走了。
+MSG_C_BRIBE_B_WIN,You sacrificed a shiny trinket to the bat. It snatched the bribe and flew into the dark.,手元の輝く小石をコウモリに投げ与えた。欲深い魔物は空中でそれを受け止め、自慢の宝物にするべく闇へと消えた。,你向蝙蝠投掷了一个闪亮的小玩意儿。贪婪的魔物在空中将其接住，为了将其纳为引以为傲的宝藏而消失在了黑暗中。
+MSG_C_BRIBE_C_WIN,You gave the cobra a fresh rodent as a tribute. The predator fed and allowed your exit.,毒蛇の前に新鮮な供物を差し出した。空腹を満たした死の使いは、獲物への執着を捨てて静かに草むらへと引いた。,你在毒蛇面前奉上了新鲜的供品。填饱肚子的死亡使者放下了对猎物的执着，静静地退回了草丛中。
+MSG_C_BRIBE_D_WIN,You offered the dragon a gem from ancient hoards. The legend accepted the gift and went to sleep.,巨竜にふさわしい伝説の宝石を差し出し、対価を支払った。強欲な守護者は輝きに満足し、あなたの通過を黙認した。,你奉上了与巨龙相称的传说宝石，支付了代价。贪婪的守护者对光辉表示满意，默认了你的通过。
+MSG_C_BRIBE_E_WIN,You poured rare fertilizer at the tree spirit's feet. The guardian relaxed its roots and slept.,木の精霊の根元に、大地の祝福を込めた秘薬を注いだ。森の番人は充足感に包まれ、眠りの中であなたに道を譲った。,你在树精的根部倒入了一瓶蕴含大地祝福的秘药。森林守卫被充足感所包围，在梦乡中为你让开了道路。
+MSG_C_BRIBE_F_WIN,You left a drop of sweet nectar on a leaf for the fly. It gorged itself while you slipped away.,葉の間に甘い蜜の雫を残し、ハエの注意を逸らした。小さな怪物は食事に没頭し、あなたの存在を完全に忘れ去った。,你在叶片间留下了一滴甘甜的蜜露，转移了苍蝇的注意力。微小的怪物埋头进餐，彻底忘记了你的存在。
+MSG_C_BRIBE_G_WIN,"You gave the goblin a handful of silver coins. Greedy and happy, it let you go without a fight.",銀貨を数枚投げ与えると、ゴブリンは子供のように喜んだ。魔物はコインの数を計算するのに夢中になり、あなたを見送った。,你投给哥布林一把银币，它像小孩子一样欢天喜地。魔物忙着数背上的硬币，目送着你离去了。
+MSG_C_BRIBE_H_WIN,You offered the harpy a beautiful silk ribbon. Bound by vanity she let you pass safely.,ハーピーの羽に似合う極上のシルクを贈った。美意識をくすぐられた女王は満足げに翼を広げ、あなたを安全圏へ逃がした。,你赠送了与哈皮羽毛相称的顶级丝绸。被挠到美感痒处的女王满意地展开双翼，放任你逃到了安全地带。
+MSG_C_BRIBE_I_WIN,You signed a contract promising your soul... eventually. The imp giggled and vanished.,「いつか」あなたの魂を渡すという偽の契約書でインプを釣った。小悪魔は将来の収穫に舌なめずりし、愉快そうに去った。,你用一份承诺“终有一天”交出灵魂的伪造契约钓到了小仙女。小恶魔为将来的收获而垂涎三尺，愉快地离去了。
+MSG_C_BRIBE_J_LOSS,The jelly only understood the currency of calories. It had no pockets for your hollow gifts.,ジェリーにとっての「価値」とは、自らを取り込む質量のみだった。いかなる賄賂も怪物の飢えを癒やすことはできず、戦いは続いた。,对于果冻怪来说，“价值”仅代表其吸收的质量。任何贿赂都无法平息怪物的饥渴，战斗仍在继续。
+MSG_C_BRIBE_K_WIN,You gave the kobold pack a bag of dried meat. They yapped in thanks and left you alone.,コボルドの群れに特製の干し肉を分け与えた。飢えから解放された魔物たちは尻尾を振り、あなたを仲間のように見送った。,你分给狗头人群一袋特制的干肉。从饥饿中解放出来的魔物们摇着尾翼，像对待同伴一样目送你离去。
+MSG_C_BRIBE_L_WIN,You offered the lizard a heat stone to rest on. The cold predator moved and let the path open.,陽光を蓄えた魔法の熱石をリザードに差し出した。極寒を嫌う捕食者は石の上に場所を移し、温もりを堪能しながら道を開けた。,你向蜥蜴奉上了一块蓄积阳光的魔法热石。厌恶极寒的掠食者移至石上，在享受温暖的同时让开了道路。
+MSG_C_BRIBE_M_WIN,You returned a stolen relic to the mummy. Respecting the gesture it returned to the earth.,墓所から失われた古代の副葬品をマミーに返還した。不死の守護者は深い安堵と共に、静かに元の眠りへと就いた。,你将从墓所中遗失的古代陪葬品还给了木乃伊。不死的守护者带着深深的安解，静静地陷入了原本的眠梦。
+MSG_C_BRIBE_N_WIN,You offered the naga a piece of ancient wisdom. Intrigued by the knowledge she let you pass.,ナーガが長年探し求めていた失われた知識の断片を授けた。美しき賢者はその叡智に免じ、あなたに自由な通行を許可した。,你传授了纳迦长年寻求的失传知识的片段。美丽的贤者看在那份睿智的份上，准许了你的自由通行。
+MSG_C_BRIBE_O_WIN,You bribed the orc with a keg of strong ale. It drank and grew too merry to fight anymore.,オークの眼前に強烈な地酒の樽を転がした。酒の香りに誘惑された戦士は、戦うよりも乾杯することを選んだ。,你在兽人眼前滚下了一桶浓烈的烈酒。被酒香诱惑的战士，选择了干杯而非战斗。
+MSG_C_BRIBE_P_WIN,You gave the pixie a bottle of glowing sunshine. Delighted she vanished in a shower of light.,ピクシーに「瓶詰めの太陽光」をプレゼントした。精霊は新しいおもちゃを受け取って歓喜し、またの再会を約束して消えた。,你送给了小仙女一瓶“罐装阳光”。精灵因得到新玩具而欢呼雀跃，约定着再次相会并消失了。
+MSG_C_BRIBE_Q_LOSS,The coarl sensed your fear in your shaking hands. It rejected the bribe and struck with lightning.,賄賂を差し出すあなたの指先の僅かな震えを、クアールは見逃さなかった。怪物は貢物を一蹴し、冷酷な電撃で対話を拒絶した。,夸尔没有放过你递出贿赂时指尖的些许震颤。怪物一脚踢开贡品，用冷酷的电击拒绝了对话。
+MSG_C_BRIBE_R_LOSS,The rat swarm only wanted the meat within you. Small gifts couldn't satisfy a thousand hungers.,数千のネズミを満足させるだけの供物は、あなたの持ち物にはなかった。飢えた波は賄賂ごとあなたを呑み込もうと迫る。,你的随身物品中并没有能让数千只老鼠都满意的供品。饥饿的波涛正试图连同贿赂一起将你吞没。
+MSG_C_BRIBE_S_WIN,You fed the slime a bucket of colorful scrap. It wobbled in joy and slid away happily.,スライムに派手な色のガラクタを詰め込んだバケツを与えた。怪物はそれを嬉しそうに飲み込み、満足げに地へと伏した。,你喂给了史莱姆一桶五颜六色的废料。怪物高兴地将其吞下，满足地伏在了地面。
+MSG_C_BRIBE_T_LOSS,The troll wanted more than gold; it wanted blood. Your offer only offended its primal hunger.,トロールが求めていたのは金品ではなく、新鮮な魂の輝きだった。あなたの賄賂は化け物を怒らせ、より激しい攻撃を誘発した。,巨魔索求的不是金银财宝，而是新鲜灵魂的光辉。你的贿赂惹恼了怪物，诱发了更激烈的攻击。
+MSG_C_BRIBE_U_LOSS,The dead have no need for the treasures of men. Your gold was cold comfort against their hate.,死せる魂を繋ぐのは呪いのみ。金銀財宝への執着を捨てた亡霊にとって、あなたの賄賂は無害な石ころに過ぎなかった。,能牵动死者灵魂的唯有诅咒。对于放下对金银财宝执念的亡灵来说，你的贿赂不过是无害的石子。
+MSG_C_BRIBE_V_WIN,You offered the vampire a goblet of ancient wine. He found the tribute tasteful and retreated.,ヴァンパイアに対し、秘蔵のビンテージワインを献上した。高潔な夜の王はその芳醇な香りに免じ、あなたの不敬を許した。,你向吸血鬼献上了一杯珍藏的年份葡萄酒。高洁的夜之王看在那芳醇香气的份上，饶恕了你的不敬。
+MSG_C_BRIBE_W_LOSS,"The pack lived for the hunt, not for rewards. Your bribe was left ignored in the dust.",ウルフの群れを結びつけるのは狩りの誇り。地面に投げられた供物を一顧だにせず、魔物たちは牙を剥いて飛びかかった。,连结狼群的是狩猎的自豪。魔物们看都不看一眼扔在地面上的供品，露着獠牙扑了过来。
+MSG_C_BRIBE_X_LOSS,Xalthis mocked your attempt at buying safety. It only accepted the currency of your demise.,ザルティスは賄賂を受け取るようなフリをして、あなたの精神を嘲笑った。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯假装接受贿赂，借此嘲笑着你的精神。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_BRIBE_Y_LOSS,The yeti cared for nothing but the warmth of life. Your cold coins meant nothing in the snow.,極寒の地に住まうイエティにとって、冷たい金貨は凍結した氷と同じだった。化け物はあなたの賄賂を無視し、荒々しい咆哮を上げた。,对于居住在极寒之地的雪人来说，冰冷的金币与冻结的冰块无异。怪物无视了你的贿賂，发出了粗暴的咆哮。
+MSG_C_BRIBE_Z_LOSS,"The zombie had no greed, only a lingering hunger. It reached past the gold for your warm heart.",ゾンビの壊れた精神に、物欲が入り込む余地はなかった。怪物は金貨に目もくれず、ただあなたの命を求めて手を伸ばす。,在僵尸崩坏的精神中，并没有物欲进入的余地。怪物对金币不屑一顾，仅为了夺取你的性命而伸出了手。
+MSG_C_POISON_A_WIN,You applied a fast-acting neurotoxin to the ants. The colony collapsed in a twitching heap.,アリの群れに対し、神経を麻痺させる特殊な毒を霧状に散布した。統制を失った虫たちは互いに攻撃し合い、群れは崩壊した。,你对蚁群喷洒了使神经麻痹的特殊雾状毒素。失去统制的昆虫们开始互残，蚁群随即崩溃。
+MSG_C_POISON_B_WIN,You coated the air with a toxic gas that blind the bat. Disoriented it fell and struggled away.,大気中にコウモリの感覚を狂わせる幻覚毒を充満させた。超音波が機能しなくなった魔物は方向を見失い、壁に激突して動かなくなった。,你在大气中充满了能使蝙蝠感官狂乱的幻觉毒。超音波失效后的魔物失去了方向感，撞在墙上动弹不得。
+MSG_C_POISON_C_WIN,You used a venom-neutralizing gas on the cobra. Weakened and confused it fled the scene.,毒蛇の天敵が持つ猛毒を精製し、その粘膜に付着させた。自身の毒を上回る激痛に、捕食者は命からがら森へと逃げ帰った。,你提炼了毒蛇天敌持有的剧毒，并将其贴附在它的粘膜上。在超越自身毒性的剧痛下，掠食者九死一生逃回了森林。
+MSG_C_POISON_D_WIN,You used an ancient dragon-slaying oil on your blade. The legend recoiled in pain and retreated.,巨竜の硬い鱗を突き破り、深部から蝕む伝説の毒液を流し込んだ。伝説の怪物は内側から燃えるような苦悶に耐えかね、飛び去った。,你刺穿了巨龙坚硬的鳞片，注入了从深处侵蚀的传说毒液。传说的怪物难以忍受如内燃般的苦闷，振翅飞走了。
+MSG_C_POISON_E_WIN,You injected a rot-inducing spores into the tree spirit. Fearing decay it withdrew its roots and fled.,木の精霊の樹皮へ、生命を急速に腐らせる魔性の胞子を植え付けた。枯死の恐怖に震える守護者は道を譲り、浄化のために眠りに就いた。,你在树精的树皮上植入了使生命急速腐烂的魔性孢子。由于畏惧枯死带来的恐惧，守护者让开了道路，为了净化而陷入眠梦。
+MSG_C_POISON_F_WIN,You sprayed a microscopic acid that dissolved the fly. It vanished in a puff of green smoke.,ハエの脆弱な細胞を溶かす、極微粒子の酸を噴霧した。小さな怪物は自身の崩壊を理解する間もなく、緑色の煙となって霧散した。,你喷洒了能溶解苍蝇脆弱细胞的极微粒子酸。微小的怪物甚至来不及理解自身的崩坏，就化作绿烟消散了。
+MSG_C_POISON_G_WIN,You tricked the goblin into eating a toxic berry. It clutched its belly and ran for help.,言葉巧みに毒性の強い「痺れキノコ」をゴブリンに食らわせた。魔物は凄まじい腹痛に悶絶し、情けない叫びを上げながら逃走した。,你巧言善辩地让哥布林吃下了毒性极强的“麻痹蘑菇”。魔物因剧烈的腹痛而闷绝，伴随着难看的叫喊声逃跑了。
+MSG_C_POISON_H_WIN,You used a paralyzing dart to clip the harpy's wings. She plummeted and sought safety below.,空中を舞うハーピーに対し、筋肉を硬直させる毒矢を見舞った。空の女王は翼の制御を失い、無様に地面へと激突して撤退を余儀なくされた。,你对飞舞空中的哈皮使用了使肌肉僵硬的毒箭。天之女王失去了对双翼的控制，狼狈地撞向地面，不得不撤退。
+MSG_C_POISON_I_LOSS,The imp's demonic blood neutralized your toxins. It laughed as it licked the poison from its skin.,インプの不浄な血は、あなたの用意した毒を瞬時に無効化した。小悪魔は毒の味を愉しむように舌を出し、不敵な笑みを浮かべた。,小仙女不洁的血液瞬间抵消了你准备的毒药。小恶魔如享用毒药美味般吐着舌头，浮现出不羁的笑容。
+MSG_C_POISON_J_WIN,You injected a chemical solvent into the jelly. Overwhelmed it dissolved into a harmless puddle.,ジェリーの結合組織を破壊する特殊な溶解液を注入した。怪物の肉体は内側から崩壊し、ただの無害な粘液の塊へと成り果てた。,你注入了破坏果冻怪结合组织的特殊溶解液。怪物的肉体从内部崩坏，最终化作了一滩无害的粘液块。
+MSG_C_POISON_K_WIN,You used a fear-inducing gas on the kobold pack. They scattered in a panicked frenzy.,コボルドの群れに対し、理性を失わせる「狂気の毒ガス」を投下した。魔物たちは幻覚に怯えて互いを噛みつき、パニックの中で四散した。,你对狗头人群投放了使人失去理性的“疯狂毒气”。魔物们被幻觉吓破了胆并相互撕咬，在恐慌中四散而逃。
+MSG_C_POISON_L_WIN,You coated your blade with a powerful paralyzing oil. The lizard stiffened and couldn't move.,リザードの鱗の隙間に、強力な運動神経毒を塗り込んだ。冷血な掠食者の全身は瞬時に硬直、動けないまま地へと伏した。,你在蜥蜴鳞片的缝隙中涂抹了强力的运动神经毒。冷血掠食者的全身瞬间僵直，动弹不得地伏在了地面。
+MSG_C_POISON_M_LOSS,The mummy's dried flesh felt no pain or poison. Your toxins were lost in its dusty wraps.,生を持たぬマミーに対し、生物用の毒は何の効力も持たなかった。猛毒を吸い込んだ魔物は、むしろそれをスパイスのように味わい、迫る。,对于已经失去生命的木乃伊，生物用的毒药毫无效力。吸入猛毒的魔物反倒如品味香料般享受着它，缓缓逼近。
+MSG_C_POISON_N_WIN,You used a sophisticated mind-altering toxin on the naga. Her focus broke and she withdrew.,ナーガの高潔な精神を蝕む、魔導的な幻覚毒を練り上げた。知を誇る賢者は思考の混濁に耐えかね、静寂を求めて深淵へと逃げ去った。,你炼制了侵蚀纳迦高洁精神的魔导性幻觉毒。以智自诩的贤者无法忍受思维的浑浊，为了寻求寂静而逃向了深渊。
+MSG_C_POISON_O_WIN,You used a muscle-weakening gas on the orc. It collapsed under the weight of its own arms.,オークの剛力な筋肉を弛緩させる、特殊な毒煙を浴びせた。暴力の化身は自慢の筋力を失い、立ち上がることもできずに地を這った。,你对兽人喷洒了使其刚力肌肉松弛的特殊毒烟。暴力的化身失去了引以为傲的筋力，连站都站不起来，只能在地上爬行。
+MSG_C_POISON_P_LOSS,The pixie turned your poison into harmless bubbles. She blew them back in your face jokingly.,ピクシーの魔法により、あなたの用意した毒は「色鮮やかな泡」へと変えられた。精霊は愉快そうに泡を吹き、あなたの鼻先で弾けさせた。,依凭小仙女的魔法，你准备的毒药变成了“色彩鲜艳的泡泡”。精灵愉快地吹出泡泡，令其在你鼻尖绽放。
+MSG_C_POISON_Q_WIN,You used a conductive toxin against the coarl. Its own lightning backfired and stunned it.,クアールの超感覚を逆手に取り、体内の電位を乱す導電性の毒を与えた。怪物は自らの電撃を制御できずに自爆し、気絶して崩れ落ちた。,你反利用了夸尔的超感官，给予了扰乱其体内电位的导电性毒。怪物无法控制自身的电击而自投罗网，昏死过去并瘫倒在地。
+MSG_C_POISON_R_WIN,You poisoned the rations of the leading rats. The pack panicked as their leaders fell and scattered.,群れのリーダーたちに、潜伏期間の短い猛毒を食らわせた。統率者を失ったラットの群れは烏合の衆と化し、混乱の中で散り散りに逃げた。,你让鼠群的首领们吃下了潜伏期极短的剧毒。失去统帅的老鼠群化作乌合之众，在混乱中四散而逃。
+MSG_C_POISON_S_WIN,You injected a chemical solidist into the slime. It stiffened into a brittle glass and broke.,スライムの流動性を奪い、肉体を硬化させる特殊な毒を投入した。プルプルとした体は脆く凍りつき、自身の重みで粉々に砕け散った。,你投放了剥夺史莱姆流动性、使其肉体硬化的特殊毒药。Q弹的身体如脆弱的冰块般冻结，因自身的重量而粉碎。
+MSG_C_POISON_T_WIN,You used a poison that stopped the troll's regeneration. Fearing perma-death it fled in terror.,トロールの超回復を根底から停止させる、禁断の呪毒を付着させた。再生を封じられた怪物は初めて「死の恐怖」を味わい、逃走した。,你使巨魔沾染了从根源停止其超恢复的禁断咒毒。被封印了再生的怪物平生第一次品味到了“死亡的恐怖”，仓皇逃窜。
+MSG_C_POISON_U_LOSS,Poison has no effect on those who do not breathe. The ghost floated through your toxic mist.,死者は呼吸を必要とせず、血液も流れていない。あなたが撒いた猛毒の霧は、幽霊の透き通った体を虚しく通り抜けるだけだった。,死者无需呼吸，体内亦无血液流动。你撒下的猛毒之雾，只是空洞地穿过了幽灵透明的身体。
+MSG_C_POISON_V_LOSS,The vampire's undying blood consumed your poison. It only served to pique his interest.,ヴァンパイアの不浄な命は、いかなる猛毒すらも栄養へと変換した。夜の王は毒による僅かな刺激を愉しみ、より深くあなたに興味を抱いた。,吸血鬼不洁的生命将任何猛毒都转换成了营养。夜之王享受着毒药带来的些许刺激，对你产生了更浓厚的兴趣。
+MSG_C_POISON_W_WIN,You used a disorienting scent to confuse the wolves. The pack lost coordination and withdrew.,ウルフの鋭い嗅覚を焼き切る、強烈な刺激臭を撒き散らした。座標感覚を失った群れは連携を乱し、戦意を喪失して森の奥へと消えた。,你撒播了烧灼狼群敏锐嗅觉的强烈刺激性气味。失去坐标感官的狼群乱了阵脚，丧失战意并消失在森林深处。
+MSG_C_POISON_X_LOSS,Xalthis adapted to your toxins in a heartbeat. It produced an antidote from its own many legs.,ザルティスの特異な新陳代謝は、あなたの毒を瞬時に分解、無害化させた。魔物は毒を吐き戻すように嘲笑い、さらなる執念であなたを追う。,扎尔提斯特异的新陈代谢瞬间分解并中和了你的毒。魔物如呕出毒液般嘲笑着，以更深的执念追踪着你。
+MSG_C_POISON_Y_WIN,You used a cold-blood toxin against the yeti. It slowed its heart and forced it into a deep sleep.,イエティの生命力を奪い、強制的な休眠を引き起こす冷毒を浴びせた。怪物はあまりの眠たさに抗えず、その場に崩れ落ちて深い眠りに就いた。,你对雪人使用了剥夺生命力、引发强制休眠的冷毒。怪物无法抗拒剧烈的困意，当场瘫坐并陷入了沉睡。
+MSG_C_POISON_Z_LOSS,The rotting dead are immune to mortal toxins. Your poison only accelerated its foul stench.,朽ち果てた肉体に、生命を冒す毒など意味をなさなかった。あなたの毒はゾンビの腐敗を一時的に早めただけで、怪物の歩みは止まらない。,对于腐朽的肉体，冒渎生命的毒药毫无意义。你的毒仅是暂时加快了僵尸的腐败，怪物的脚步并未停歇。
+MSG_C_SING_A_WIN,You sang a soothing lullaby to the ants. The colony slowed down and fell into a collective sleep.,アリの群れの波長に合わせ、安らぎを与える子守唄を口ずさんだ。虫たちの激しい動きは次第に緩慢になり、その場に折り重なって静かな眠りに就いた。,你合着蚁群的波长，哼唱着令人安详的摇篮曲。昆虫们激烈的动作逐渐变得迟缓，层层叠叠地在原地陷入了寂静的眠梦。
+MSG_C_SING_B_WIN,You matched the bat's resonance with a high-pitched melody. It danced happily and flew off.,コウモリの超音波に共鳴する、水晶のように澄んだ高音を響かせた。魔物はあなたの歌声に心地よい陶酔を感じ、月夜の空へと舞い上がっていった。,你发出了与蝙蝠超音波共鸣的、如水晶般清透的高音。魔物从你的歌声中感受到了惬意的陶酔，向着月夜的天空飞舞而去。
+MSG_C_SING_C_WIN,Your song charmed the cobra's primal mind. It swayed to the rhythm and slithered away peacefully.,毒蛇の本能を愛撫するような、幻想的な旋律を奏でた。死の使いは歌のリズムに合わせて鎌首を揺らし、戦意を忘れて草むらへと消えた。,你演奏出了仿佛在爱抚毒蛇本能般的幻想旋律。死亡使者随着歌声的节奏摇摆着镰颈，忘却了战意消失在草丛中。
+MSG_C_SING_D_WIN,You sang of the dragon's ancient glory. The legend bowed its head in respect and let you pass.,巨竜の悠久の歴史と、その気高さを謳う叙事詩を捧げた。伝説の怪物はあなたの荘厳な歌声に太古の誇りを思い出し、静かに翼を畳んで道を開けた。,你献上了歌颂巨龙悠久历史及其崇高感的叙事诗。传说的怪物从你庄严的歌声中想起了远古的自豪，静静地收起双翼让开了道路。
+MSG_C_SING_E_WIN,You sang to the tree spirit about the change of seasons. The guardian felt the peace and slept.,森の移ろいと生命の輪廻を、清らかな歌声に込めて精霊に届けた。木の守護者はあなたの調べに深く得納得し、慈愛の風と共に瞑目した。,你将森林的变迁与生命的轮回寄托在清澈的歌声中传达给了精灵。树精对你的曲调深感心领神会，伴随着慈爱之风闭上了双眼。
+MSG_C_SING_F_WIN,You hummed a tune that mimicked the fly's wing beats. It hummed back and flew off in joy.,ハエの羽音と完璧に調和する、軽快なハミングを披露した。小さな怪物はあなたを「空の友」として認め、愉快な羽音を残して飛び去った。,你展示了与苍蝇翅鸣完美和谐的轻盈哼唱。微小的怪物将你视作“天空之友”，留下愉快的翅鸣声后振翅飞走了。
+MSG_C_SING_G_WIN,You sang a song of gold and glory to the goblin. It sat down to listen while you escaped.,輝く金貨と終わらぬ宴の歌を、ゴブリンに聞かせた。欲深い魔物は歌が語る夢のような物語に聞き惚れ、あなたが去るのも忘れて呆然とした。,你为哥布林献唱了一首关于闪耀金币与永恒宴会的歌。贪婪的魔物听得如痴如醉，沉浸在歌中梦幻般的故事里，甚至忘记了你的离去。
+MSG_C_SING_H_WIN,You sang a duet with the harpy's shriek. Touched by your skill she offered a safe path.,ハーピーの鋭い叫びを美しい旋律へと変え、見事な二重奏を奏でた。空の女王はあなたの音楽性に敬意を表し、空を譲って安全な道を示した。,你将哈皮锐利的尖嚎化作优美的旋律，奏响了精彩的二重奏。天之女王向你的音乐才华表示敬意，让出天空指引了安全的道路。
+MSG_C_SING_I_LOSS,The imp covered its ears and shrieked a discordant note. Your song only fueled its malice.,インプは不快そうに耳を塞ぎ、あなたの歌に被せて耳障りな不協和音を叫んだ。地獄の住人にとって、清らかな旋律はただの毒でしかなかった。,小仙女不悦地捂住耳朵，盖过你的歌声发出了刺耳的不和谐音。对于地狱居民来说，清澈的旋律不过是毒药。
+MSG_C_SING_J_LOSS,The mindless jelly vibrated to the sound but felt no charm. It only saw the singer as food.,ジェリーの肉体は歌の振動に共鳴したが、そこに感情の動きはなかった。心なき怪物にとって、歌い手は「音を出す餌」に過ぎない。,果冻怪的肉体虽与歌声产生共鸣，但其中并无感情波动。对于没心没肺的怪物来说，歌者不过是“会发声的饵料”。
+MSG_C_SING_K_WIN,You sang a song of the pack's unity to the kobolds. They howled in harmony and let you through.,コボルドたちの団結と誇りを称える、泥臭くも力強い軍歌を歌った。魔物たちは魂の底から咆哮を重ね、あなたを「名誉の仲間」として送り出した。,你唱起了歌颂狗头人团结与自豪的、粗犷而有力的军歌。魔物们发自灵魂深处地重合着咆哮，将你作为“名誉同伴”送走了。
+MSG_C_SING_L_WIN,You sang a calculated melody that relaxed the lizard. The predator drifted into a nap.,リザードの神経系を直接鎮静化させる、数学的に完璧な旋律を奏でた。合理的な捕食者は思考の停止に身を任せ、心地よい午睡へと落ちていった。,你演奏出了直接使蜥蜴神经系统镇静的、数学上完美的旋律。合理的掠食者任由思维停滞，陷入了惬意的午睡中。
+MSG_C_SING_M_WIN,You sang a hymn from the mummy's forgotten dynasty. It wept spiritual tears and returned to its tomb.,マミーが愛した、失われた王朝の聖歌を清らかに謳い上げた。不死の守護者は永遠の孤独の中で安らぎを見出し、誇り高く棺へと戻った。,你清澈地咏唱了木乃伊生前深爱的、失落王朝的圣歌。不死的守护者在永恒的孤独中找到了慰藉，高傲地回到了棺木中。
+MSG_C_SING_N_WIN,You debated philosophy through song with the naga. Enraptured by your art she let you pass.,ナーガと共に、叙事詩に隠された真理を歌い合い、知の深淵を共有した。美しき賢者はあなたの卓越した音楽センスを称え、静かに微笑んで道を開けた。,你与纳迦一同对唱了叙事诗中隐藏的真理，共享了知识的深渊。美丽的贤者盛赞了你卓越的音乐品味，静静地微笑着让开了道路。
+MSG_C_SING_O_WIN,You sang a rowdy victory song for the orc. It joined the chorus and forgot about the fight.,オークの武勇を称える、荒々しくも輝かしい勝鬨の歌を響かせた。暴力の化身は戦いの熱狂を歌の中に昇華させ、あなたと肩を組んで咆哮した。,你奏响了称颂兽人武勇的、粗犷而辉煌的凯歌。暴力的化身将战斗的狂热升华为歌声，与你勾肩搭背地共同咆哮。
+MSG_C_SING_P_WIN,You sang a duet of laughter with the pixie. Delighted by your mirth she vanished in sparkles.,ピクシーが仕掛けてくる悪戯の旋律を笑い飛ばし、軽やかな即興曲で返した。妖精はあなたの機転と明るさを喜び、光の粒となって空へ消えた。,你一笑置之了小仙女设下的恶作剧旋律，并以轻盈的即兴曲回敬。精灵为你的机敏与开朗而喜悦，化作光粒消失在天空中。
+MSG_C_SING_Q_LOSS,The coarl sensed the vibration of your song as a threat. It countered your voice with a roar of thunder.,クアールの超感覚は、あなたの歌い出しに含まれる僅かな敵意を敏感に読み取った。称賛の旋律は、空を割るような雷鳴によって無惨に断ち切られた。,夸尔的超感官敏锐地读取到了你歌声开头包含的些许敌意。盛赞的旋律被割裂天空般的雷鸣无情地斩断了。
+MSG_C_SING_R_LOSS,Individual songs were lost in the roar of the rat swarm. They only heard the sound of approaching meat.,数万のネズミが奏でる死の羽音の前に、一人の歌声など無力だった。あなたの切ない歌は飢えた悲鳴にかき消され、黒い波が迫る。,在数万只老鼠奏响的死亡翅鸣面前，一个人的歌声显而易见是无力的。你悲切的歌声被饥饿的尖叫所掩盖，黑色的波涛迫在眉睫。
+MSG_C_SING_S_WIN,You matched the slime's internal frequency with a hum. It vibrated in harmony and became peaceful.,スライムの体内に響く微細な振動を歌声で再現し、完璧な共鳴を達成した。怪物は心地よい揺れに身を委ね、穏やかな液体となって地面を潤した。,你用歌声再现了史莱姆体内回荡的微细振动，达成了完美的共鸣。怪物任由舒缓的摇晃摆布，化作平和的液体浸润了地面。
+MSG_C_SING_T_WIN,You sang a song of mountains and stones to the troll. It sat down to enjoy the giant's lullaby.,トロールの故郷である、峻烈な山々の雄大さを謳う叙情歌を歌った。巨人は懐かしい響きに瞳を細め、座り込んであなたの歌に聞き入った。,你唱起了歌颂巨魔故乡——峻烈群山雄壮感的抒情歌。巨人由于那怀念的回响而眯起双眼，席地而坐并倾听着你的歌声。
+MSG_C_SING_U_LOSS,The dead can no longer hear the music of life. Your song only stirred their cold resentment.,死者の耳が受け取れるのは、黄泉の国に流れる凍てついた静寂のみ。生者の温かい歌声は彼らの喪失感を逆撫でし、激しい怒りを買った。,死者的耳朵所能接收到的，唯有流淌在黄泉之国的冰冷寂静。生者温暖的歌声反而触动了它们的丧失感，引来了剧烈的愤怒。
+MSG_C_SING_V_WIN,You sang a haunting aria for the vampire. Impressed by your nobility he allowed you to pass.,ヴァンパイアに対し、永劫の夜を彩る耽美なアリアを捧げた。高潔な夜の王はあなたの芸術に敬意を表し、優雅な礼と共に道を開けた。,你向吸血鬼献上了一首装点永劫之夜的耽美咏叹调。高洁的夜之王对你的艺术表示敬意，伴随着优雅的行礼让开了道路。
+MSG_C_SING_W_WIN,"You led the wolf pack in a long, harmonious howl. They recognized your voice as alpha and left.",ウルフの群れが魂を震わせる遠吠えに対し、あなたは天を突く力強い声で応えた。リーダーはあなたを「沈まぬ月の化身」と認め、群れを率いて去った。,面对狼群动摇灵魂的远嚎，你以刺破苍穹的有力呼喊作为回敬。首领将你视作“不落之月的化身”，率领狼群离去了。
+MSG_C_SING_X_LOSS,Xalthis mocked your song with a hundred discordant hisses. It preferred the sound of your screams.,ザルティスはあなたの旋律を、千の不気味な声で嘲笑い、不協和音を重ねた。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯用一千个诡异的声音嘲笑着你的旋律，并叠加上了不和谐音。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_SING_Y_LOSS,"The yeti's roar silenced your attempt at art. In the blizzard, music was a luxury it wouldn't allow.",イエティの放つ地鳴りのような咆哮が、あなたの繊細な歌声を完全に呑み込んだ。極寒の支配者にとって、歌は生存の邪魔な雑音でしかなかった。,雪人发出如地鸣般的咆哮，彻底吞没了你纤细的歌声。对于极寒的支配者来说，歌声不过是妨碍生存的噪音。
+MSG_C_SING_Z_LOSS,"The dead have no ears for beauty, only the hunger for life. Your song was lost on the rotting mob.",腐り果てたゾンビに、情緒ある歌声を解する理性など残っていなかった。怪物はあなたの歌には目もくれず、ただ肉を喰らうために腕を突き出す。,在腐烂的僵尸面前，并不存在理解富有情调歌声的理智。怪物对你的歌声不屑一顾，仅为了夺取肉体而伸出了手臂。
+MSG_C_DANCE_A_WIN,You performed a complex ant dance mimicking their signals. The colony followed your lead and left.,アリの行列の複雑な動きを完璧にトレースし、偽の帰還信号を踊りで示した。群れはあなたの指示に従って向きを変え、整然と地底へと戻っていった。,你完美追踪并模拟了蚁群行进中的复杂动作，以舞姿展示了虚假的归还信号。蚁群遵从你的指示掉转方向，井然有序地回到了地底。
+MSG_C_DANCE_B_WIN,You mirrored the bat's chaotic movements with graceful steps. Enchanted by the rhythm it flew off.,コウモリの不規則な旋回に、流れるような円舞曲で応えた。魔物はあなたの美しい躍動に目を奪われ、戦いを忘れて夜の闇へと消えた。,面对蝙蝠不规则的盘旋，你以如流水的圆舞曲作答。魔物被你美丽的跃动夺去目光，忘却了战斗并消失在夜色中。
+MSG_C_DANCE_C_WIN,You performed a hypnotic swaying dance for the cobra. Mesmerized it followed your rhythm and left.,毒蛇の視線を釘付けにする、幻惑的な揺らぎの舞を披露した。完全なトランス状態に陥った捕食者は、あなたの誘導に従って森へと引いた。,你展示了令毒蛇目不转睛的、幻惑性的摇摆之舞。陷入完全出神状态的掠食者，遵从你的诱导退回了森林。
+MSG_C_DANCE_D_WIN,You matched the dragon's regal presence with a ritual dance. The legend acknowledged your art and left.,巨竜の荘厳なる威厳を称える、いにしえの神域の奉納舞を捧げた。伝説の怪物はあなたの魂の舞踏に感銘を受け、静かに道を開けた。,你献上了歌颂巨龙庄严威严的、古代神域的奉纳舞。传说的怪物由于你灵魂的舞动而深受感铭，静静地让开了道路。
+MSG_C_DANCE_E_WIN,You danced like the rustling leaves for the tree spirit. Joyous it rocked its branches and slept.,風に舞う木の葉の如く、森の息吹を感じさせる即興舞を踊った。木の精霊はあなたの生命力に慶びを感じ、穏やかな眠りに就いた。,你如风中起舞的落叶般，跳起了令人感受森林气息的即興之舞。树精对你的生命力感到庆贺，陷入了平和的眠梦。
+MSG_C_DANCE_F_WIN,You performed a lightning-fast twitch dance for the fly. It tried to mirror you and flew off in a blur.,ハエの電光石火の動きを上回る、超高速の微細な舞を披露した。小さな命はあなたの超人的な身体能力に驚愕し、戦意を失って飛び去った。,你展示了超越苍蝇电光石火速度的、超高速微细之舞。微小的生命对你超人的身体能力感到惊愕，丧失战意并飞走了。
+MSG_C_DANCE_G_WIN,You performed a comical goblin dance that confused the monster. It laughed itself into a stupor.,ゴブリンの奇妙な挙動を風刺する、滑稽なダンスで魔物を翻弄した。魔物は自分の姿を真似るあなたの滑稽さに爆笑し、戦う気力を失った。,你以讽刺哥布林奇妙举止的、滑稽的舞步戏弄了魔物。魔物因你模仿自己的滑稽样子而爆笑不止，丧失了战斗的劲头。
+MSG_C_DANCE_H_WIN,You mirrored the harpy's aerial acrobatics from the ground. Impressed she offered a safe path.,ハーピーの華麗な空中機動を、地上からのステップで見事にトレースした。空の女王はあなたの身体感覚に感服し、安全な道を示して去った。,你从地面以舞步完美追踪并模仿了哈皮华丽的空中机动。天之女王佩服你的身体感官，指引了安全的道路后离去。
+MSG_C_DANCE_I_LOSS,The imp mimicked your dance mockingly adding rude gestures. It found your focus more funny than scary.,インプはあなたのダンスを卑俗な身振りで真似し、さらなる混乱を引き起こした。小悪魔は最初から、あなたの必死さを笑うために戦っていた。,小仙女以卑俗的肢体动作模仿你的舞步，引发了进一步的混乱。小恶魔从一开始就是为了嘲笑你的拼命而战。
+MSG_C_DANCE_J_LOSS,The mindless jelly vibrated to your rhythm but felt no art. It only focused on absorbing the dancer.,ジェリーはあなたのステップが生む振動に反応したが、そこに情緒はなかった。心なき怪物には、美しき舞もただの「捕食目標」でしかなかった。,果冻怪虽对你舞步产生的振动有所反应，但其中并无情愫。对于没心没肺的怪物来说，美丽的舞姿也不过是“捕食目标”。
+MSG_C_DANCE_K_WIN,You performed a tribal war dance for the kobolds. Recognizing your warrior spirit they let you pass.,コボルドたちの血を沸かせる、原始的で力強い戦いの舞を披露した。魔物たちはあなたの武勇に敬意を払い、武器を収めて道を開けた。,你展示了令狗头人们热血沸腾的、原始而有力的战斗之舞。魔物们向你的武勇表示敬意，收起武器让开了道路。
+MSG_C_DANCE_L_WIN,"You performed a geometric, logical dance for the lizard. It considered the logic sound and withdrew.",リザードの思考回路に合わせ、無駄のない幾何学的なステップを刻んだ。合理的な捕食者はあなたの完璧な秩序に免じ、静かに場を退いた。,你配合蜥蜴的思考回路，踏出了毫无赘余的几何学舞步。合理的掠食者看在你完美的秩序份上，静静地退出了。
+MSG_C_DANCE_M_WIN,You performed a funeral dance from the mummy's time. Touched by the memory it returned to its tomb.,マミーが埋葬された時代の、厳かなる死者の踊りを捧げた。不死の守護者は失われた儀礼の美しさに魂を震わせ、元の眠りへと還っていった。,你献上了木乃伊下葬时代的、庄严的死者之舞。不死的守护者由于失去的礼仪之美而灵魂震颤，回到了原本的眠梦中。
+MSG_C_DANCE_N_WIN,You Debated ethics through a complex ritual dance with the naga. Her curiosity satisfied she left.,ナーガと共に、指先の動き一つに意味を込めた神聖な舞で語り合った。美しき賢者はあなたの精神性の高さに満足し、静かに深淵へと消えた。,你与纳迦一同，通过指尖的每一个动作都蕴含意义的神圣之舞进行了交流。美丽的贤者对你高尚的精神性感到满意，静静地消失在深渊中。
+MSG_C_DANCE_O_WIN,You performed a triumphant stomp dance for the orc. It joined the rhythm and forgot the fight.,オークの心臓を叩くような、力強い踏み鳴らしのダンスを披露した。戦いの化身はあなたの魂の躍動に共鳴し、戦いを忘れて共に大地を揺らした。,你展示了如敲击兽人心脏般有力的踏步之舞。战斗化身与你灵魂的跃动产生共鸣，忘却了战斗并一同撼动了大地。
+MSG_C_DANCE_P_WIN,You joined the pixie's whirlwinds with your own pirouettes. She cheered your art and vanished.,ピクシーが巻き起こす花吹雪の中で、流麗な旋回舞踊を繰り広げた。精霊はあなたの舞踏を「最高の贈り物」として受け取り、笑顔で去った。,在小仙女掀起的花瓣雪中，你展开了流丽的旋回舞步。精灵将你的舞姿视作“最好的礼物”，微笑着离去。
+MSG_C_DANCE_Q_LOSS,The coarl sensed your physical exertion in the dance as a weakness. It struck as you missed a beat.,クアールの超感覚は、ダンスの最中に生じる僅かな心拍の乱れを見逃さなかった。絶好の機会を見出した怪物は、雷光の如き速度であなたを射抜いた。,夸尔的超感官没有放过舞动过程中产生的心跳的些许紊乱。寻得绝好机会的怪物，以雷光般的速度刺穿了你。
+MSG_C_DANCE_R_LOSS,The individual dancer was lost in the flowing rat swarm. Their collective hunger ignored the art.,死の津波となって押し寄せるラットの群れの前に、個の舞踏はあまりに無力だった。怪物は踊りのリズムを無視し、ただ本能のままにあなたへ殺到する。,在作为死亡海啸席卷而来的老鼠群面前，个人的舞步显得极其无力。怪物无视了舞蹈的节奏，仅遵从本能向你杀到。
+MSG_C_DANCE_S_WIN,You mirrored the slime's ripples with fluid motions. It followed your lead and slid away peacefully.,スライムの肉体が描く波紋を、流体のようなしなやかなダンスで模倣した。怪物はあなたを「同族の大きな波」と誤認し、穏やかに対話を終えた。,你以如流体般柔韧的舞姿模仿了史莱姆肉体描绘的波纹。怪物将你误认为“同族的巨大波动”，和平地结束了对话。
+MSG_C_DANCE_T_WIN,You performed a thunderous stomp dance for the troll. It mimicked you and danced its way home.,トロールの巨躯を揺さぶる、原始的で雄大なステップを刻んだ。怪物はあなたのダンスを気に入り、喜びの咆哮を上げながら山へと帰っていった。,你踏出了撼动巨魔巨大身躯的、原始而雄壮的步法。怪物中意你的舞姿，一边发出喜悦的咆哮一边回到了山里。
+MSG_C_DANCE_U_LOSS,The spirits felt only the warmth of your moving body. Your dance attracted their cold touch.,死者の魂はあなたの躍動が放つ「生の輝き」に引き寄せられ、嫉妬の冷気を増大させた。あなたが美しく踊るほど、亡霊たちの憎しみは深まっていく。,死者的灵魂被你跃动散发的“生命光辉”所吸引，增强了嫉妒的冷气。你舞动得越美丽，亡灵们的憎恨便越深。
+MSG_C_DANCE_V_WIN,You performed a gothic waltz for the vampire. Impressed by your elegance he bowed and withdrew.,ヴァンパイアと共に、月下の宮廷を思わせる耽美な円舞を披露した。夜の王はあなたの高貴な身のこなしに感服し、優雅な礼と共にその場を去った。,你与吸血鬼一同，展示了令人联想起月下宫廷的耽美圆舞。夜之王佩服你那高贵的举止，伴随着优雅的行礼离开了现场。
+MSG_C_DANCE_W_LOSS,The wolves circled you in a lethal dance of their own. Your steps only made their patrol tighter.,ウルフの群れによる統制された円舞は、あなたのダンスを嘲笑うかのようにさらに狭められた。リーダーの鋭い眼光は、あなたの動きを完全に先読みしていた。,狼群统合的圆舞仿佛在嘲笑你的舞步一般，进一步收拢了。首领锐利的目光彻底预判了你的动作。
+MSG_C_DANCE_X_LOSS,"Xalthis toyed with your rhythm through its many legs. It preferred your body broken, not moving.",ザルティスはあなたのダンスのリズムを、無数の不気味な音でかき消した。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯用无数诡异的声音掩盖了你舞蹈的节奏。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_DANCE_Y_LOSS,"The yeti's blizzard made your footwork impossible. In the howling wind, your grace was lost.",イエティの放つ猛烈な吹雪が、あなたの優雅な足運びを根こそぎ粉砕した。視界の効かないホワイトアウトの中で、ダンスは単なる生存の足枷となった。,雪人发出的猛烈暴风雪彻底粉碎了你优雅的步伐。在看不见前方的白茫茫视野中，舞蹈成了单纯的生存羁绊。
+MSG_C_DANCE_Z_LOSS,"The dead have no rhythm, only a constant forward march. Your dance only provided an easy target.",ゾンビには「調和」という概念は存在せず、あなたのダンスはただの「無駄な隙」でしかなかった。怪物はリズムを無視し、最短距離であなたの首を狙う。,僵尸并不存在“和谐”这一概念，你的舞蹈不过是“徒劳的空隙”。怪物无视节奏，以最短路线瞄准了你的脖颈。
+MSG_C_CHEER_A_WIN,You cheered for the ants' collective strength. Encouraged but pacifist the colony let you through.,アリたちの献身的な働きぶりを絶賛し、群れ全体の栄光を称えた。女王の意思を代弁するかのようなあなたの激励に、虫たちは誇らしく道を開けた。,你盛赞了蚂蚁们献身般的劳作，并称颂了整个族群的光誉。面对如代行蚁后意志般的你的激励，昆虫们自豪地让开了道路。
+MSG_C_CHEER_B_WIN,You cheered for the bat's dominance of the night. It screeched in joy and flew off proud.,夜の支配者としてのコウモリの美徳を、心からの言葉で激励した。魔物はあなたの理解に歓喜し、月夜の空へと誇らしげに舞い上がっていった。,你由衷地激励了作为黑夜支配者的蝙蝠的美德。魔物对你的理解感到欢喜，自豪地飞向了月夜。
+MSG_C_CHEER_C_WIN,You cheered for the cobra's legacy of power. Touched by your spirit it slithered away peacefully.,毒蛇の持つ「忍耐」と「一撃必殺」の魂を、戦士としての敬意を持って称えた。捕食者はあなたの覇気に感じ入り、静かに道を開けて草むらへと消えた。,你以作为战士的敬意，称赞了毒蛇持有的“忍耐”与“一击必杀”之魂。掠食者为你那份霸气所感，静静地让开路，消失在草丛中。
+MSG_C_CHEER_D_WIN,You cheered for the dragon's place as a king of legends. The dragon accepted your prayer and left.,巨竜の永遠なる魂を鼓舞し、その伝説が不滅であることを謳った。強大なる怪物はあなたの高潔な激励を「供物」として受け取り、満足げに去った。,你鼓舞了巨龙永恒的灵魂，歌颂了其传说的不可磨灭。强大的怪物将你那高洁的激励作为“供品”收下，满意地离去了。
+MSG_C_CHEER_E_WIN,You cheered for the forest's eternal life cycle. The tree spirit felt the love and slept.,森の命を紡ぎ続ける木の精霊に対し、感謝と称賛の言葉を捧げた。守護者はあなたの温かな声に守られていると感じ、深い安らぎの中で目を閉じた。,你向不断编织森林生命的树精献上了感谢与称赞之言。守护者由于感受到你那温暖声音的庇护，在深沉的安稳中闭上了双眼。
+MSG_C_CHEER_F_WIN,You cheered for the fly's indomitable survivors' spirit. It buzzed in triumph and flew off.,逆境に抗い続ける小さな命、ハエの不屈の闘志を大声で称えた。微細な魔物はあなたの激励を糧に力を増し、誇らしく空へと飛び去った。,你大声称赞了在逆境中不断抗争的微小生命——苍蝇不屈的斗志。微小的魔物以你的激励为食增强了力量，自豪地飞向了天空。
+MSG_C_CHEER_G_WIN,You cheered for the goblin's hidden cleverness. It beamed with pride and forgot to attack you.,ゴブリンの「狡猾さ」を「類稀なる知略」と言い換えて激賞した。褒められ慣れない魔物は照れ臭そうに鼻を擦り、戦うのを忘れて去っていった。,你将哥布林的“狡猾”换称为“出类拔萃的智谋”并大加赞赏。不习惯被夸奖的魔物不好意思地蹭了蹭鼻子，忘掉战斗走远了。
+MSG_C_CHEER_H_WIN,"You cheered for the harpy's beautiful, soaring flight. Touched she offered a safe path.",ハーピーの大空を裂く翼の美しさを、魂を込めた詩的な言葉で称えた。空の女王はあなたの詩心に感銘を受け、戦いを止めて安全な道を示した。,你用注入灵魂的诗意语言，称赞了哈皮划破长空之羽的美丽。天之女王由于你那诗才而深受感铭，停止战斗并指引了安全的道路。
+MSG_C_CHEER_I_LOSS,The imp found your cheers annoying and tried to zap your mouth. It had no room for positive vibes.,インプはあなたの前向きな激励を「吐き気がする雑音」として一蹴した。小悪魔はあなたの舌を焼き切るべく、凶悪な魔力を指先に込めた。,小仙女将你积极的激励权当成“恶心得反胃的噪音”而嗤之以鼻。为了烧焦你的舌头，小恶魔在指尖注满了凶恶的魔力。
+MSG_C_CHEER_J_LOSS,The mindless jelly vibrated to your voice but felt no inspiration. It only sought more food.,あなたの熱い叫びはジェリーの肉体を揺らしたが、心まで届くことはなかった。心なき怪物には、激励を解する神経など一欠片も存在しない。,你那热烈的呐喊撼动了果冻怪的肉体，却未能触及它的心。在没心没肺的怪物中，并不存在理解激励的神经。
+MSG_C_CHEER_K_WIN,You cheered for the kobolds' unbreakable brotherhood. They howled in solidarity and left you pass.,コボルドたちの熱き絆と、群れの誇りを称える咆哮を上げた。魔物たちはあなたを「共通の魂を持つ友」と認め、揃って道を譲った。,你发出了称颂狗头人们热切羁绊与族群自豪的咆哮。魔物们将你视作“拥有共同灵魂的朋友”，一同让开了道路。
+MSG_C_CHEER_L_WIN,"You cheered for the lizard's perfect, rational efficiency. The logical predator nodded and withdrew.",リザードの冷徹な判断力と、合理的かつ完璧な狩りの様式を激賞した。知的な掠食者はあなたの正当な評価に満足し、静かに深淵へと引いた。,你对蜥蜴冷彻的判断力及其合理且完美的狩猎模式大加赞赏。理智的掠食者满意于你正当的评价，静静地退回了深渊。
+MSG_C_CHEER_M_WIN,You cheered for the mummy's eternal honor. It felt the respect and returned to its sacred sleep.,マミーの守り続けてきた王家の誇りと、その不屈の忠誠を称えた。不死の守護者は魂の安寧を覚え、あなたに感謝の礼をして土へと還った。,你称颂了木乃伊一直守护的皇家自提及其不屈的忠诚。不死的守护者感受到了灵魂的安宁，向你行感谢礼后回归了尘土。
+MSG_C_CHEER_N_WIN,You cheered for the naga's profound ancient wisdom. Overwhelmed by your respect she left.,ナーガの持つ深遠なる知性と、万物の真理を洞察する力を称賛した。美しき賢者はあなたの謙虚な姿勢に免じ、静かに微笑んで去っていった。,你称赞了纳迦持有的深邃智力及其洞察万物真理的力量。美丽的贤者看在你谦逊的态度份上，静静地微笑着离去了。
+MSG_C_CHEER_O_WIN,You cheered for the orc's legendary physical might. It flexed in triumph and let you live.,オークの剛力な肉体を「神から授かりし武芸」と称え、その覇道を鼓舞した。力自慢の戦士は有頂天になり、あなたに背を向けて勝鬨を上げた。,你称兽人刚力的肉体为“神授的武技”，对其霸道表示了鼓舞。自诩神力的战士得意忘形，背对着你发出了凯旋的呐喊。
+MSG_C_CHEER_P_WIN,You cheered for the pixie's creative cleverness. She laughed in joy and vanished in a puff of light.,ピクシーの悪戯の芸術性を称え、その独創的な手法に拍手を送った。妖精は自分の「作品」を認められたことを喜び、祝福の光を撒いて消えた。,你称赞了小仙女恶作劇的艺术性，并向其独创的手法送上了掌声。精灵为自己的“作品”获得认可而感到喜悦，散播着祝福之光后消失了。
+MSG_C_CHEER_Q_LOSS,The coarl sensed the falseness in your cheer and struck. Your fake enthusiasm didn't fool it.,あなたの「応援」という名の欺瞞を、クアールの超感覚が正確に読み取った。媚びへつらいの報酬は、空気を焦がす強烈な雷撃だった。,夸尔的超感官准确地读取到了你那名为“声援”的欺瞒。谄媚的回报，是足以烧焦空气的强烈雷击。
+MSG_C_CHEER_R_LOSS,Individual cheers were lost in the rat swarm's hunger. They only wanted to consume the source of the noise.,数万の飢えた叫びの前に、一人の激励などただの情緒不安定にしか映らなかった。ネズミたちはあなたの声を餌の合図と見なし、殺到する。,在数万只饥饿的尖叫面前，个人的激励不过是情绪不稳的表现。老鼠们将你的声音视作开饭的信号，纷纷杀到。
+MSG_C_CHEER_S_WIN,"You cheered for the slime's beautiful, flowing form. It wiggled in joy and became your friend.",スライムの透明感溢れる美しさを称え、その無限の可能性を激励した。怪物はあなたの熱意に絆されたのか、プルプルと震えてその場を譲った。,你称赞了史莱姆充满透明感的美丽，并激励了其无限的可能性。怪物似乎被你的热忱打动了，Q弹地颤抖着让开了去路。
+MSG_C_CHEER_T_WIN,You cheered for the troll's crushing physical dominance. It flexed happily and let you pass.,トロールの圧倒的な巨躯を「大地の化身」と呼び、その強さを絶賛した。自尊心を刺激された怪物は満足げに笑い、あなたを無罪放免とした。,你称巨魔压倒性的巨体为“大地的化身”，大加赞赏了其强度。自尊心受到激发的怪物满意地大笑，对你宣告无罪释放。
+MSG_C_CHEER_U_LOSS,The dead found your living joy offensive to their pain. Your cheers only fueled their cold spite.,生者の放つ輝かしい肯定の感情は、死者の孤独を余計に際立たせた。あなたの激励は逆に怨嗟を募らせ、亡霊たちの憎しみが爆発した。,生者散发出来的光辉肯定的感情，令死者的孤独显得格外突兀。你的激励反而积聚了怨嗟，令亡灵们的憎恨爆发了。
+MSG_C_CHEER_V_LOSS,The vampire mocked your low-class attempt at flattery through cheer. He preferred your silence.,ヴァンパイアに対し、浅薄な称賛を浴びせるという無礼を犯してしまった。夜の王は「品性のかけらもない」と吐き捨て、冷酷に腕を伸ばした。,你对吸血鬼犯下了倾注肤浅称赞的无礼。夜之王啐了一句“一点品位也没有”，冷酷地伸出了手。
+MSG_C_CHEER_W_LOSS,The wolves only understood the coordination of the hunt. Your shouting only exposed your position.,ウルフの群れには、個への応援などという情緒的な概念は存在しなかった。あなたの叫びは単なる「騒音」と見なされ、狩りの合図に変えられた。,狼群并不存在针对个人的声援这类抒情概念。你的叫喊被视作单纯的“噪音”，转而变成了狩猎的信号。
+MSG_C_CHEER_X_LOSS,Xalthis mocked your desperate cheers with multiple hisses. It found your effort very amusing.,ザルティスはあなたの必死の激励を、滑稽な芝居として楽しんだ。魔物が望んでいるのは合意ではなく、あなたの精神が崩壊する瞬間だった。,扎尔提斯将你拼命的激励作为滑稽的戏剧来享受。魔物奢望的并非合意，而是你精神崩溃的瞬间。
+MSG_C_CHEER_Y_LOSS,"The yeti's blizzard swallowed your shouts effortlessly. In the mountain, silence was the only law.",吹き荒れる雪嵐の中で、あなたの激励の声は雪片となって消えた。極寒の支配者にとって、叫ぶ者とはただの「体力を無駄に消費する獲物」だった。,在肆虐的雪暴中，你激励的声音化作雪片消失了。对于极寒的支配者来说，叫喊者不过是“白白消耗体力的猎物”。
+MSG_C_CHEER_Z_LOSS,"The dead feel no pride, only the hunger for life. Your cheers were lost on the deaf rot.",理性も感情も枯れ果てたゾンビに、激励という行為は一欠片も伝わらなかった。怪物はあなたの声すら認識せず、ただ肉を喰らうために腕を突き出す。,在理智与感情都枯竭的僵尸面前，激励这一行为根本无法传达分毫。怪物甚至没有识别你的声音，仅是为了噬肉而伸出了手臂。
+MSG_C_BRIBE_A_LOSS,The ants ignored your honey and swarm you anyway. Greed knows no bounds in the hive.,アリたちは蜜を無視して襲いかかってきた。群れの底なしの飢えを、甘い供物では満たせなかった。,蚂蚁们无视了蜂蜜并直接袭来。甘美的供品无法满足蚁群无底的饥渴。
+MSG_C_BRIBE_B_LOSS,The bat snatched the coin and bit your hand. A dishonest trade in the dark.,コウモリは金貨を奪い取ると、そのままあなたの手に噛みついた。闇の中での不実な取引だ。,蝙蝠夺走金币后直接咬住了你的手。这是黑暗中不诚实的交易。
+MSG_C_BRIBE_C_LOSS,The snake ignored the rodent and struck you instead. Its hunger was for your blood.,コブラは差し出された餌を無視し、あなたを狙って牙を剥いた。奴の飢えは肉ではなく、あなたの血を求めていた。,眼镜蛇无视了递出的诱饵，瞄准你露出了毒牙。它的饥渴并非寻求肉食，而是你的鲜血。
+MSG_C_BRIBE_D_LOSS,The dragon scorched your tribute in disdain. You cannot buy a legend's favor.,ドラゴンは差し出された財宝を鼻で笑い、炎で焼き払った。伝説の怪物は、金品で動くほど安くはなかった。,巨龙嗤笑着将奉上的财宝付之一炬。传说的怪物可没廉价到会被金银所动。
+MSG_C_BRIBE_E_LOSS,The tree spirit crushed the fertilizer you offered. Nature's wrath cannot be bought.,エントは差し出された秘薬を根で粉砕し、怒りの咆哮を上げた。森の守護者は、汚れた賄賂を拒絶した。,树精用根部粉碎了递来的秘药，发出了愤怒的咆哮。森林的守护者拒绝了肮脏的贿赂。
+MSG_C_BRIBE_F_LOSS,The fly ignored the nectar and buzzed for your eyes. Small prizes don't stop pests.,ハエは蜜目掛けて集まるどころか、あなたの顔を執拗に狙ってきた。小さな供物では、不快な羽音を止められない。,苍蝇并没有聚向蜂蜜，反而执拗地瞄准了你的脸孔。微小的供品无法阻止令人不悦的翅鸣。
+MSG_C_BRIBE_G_LOSS,The goblin took the coins but decided your gear was worth more. Greed is a bottomless pit.,ゴブリンは金を受け取ったが、あなたの身ぐるみを剥ぐ方が得だと判断した。欲深い魔物に慈悲はない。,哥布林收下了钱，却判断剥光你的装备更有利可图。贪婪的魔物并无慈悲可言。
+MSG_C_BRIBE_H_LOSS,The harpy tore the ribbon and dove for your throat. Vanity didn't save you today.,ハーピーは美しいリボンを引き裂き、鋭い爪をあなたに向けた。虚栄心をくすぐる試みは、無惨に失敗した。,哈皮撕裂了美丽的缎带，将利爪伸向了你。企图博取其虚荣心的尝试惨遭失败。
+MSG_C_BRIBE_I_LOSS,The imp laughed at your false contract and zapped your hand. You can't trick a trickster.,インプは偽の契約書を嘲笑うかのように、あなたの指先を魔力で焼いた。詐欺師を騙そうとした報いだ。,小仙女仿佛在嘲笑伪造的契约般，用魔力灼烧了你的指尖。这是企图欺骗诈骗者的报应。
+MSG_C_BRIBE_J_WIN,"You offered the jelly a massive block of sugar. It slowed down, preoccupied with the sweet snack.",ジェリーの前に巨大な角砂糖の塊を投げ込んだ。怪物は食事に没頭し、あなたへの興味を失って地へと伏した。,你在果冻怪面前投下了一块巨大的角砂糖。怪物埋头进食，失去了对你的兴趣并伏在地上。
+MSG_C_BRIBE_K_LOSS,The kobolds fought over the meat and started a riot. You were caught in the chaos.,コボルドたちは干し肉を巡って仲間割れを始め、その矛先はあなたにも向けられた。賄賂はパニックを引き起こした。,狗头人们为了争夺干肉开始了内斗，而矛头也指向了你。贿赂引发了恐慌。
+MSG_C_BRIBE_L_LOSS,The lizard ignored the heat stone and struck your warmth. Primal instinct surpassed rewards.,リザードは熱石に見向きもせず、あなたの急所を狙って飛びかかってきた。捕食本能は、物欲よりも鋭かった。,蜥蜴对热石不屑一顾，瞄准你的要害扑了过来。掠食者本能比物欲更为敏锐。
+MSG_C_BRIBE_M_LOSS,The mummy rejected the relic and reached for your soul. Its ancient hate wasn't for sale.,マミーは返還された副葬品を床に叩きつけ、呪いの腕を伸ばした。不死の憎しみは、物では癒やせない。,木乃伊将还回的陪葬品摔在地上，伸出了诅咒之臂。不死的憎恨无法被外物所平息。
+MSG_C_BRIBE_N_LOSS,The naga found your information useless and constricted you. Wisdom cannot be faked.,ナーガはあなたの提供した情報を「既知の無駄」と切り捨てた。美しき賢者の怒りは、静かにあなたを締め上げる。,纳迦将你提供的信息斥为“已知的废话”。美丽的贤者之怒，正静静地将你缠紧。
+MSG_C_BRIBE_O_LOSS,The orc grew violent after drinking the ale. The bribe only fueled its destructive rage.,酒を飲んだオークは余計に狂暴化し、周囲を破壊し始めた。賄賂は暴力の引き金となってしまった。,喝了酒的兽人反而变得更加狂暴，开始破坏周围。贿赂成了暴力的导火索。
+MSG_C_BRIBE_P_LOSS,The pixie found your sunshine bottle boring and broke it. Magic isn't easily bought.,ピクシーは「瓶詰めの太陽」を乱暴に割り、あなたに光をぶつけた。妖精の気まぐれは、賄賂などでは制御できない。,小仙女粗暴地打碎了“瓶中太阳”，将光芒撞向了你。精灵的反复杂多，绝非贿赂所能控制。
+MSG_C_BRIBE_Q_WIN,You offered the coarl a highly magnetic ore. It spent time investigating it instead of you.,クアールの前に強力な磁力石を投げ置いた。怪物は未知の磁場に興味を惹かれ、あなたを無視して石を調べ始めた。,你在夸尔面前掷下了强力磁石。怪物对未知的磁场产生了兴趣，无视你并开始调查起石头。
+MSG_C_BRIBE_R_WIN,"You scattered refined grain away from you. The main rat swarm chased the food, leaving you a path.",高品質な穀物を別方向に撒き散らした。数千のネズミは食欲に突き動かされ、あなたを置いて穀物へと殺到した。,你向另一个方向撒播了高品质的谷物。数千只老鼠被食欲驱使，撇下你涌向了谷物。
+MSG_C_BRIBE_S_LOSS,The slime swallowed the scraps and remained hungry for you. It desired more than garbage.,スライムは与えられたガラクタを瞬時に消化し、さらなる「生き餌」を求めて迫ってきた。賄賂は奴の腹の足しにもならない。,史莱姆瞬间消化了给它的废材，并为了寻求更多的“活饵”而逼近。贿赂甚至不够给它填肚子。
+MSG_C_BRIBE_T_WIN,"You gave the troll a massive leg of meat. It sat down to enjoy the feast, ignoring you for now.",トロールの目の前に巨大な獣肉を転がした。怪物は喜びの咆嘘を上げ、あなたを忘れて肉に食らいついた。,你在巨魔眼前滚出了一块巨大的兽肉。怪物发出喜悦的咆哮，忘却了你后开始啃咬起肉块。
+MSG_C_BRIBE_U_WIN,You offered an ancient incense that calmed the spirit's rage. It faded into a peaceful mist.,亡霊たちの動揺を鎮める鎮魂の香を焚いた。アンデッドは懐かしい安らぎに浸り、霧となって昇天していった。,你点燃了平息亡灵动摇的镇魂香。不死族沉浸在怀念的安宁中，化作雾气升天而去。
+MSG_C_BRIBE_V_LOSS,The vampire desired only the blood within you. Your wine was an insult to his palate.,ヴァンパイアは差し出されたワインを一顧だにせず、あなたの首元を見つめた。夜の王は、新鮮な血のみを求めている。,吸血鬼对递出的葡萄酒不屑一顾，盯着你的咽喉。夜之王仅渴求新鲜的血液。
+MSG_C_BRIBE_W_WIN,You threw a pack of dried meat at the alpha. The pack stopped to eat while you retreated.,群れのリーダーに特製の干し肉を投げた。ウルフたちは互いに分け合いながら食事を始め、あなたを見逃した。,你向狼群首领投掷了特制干肉。狼群开始互相分享进食，放过了你。
+MSG_C_BRIBE_X_WIN,"You offered a strange, glowing fungus. Xalthis was intrigued by its complex aura and let you go.",ザルティスの前に奇妙に光る魔界のキノコを置いた。魔物はその不可解な魔力に目を奪われ、あなたへの追撃を止めた。,你在扎尔提斯面前放下了奇特发光的魔界蘑菇。魔物被那不可思议的魔力夺去了目光，停止了对你的追击。
+MSG_C_BRIBE_Y_WIN,You gave the yeti a heavy wool blanket. The beast was touched by the warmth and let you pass.,イエティに厚手の毛布を差し出した。極寒を生きる魔物にとって、それは金貨よりも価値ある「温もり」だった。,你递给了雪人一条厚毛毯。对于生活在极寒之地的魔物来说，那是比金币更有价值的“温暖”。
+MSG_C_BRIBE_Z_WIN,"You threw a piece of fresh meat far away. The brainless corpse shambled after it, leaving you alone.",ゾンビの視界の端に新鮮な肉を投げた。心なき肉塊は誘われるまま移動し、あなたは安全な距離を確保できた。,你在僵尸视线的边缘投掷了新鲜的肉。没心没肺的肉块被利诱着移动了，以此你确信了安全距离。
+MSG_C_POISON_A_LOSS,The ants shared the toxin and grew immunity. They swarmed you with newfound rage.,アリの群れは毒に対する耐性を瞬時に共有、適応した。毒は効かず、逆に彼らを活性化させてしまった。,蚁群瞬间共有并适应了对毒药的抗性。毒药无效，反而让它们变得更加活跃。
+MSG_C_POISON_B_LOSS,The bat used sonar to sense your poison cloud and flew around it. Your trap failed.,コウモリは超音波で毒の霧を察知し、華麗に回避した。大気を汚す試みは、ただの無駄に終わった。,蝙蝠用超音波察觉到了毒雾并华丽避开。污染大气的尝试仅化作了徒劳。
+MSG_C_POISON_C_LOSS,The cobra was immune to your toxins and struck with its own. You fell to your own game.,毒蛇にはあなたの用意した毒が効かなかった。自身の猛毒に絶対の自信を持つ捕食者は、嘲笑うかのようにあなたへ牙を剥く。,毒蛇对你准备的毒药免疫。对自身剧毒持有绝对自信的掠食者，仿佛嘲笑般向你露出了獠牙。
+MSG_C_POISON_D_LOSS,The dragon's skin was too thick for your poisons to penetrate. Its fiery breath ended the attempt.,ドラゴンの堅牢な鱗は、如何なる猛毒の浸食も許さなかった。怪物は不快そうに一つ鼻を鳴らし、全てを焼き尽くす炎を吐き出した。,巨龙坚固的鳞片不容许任何猛毒的侵蚀。怪物不悦地打了个鼻息，吐出了烧尽一切的火焰。
+MSG_C_POISON_E_LOSS,The tree spirit purified your poison with forest magic. It stood firm and angry.,エントは森の浄化能力を使い、浴びせられた毒を瞬時に無害化した。汚染を試みた不届き者に対し、古き精霊は根で襲いかかる。,树精利用森林的净化能力，瞬间中和了淋向它的毒药。对于企图污染的无礼之徒，古老的精灵挥动根部袭来。
+MSG_C_POISON_F_LOSS,You missed the small fly with your toxic spray. It buzzed around your eyes mockingly.,小さなハエに対し毒を噴霧したが、一滴も当たらない。魔物はあなたの焦りを嘲笑うかのように、顔の周りを飛び回り続ける。,你向小苍蝇喷洒了毒药，却连一滴也没中。魔物仿佛嘲笑你的焦躁般，在你的脸庞周围盘旋不去。
+MSG_C_POISON_G_LOSS,The goblin smelled your poison and switched its drink. Now you're the one feeling dizzy.,ゴブリンは狡猾な嗅覚で毒を察知し、さりげなくグラスを入れ替えた。次に目が回ったのは、毒を盛ったはずのあなただった。,哥布林用狡猾的嗅觉察觉到了毒药，若无其事地调换了酒杯。接下来感到头晕目眩的，反倒是下毒的你。
+MSG_C_POISON_H_LOSS,The harpy flew higher avoiding your toxic gas. She mocked you from the sky.,ハーピーは上昇気流に乗り、あなたの撒いた毒の霧を回避した。空の女王は高所からあなたを見下ろし、冷酷な叫びを上げた。,哈皮乘着上升气流，避开了你撒下的毒雾。天之女王从高处俯视着你，发出了冷酷的叫声。
+MSG_C_POISON_I_WIN,You used a specialized demonic toxin that froze the imp's blood. It fell like a stone.,小悪魔にのみ特効を持つ「聖銀の毒」を使用した。インプの不浄な肉体は内側から浄化され、断末魔とともに消滅した。,你使用了仅对小恶魔有效的“圣银之毒”。小恶魔不洁的肉体从内部被净化，伴随着哀鸣消灭了。
+MSG_C_POISON_J_LOSS,The jelly absorbed the poison and turned it into a new attack. Its touch became lethal.,ジェリーは毒を自身の肉体の一部として取り込み、色を不気味に変えた。猛毒を纏った怪物の触手は、もはや死の宣告と同じだ。,果冻怪将毒药作为肉体的一部分吸收，颜色变得诡异。缠绕猛毒的怪物触手，如今无异于死亡宣告。
+MSG_C_POISON_K_LOSS,The kobolds used masks to filter your gas and surrounded you. Your tricks were expected.,コボルドたちは濡れた布で顔を覆い、毒ガスの影響を最小限に抑えた。彼らの原始的な知恵を、あなたは甘く見ていた。,狗头人们用湿布蒙住脸，将毒气的影响降到了最低。你终究是小看了它们原始的智慧。
+MSG_C_POISON_L_LOSS,The lizard's slow metabolism meant the poison took hours to work. It killed you first.,リザードの代謝は極端に遅く、毒が回るまでにはかなりの時間を要した。毒が効く前に、捕食者の爪があなたの息の根を止めた。,蜥蜴的代谢极端缓慢，毒发需要相当长的时间。在毒效发挥前，掠食者的利爪已掐断了你的命脉。
+MSG_C_POISON_M_WIN,You used a dust-settling poison that solidified the mummy. It shattered under its own weight.,マミーの乾いた包帯を腐らせる、特殊な微生物毒を散布した。数千年の眠りを守っていた布は瞬時に崩れ、魔物は塵へと還った。,你喷洒了专门腐蚀木乃伊干燥绷带的特殊微生物毒。守护了数千年眠梦的布片瞬间崩塌，魔物重归尘土。
+MSG_C_POISON_N_LOSS,The naga neutralized your poison with an antidote she had prepared. She mocked your lack of ingenuity.,ナーガは自ら精製した解毒薬を飲み、あなたの毒を無力化した。美しき賢者の前で、その程度の小細工が通じるはずもなかった。,纳迦饮下了亲手精制的解毒药，中和了你的毒。在美丽的贤者面前，这种程度的小把戏根本行不通。
+MSG_C_POISON_O_LOSS,The orc used its raw strength to force the poison out of its veins. Its rage only grew.,オークは凄まじい気合で毒の浸食を押し留め、力任せに立ち上がった。体に回る毒さえも、破壊衝動を加速させる燃料でしかない。,兽人以惊人的斗志压制了毒素的侵蚀，并凭蛮力站了起来。流转体内的毒药亦成了加速破坏冲动的燃料。
+MSG_C_POISON_P_WIN,"You tricked the pixie into sniffing a toxic flower. She fell into a deep, magical slumber.",ピクシーが好む花の香りに、微弱な眠り毒を混ぜておいた。妖精は無邪気にその香りを吸い込み、そのまま昏睡へと落ちた。,你在小仙女喜好的花香中混入了微弱的眠毒。精灵天真烂漫地吸入了那股香气，就那样陷入了昏睡。
+MSG_C_POISON_Q_LOSS,The coarl used static electricity to burn the toxic particles away. Its fur sparkled aggressively.,クアールの全身から放電し、大気中の毒の粒子を焼き払った。怪物は不敵に牙を剥き、次の瞬間にあなたの心臓を貫いた。,夸尔全身放电，烧尽了大器中的毒素粒子。怪物不羁地露出獠牙，在下一瞬贯穿了你的心脏。
+MSG_C_POISON_R_LOSS,The rat swarm was too large for your poison to cover. They trampled the fallen and kept coming.,あなたの用意した毒で殺せたのは、数千の群れのほんの一部に過ぎなかった。ネズミたちは仲間を乗り越え、さらに激しく迫る。,你准备的毒药仅毒杀了数千规模族群中的极少一部分。老鼠们越过同伴，更加剧烈地逼近。
+MSG_C_POISON_S_LOSS,The slime grew larger as it absorbed the organic toxin. It found your gift tasty.,スライムは浴びせられた毒さえも栄養として吸収し、さらにその質量を増大させた。怪物にとって、毒は最高のご馳走だったようだ。,史莱姆连淋向它的毒药都作为营养吸收了，并进一步增加了质量。对于怪物来说，毒药似乎是顶级的珍馐。
+MSG_C_POISON_T_LOSS,The troll's blood boiled and rejected the poison. Its healing power was too great to fail.,トロールの狂暴な生命力は、体内の毒を無理やり体外へと排出した。細胞レベルでの驚異的な再生を前に、毒は無力だった。,巨魔狂暴的生命力强行将体内的毒素排出了体外。在细胞级别的惊人再生面前，毒药毫无用处。
+MSG_C_POISON_U_WIN,You used a holy water based poison that dissolved the ghost. It vanished into light.,生者には無害だが、死者の霊体を腐らせる「浄化の毒」を使用した。アンデッドの体は光の粒となって崩れ、安らかな終焉を迎えた。,你使用了对生者无害、却能腐蚀死者灵体的“净化之毒”。不死族的身体化作光粒崩塌了，迎来了安详的终焉。
+MSG_C_POISON_V_WIN,You tainted your own blood with holy silver. When the vampire bit you he collapsed in pain.,自らの血の中に「聖なる毒」を循環させ、あえて首元を差し出した。ヴァンパイアは慢心ゆえにそれを飲み干し、内側から焼かれて消滅した。,你让“神神之毒”在自身血液中循环，并特意献出了咽喉。吸血鬼因慢心而将其一饮而尽，从内部燃烧并消灭了。
+MSG_C_POISON_W_LOSS,The wolves worked together to drag their poisoned brothers away while the rest hunted you.,ウルフの群れは中毒した仲間を素早く後退させ、代わりの個体があなたを包囲した。その完璧な連携に、毒が食い込む余地はなかった。,狼群迅速撤回了中毒的同类，并由其他个体代替包围了你。在那完美的协作面前，毒药并无发挥余地。
+MSG_C_POISON_X_WIN,You injected a fast-acting paralyzing agent into Xalthis's key joints. It stood stiff as a statue.,ザルティスの無数の脚の付け根へと、極小の毒針を正確に打ち込んだ。魔物は姿勢を制御できなくなり、無様に崩れ落ちて動かなくなった。,你向扎尔提斯无数肢节的根部精准刺入了几角极小的毒针。魔物无法控制姿势，狼狈崩坏并动弹不得。
+MSG_C_POISON_Y_LOSS,The yeti's cold blood barely circulated making the poison ineffective. It roared and charged.,イエティの心拍数は極めて低く、毒が全身に回ることはなかった。怪物は怒りの咆哮を上げ、その巨体であなたを押し潰しにかかる。,雪人的心率极其低下，毒素无法传遍全身。怪物发出了愤怒的咆哮，用如山的巨体试图将你压扁。
+MSG_C_POISON_Z_WIN,You used a concentrated rot toxin that accelerated the zombie's decay until it fell apart.,ゾンビの腐敗を極限まで加速させる特殊な毒を投与した。怪物の肉体は自立できなくなるまで崩壊し、ただの汚物へと還った。,你投喂了使其腐化极限加速的特殊毒药。僵尸的肉体崩坏至无法自立，还原成了一滩污物。
+MSG_C_SING_A_LOSS,The ants couldn't hear your song above their inner pheromonal commands. They marched on.,アリたちには歌を解する器官はなく、あなたの調べは虚しく空振りに終わった。群れは本能のままに行進し、あなたを呑み込もうとする。,蚂蚁并不具备理解歌声的器官，你的曲调只是徒劳地落空了。蚁群仅遵从本能行进，企图将你吞没。
+MSG_C_SING_B_LOSS,Your singing interfered with the bat's sonar but not enough to stop it. It struck out in irritation.,あなたの歌声はコウモリの超音波を僅かに乱したが、それは魔物を苛立たせただけだった。不快な騒音を消すべく、怪物は牙を剥く。,你的歌声虽略微干扰了蝙蝠的超音波，却也仅是激怒了魔物。为了消抹不快噪音，怪物露出了獠牙。
+MSG_C_SING_C_LOSS,The snake didn't feel the charm. It prepared to strike while you focused on the high notes.,毒蛇にはあなたの歌声は届かなかった。高音を奏でるあなたの無防備な喉元を、怪物の冷たい瞳が執拗に狙っている。,毒蛇并未接收到你的歌声。你咏唱高音时那毫无防备的咽喉，正被怪物冷酷的瞳孔执拗地瞄准着。
+MSG_C_SING_D_LOSS,The dragon was bored by your mortal song. A puff of smoke from its nose silenced you.,ドラゴンの悠久の時に比べれば、あなたの歌はあまりに短く、あまりに稚拙だった。伝説の怪物は退屈そうに鼻息を吐き、全てを灰に変えた。,与巨龙悠久的时光相比，你的歌声太短，也太过于稚嫩。传说的怪物不悦地呼出一口鼻息，将一切化为了灰烬。
+MSG_C_SING_E_LOSS,The tree spirit found your voice disruptive to the forest's silence. Branches aimed for you.,エントはあなたの歌を「静寂を乱す侵略」と見なした。森の守護者は怒り、大地を割るような根の重撃をあなたに叩きつけた。,树精将你的歌声视作“扰乱静谧的侵略”。森林守护者为之动怒，向你使出了足以震裂大地的根部重击。
+MSG_C_SING_F_LOSS,The fly buzzed louder drowning out your tune. Your musical attempt failed.,あなたの歌声よりも、ハエの放つ羽音の方が遥かに強烈で、不快だった。音楽による懐柔は、小さな怪物の本能に踏みにじられた。,比起你的歌声，苍蝇发出的翅鸣要强劲、也令人不快得多。用音乐进行安抚的尝试，被微小怪物的本能所践踏了。
+MSG_C_SING_G_LOSS,The goblin thought your talent was a waste and tried to steal your instruments.,歌に聞き入るどころか、ゴブリンはあなたの身につけている高価な楽器に目を奪われた。魔物はあなたの喉を裂き、戦利品を奪おうと迫る。,哥布林不仅没听进去歌，反而看中了你身上价值不菲的乐器。魔物企图割断你的喉咙，夺走战利品。
+MSG_C_SING_H_LOSS,The harpy screamed to silence your art. In her sky peer review was lethal.,ハーピーの鋭い叫びは、あなたの旋律を無残な破片へと変えてしまった。空の歌姫は他者の歌を許さず、その喉元に鋭い爪を向けた。,哈皮锐利的尖嚎将你的旋律击得粉碎。天空歌姬不容许他人的歌声，将利爪瞄向了你的咽喉。
+MSG_C_SING_I_WIN,You sang a demonic aria that commanded the imp's obedience. It bowed and faded into the dark.,インプの魂に直接響く「魔界の古謡」を、威厳を持って謳い上げた。小悪魔はあなたを上位の存在と誤認し、恭しく一礼して影へと消えた。,你庄严地咏唱了直接响彻小仙女灵魂的“魔界古谣”。小恶魔将你误认为上位存在，恭敬地行了一礼后消失在影子里。
+MSG_C_SING_J_WIN,Your high-pitched note resonated with the jelly's core causing it to melt. The music won.,ジェリーの肉体を構成する周波数と完璧に共鳴する、極限の音を響かせた。怪物は振動に耐えきれず無機質な液体へと戻り、戦いは終わった。,你发出了与果冻怪肉体构成频率完美共鸣的极限音。怪物无法承受振动而还原回了无机液体，战斗就此结束。
+MSG_C_SING_K_LOSS,The kobolds didn't appreciate the foreign melody and growled louder. Music didn't reach their feral hearts.,コボルドたちに、あなたの洗練された音楽はただの「不快なノイズ」でしかなかった。野獣の如き彼らは吠え、あなたの肉を求めて牙を剥く。,对于狗头人们来说，你洗练的音乐不过是“令人不快的噪音”。野兽般的它们咆哮着，为了噬肉而露出了獠牙。
+MSG_C_SING_L_LOSS,The lizard's heart was too cold for your warm song. It struck during the bridge.,リザードの冷徹な知性は、歌による情緒的な揺さぶりを完璧に拒絶した。怪物は旋律の合間に生じた僅かな隙を突き、無慈悲な一撃を放つ。,蜥蜴冷彻的理智完全拒绝了由歌声带来的情绪波动。怪物抓住旋律间产生的些许空隙，放出了无情的一击。
+MSG_C_SING_M_LOSS,The mummy's ears were filled with the silence of the grave. Your prayer song was empty noise.,マミーの耳には、墓所の永劫なる沈黙だけが満ちていた。生者の熱い歌声は、不死の怪物にとってはただの無味乾燥な音に過ぎなかった。,木乃伊的耳中仅充满了墓所永劫的寂静。生者热烈的歌声对于不死的怪物来说，不过是歌声干燥而已。
+MSG_C_SING_N_LOSS,The naga found your poetic logic flawed and tightened her hold. Philosophy didn't save you.,ナーガはあなたの歌に込められた「嘘」と「未熟」を、瞬時に見破った。美しき賢者は失望のため息をつき、逃げ場のない締め上げを開始した。,纳迦瞬时看穿了你歌声中蕴含的“谎言”与“不成熟”。美丽的贤者叹了口气表示失望，开始了无处可逃的绞杀。
+MSG_C_SING_O_LOSS,The orc only wanted the sound of clashing steel. Your song was met with a brutal axe swing.,オークが求めていたのは旋律ではなく、肉と骨が砕ける音だった。歌声は怪物の咆哮にかき消され、頭上から巨大な斧が振り下ろされる。,兽人索求的并非旋律，而是肉骨碎裂的声音。歌声被怪物的咆哮淹没，巨斧从头顶挥了下来。
+MSG_C_SING_P_LOSS,The pixie mocked your singing as out of tune and confused your senses. She won the musical duel.,ピクシーはあなたの歌を「耐え難い音痴」と嘲笑い、不協和音を撒き散らした。脳を揺さぶる魔力に、あなたの歌声は無惨に断ち切られた。,小仙女嘲笑你的歌声是“无法忍受的跑调”，并散播了不和谐音。在动摇大脑的魔力面前，你的歌声无情地被斩断了。
+MSG_C_SING_Q_WIN,Your song carried a calming frequency that effectively jammed the coarl's field. The beast relaxed.,クアールの超感覚を逆手に取り、電磁場を中和する特殊な歌声を響かせた。怪物は戦う理由を見失い、静かに闘気を収めてその場を去った。,你反过来利用夸尔的超感官，发出了中和电磁场的特殊歌声。怪物失去了战斗的理由，静静地收起斗志离开了现场。
+MSG_C_SING_R_WIN,Your high-frequency repel tune that sent the rats running in pain. The swarm scattered.,ネズミたちの聴覚を直接攻撃する、不快極まる高周波の歌を放った。パニックに陥ったラットの群れは、互いを踏み越えて逃げ去っていった。,你发出了直接攻击老鼠听觉的、极其令人不快的高频歌声。陷入恐慌的老鼠群互相踩踏着逃走了。
+MSG_C_SING_S_LOSS,The slime absorbed the sound and vibrated into a more dangerous form. It grew larger.,スライムはあなたの歌声の振動をさらなるエネルギーとして吸収し、不気味に肥大化した。怪物の肉体は脈打ち、捕食の瞬間を待っている。,史莱姆将你歌声的振动作为能量源吸收，诡异地肥大化了。怪物的肉体搏动着，正等待着捕食的瞬间。
+MSG_C_SING_T_LOSS,The troll found your song irritating to its ears. It growled to drown you out and attacked.,トロールの狂暴な精神にとって、歌はただ自分の眠りを妨げる雑音でしかなかった。怪物は耳を塞ぎ、不機嫌そうな叫びとともにあなたを殴り倒した。,对于巨魔狂暴的精神来说，歌声只是妨碍其眠梦的噪音。怪物捂住耳朵，伴随着不悦的叫声将你击倒在地。
+MSG_C_SING_U_WIN,Your hymn reached the souls' forgotten peace. The undead faded into a calm white light.,亡霊たちが生前に愛した聖歌を、ありったけの祈りを込めて捧げた。死者たちは永遠の孤独から解放され、浄化の声とともに昇天した。,你倾注浑身祈祷，献上了亡灵们生前深爱的圣歌。死者们从永恒的孤独中解放，伴随着净化的呼声升天了。
+MSG_C_SING_V_LOSS,The vampire was a finer singer than you'll ever be. He mocked your common performance.,ヴァンパイアの悠久の審美眼に対し、あなたの歌はあまりに未熟で、退屈だった。夜の王は冷たい笑みを浮かべ、芸術の真髄をその牙で示さんとした。,在吸血鬼悠久的审美观面前，你的歌声太不成熟，也太无趣了。夜之王浮现出冰冷的笑容，企图用獠牙揭示艺术的真谛。
+MSG_C_SING_W_LOSS,The pack saw your singing as a weak call for help. They closed in expecting a soft prey.,ウルフたちにとって、歌はただ獲物の場所を教える「座標」でしかなかった。群れは静かにあなたを包囲し、死の旋律を奏でる準備を終えた。,对于狼群来说，歌声不过是指明猎物方位的“坐标”。它们静静地包围了你，做好了奏响死亡旋律的准备。
+MSG_C_SING_X_WIN,You matched the logic of Xalthis's complex frequencies with your own voice. It stopped in awe.,ザルティスの無数の複眼から発せられる微細な振動と、完璧に調和する歌声を放った。魔物はあなたの高度な知性に圧倒され、追跡を断念した。,你发出了与扎尔提斯无数复眼产生的微细振动完美和谐的歌声。魔物被你高超的智力所折服，放弃了追踪。
+MSG_C_SING_Y_WIN,"You sang a deep, slow chant that resonated with the mountain's soul. The yeti stopped and listened.",雪山の鼓動と重なる、荘厳な大地の歌を奏でた。極寒の支配者は懐かしい響きに耳を傾け、戦意を失って吹雪の彼方へ消えた。,你演奏出了与雪山搏动重合的、庄严的大地之歌。极寒的支配者倾听着那怀念的回响，丧失战意并消失在了暴风雪的彼方。
+MSG_C_SING_Z_WIN,Your high-pitched note destroyed the zombie's motor nerves. It fell apart as the music echoed.,ゾンビの肉体を辛うじて繋ぎ止めていた、微弱な魔力回路を歌声で粉砕した。怪物は自立できなくなり、ただの動かぬ肉塊へと還った。,你用歌声粉碎了勉强维系僵尸肉体的微弱魔力回路。怪物失去了自立能力，还原成了一滩不动的肉块。
+MSG_C_DANCE_A_LOSS,The ants couldn't see your dance as a signal but as a threat. The colony grew more defensive.,アリの群れはあなたのダンスを「不可解な敵対行動」と見なし、警戒を強めた。秩序ある兵隊たちは顎を鳴らし、一斉にあなたへと襲いかかる。,蚁群将你的舞蹈视作“不可思议的敌对行为”，加强了警戒。有序的兵蚁们敲响口颚，一齐向你袭来。
+MSG_C_DANCE_B_LOSS,Your dance confused the bat's sonar leading to an erratic attack. It struck you in a blind panic.,コウモリの超音波にあなたの動きは不安定に映り、魔物のパニックを誘発した。怪物は狂ったように空を舞い、予想外の角度からあなたを抉る。,你的动作在蝙蝠的超音波中显得很不稳定，诱发了魔物的恐慌。怪物如发狂般在空中飞舞，从意想不到的角度剜向了你。
+MSG_C_DANCE_C_LOSS,The snake grew irritated by your constant swaying. It prepared a faster strike while you spun.,毒蛇はあなたの小刻みな動きに苛立ち、チャンスをじっと伺っていた。あなたが回転する一瞬の隙、死の牙が確実にあなたの急所を射抜いた。,毒蛇对你细碎的动作感到急躁，正屏息以待寻找机会。在你旋转的一瞬空隙，死神毒牙准确射穿了你的要害。
+MSG_C_DANCE_D_LOSS,The dragon saw your dance as a challenge to its throne. Its pride wouldn't allow the art.,ドラゴンの絶対的な威厳に対し、あなたの踊りはあまりに不遜に映った。伝説の怪物は怒りの咆哮とともに、地上の全てを焼き尽くす一撃を放った。,在巨龙绝对的威严面前，你的舞蹈显得极其不逊。传说的怪物伴随着愤怒的咆哮，放出了烧尽地上一切的一击。
+MSG_C_DANCE_E_LOSS,The tree spirit found your dance disruptive to the earth's roots. It tightened its hold in anger.,エントはあなたの躍動を「大地の安らぎを乱す不快な振動」と断じた。木の守護者は激怒し、枝を槍のように突き立ててあなたを追い詰める。,树精将你的跃动断定为“扰乱大地平稳的令人不快的振动”。树木守护者大发雷霆，如长枪般竖起枝干将你逼入绝境。
+MSG_C_DANCE_F_LOSS,You missed the rhythm of the fly's wing beats. It struck your eyes while you performed.,ハエの電光石火の動きに、あなたのダンスは全くついていけなかった。魔物の嘲笑するような羽音が重なり、あなたの努力は空しく散った。,面对苍蝇电光石火般的动作，你的舞蹈完全跟不上节奏。魔物那仿佛嘲笑般的翅鸣重叠而至，你的努力徒劳地消散了。
+MSG_C_DANCE_G_LOSS,The goblin thought your dance was an opening and went for your gold. It laughed at your focus.,ダンスに熱中するあまり、あなたは背後に忍び寄るゴブリンに気づかなかった。欲望に忠実な魔物は踊りなど一顧だにせず、あなたの首を狙う。,由于过于热衷于舞蹈，你并未察觉到潜行至身后的哥布林。忠于欲望的魔物对舞蹈不屑一顾，瞄准了你的脖颈。
+MSG_C_DANCE_H_LOSS,The harpy mocked your grounded steps and dove for your heart. She won the aerial duel.,地上のステップなど、空の女王にとっては稚拙な遊びでしかなかった。ハーピーはあなたの動きの「頂点」を見極め、鋭い爪でその胸を貫いた。,在天空女王看来，地面的步法不过是稚嫩的玩闹。哈皮看准了你动作的“定点”，用利爪刺穿了你的胸膛。
+MSG_C_DANCE_I_WIN,You performed an infernal ritual dance that hypnotized the imp. It bowed as you left.,インプを魅了する、悪魔的な魅力を秘めた秘術の舞を披露した。小悪魔はあなたの美しさに魂を奪われ、戦うことも忘れてただ立ち尽くした。,你展示了秘藏恶魔般魅力、令小仙女陶醉的秘术之舞。小恶魔被你的美丽夺走了魂魄，忘却了战斗，呆立当场。
+MSG_C_DANCE_J_WIN,Your spinning created a centrifugal force that dispersed the jelly. It fell apart in the air.,あなたの高速旋回が生み出した強力な魔力の渦が、ジェリーの結合を破壊した。怪物は肉体を保てず霧散し、そのまま空虚へと消えていった。,你高速旋转产生的强力魔力旋渦破坏了果冻怪的结合。怪物无法维持肉体而消散，就这样没入了虚无。
+MSG_C_DANCE_K_LOSS,The kobolds thought your dance was a signal for retreat. They grew bolder and attacked.,あなたの舞を、コボルドたちは「力尽きた者のあがき」と見誤った。卑屈な彼らは増長し、勝ち誇った叫びとともに一斉に飛びかかってくる。,对于你的舞姿，狗头人们误认为是“力竭者的挣扎”。卑微的它们变得愈发嚣张，伴随着得意的叫声一拥而上。
+MSG_C_DANCE_L_LOSS,The lizard's logic remained unfazed by your art. It struck during your most vulnerable pose.,リザードの冷徹な計算にとって、ダンスはただ隙を生むだけの「低効率な行動」だった。怪物はあなたが最も無防備になる瞬間を、正確に射抜いた。,在蜥蜴冷彻的计算看来，舞蹈不过是徒增破绽的“低效行为”。怪物准确刺穿了你最为毫无防备的一瞬。
+MSG_C_DANCE_M_LOSS,The mummy's ancient pride didn't allow for such mortal gymnastics. It constricted your legs.,マミーにとって生者の躍動は、神聖な墓所を汚す不浄な挙動でしかなかった。不死の守護者は冷酷に腕を伸ばし、あなたの鮮やかなステップを断ち切った。,对于木乃伊来说，生者的跃动不过是亵渎神圣墓所的不洁举动。不死的守护者冷酷地伸出双臂，斩断了你华丽的步法。
+MSG_C_DANCE_N_LOSS,The naga found your dance lacked spiritual depth and struck. Art didn't save your skin here.,ナーガの卓越した審美眼は、あなたのダンスに込められた「迷い」を瞬時に見破った。美しき賢者の瞳に失望の色が走り、冷たい尾があなたを絡め取った。,纳迦卓越的审美观瞬时看穿了你舞步中包含的“迷茫”。美丽的贤者瞳孔中闪过一丝失望，冰冷的尾巴将你当场勒住。
+MSG_C_DANCE_O_LOSS,The orc used your rhythm to time its own brutal charge. Your grace was met with raw power.,オークはあなたのダンスのリズムを逆に利用し、完璧なタイミングで突撃を仕掛けた。柔らかな舞踏は、暴力の塊によって無惨に粉砕された。,兽人反过来利用你舞蹈的节奏，选在完美的时机发起了突击。柔美的舞步被暴力块无情地粉碎了。
+MSG_C_DANCE_P_LOSS,The pixie out-danced you and laughed as she led you into a trap. You were lured by the lights.,ピクシーはあなたの舞をなぞり、より軽やかに、より幻想的に踊ってみせた。精霊の誘いから逃れられないまま、あなたの意識は深い霧の中に没した。,小仙女效仿着你的舞步，跳得更轻盈、更梦幻。在你无法逃离精灵诱导的情况下，你的意识没入了浓雾之中。
+MSG_C_DANCE_Q_WIN,Your ritual dance synchronized with the coarl's field neutralizing it. The beast bowed out.,クアールの放電周期と完璧に同調する、魔術的なステップを刻んだ。怪物はあなたの存在を「無害な自然現象」と誤認し、静かに牙を収めた。,你踏出了与夸尔放电周期完美同步的魔术步法。怪物将你的存在误认为“无害的自然现象”，静静地收起了獠牙。
+MSG_C_DANCE_R_WIN,Your rhythmic stomping confused the rats and sent them fleeing in a daze. The swarm dispersed.,一定のリズムで大地を叩くあなたのステップは、数万のネズミの平衡感覚を狂わせた。パニックに陥った群れは逃げ場を求め、互いを踏みつけて四散した。,你以固定节奏叩击大地的步法，扰乱了数万只老鼠的平衡感。陷入恐慌的族群为了寻求逃路，互相踩踏着四散而逃。
+MSG_C_DANCE_S_LOSS,The slime was drawn to the heat of your moving body. Your dance only provided a bigger target.,踊りによるあなたの体温の上昇が、スライムの捕食本能を最大限に刺激した。怪物はあなたの躍動する肉体を「極上の獲物」と見なし、執拗に迫る。,舞蹈带来的体温上升最大限地刺激了史莱姆的捕食本能。怪物将你跃动的肉体视作“绝佳的猎物”，执拗地逼近。
+MSG_C_DANCE_T_LOSS,The troll grew angry at your constant movement and smashed the ground. Your dance stopped.,トロールは目の前でチョコマカと動くあなたのダンスにイライラを爆発させた。怪物は力任せに棍棒を地面に叩きつけ、物理的な衝撃であなたの舞を断った。,巨魔对着在你眼前晃来晃去的舞蹈爆发了怒火。怪物凭蛮力将木棒砸向地面，用物理冲击打断了你的舞姿。
+MSG_C_DANCE_U_WIN,Your funeral dance for the dead brought them peace. The spirits vanished into a calm light.,亡霊たちの魂を鎮める、古のレクイエムとしての舞を捧げた。死者たちは生前の苦しみから解き放たれ、安らかな光となって昇天していった。,你献上了平息亡灵灵魂、作为古代安魂曲的舞蹈。死者们从生前的痛苦中解脱，化作安详的光芒升天了。
+MSG_C_DANCE_V_LOSS,The vampire led the dance into a trap and bit you mid-twirl. Your grace was your downfall.,ヴァンパイアはあなたのダンスを優雅にリードし、最も無防備な瞬間に牙を剥いた。美しく舞っていたはずのあなたの体から、生気が急速に奪われる。,吸血鬼优雅地领着你的舞步，并在最毫无防備的一瞬露出了獠牙。本应优美飞舞的你的身体，生气正被迅速夺走。
+MSG_C_DANCE_W_WIN,"You performed a feral, rhythmic dance that matched the pack's heartbeats. The alpha let you leave.",ウルフの群れの拍動と完璧に重なる、原始的な躍動の舞を戦場に刻んだ。リーダーはあなたを「荒野の精霊」と呼び、敬意を持って道を開けた。,你在战场上刻下了与狼群搏动完美重合的、原始跃动之舞。首领称你为“荒野精灵”，带着敬意让开了道路。
+MSG_C_DANCE_X_WIN,You out-performed Xalthis's complex movements with your own flowing dance. It withdrew in awe.,ザルティスの無数の複眼を幻惑する、計算され尽くした流体舞踊を披露した。魔物はあなたの完璧な身のこなしに畏怖を覚え、静かに深淵へと引いた。,你展示了令扎尔提斯无数复眼产生幻惑的、经过精密计算的流体舞步。魔物对你完美的举止感到畏惧，静静地退回了深淵。
+MSG_C_DANCE_Y_WIN,"Your slow, graceful dance matched the falling snow's rhythm. The yeti felt at peace and slept.",降り積もる雪の調べと調和する、静謐な祈りの舞をイエティに捧げた。雪山の支配者はあなたの放つ穏やかな気配に、安らかな眠りを選んだ。,你向雪人献上了与积雪旋律和谐的、静谧的祈祷之舞。雪山支配者顺着你散发的平和气息，选择了安稳的眠梦。
+MSG_C_DANCE_Z_WIN,Your rhythmic stomping broke the zombie's fragile bones. It crumbled into components and died.,一定のリズムで大地を叩くあなたのダンスが、ゾンビの脆い骨格を共鳴・粉砕させた。怪物は接合部から崩れ落ち、ただの実りなき肉塊へと還った。,你以固定节奏叩击大地の舞蹈，令僵尸脆弱的骨骼产生了共鸣并粉碎。怪物从关节点崩落，还原成了一滩无用的肉块。
+MSG_C_CHEER_A_LOSS,The ants saw your cheer as an opening and swarmed your shouting mouth. Peace failed.,アリたちはあなたの激励よりも、目の前の「柔らかい肉」を求めていた。あなたの熱い叫びは怪物の顎に遮られ、絶望の沈黙が辺りを包む。,蚂蚁们比之你的激励，更渴求眼前的“鲜美肉质”。你热烈的呐喊被怪物的口颚遮蔽，绝望的沉寂笼罩了四周。
+MSG_C_CHEER_B_LOSS,Your shouting echo confused the bat making it angry. It struck out in a blind rage.,響き渡るあなたの声はコウモリの感覚を逆撫でし、魔物を極度の攻撃状態へと導いた。不快な「音の壁」を壊すべく、怪物は牙を噛み合わせる。,你那回荡的呼声触怒了蝙蝠的感官，引导魔物进入了极度的攻击状态。为了打破不快的“音墙”，怪物咬紧了牙关。
+MSG_C_CHEER_C_LOSS,The snake ignored your encouragement and aimed for your heart. Your spirit was too loud.,毒蛇にとって、あなたの激励は隙だらけの「隙」でしかなかった。全霊を込めて叫ぶあなたの胸元を、死の牙が冷酷に射抜く。,对于毒蛇来说，你的激励不过是破绽百出的“空隙”。死神毒牙冷酷地刺穿了你倾尽全力呐喊的胸膛。
+MSG_C_CHEER_D_LOSS,The dragon saw your cheer as a joke and breathed fire. Legend doesn't need your energy.,巨竜の圧倒的な自尊心にとって、生者の激励は「分をわきまえぬ傲慢」と映った。怪物は不快そうに一つ鼻を鳴らし、全てを焼き尽くす劫火を放った。,对于巨龙压倒性的自尊心来说，生者的激励显得“不自量力且傲慢”。怪物不悦地打了个鼻息，放出了烧尽一切的劫火。
+MSG_C_CHEER_E_LOSS,The tree spirit found your loud voice intrusive to the ancient woods. It rooted you fast.,エントはあなたの熱烈な声を、森の静寂を乱す「騒音の暴力」と断じた。古き守護者は棍棒のような枝を振り上げ、あなたを無慈悲に打ちのめす。,树精将你热烈的声音断定为扰乱森林静谧的“噪音暴力”。古老的守护者挥起如木棒般的枝干，无情地将你击倒。
+MSG_C_CHEER_F_LOSS,The fly buzzed louder as if laughing at your effort. Your positive vibes failed here.,ハエの羽音はあなたの激励を上回る大きさで、不快に響き渡った。小さな怪物はあなたの善意など一蹴し、その顔面を執拗に狙い続ける。,苍蝇的翅鸣比你的激励声还要响亮，令人不快地回荡着。微小的怪物对你的善意嗤之以鼻，继续执拗地瞄准了你的脸面。
+MSG_C_CHEER_G_LOSS,The goblin used your distraction to steal your gear. It growled and stuck out its tongue.,「素晴らしい知略だ！」と称えられたゴブリンは、その隙にあなたの財布をスリ取った。卑屈な魔物は、称賛さえも「利用すべきチャンス」としか思わない。,被赞为“智谋惊人！”的哥布林，趁机扒走了你的钱包。卑微的魔物甚至将称赞仅视作“应当利用的机会”。
+MSG_C_CHEER_H_LOSS,"The harpy found your spirit tasty and dove for more. She wanted your fire, not your words.",ハーピーはあなたの激励を「獲物の最後のあがき」として楽しみ、急降下した。空の女王はあなたの美しい精神を、最も甘美なおやつとして喰らうだろう。,哈皮将你的激励作为“猎物最后的挣扎”来享受，并发起了急降。天空女王大概会将你美丽的灵魂视作最甘美的零食而吞噬殆尽吧。
+MSG_C_CHEER_I_WIN,You cheered for the imp's clever trick using infernal praise. It blushed and left you alone.,インプの仕掛けたいたずらの「芸術性」を、本気で激賞した。褒められ慣れない小悪魔は真っ赤になって照れ、消え入るように闇へと逃げ去った。,你由衷地盛赞了小仙女设下的恶作劇的“艺术性”。不习惯被夸奖的小小恶魔羞红了脸，如烟消云散般逃进了黑暗中。
+MSG_C_CHEER_J_WIN,Your energetic shout pulsed through the jelly and made it solid. It shattered as you cheered.,あなたの気迫に満ちた叫びが、ジェリーの肉体に物理的な衝撃波として伝わった。怪物は振動に耐えきれず結晶化し、戦場に宝石のような破片を撒き散らした。,你那充满气魄的呐喊，化作物理冲击波传导进了果冻怪的肉体。怪物无法承受振动而结晶化，在战场上撒下了如宝石般的碎片。
+MSG_C_CHEER_K_LOSS,The kobolds thought your cheer was a battle cry and charged. They matched your energy with violence.,コボルドたちはあなたの激励を「宣戦布告」と誤認し、殺気立った叫びを上げた。数に勝る彼らは恐怖を捨て、一斉にあなたへと牙を剥く。,狗头人们将你的激励误认为“宣战布告”，发出了带有杀气的咆哮。数量占优的它们抛弃恐惧，一齐向你露出了獠牙。
+MSG_C_CHEER_L_LOSS,"The lizard's logic remained cold, ignoring your hot enthusiasm. It struck during your deep breath.",リザードの冷徹な理性に、感情的な激励が届くことはなかった。怪物はあなたが叫びを終え、息を吸い込む一瞬の隙を狙って喉元を射抜いた。,感性的激励无法传达给蜥蜴冷彻的理性。怪物瞄准你呐喊结束、吸气的一瞬空隙，射穿了你的咽喉。
+MSG_C_CHEER_M_LOSS,The mummy found the living's heat annoying to its dry peace. Your cheers brought cold death.,マミーにとって、生者の放つ熱い激励は「墓所の静寂を汚す呪い」でしかなかった。不死の守護者は冷酷に腕を伸ばし、あなたの命の灯を消そうとする。,对于木乃伊来说，生者散发的热烈激励不过是“亵渎墓所静谧的诅咒”。不死的守护者冷酷地伸出双臂，企图熄灭你的生命之灯。
+MSG_C_CHEER_N_LOSS,The naga found your support patronizing and tightened her coils. Wisdom didn't need your cheer.,ナーガの不遜な自尊心を、あなたの激励はかえって傷つける結果となった。美しき賢者は「私を誰だと思っている」と冷たく言い放ち、締め上げを強めた。,你的激励反而伤到了纳迦那不逊的自尊心。美丽的贤者冷冷地说了句“你以为我是谁”，加强了勒紧的力道。
+MSG_C_CHEER_O_LOSS,The orc grew more arrogant after your cheer and crushed you. Your support backfired badly.,「最高に強いぞ！」と応援されたオークは、慢心とともにさらなる怪力を発揮した。激励は魔物を無敵の狂戦士へと変貌させ、あなたを粉砕した。,被应援说“强到没边了！”的兽人，伴随着慢心发挥出了更惊人的怪力。激励令魔物蜕变成了无敌的狂战士，并粉碎了你。
+MSG_C_CHEER_P_WIN,You cheered for the pixie's beautiful lights. Delighted by your joy she left with a laugh.,ピクシーの操る幻惑の光を、心からの感嘆とともに称賛した。精霊は自分の魔法が「理解」されたことに喜び、虹色の祝福を残して去っていった。,你由衷惊叹并称赞了小仙女操纵的迷幻之光。精灵为自己的魔法获得“理解”而感到喜悦，留下彩虹色的祝福后离去了。
+MSG_C_CHEER_Q_WIN,Your high-energy cheer overloaded the coarl's field making it short circuit. It fled away.,あなたの魂の底からの激励が、意図せずクアールの電磁場と共鳴し、過負荷を引き起こした。怪物は自らの電撃に焼かれ、這いずるように森へ逃げ出した。,你发自灵魂深处的激励，无意中与夸尔的电磁场产生共鸣，引发了过载。怪物被自身的电击灼烧，连滚带爬地逃回了森林。
+MSG_C_CHEER_R_WIN,Your brave shout encouraged yourself and terrified the rats. The swarm scattered in fear.,あなたの放った不屈の雄叫びが、臆病なラットたちの本能を恐怖で支配した。戦士の魂を感じた群れは、飢えよりも生存を選び、闇へと消えた。,你发出的不屈雄叫，由恐惧支配了胆小老鼠们的本能。感受到战士之魂的鼠群选择了生存而非饥饿，消失在黑暗中。
+MSG_C_CHEER_S_LOSS,The slime grew larger from the energy of your passionate shout. It desired to absorb your spirit.,スライムはあなたの激励という「精神的エネルギー」さえも吸収し、その肉体を脈動させた。怪物はあなたの熱意を栄養として、さらに激しく迫る。,史莱姆甚至连你名为激励的“精神能量”都吸收了，令肉体搏动起来。怪物以你的热忱作为营养，更加剧烈地逼近。
+MSG_C_CHEER_T_LOSS,The troll grew annoyed at your noise and slammed you into silence. Peace returned quickly.,トロールはあなたの激励を「単なるうるさい騒音」とみなし、激しい苛立ちを見せた。怪物は一撃であなたを殴り飛ばし、不快な音を完全に排除した。,巨魔将你的激励视作“单纯吵人的噪音”，显露出了剧烈的焦躁。怪物一击将你揍飞，彻底排除了不快的声音。
+MSG_C_CHEER_U_WIN,Your spiritual support calmed the restless dead. They found final peace and vanished.,あてもなく彷徨う亡霊たちの「生前の功績」を、大声で称え、弔った。アンデッドたちはようやく自らの死を受け入れ、穏やかな光となって昇天した。,你大声称赞并祭奠了无端彷徨的亡灵们“生前的功勋”。不死族们终于接受了自己的死亡，化作祥和的光芒升天了。
+MSG_C_CHEER_V_WIN,You cheered for the vampire's noble legacy. Touched by your spirit he let you pass safely.,ヴァンパイアの家系が背負う「孤高の誇り」に対し、騎士としての激励を送った。夜の王はあなたの高潔な精神に免じ、静かに道を開けて消えた。,你对吸血鬼家族背负的“孤高自尊”，送上了作为骑士的激励。夜之王看在你高尚的精神份上，静静地让开了道路并消失了。
+MSG_C_CHEER_W_WIN,You cheered for the pack's perfect teamwork. They howled in pride and left you alone.,ウルフたちの統制された美しき連携を、戦士の眼差しで称え、激励した。群れはあなたの理解に感謝の遠吠えを上げ、獲物から友へと格を上げた。,你以战士的目光称赞并激励了狼群统合的优美协作。狼群对着你的理解发出了感谢的远嚎，将你从猎物晋升为了朋友。
+MSG_C_CHEER_X_WIN,You cheered for Xalthis's complex predatory brilliance. satisfied by your awe it left.,ザルティスの無数の複眼と肢が織りなす「捕食の美学」に対し、心からの拍手を送った。魔物は自らの完成された美を認められ、満足して深淵へ還った。,你对扎尔提斯无数复眼与肢体织就的“捕食美学”送上了由衷的掌声。魔物由于自身完善的美获得认可，心满意足地回到了深渊。
+MSG_C_CHEER_Y_WIN,Your shout of warmth melted the yeti's cold rage. It felt the spirit and let you pass.,雪山の支配者の孤独に寄り添うような、温かな激励を大地に響かせた。イエティはあなたの放つ内なる熱気に感銘を受け、静かに道を開けた。,你让如贴近雪山支配者孤独般的、温暖的激励响彻大地。雪人为你散发的内在热气所感铭，静静地让开了道路。
+MSG_C_CHEER_Z_WIN,Your high-energy cheer caused the zombie's rotting heart to burst. It fell and ceased to move.,生者特有の強烈な「肯定のエネルギー」が、負の魔力で動くゾンビの核を撃ち抜いた。怪物は内側から崩壊し、ただの静かな死体へと還った。,生者特有的强烈的“肯定能量”，击穿了由负面魔力驱动的僵尸核心。怪物从内部崩坏，还原成了一具静默的尸体。
+MSG_C_SPIRIT_A_WIN,"You shout with all your might, scaring the Ant. The tiny insect scurries away in fear.","全身の気合を込めて叫ぶと、アリは驚いて逃げ出しました。その小さな体には刺激が強すぎたようです。","你尽力大喝一声，吓死了一只蚂蚁。这个小虫子惊慌失措地逃跑了。"
+MSG_C_SPIRIT_B_WIN,"Your spiritual aura vibrates the air, confusing the Bat's sonar. It crashes into a wall and faints.","放たれた精神のオーラが空気を震わせ、コウモリの超音波を乱しました。混乱した獲物は壁に激突して気絶します。","你的精神光环震动了空气，扰乱了蝙蝠的声呐。它撞在墙上昏了过去。"
+MSG_C_SPIRIT_C_WIN,"You stare down the Cobra with unwavering focus. The predator feels a chill and retreats into the shadows.","揺るぎない眼差しでコブラを威圧しました。捕食者としての本能が危険を察知し、毒蛇は闇へと消えていきました。","你用坚定不移的目光盯着眼镜蛇。这个掠食者感到一阵恶寒，退回了阴影中。"
+MSG_C_SPIRIT_D_WIN,"Your sheer willpower matches the Dragon's pride. Realizing your inner strength, the hatchling decides to look for easier prey.","あなたの純粋な闘志がドラゴンのプライドを圧倒しました。内なる強さを認めた幼龍は、別の獲物を探しに行きました。","你纯粹的意志力与巨龙的骄傲相称。意识到你的内在力量，幼龙决定寻找更容易对付的猎物。"
+MSG_C_SPIRIT_E_WIN,"You channel your vital energy, connecting with the ancient tree. The Ent recognizes your strong soul and returns to its slumber.","生命エネルギーを込めて古木と対峙しました。エントはあなたの魂の強さを認め、再び静かな眠りにつきました。","你引导你的生命能量，与古树相连。恩特认出了你强大的灵魂，回到了沉睡中。"
+MSG_C_SPIRIT_F_LOSS,"No matter how much you focus, the Fly's buzzing continues to irritate you. Your spirit wavers as the pest eludes your grasp.","どれほど集中しようとも、ハエの羽音に苛立ちは隠せません。まとわりつく不快感に、精神が削り取られていきます。","无论你多么专注，苍蝇的嗡嗡声仍在继续让你恼火。当害虫逃出你的掌控时，你的精神动摇了。"
+MSG_C_SPIRIT_G_LOSS,"The Goblin mocks your serious posture with a vulgar laugh. Your mental concentration is broken by its crude insults.","真剣な構えをゴブリンの下品な笑い声に嘲笑されました。下劣な罵倒の数々に、集中力は無惨に散らされてしまいます。","哥布林用粗俗的笑声嘲笑你严肃的姿势。你的精神集中被它粗鲁的侮辱打破了。"
+MSG_C_SPIRIT_H_LOSS,"The Harpy's shrill screech pierces your mind, shattering your resolve. Your spirit is torn apart by the sonic assault.","ハーピーの鋭い鳴き声が意識の奥底まで突き刺さりました。研ぎ澄まされたはずの決意は、音の刃によって粉砕されます。","哈比鹰女尖锐的叫声穿透了你的思想，粉碎了你的决心。你的精神被声波攻击撕碎了。"
+MSG_C_SPIRIT_I_LOSS,"The Imp prances around, playing mind games with you. Your spiritual defense crumbles under its malicious tricks.","悪魔の小猿が周囲を飛び回り、あなたの心を翻弄します。邪悪な悪戯の数々に、精神的な防壁は崩れ去ってしまいました。","小恶魔在周围蹦蹦跳跳，跟你玩心理游戏。你的精神防御在它恶意的伎俩下崩溃了。"
+MSG_C_SPIRIT_J_LOSS,"You try to intimidate the brainless mass, but the Jelly simply wobbles. Your spirit finds no purchase in its mindless existence.","意思持たぬ塊を威圧しようと試みましたが、ゼリーはただ揺れるだけです。空虚な存在を前に、あなたの気合は空回りしました。","你试图恐吓这个没有大脑的质量，但果冻只是摇摆。你的精神在它无心的存在中找不到着力点。"
+MSG_C_SPIRIT_K_LOSS,"The Kobold fights with a pack mentality that overwhelms your individual focus. Your resolve falters against the sheer number of distractions.","コボルドの集団的な闘志が、個人の集中力を上回りました。絶え間ない攪乱の前に、あなたの覚悟は揺らいでしまいます。","狗头人用群体心态作战，压倒了你个人的注意力。在众多的干扰面前，你的决心动摇了。"
+MSG_C_SPIRIT_L_LOSS,"The Lizard's cold, emotionless eyes reflect your own fatigue. Your spirit sinks as you realize the reptile feels no pressure.","トカゲの冷たく無感情な瞳に、あなた自身の疲労が映し出されました。圧力の通じぬ冷血漢を前に、気力は減退していきます。","蜥蜴冰冷、毫无感情的眼睛反映了你自己的疲劳。当你意识到爬行动物感觉不到压力时，你的精神沉沦了。"
+MSG_C_SPIRIT_M_LOSS,"The ancient curse emanating from the Mummy stifles your energy. Your spirit is slowly smothered by the dry, stifling air of the dead.","ミイラから放たれる太古の呪いが、あなたの活力を奪い去ります。死者の纏う乾いた空気に、精神が窒息しそうです。","木乃伊散发出的古老诅咒抑制了你的能量。你的精神慢慢地被死者干燥、令人窒息的空气闷死了。"
+MSG_C_SPIRIT_N_LOSS,"The Naga's hypnotic movements lull your consciousness into a trap. Your mind wanders as your spiritual fire begins to dim.","ナーガの催眠的な動きによって、意識は深い霧の中に閉じ込められました。精神の火が弱まり、思考がどこまでも彷徨います。","纳迦催眠般的动作使你的意识陷入陷阱。当你的精神之火开始变暗时，你的心不在焉。"
+MSG_C_SPIRIT_O_LOSS,"The Orc's raw, violent power crushes your mental discipline. Your spirit break under the weight of its brutal, crushing blows.","オークの野蛮で暴力的な力が、鍛え上げた精神を蹂躙しました。無慈悲な打撃の重みに、心の糸がプツリと切れてしまいます。","兽人原始、暴力的力量粉碎了你的心理纪律。你的精神在它残暴、压碎性的打击下崩溃了。"
+MSG_C_SPIRIT_P_LOSS,"Glowing pixie dust fills your head with confusing visions. Your spirit dissipates into a colorful haze of magical tricks.","ピクシーの鱗粉が、あなたの脳内に混乱の色を散らしました。魔法の悪戯によって、精神は色鮮やかな霧へと霧散します。","闪闪发光的精灵粉尘让你的脑袋里充满了混乱的幻象。你的精神消散在五彩缤纷的魔法伎俩阴霾中。"
+MSG_C_SPIRIT_Q_LOSS,"The Coarl's whiskers emit a steady hum that disrupts your brainwaves. Your focus is scattered by the low-frequency interference.","クアールの髭が放つ一定のハミングが、脳波を乱していきます。低周波の干渉によって、研ぎ澄まされた集中力は散り散りになりました。","寇力的胡须发出的稳定嗡嗡声扰乱了你的脑波。你的注意力被低频干扰分散了。"
+MSG_C_SPIRIT_R_LOSS,"The Rat gnaws at your resolve like it does a block of cheese. Your determination is eroded by its persistent, nagging presence.","ネズミはあなたの覚悟を、まるでチーズのようにかじり取っていきます。執拗で不快な存在感に、精神が削られていきました。","老鼠啃噬着你的决心，就像啃噬一块奶酪。你的决心被它持久、纠缠不休的存在侵蚀了。"
+MSG_C_SPIRIT_S_LOSS,"Every time you rally your spirit, it gets absorbed into the Slime's gooey body. Your mental energy is drained by the mindless ooze.","気合を入れ直すたび、それはスライムの粘着質な体に吸収されてしまいます。意思なき泥濘に、精神エネルギーは枯渇しました。","每当你重振精神，它都会被粘液粘稠的身体吸收。你的精神能量被这无心的软泥耗尽了。"
+MSG_C_SPIRIT_T_LOSS,"The Troll's massive presence makes your willpower seem insignificant. Your spirit shrinks in the shadow of the giant's overwhelming girth.","トロールの圧倒的な巨躯を前に、意志の力など無力に等しく感じられます。巨人の影に飲み込まれ、あなたの精神は縮こまりました。","巨魔巨大的存在感让你意志力显得微不足道。你的精神在巨人压倒性的腰围阴影下萎缩了。"
+MSG_C_SPIRIT_U_LOSS,"The aura of the grave chills your soul to the core. Your spirit struggles to stay alight in the presence of unholy death.","墓場の冷気が、あなたの魂を芯まで凍らせました。不浄なる死を前に、精神の残り火を絶やさぬことすら困難です。","坟墓的气息让你的灵魂感到刺骨的寒冷。在邪恶的死亡面前，你的精神难以保持明亮。"
+MSG_C_SPIRIT_V_LOSS,"The Vampire's aristocratic arrogance makes your efforts feel petty. Your spirit is drained as you fall under its dark, charismatic gaze.","吸血鬼の高慢な傲慢さが、努力を虚しいものへと変えてしまいます。闇のカリスマに見つめられ、精神の活力が吸い取われていきました。","吸血公爵贵族般的傲慢让你的努力显得微不足道。当你落入它黑暗、充满魅力的注視中时，你的精神被抽干了。"
+MSG_C_SPIRIT_W_LOSS,"The Wolf's predatory growl vibrates through your diaphragm, shaking your center. Your spirit falters before the primal hunger of the beast.","狼の低いうなり声が横隔膜を震わせ、体の芯を揺さぶります。獣の根源的な飢えを前に、あなたの気圧されてしまいました。","狼的捕食性咆哮震动了你的横隔膜，动摇了你的中心。在野兽原始的饥饿面前，你的精神动摇了。"
+MSG_C_SPIRIT_X_LOSS,"The cosmic dread radiating from Xalthis is beyond human comprehension. Your spirit shatters as you glimpse the vast emptiness within.","ザルシスの放つ宇宙的な恐怖は、人の理解を超えています。その内なる虚無を垣間見ただけで、精神は砕け散ってしまいました。","札尔西斯发出的宇宙恐惧超乎人类的理解。当你瞥见其中巨大的空虚时，你的精神破碎了。"
+MSG_C_SPIRIT_Y_LOSS,"The biting cold of the Yeti's territory numbs your mental focus. Your spirit starts to freeze, unable to maintain its warmth in the blizzard.","イエティの住まう極寒の空気が、思考を麻痺させていきます。雪嵐の中で熱を保てず、あなたの精神は凍りつき始めました。","雪男领地刺骨的寒冷使你的精神集中变得麻木。你的精神开始冻结，无法在暴风雪中保持温暖。"
+MSG_C_SPIRIT_Z_LOSS,"The relentless, mindless shuffling of the Zombie erodes your sanity. Your spirit is exhausted by the unending horror of the living dead.","ゾンビの絶え間ない足音が、あなたの正気を少しずつ削り取ります。終わりのない死者の恐怖に、精神は疲れ果ててしまいました。","僵尸无情、漫无目的的拖沓动作侵蚀了你的神志。活死人无止境的恐怖耗尽了你的精神。"
