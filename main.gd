@@ -5,6 +5,8 @@ const DungeonGeneratorData = preload("res://dungeon_generator.gd")
 const EnemyDataMap = preload("res://enemy_data.gd")
 const ItemDataMap = preload("res://item_data.gd")
 
+const MASTER_BUS_INDEX := 0
+
 # --- UI Nodes ---
 @onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
@@ -20,13 +22,61 @@ var map_data := {}
 var is_skill_replace_mode := false
 var temp_new_skill := ""
 
+# --- Message Log Queue ---
+var message_queue: Array[String] = []
+var is_printing_message := false
+
+# --- Audio ---
+@onready var audio_player: AudioStreamPlayer = $DialogPlayer
+@onready var walk_audio_player: AudioStreamPlayer = $WalkPlayer
+@onready var mute_button: Button = $MuteButton
+
+# --- Movement Repeat ---
+var move_delay := 0.2
+var move_timer := 0.0
+
+func _process(delta: float) -> void:
+	if is_skill_replace_mode: return
+
+	if move_timer > 0:
+		move_timer -= delta
+		return
+
+	var dir = Vector2.ZERO
+	if Input.is_key_pressed(KEY_UP) or Input.is_key_pressed(KEY_W):
+		dir = Vector2.UP
+	elif Input.is_key_pressed(KEY_DOWN) or Input.is_key_pressed(KEY_S):
+		dir = Vector2.DOWN
+	elif Input.is_key_pressed(KEY_LEFT) or Input.is_key_pressed(KEY_A):
+		dir = Vector2.LEFT
+	elif Input.is_key_pressed(KEY_RIGHT) or Input.is_key_pressed(KEY_D):
+		dir = Vector2.RIGHT
+
+	if dir != Vector2.ZERO:
+		_move(dir)
+		move_timer = move_delay
+
 func _ready() -> void:
+	mute_button.pressed.connect(_on_mute_button_pressed)
+	# AudioServerの状態に合わせてボタン表示を同期
+	_update_mute_button_text()
+
 	for i in range(4):
 		var btn = skill_container.get_child(i) as Button
 		btn.pressed.connect(func(): _on_skill_button_pressed(i))
 		skill_buttons.append(btn)
 
 	call_deferred("_start_game")
+
+func _on_mute_button_pressed():
+	mute_button.release_focus()
+	var is_muted = not AudioServer.is_bus_mute(MASTER_BUS_INDEX)
+	AudioServer.set_bus_mute(MASTER_BUS_INDEX, is_muted)
+	_update_mute_button_text()
+
+func _update_mute_button_text():
+	var is_muted = AudioServer.is_bus_mute(MASTER_BUS_INDEX)
+	mute_button.text = "🔇 OFF" if is_muted else "🔊 ON"
 
 func _start_game():
 	current_floor = 1
@@ -60,7 +110,26 @@ func _load_floor():
 	_update_ui()
 
 func _log_message(msg: String):
-	message_log.text += "> " + msg + "\n"
+	message_queue.append(msg)
+	if not is_printing_message:
+		_process_message_queue()
+
+func _process_message_queue():
+	is_printing_message = true
+	while not message_queue.is_empty():
+		var msg = message_queue.pop_front()
+
+		for char in msg:
+			message_log.text += char
+			# サウンドを再生 (一文字ごと)
+			if char != " " and char != "　":
+				audio_player.play()
+			# 次の文字を表示する前に少し待つ
+			await get_tree().create_timer(0.02).timeout
+
+		message_log.text += "\n"
+
+	is_printing_message = false
 
 func _update_ui():
 	_update_map()
@@ -147,19 +216,6 @@ func _on_skill_button_pressed(idx: int):
 			_log_message("有効スキルを「" + player_skills[idx] + "」に変更した。")
 			_update_ui()
 
-func _unhandled_input(event: InputEvent) -> void:
-	if is_skill_replace_mode: return
-
-	if event is InputEventKey and event.pressed and not event.echo:
-		if event.keycode == KEY_UP or event.keycode == KEY_W:
-			_move(Vector2.UP)
-		elif event.keycode == KEY_DOWN or event.keycode == KEY_S:
-			_move(Vector2.DOWN)
-		elif event.keycode == KEY_LEFT or event.keycode == KEY_A:
-			_move(Vector2.LEFT)
-		elif event.keycode == KEY_RIGHT or event.keycode == KEY_D:
-			_move(Vector2.RIGHT)
-
 func _move(dir: Vector2):
 	var next_pos = player_pos + dir
 
@@ -185,7 +241,9 @@ func _move(dir: Vector2):
 		_process_enemies_turn()
 		return
 
-	player_pos = next_pos
+	if player_pos != next_pos:
+		player_pos = next_pos
+		walk_audio_player.play()
 
 	var picked_item_idx = -1
 	for i in range(map_data.items.size()):

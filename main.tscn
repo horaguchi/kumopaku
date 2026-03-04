@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://dxgul3aevpugt"]
 
 [ext_resource type="Script" uid="uid://scu55cglpq5i" path="res://main.gd" id="1_xxx"]
+[ext_resource type="AudioStream" uid="uid://dyuumncyojrpi" path="res://dialogvoice3.wav" id="2_yyy"]
+[ext_resource type="AudioStream" uid="uid://dx0r4rrx64fcj" path="res://selectsound.wav" id="3_zzz"]
 
 [node name="Main" type="Control" unique_id=1978513943]
 layout_mode = 3
@@ -63,3 +65,25 @@ theme_override_font_sizes/font_size = 32
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
+
+[node name="DialogPlayer" type="AudioStreamPlayer" parent="." unique_id=1382012761]
+stream = ExtResource("2_yyy")
+
+[node name="WalkPlayer" type="AudioStreamPlayer" parent="." unique_id=1759680520]
+stream = ExtResource("3_zzz")
+
+[node name="MuteButton" type="Button" parent="." unique_id=73928104]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -150.0
+offset_top = -60.0
+offset_right = -10.0
+offset_bottom = -10.0
+grow_horizontal = 0
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "🔊 ON"

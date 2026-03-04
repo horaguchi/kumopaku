@@ -1,0 +1,32 @@
+name: Trigger Gemini Review
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - master
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  trigger-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Comment on PR
+        env:
+          GH_TOKEN: ${{ secrets.USER_COMMENT_PAT }}
+        run: |
+          # Get the PR number associated with the current branch
+          PR_NUMBER=$(gh pr list --head "${{ github.ref_name }}" --state open --json number --jq '.[0].number')
+
+          if [ -n "$PR_NUMBER" ]; then
+            echo "Found PR #$PR_NUMBER. Adding comment..."
+            gh pr comment "$PR_NUMBER" --body "/gemini review"
+          else
+            echo "No open PR found for branch ${{ github.ref_name }}."
+          fi
