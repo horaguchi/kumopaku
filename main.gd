@@ -240,8 +240,9 @@ func _move(dir: Vector2):
 		_process_enemies_turn()
 		return
 
-	player_pos = next_pos
-	walk_audio_player.play()
+	if player_pos != next_pos:
+		player_pos = next_pos
+		walk_audio_player.play()
 
 	var picked_item_idx = -1
 	for i in range(map_data.items.size()):
