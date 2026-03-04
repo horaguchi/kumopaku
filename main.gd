@@ -5,6 +5,8 @@ const DungeonGeneratorData = preload("res://dungeon_generator.gd")
 const EnemyDataMap = preload("res://enemy_data.gd")
 const ItemDataMap = preload("res://item_data.gd")
 
+const MASTER_BUS_INDEX := 0
+
 # --- UI Nodes ---
 @onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
@@ -57,7 +59,7 @@ func _process(delta: float) -> void:
 func _ready() -> void:
 	mute_button.pressed.connect(_on_mute_button_pressed)
 	# AudioServerの状態に合わせてボタン表示を同期
-	if AudioServer.is_bus_mute(0):
+	if AudioServer.is_bus_mute(MASTER_BUS_INDEX):
 		mute_button.text = "🔇 OFF"
 	else:
 		mute_button.text = "🔊 ON"
@@ -71,9 +73,8 @@ func _ready() -> void:
 
 func _on_mute_button_pressed():
 	mute_button.release_focus()
-	var master_bus = 0 # Master bus index
-	var is_muted = not AudioServer.is_bus_mute(master_bus)
-	AudioServer.set_bus_mute(master_bus, is_muted)
+	var is_muted = not AudioServer.is_bus_mute(MASTER_BUS_INDEX)
+	AudioServer.set_bus_mute(MASTER_BUS_INDEX, is_muted)
 	mute_button.text = "🔇 OFF" if is_muted else "🔊 ON"
 
 func _start_game():
@@ -113,27 +114,21 @@ func _log_message(msg: String):
 		_process_message_queue()
 
 func _process_message_queue():
-	if message_queue.is_empty():
-		return
-
 	is_printing_message = true
-	var msg = message_queue.pop_front()
+	while not message_queue.is_empty():
+		var msg = message_queue.pop_front()
 
-	for i in range(msg.length()):
-		message_log.text += msg[i]
-		# サウンドを再生 (一文字ごと)
-		if msg[i] != " " and msg[i] != "　":
-			if audio_player.playing:
-				audio_player.stop()
-			audio_player.play()
-		# 次の文字を表示する前に少し待つ
-		await get_tree().create_timer(0.02).timeout
+		for i in range(msg.length()):
+			message_log.text += msg[i]
+			# サウンドを再生 (一文字ごと)
+			if msg[i] != " " and msg[i] != "　":
+				audio_player.play()
+			# 次の文字を表示する前に少し待つ
+			await get_tree().create_timer(0.02).timeout
 
-	message_log.text += "\n"
+		message_log.text += "\n"
 
 	is_printing_message = false
-	if message_queue.size() > 0:
-		_process_message_queue()
 
 func _update_ui():
 	_update_map()
