@@ -118,10 +118,10 @@ func _process_message_queue():
 	while not message_queue.is_empty():
 		var msg = message_queue.pop_front()
 
-		for i in range(msg.length()):
-			message_log.text += msg[i]
+		for char in msg:
+			message_log.text += char
 			# サウンドを再生 (一文字ごと)
-			if msg[i] != " " and msg[i] != "　":
+			if char != " " and char != "　":
 				audio_player.play()
 			# 次の文字を表示する前に少し待つ
 			await get_tree().create_timer(0.02).timeout
