@@ -56,6 +56,11 @@ func _process(delta: float) -> void:
 
 func _ready() -> void:
 	mute_button.pressed.connect(_on_mute_button_pressed)
+	# AudioServerの状態に合わせてボタン表示を同期
+	if AudioServer.is_bus_mute(0):
+		mute_button.text = "🔇 OFF"
+	else:
+		mute_button.text = "🔊 ON"
 
 	for i in range(4):
 		var btn = skill_container.get_child(i) as Button
