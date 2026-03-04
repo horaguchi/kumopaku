@@ -11,9 +11,20 @@ config_version=5
 [application]
 
 config/name="kumopaku"
-run/main_scene="uid://dxgul3aevpugt"
+run/main_scene="res://title.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[gui]
+
+theme/custom="uid://bu1r5dx7k717w"
+theme/custom_font="uid://cx5v7ff6irohx"
 
 [physics]
 

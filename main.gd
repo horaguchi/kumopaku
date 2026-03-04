@@ -1,16 +1,14 @@
 class_name Main
-extends Node2D
+extends Control
 
 const DungeonGeneratorData = preload("res://dungeon_generator.gd")
 const EnemyDataMap = preload("res://enemy_data.gd")
 const ItemDataMap = preload("res://item_data.gd")
 
 # --- UI Nodes ---
-var title_screen: Control
-var game_screen: Control
-var map_label: Label
-var message_log: RichTextLabel
-var skill_container: VBoxContainer
+@onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
+@onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
+@onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
@@ -23,84 +21,14 @@ var is_skill_replace_mode := false
 var temp_new_skill := ""
 
 func _ready() -> void:
-	_setup_ui()
-	_show_title_screen()
-
-func _setup_ui() -> void:
-	var font := SystemFont.new()
-	font.font_names = PackedStringArray(["Monospace", "Courier New", "Consolas"])
-
-	title_screen = Control.new()
-	title_screen.set_anchors_preset(Control.PRESET_FULL_RECT)
-	title_screen.size = get_viewport_rect().size
-	add_child(title_screen)
-
-	var title_vbox = VBoxContainer.new()
-	title_vbox.set_anchors_preset(Control.PRESET_CENTER)
-	title_screen.add_child(title_vbox)
-
-	var title_label := Label.new()
-	title_label.text = "Rogue-like Text Game"
-	title_label.add_theme_font_override("font", font)
-	title_label.add_theme_font_size_override("font_size", 48)
-	title_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	title_vbox.add_child(title_label)
-
-	var play_button := Button.new()
-	play_button.text = "プレイ"
-	play_button.add_theme_font_override("font", font)
-	play_button.add_theme_font_size_override("font_size", 32)
-	play_button.pressed.connect(_start_game)
-	title_vbox.add_child(play_button)
-
-	game_screen = Control.new()
-	game_screen.set_anchors_preset(Control.PRESET_FULL_RECT)
-	game_screen.size = get_viewport_rect().size
-	game_screen.visible = false
-	add_child(game_screen)
-
-	var hbox := HBoxContainer.new()
-	hbox.set_anchors_preset(Control.PRESET_FULL_RECT)
-	game_screen.add_child(hbox)
-
-	var left_vbox := VBoxContainer.new()
-	left_vbox.size_flags_horizontal = Control.SIZE_EXPAND_FILL
-	hbox.add_child(left_vbox)
-
-	map_label = Label.new()
-	map_label.add_theme_font_override("font", font)
-	map_label.add_theme_font_size_override("font_size", 38)
-	map_label.size_flags_vertical = Control.SIZE_EXPAND_FILL
-	map_label.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-	map_label.vertical_alignment = VERTICAL_ALIGNMENT_CENTER
-	left_vbox.add_child(map_label)
-
-	message_log = RichTextLabel.new()
-	message_log.add_theme_font_override("normal_font", font)
-	message_log.custom_minimum_size = Vector2(0, 200)
-	message_log.scroll_following = true
-	left_vbox.add_child(message_log)
-
-	skill_container = VBoxContainer.new()
-	skill_container.custom_minimum_size = Vector2(250, 0)
-	hbox.add_child(skill_container)
-
 	for i in range(4):
-		var btn = Button.new()
-		btn.add_theme_font_override("font", font)
-		btn.add_theme_font_size_override("font_size", 24)
-		btn.visible = false
+		var btn = skill_container.get_child(i) as Button
 		btn.pressed.connect(func(): _on_skill_button_pressed(i))
-		skill_container.add_child(btn)
 		skill_buttons.append(btn)
 
-func _show_title_screen():
-	title_screen.visible = true
-	game_screen.visible = false
+	call_deferred("_start_game")
 
 func _start_game():
-	title_screen.visible = false
-	game_screen.visible = true
 	current_floor = 1
 	player_skills.clear()
 	player_skills.append("殴る")
@@ -157,7 +85,7 @@ func _update_map():
 	for y in range(DungeonGeneratorData.HEIGHT):
 		var row_str = ""
 		for x in range(DungeonGeneratorData.WIDTH):
-			row_str += grid[y][x]
+			row_str += str(grid[y][x])
 		map_str += row_str + "\n"
 
 	map_label.text = map_str
@@ -204,7 +132,7 @@ func _on_skill_button_pressed(idx: int):
 			_update_ui()
 
 func _unhandled_input(event: InputEvent) -> void:
-	if not game_screen.visible or is_skill_replace_mode: return
+	if is_skill_replace_mode: return
 
 	if event is InputEventKey and event.pressed and not event.echo:
 		if event.keycode == KEY_UP or event.keycode == KEY_W:
@@ -219,7 +147,11 @@ func _unhandled_input(event: InputEvent) -> void:
 func _move(dir: Vector2):
 	var next_pos = player_pos + dir
 
-	if map_data.grid[next_pos.y][next_pos.x] == "#":
+	if next_pos.x < 0 or next_pos.x >= DungeonGeneratorData.WIDTH or next_pos.y < 0 or next_pos.y >= DungeonGeneratorData.HEIGHT:
+		return
+
+	var c = map_data.grid[next_pos.y][next_pos.x]
+	if not (c == "#" or c == "+" or c == "."):
 		return
 
 	var hit_enemy_idx = -1
@@ -284,10 +216,18 @@ func _process_enemies_turn():
 			var dy = sign(player_pos.y - enemy.pos.y)
 			var n_pos = enemy.pos
 
-			if dx != 0 and map_data.grid[enemy.pos.y][enemy.pos.x + dx] != "#":
-				n_pos.x += dx
-			elif dy != 0 and map_data.grid[enemy.pos.y + dy][enemy.pos.x] != "#":
-				n_pos.y += dy
+			if dx != 0:
+				var nx = enemy.pos.x + dx
+				if nx >= 0 and nx < DungeonGeneratorData.WIDTH:
+					var cx = map_data.grid[enemy.pos.y][nx]
+					if cx == "#" or cx == "+" or cx == ".":
+						n_pos.x += dx
+			elif dy != 0:
+				var ny = enemy.pos.y + dy
+				if ny >= 0 and ny < DungeonGeneratorData.HEIGHT:
+					var cy = map_data.grid[ny][enemy.pos.x]
+					if cy == "#" or cy == "+" or cy == ".":
+						n_pos.y += dy
 
 			# 味方同士の衝突は省略。文字ベースなので無視。
 			enemy.pos = n_pos
@@ -329,4 +269,4 @@ func _combat(enemy_idx: int) -> bool:
 
 func _game_over():
 	await get_tree().create_timer(3.0).timeout
-	_show_title_screen()
+	get_tree().change_scene_to_file("res://title.tscn")
