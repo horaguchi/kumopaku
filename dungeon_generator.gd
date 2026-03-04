@@ -1,32 +1,44 @@
 class_name DungeonGenerator
 extends RefCounted
 
-const WIDTH = 32
-const HEIGHT = 9
-
 static func generate(floor_num: int) -> Dictionary:
-	var map := []
-	for i in range(HEIGHT):
-		var line := []
-		for j in range(WIDTH):
-			line.append(" ")
-		map.append(line)
+	var result = {}
+	while result.is_empty():
+		result = _try_generate(floor_num)
+	return result
+
+static func _try_generate(floor_num: int) -> Dictionary:
+	# 階層に応じたパラメータ設定
+	# 階が進むにつれ、マップサイズ、部屋数、部屋のサイズが増加していく
+	var width = 36 + (floor_num - 1) * 6
+	var height = 10 + (floor_num - 1)
 
 	var straightness := 0.75
 	var sparseness := 0.90
 	var add_loops := 0.50
-	var room_count := 5
-	var room_width_min := 4
-	var room_width_max := 10
-	var room_height_min := 3
-	var room_height_max := 8
 
-	_maze(map, WIDTH, HEIGHT, straightness, sparseness, add_loops)
-	_put_rooms(map, WIDTH, HEIGHT, room_count, [room_width_min, room_width_max], [room_height_min, room_height_max])
+	var room_count = 4 + (floor_num - 1)
+	var room_width_min := 4
+	var room_width_max := 9
+	var room_height_min := 3
+	var room_height_max := 7
+
+	var map := []
+	for i in range(height):
+		var line := []
+		for j in range(width):
+			line.append(" ")
+		map.append(line)
+
+	_maze(map, width, height, straightness, sparseness, add_loops)
+	_put_rooms(map, width, height, room_count, [room_width_min, room_width_max], [room_height_min, room_height_max])
+
+	if not _is_fully_connected(map, width, height):
+		return {}
 
 	var carved_cells := []
-	for y in range(HEIGHT):
-		for x in range(WIDTH):
+	for y in range(height):
+		for x in range(width):
 			var c = map[y][x]
 			if c == ".":
 				# アイテムやエンティティを配置可能な場所（床のみ）
@@ -348,3 +360,39 @@ static func _update_weight(x: int, y: int, wei: Array, width: int, height: int, 
 		wei[y][x - 1] += 8 * sign_val
 	if x != 0 and y != 0:
 		wei[y - 1][x - 1] += 16 * sign_val
+
+static func _is_fully_connected(map: Array, width: int, height: int) -> bool:
+	var walkable_count = 0
+	var start_pos := Vector2(-1, -1)
+
+	for y in range(height):
+		for x in range(width):
+			var c = map[y][x]
+			if c == "." or c == "#" or c == "+":
+				walkable_count += 1
+				if start_pos.x == -1:
+					start_pos = Vector2(x, y)
+
+	if walkable_count == 0:
+		return true
+
+	var visited := {}
+	var queue := [start_pos]
+	visited[start_pos] = true
+	var connected_count = 0
+
+	while queue.size() > 0:
+		var curr = queue.pop_front()
+		connected_count += 1
+
+		var dirs = [Vector2.UP, Vector2.DOWN, Vector2.LEFT, Vector2.RIGHT]
+		for d in dirs:
+			var nx = int(curr.x + d.x)
+			var ny = int(curr.y + d.y)
+			if nx >= 0 and nx < width and ny >= 0 and ny < height:
+				var c = map[ny][nx]
+				if (c == "." or c == "#" or c == "+") and not visited.has(Vector2(nx, ny)):
+					visited[Vector2(nx, ny)] = true
+					queue.append(Vector2(nx, ny))
+
+	return connected_count == walkable_count

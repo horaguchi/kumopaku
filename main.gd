@@ -82,9 +82,11 @@ func _update_map():
 	grid[player_pos.y][player_pos.x] = "@"
 
 	var map_str = ""
-	for y in range(DungeonGeneratorData.HEIGHT):
+	var max_y = grid.size()
+	var max_x = grid[0].size()
+	for y in range(max_y):
 		var row_str = ""
-		for x in range(DungeonGeneratorData.WIDTH):
+		for x in range(max_x):
 			row_str += str(grid[y][x])
 		map_str += row_str + "\n"
 
@@ -106,6 +108,10 @@ func _update_skills():
 		skill_buttons[3].visible = true
 		skill_buttons[3].text = "[NEW] " + temp_new_skill
 		skill_buttons[3].add_theme_color_override("font_color", Color.GREEN)
+	elif not map_data.is_empty() and map_data.has("stairs_pos") and player_pos == map_data.stairs_pos:
+		skill_buttons[3].visible = true
+		skill_buttons[3].text = "下に降りる"
+		skill_buttons[3].add_theme_color_override("font_color", Color.CYAN)
 
 func _on_skill_button_pressed(idx: int):
 	# ボタンのフォーカスを外さないとキー入力が吸われる
@@ -125,6 +131,16 @@ func _on_skill_button_pressed(idx: int):
 			temp_new_skill = ""
 			_update_ui()
 			_process_enemies_turn()
+	elif player_pos == map_data.stairs_pos and idx == 3:
+		# 階段の上にいて「下に降りる」を押した
+		if current_floor == 5:
+			_log_message("全てのフロアを制覇した！ゲームクリア！！")
+			map_data.clear()
+			_update_ui()
+			_game_over()
+		else:
+			current_floor += 1
+			_load_floor()
 	else:
 		if idx < player_skills.size():
 			active_skill_index = idx
@@ -147,7 +163,11 @@ func _unhandled_input(event: InputEvent) -> void:
 func _move(dir: Vector2):
 	var next_pos = player_pos + dir
 
-	if next_pos.x < 0 or next_pos.x >= DungeonGeneratorData.WIDTH or next_pos.y < 0 or next_pos.y >= DungeonGeneratorData.HEIGHT:
+	if map_data.is_empty() or not map_data.has("grid"): return
+	var max_y = map_data.grid.size()
+	var max_x = map_data.grid[0].size()
+
+	if next_pos.x < 0 or next_pos.x >= max_x or next_pos.y < 0 or next_pos.y >= max_y:
 		return
 
 	var c = map_data.grid[next_pos.y][next_pos.x]
@@ -187,16 +207,8 @@ func _move(dir: Vector2):
 			return
 
 	if player_pos == map_data.stairs_pos:
-		if current_floor == 5:
-			_log_message("全てのフロアを制覇した！ゲームクリア！！")
-			map_data.clear()
-			_update_ui()
-			_game_over()
-			return
-		else:
-			current_floor += 1
-			_load_floor()
-			return
+		_log_message("階段を見つけた。スキルエリアの「下に降りる」を押せば次の階に行ける。")
+		_update_ui() # スキルボタンを表示するためにUIを更新
 
 	_process_enemies_turn()
 
@@ -216,15 +228,18 @@ func _process_enemies_turn():
 			var dy = sign(player_pos.y - enemy.pos.y)
 			var n_pos = enemy.pos
 
+			var max_y = map_data.grid.size()
+			var max_x = map_data.grid[0].size()
+
 			if dx != 0:
 				var nx = enemy.pos.x + dx
-				if nx >= 0 and nx < DungeonGeneratorData.WIDTH:
+				if nx >= 0 and nx < max_x:
 					var cx = map_data.grid[enemy.pos.y][nx]
 					if cx == "#" or cx == "+" or cx == ".":
 						n_pos.x += dx
 			elif dy != 0:
 				var ny = enemy.pos.y + dy
-				if ny >= 0 and ny < DungeonGeneratorData.HEIGHT:
+				if ny >= 0 and ny < max_y:
 					var cy = map_data.grid[ny][enemy.pos.x]
 					if cy == "#" or cy == "+" or cy == ".":
 						n_pos.y += dy
@@ -233,7 +248,7 @@ func _process_enemies_turn():
 			enemy.pos = n_pos
 
 			if enemy.pos == player_pos:
-				_log_message("敵 " + e_char + " の " + enemy_data.skill + " 攻撃！")
+				_log_message("敵 " + enemy_data.name + " の " + enemy_data.skill + " 攻撃！")
 				var is_player_dead = _combat(i)
 				if is_player_dead:
 					return # 戦闘で死んだら終了
@@ -249,13 +264,14 @@ func _process_enemies_turn():
 func _combat(enemy_idx: int) -> bool:
 	var enemy = map_data.enemies[enemy_idx]
 	var e_char = enemy.char
+	var enemy_data = EnemyDataMap.ENEMIES[e_char]
 	var skill = player_skills[active_skill_index]
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
 
 	_log_message(result.message)
 
 	if result.win:
-		_log_message("敵 " + e_char + " を倒した！")
+		_log_message("敵 " + enemy_data.name + " を倒した！")
 		# プレイヤーから発信された攻撃ならここで削除
 		if player_pos != enemy.pos:
 			map_data.enemies.remove_at(enemy_idx)
