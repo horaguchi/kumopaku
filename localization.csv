@@ -15,7 +15,7 @@ Mummy,Mummy,マミー,木乃伊
 Naga,Naga,ナーガ,纳迦
 Orc,Orc,オーク,兽人
 Pixie,Pixie,ピクシー,小仙女
-Coarl,Coarl,クアール,夸尔
+Coeurl,Coeurl,クアール,夸尔
 Rat,Rat,ラット,老鼠
 Slime,Slime,スライム,史莱姆
 Troll,Troll,トロール,巨魔
@@ -42,6 +42,7 @@ Pray,Pray,祈る,祈祷
 Escape,Escape,逃げる,逃跑
 Persuade,Persuade,説得,说服
 Hide,Hide,隠れる,隐藏
+Cheer,Cheer,応援,应援
 Deceive,Deceive,騙す,欺骗
 Intimidate,Intimidate,威圧,威压
 Flatter,Flatter,媚びる,谄媚
@@ -122,7 +123,7 @@ MSG_C_PUNCH_M_WIN,You shattered the mummy's brittle chest. Freed from its ancien
 MSG_C_PUNCH_N_LOSS,The naga's supple movements caused your punch to miss. Its tail coiled around you in an instant.,ナーガのしなやかな動きに拳は空を切った。体勢を崩したところを尾に締め上げられた。,纳迦灵活的动作让你的一拳落空了。当你失去平衡时，它的尾巴迅速缠了上来。
 MSG_C_PUNCH_O_LOSS,The orc's massive muscles absorbed your blow. The undaunted monster's weapon swung from above.,オークの頑強な筋肉に打撃は吸収された。怯まぬ怪物の一振りが頭上から降り注いだ。,兽人强健的肌肉吸收了你的打击。那毫不畏惧的怪物从头顶挥下了重力一击。
 MSG_C_PUNCH_P_LOSS,You were toyed with by the pixie's swift flight. Shrouded in confusing dust your mind went dark.,ピクシーの素早い飛行に翻弄され、拳は届かない。幻惑の鱗粉に包まれ、意識が遠のく。,你被小仙女敏捷的飞行耍得团团转。被迷幻的鳞粉包围，你的意识渐渐远去。
-MSG_C_PUNCH_Q_LOSS,The coarl's electromagnetic fur repelled your blow. Lightning sparked mocking your numbed arm.,クアールの電磁場を帯びた毛並みに拳が阻まれた。痺れる腕を嘲笑うかのように、雷が走った。,夸尔带有电磁场的皮毛阻隔了你的拳头。闪电划过，仿佛在嘲笑你那麻木的手臂。
+MSG_C_PUNCH_Q_LOSS,The coeurl's electromagnetic fur repelled your blow. Lightning sparked mocking your numbed arm.,クアールの電磁場を帯びた毛並みに拳が阻まれた。痺れる腕を嘲笑うかのように、雷が走った。,夸尔带有电磁场的皮毛阻隔了你的拳头。闪电划过，仿佛在嘲笑你那麻木的手臂。
 MSG_C_PUNCH_R_LOSS,You couldn't catch the swift rat pack. Countless fangs closed in from below draining your strength.,素早いラットの群れを捉えきることができない。無数の牙が足元から忍び寄り、体力を削った。,你无法捕捉敏捷的老鼠群。无数毒牙从脚边袭来，不断削减你的体力。
 MSG_C_PUNCH_S_LOSS,Your fist sank deep into the slime's elastic body. Its sticky mucus bound you as you struggled.,スライムの弾力ある体に拳が深く埋まった。抜けなくなった腕を嘲笑うかのように、粘液が絡みつく。,你的拳头深深陷入了史莱ーム充满弹性的身体里。粘液缠绕而上，仿佛在嘲笑你那无法拔出的手臂。
 MSG_C_PUNCH_T_LOSS,Your blows were meaningless against the troll's regeneration. Its club crushed everything in its path.,トロールの驚異的な再生能力に打撃は無意味だった。巨大な棍棒の一振りが全てを粉砕した。,面对巨魔惊人的再生能力，打击毫无意义。巨大木棒的一挥便粉砕了一切。
@@ -148,7 +149,7 @@ MSG_C_SLASH_M_WIN,You sliced through the mummy's heart bandages and all. Its mil
 MSG_C_SLASH_N_WIN,You cut through the naga's supple body with one stroke. The beautiful serpent's end was a pitiful cry.,ナーガのしなやかな胴体を一文字に切り捨てた。美しき人面蛇の最期は、哀れな叫びだった。,将纳迦曲线优美的胴体一刀两断。美丽人面蛇的最后，是可怜的哀鸣。
 MSG_C_SLASH_O_LOSS,Your sword was repelled by the orc's massive axe. A follow-up strike assaulted your numbed arm.,オークの巨大な斧と正面からぶつかり、剣が弾き返された。衝撃で痺れた腕を、怪力の追撃が襲う。,你的剑与兽人的巨斧正面碰撞，被弹了回来。强力的追击袭向了你因冲击而麻木的手臂。
 MSG_C_SLASH_P_WIN,Slicing through the phantom light you caught the hidden pixie. Its small life vanished as a beam.,幻惑の光を切り裂き、身を隠したピクシーの居場所を捉えた。小さな命は一筋の光となって消えた。,斩开了幻惑之光，捕捉到了隐藏行踪的小仙女。微小的生命化作一道光芒消失了。
-MSG_C_SLASH_Q_WIN,A lightning-fast slash severed both the coarl's feelers. Deprived of its weapon the beast fell.,電光石火の斬撃が、クアールの二本の触角を同時に切り離した。最大の武器を失い、獣は倒れた。,电光石火般的斩击同时切断了夸尔的两根触角。失去了最强武器的猛兽倒下了。
+MSG_C_SLASH_Q_WIN,A lightning-fast slash severed both the coeurl's feelers. Deprived of its weapon the beast fell.,電光石火の斬撃が、クアールの二本の触角を同時に切り離した。最大の武器を失い、獣は倒れた。,电光石火般的斩击同时切断了夸尔的两根触角。失去了最强武器的猛兽倒下了。
 MSG_C_SLASH_R_WIN,One sweep scattered the rats and killed their leader. The leaderless pack dispersed in a panic.,ラットの集団を一薙ぎで蹴散らし、ボスと思しき個体を仕留めた。統率を失った群れは霧散した。,横扫一圈击散了老鼠群，并解决了看似头领的个体。失去统帅的鼠群四散奔逃。
 MSG_C_SLASH_S_WIN,Despite the sticky sludge you cut the slime's core in two. The monster returned to a mere puddle.,粘液に足を取られながらも、スライムの核を真っ二つに切り裂いた。怪物はただの水まりへと還った。,虽被粘液绊住了脚，你还是将史莱姆的核心一分为二。怪物变回了一滩平凡的水渍。
 MSG_C_SLASH_T_LOSS,The troll's thick fat and regeneration blocked your blade. Before its healing your sword snapped.,トロールの分厚い脂肪と驚異の再生力が、刃の到達を拒んだ。絶望的な回復を前に、あなたの剣は折れた。,巨魔肥厚的脂肪和惊人的再生力挡住了刃尖。在令人绝望的恢复力面前，你的剑折断了。
@@ -174,7 +175,7 @@ MSG_C_STAB_M_LOSS,Your spear got stuck deep in the mummy's dry bandages. Sand-cu
 MSG_C_STAB_N_LOSS,Your spear grazed the naga's body but did no fatal damage. The enraged serpent coiled around you.,ナーガのしなやかな胴体に槍が掠めたが、致命傷には至らない。激昂した半人半蛇が、あなたを締め上げる。,长枪划过了纳迦曲折的胴体，但并未造成致命伤。激怒的半人半蛇迅速缠上了你的身体。
 MSG_C_STAB_O_WIN,You parried the orc's bulk and stabbed deep into its belly. Its roar became a gurgling death cry.,オークの巨体を受け流し、その分厚い腹部を深く突いた。怪物の咆哮は、不快な音を立てて絶命へと変わった。,避开了兽人的巨体，并深深刺入了它厚实的腹部。怪物的咆哮伴随着不快的声音转为临终的哀鸣。
 MSG_C_STAB_P_WIN,"Slicing phantom light, you took the pixie's core with one thrust. It vanished into the void as a beam.",幻惑の光を切り裂き、ピクシーの核を一突きで仕留めた。小さな命は一筋の光となって、虚空へと消えた。,刺破迷幻之光，一枪解决了小仙女的核心。微小的生命化作一道光芒消逝在虚空中。
-MSG_C_STAB_Q_LOSS,The coarl's whiskers caught your spear and channeled lightning. The beast leaped at your numbed body.,クアールの鋭い髭が槍を絡め取り、電撃を流し込んできた。痺れる全身を嘲笑うかのように、獣が飛びかかる。,夸尔锐利的胡须缠住了长枪，并传导来了点击。猛兽飞扑向你那因麻痹而嘲笑般动弹不得的全身。
+MSG_C_STAB_Q_LOSS,The coeurl's whiskers caught your spear and channeled lightning. The beast leaped at your numbed body.,クアールの鋭い髭が槍を絡め取り、電撃を流し込んできた。痺れる全身を嘲笑うかのように、獣が飛びかかる。,夸尔锐利的胡须缠住了长枪，并传导来了点击。猛兽飞扑向你那因麻痹而嘲笑般动弹不得的全身。
 MSG_C_STAB_R_LOSS,Surrounded in a tight spot there was no room to swing your spear. Countless fangs drained you.,狭い場所でラットの群れに囲まれ、槍を振るう空間がない。無数の牙が足元から忍び寄り、体力を削る。,在狭窄之处被老鼠群包围，没有挥舞长枪的空间。无数毒牙从脚边袭来，不断削减体力。
 MSG_C_STAB_S_LOSS,Your spear's power was absorbed by the slime's elastic body. Covered in mucus it's just a stick now.,スライムの弾力ある体に槍が埋まり、威力が吸収された。粘液に覆われた武器は、もはや棒切れも同然だ。,长枪陷入了史莱姆弹性的身体中，威力被完全吸收。覆盖着粘液的武器如今已与棍棒无异。
 MSG_C_STAB_T_LOSS,The troll's fat blocked your spear from its heart. As it healed a massive club swung down.,トロールの分厚い皮下脂肪に槍が阻まれ、急所を外した。驚異の再生が始まる中、巨大な棍棒が振り下ろされる。,巨魔肥厚的皮下脂肪挡住了枪头，偏离了要害。在惊人的再生开始之际，巨大的木棒挥了下来。
@@ -200,7 +201,7 @@ MSG_C_SHOOT_M_LOSS,Your arrow buried itself into the mummy's bandages to no effe
 MSG_C_SHOOT_N_WIN,A triple-volley caught the naga's supple body. The beautiful serpent met a pitiful silent end.,ナーガのしなやかな胴体を、三連射の矢が捉えた。美しき人面蛇の最期は、哀れな沈黙だった。,三连发的箭矢捕捉到了纳迦曲线优美的胴体。美丽人面蛇的最后是可怜的沉默。
 MSG_C_SHOOT_O_LOSS,Your shots were blocked by the orc's stout shield. You knew fear as the giant monster closed in.,オークの頑強な盾に射撃を阻まれた。怯まずに接近する怪力の圧迫感に、あなたは恐怖を知る。,射击被兽人坚固的盾牌挡住了。面对毫不畏缩地逼近的怪力压迫感，你感到了恐惧。
 MSG_C_SHOOT_P_LOSS,You couldn't aim through the pixie's phantom light. Your arrow missed and mist shrouded you.,ピクシーの幻惑の光に狙いが定まらない。放たれた矢は虚しく虚空へ消え、あなたは深い霧に包まれた。,被小仙女迷幻的光芒干扰，无法瞄准。射出的箭矢徒劳地消失在虚空中，你被浓雾包围了。
-MSG_C_SHOOT_Q_WIN,You read the coarl's field and fired your fastest arrow. Even lightning couldn't escape sonic death.,クアールの電磁場を見切り、最速の一矢を放った。雷を纏う獣も、音速の死からは逃れられなかった。,看穿了夸尔的电磁场，射出了最速的一箭。缠绕闪电的野兽也无法逃离音速的死神。
+MSG_C_SHOOT_Q_WIN,You read the coeurl's field and fired your fastest arrow. Even lightning couldn't escape sonic death.,クアールの電磁場を見切り、最速の一矢を放った。雷を纏う獣も、音速の死からは逃れられなかった。,看穿了夸尔的电磁场，射出了最速的一箭。缠绕闪电的野兽也无法逃离音速的死神。
 MSG_C_SHOOT_R_LOSS,A swarm of rats pushed in making it impossible to aim. Bitten you fell to your knees.,無数のラットが押し寄せ、対象を絞ることができない。足元を噛み切られ、あなたは地に膝を突いた。,无数老鼠涌来，让你无法锁定目标。脚踝被咬穿，你跪倒在了地上。
 MSG_C_SHOOT_S_LOSS,Your arrow was swallowed and dissolved by the slime. Physical attacks were useless against it.,スライムの体内に矢が飲み込まれ、ゆっくりと溶かされていく。物理的な攻撃は、この怪物には通用しない。,箭矢被吸入了史莱姆体内，正被缓慢溶解。物理攻击对这个怪物毫无作用。
 MSG_C_SHOOT_T_LOSS,The troll's healing sealed your arrow wounds instantly. Your quiver went empty before its regeneration.,トロールの再生力が、矢による傷を瞬時に塞いでいく。絶望的な回復能力を前に、あなたの矢筒は空になった。,巨魔的再生力瞬间愈合了箭伤。在令人绝望的恢复能力面前，你的箭轴已经空了。
@@ -226,7 +227,7 @@ MSG_C_BURN_M_WIN,Fire was lethal to the dry mummy. Bandages and curse both were 
 MSG_C_BURN_N_LOSS,Flames grazed the naga but did no real damage. Protected by water she coiled around you.,ナーガのしなやかな胴体に炎が掠めるが、致命傷には程遠い。水の加護を得た彼女が、蛇身であなたを締め上げる。,火焰掠过纳迦曲折的胴体，但离致命伤还远得很。得到水之庇护的她用蛇身将你死死缠住。
 MSG_C_BURN_O_LOSS,The orc charged through the fire wall ignoring burns. Its raw pressure sealed your magic.,オークは火傷を厭わず、炎の壁を突き破ってきた。猛り狂う怪物の圧力に、あなたの魔法は封じられた。,兽人不顾烧伤，冲破了火焰之墙。在发狂怪物的压力面前，你的魔法被封锁了。
 MSG_C_BURN_P_LOSS,The pixie's dust colored your flames and diverted them. Lured by the lights your mind went dark.,ピクシーの放つ幻惑の鱗粉が、炎の色を美しく変え、威力をそらした。誘われるまま、あなたの意識は遠のく。,小仙女散布的幻惑鳞粉改变了火焰的颜色并化解了威力。在诱导下，你的意识渐渐远去。
-MSG_C_BURN_Q_LOSS,The coarl's field warped the fire's path. Its glowing eyes mocked your growing panic.,クアールの電磁場が炎の軌道を狂わせ、背後の壁を焼くばかりだ。闇に光る瞳が、あなたの焦りを嘲笑う。,夸尔的电磁场偏转了火焰的轨道，只是烧焦了背后的墙壁。黑暗中发光的瞳孔嘲笑着你的焦躁。
+MSG_C_BURN_Q_LOSS,The coeurl's field warped the fire's path. Its glowing eyes mocked your growing panic.,クアールの電磁場が炎の軌道を狂わせ、背後の壁を焼くばかりだ。闇に光る瞳が、あなたの焦りを嘲笑う。,夸尔的电磁场偏转了火焰的轨道，只是烧焦了背后的墙壁。黑暗中发光的瞳孔嘲笑着你的焦躁。
 MSG_C_BURN_R_LOSS,Fire pushed back the rats briefly but it was futile. Countless fangs sought your legs.,炎でラットの群れを一時的に退けたが、焼け石に水だった。次々と現れる無数の牙が、あなたの脚を執拗に狙う。,虽然用火焰暂时退敌，但只是杯水车薪。接连出现的无数毒牙执拗地瞄准了你的小腿。
 MSG_C_BURN_S_LOSS,The slime's mucus absorbed the fire completely. The heated monster began to writhe ominously.,スライムの粘液が炎を吸収し、威力を完全に殺してしまった。熱を帯びた怪物が、さらに不気味に蠢き始める。,史莱姆的粘液吸收了火焰，完全杀死了威力。吸热后的怪物开始更加诡异地蠕动。
 MSG_C_BURN_T_LOSS,The troll's regeneration healed even burns instantly. Faced with despair your mana ran dry.,トロールの再生は火傷さえも瞬時に癒やしていく。尽きぬ絶望を前に、あなたの手元から魔力が失われた。,巨魔的再生力连烧伤也瞬间治愈了。在无尽的绝望面前，你手中的魔力枯竭了。
@@ -252,7 +253,7 @@ MSG_C_FREEZE_M_WIN,Frost soaked the mummy's dry body turning it to brittle ice. 
 MSG_C_FREEZE_N_LOSS,The naga's high resistance parried the frost wave easily. The beautiful serpent's tail sought your neck.,ナーガの魔法耐性は高く、冷気の波を易々と受け流した。美しき人面蛇の尾が、あなたの首元を狙う。,纳迦的魔法抗性很高，轻易地化解了冷气波。美丽人面蛇的尾巴瞄准了你的咽喉。
 MSG_C_FREEZE_O_WIN,The orc's bulk was weighed down by ice silencing it. The strong monster was helpless before the frost.,オークの巨体を氷の重圧で押さえつけ、沈黙させた。力自慢の怪物も、凍てつく静寂の前には無力だった。,用冰的重压压制住了兽人的巨体使其沉默。自负蛮力的怪物在冻结的静寂面前也无能为力。
 MSG_C_FREEZE_P_LOSS,The pixie's light warped the frost blooming ice flowers in space. As you watched death whispered.,ピクシーの幻惑の光が冷気の軌道を狂わせ、虚空に氷の華を咲かせた。見惚れるあなたの背後で、死が囁く。,小仙女迷幻的光芒歪曲了冷气的轨道，在虚空中绽放出了冰之华。在你着迷之际，死神在背后低语。
-MSG_C_FREEZE_Q_LOSS,The coarl's field manipulated the air to neutralize the frost. Instead numbing cold struck your arm.,クアールの電磁場が空気の熱動を操作し、冷気を無力化した。痺れる冷たさが、逆にあなたの腕を襲う。,夸尔的电磁场操控了空气的热动，使冷气无效化。反而是那麻木的寒冷袭向了你的手臂。
+MSG_C_FREEZE_Q_LOSS,The coeurl's field manipulated the air to neutralize the frost. Instead numbing cold struck your arm.,クアールの電磁場が空気の熱動を操作し、冷気を無力化した。痺れる冷たさが、逆にあなたの腕を襲う。,夸尔的电磁场操控了空气的热动，使冷气无效化。反而是那麻木的寒冷袭向了你的手臂。
 MSG_C_FREEZE_R_LOSS,It was impossible to freeze the whole rat pack. Ignoring the sacrifice of one they bit through your armor.,数に勝るラットの群れを完全に凍らせることは不可能だ。一匹の犠牲を厭わぬ奴らが、あなたの防具を食い破る。,想要完全冻结数量占优的老鼠群是不可能的。不顾同伴牺牲的它们咬破了你的防具。
 MSG_C_FREEZE_S_LOSS,The slime absorbed the frost and became even more elastic. The eerie body swallowed the ice and you.,スライムは冷気を吸収し、その弾力性をさらに増した。氷さえも飲み込む不気味な肉体が、あなたを包み込む。,史莱姆吸收了冷气，弹力进一步增加。连冰块都能吞噬的诡异肉体正将你包围。
 MSG_C_FREEZE_T_LOSS,The troll outhealed the spreading frost. As it froze its flesh burst back and its club swung.,トロールの再生は冷気の蔓延をも上回る速さだ。凍りつくそばから肉が弾け、巨大な棍棒が振り下ろされる。,巨魔的再生速度超过了冷气的蔓延。在冻结的同时肉芽已经迸发，巨大的木棒挥了下来。
@@ -278,7 +279,7 @@ MSG_C_TRAP_M_LOSS,Since mummies feel no pain physical traps are useless. The und
 MSG_C_TRAP_N_WIN,Spear traps from the earth pierced the naga's body. It was a fitting stage for her beautiful end.,ナーガのしなやかな蛇身を、大地から突き出した槍の罠が貫いた。美しい最期を望んだ彼女に、ふさわしい舞台だった。,从大地刺出的长枪陷阱贯穿了纳迦的蛇身。对于渴望华丽落幕的她来说，这是个合适的舞台。
 MSG_C_TRAP_O_LOSS,The orc smashed your trap with brute force bleed and all. Your plot failed before the savage beast.,オークは自らの血を流しながら、罠を力任せに破壊した。蛮勇の怪物を前に、あなたの計略は脆くも崩れ去った。,兽人流着鲜血，凭蛮力破坏了陷阱。在蛮勇的怪物面前，你的计策脆弱地崩塌了。
 MSG_C_TRAP_P_LOSS,The pixie's light warped your trap's timing. The monster vanished into mist as the trap failed.,ピクシーの幻惑の光が、罠の発動タイミングを狂わせた。空しく空を切る仕掛けを尻目に、魔物は霧へと消えた。,小仙女迷幻的光芒扰乱了陷阱の発动时机。魔物无视徒劳空响的机关，消失在了雾中。
-MSG_C_TRAP_Q_LOSS,The coarl's field read the air and neutralized your trap. Your reward was a powerful lightning strike.,クアールの電磁場が空気の振動を読み、設置した罠を無効化した。失敗の報酬は、獣が放つ強烈な雷撃だった。,夸尔的电磁场通过读取空气振动使设置的陷阱无效化。失败的回报是猛兽放出的强烈雷击。
+MSG_C_TRAP_Q_LOSS,The coeurl's field read the air and neutralized your trap. Your reward was a powerful lightning strike.,クアールの電磁場が空気の振動を読み、設置した罠を無効化した。失敗の報酬は、獣が放つ強烈な雷撃だった。,夸尔的电磁场通过读取空气振动使设置的陷阱无效化。失败的回报是猛兽放出的强烈雷击。
 MSG_C_TRAP_R_WIN,You triggered a massive explosion trap amidst the rats. Their numbers failed against the flames.,ラットの群れが通りかかる瞬間に、大規模な爆破罠を起動した。数に勝る群れも、化学の力の灯火には勝てなかった。,在老鼠群经过的瞬间启动了大规模爆炸陷阱。数量占优的鼠群也无法战胜化学之力的火焰。
 MSG_C_TRAP_S_LOSS,Slime mucus swallowed your trap's gears stopping it. Swallowed by sticky dark you knew despair.,スライムの粘液が罠の機構を飲み込み、その働きを止めてしまった。粘つく闇に飲まれたあなたは、絶望を知る。,史莱姆的粘液吞噬了陷阱的机关，使其停止了运作。被粘稠黑暗吞没的你感到了绝望。
 MSG_C_TRAP_T_LOSS,The troll's healing sealed even trap wounds instantly. Before that despair your hands shook.,トロールの再生力は、罠による重傷さえも一瞬で癒やしてしまった。絶望の光景を前に、あなたの手は震えた。,巨魔的再生力瞬间治愈了陷阱造成的重伤。面对这绝望的光景，你的双手颤抖了。
@@ -304,7 +305,7 @@ MSG_C_CURSE_M_LOSS,Since it's already dead mummies ignore deathly curses. Its ba
 MSG_C_CURSE_N_LOSS,The naga's pure bloodline purified your foul curse. It was your soul that burned in holy light.,ナーガの清らかな血筋が、あなたの不浄な呪いを浄化した。聖なる光に焼かれたのは、あなたの魂の方だった。,纳迦清澈的血统净化了你那不净的诅咒。被神圣之光灼烧的，反而是你的灵魂。
 MSG_C_CURSE_O_WIN,You cast a weakening curse that ate the orc from within. The strong monster fell of its own weight.,オークの強靭な肉体を内側から蝕む衰弱の呪いをかけた。力尽きた怪物は、自らの重みに耐えきれず膝を突いた。,施加了从内部侵蚀兽人强韧肉体的衰弱诅咒。耗尽力气的怪物因无法承受自身重量而跪倒。
 MSG_C_CURSE_P_LOSS,The pixie's light turned your curse into a melody neutralizing it. Your mind went dark in its trap.,ピクシーの放つ幻惑の光が、呪言の響きを旋律へと変え、無力化した。美しき罠に嵌まり、あなたの意識は遠のく。,小仙女发出的迷幻光芒将呪言的回响变成了旋律，使其无效化。坠入美丽的陷阱，你的意识渐渐远去。
-MSG_C_CURSE_Q_LOSS,The coarl's extrasensory perception blocked your curse. Your reward was a baptism of lightning.,クアールの持つ超常的な感覚が呪いの気配を察知し、未然に防いだ。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官察觉到了诅咒的气息并预先防备。失败的回报是强烈的电击洗礼。
+MSG_C_CURSE_Q_LOSS,The coeurl's extrasensory perception blocked your curse. Your reward was a baptism of lightning.,クアールの持つ超常的な感覚が呪いの気配を察知し、未然に防いだ。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官察觉到了诅咒的气息并预先防备。失败的回报是强烈的电击洗礼。
 MSG_C_CURSE_R_WIN,You spread a plague curse through the rat pack. The cries of self-consuming beasts filled the dark.,ラットの群れに疫病の呪いを蔓延させ、統率を奪った。互いに食らい合う獣たちの叫びが、闇に響き渡った。,在老鼠群中蔓延了疫病诅咒使其失去统领。互相吞噬的兽群叫声在黑暗中四处回响。
 MSG_C_CURSE_S_LOSS,Since slimes have no hearts mental curses failed. Swallowing your vile words the monster grew.,スライムに心はないため、精神を蝕む呪いは届かない。不浄な言葉さえも飲み込み、怪物はさらに肥大化した。,因为史莱姆没有心智，侵蚀精神的诅咒无法传达。它甚至吞下了不净之言，变得更加肥大。
 MSG_C_CURSE_T_LOSS,The troll's healing surpassed your curse's rot. Blackened flesh peeled away to reveal new skin.,トロールの再生力は、呪いによる腐食さえも上回る。黒ずんだ肉が瞬時に剥がれ落ち、新たな皮が再生される。,巨魔的再生力连诅咒造成的腐蚀都能克服。变黑的肉块瞬间脱落，长出了新的皮肤。
@@ -330,7 +331,7 @@ MSG_C_PRAY_M_LOSS,Prayer couldn't reach the mummy long abandoned by gods. The co
 MSG_C_PRAY_N_WIN,A holy prayer sublimated the naga's soul into a messenger of god. She returned to the sky.,聖なる祈りがナーガの魂を昇華させ、彼女を神の使いへと変えた。美しき人面蛇は光の羽を纏い、天へと還った。,神圣的祈祷升华了纳迦的灵魂，令其化作了神之使者。美丽的人面蛇披上光之羽翼，重返天际。
 MSG_C_PRAY_O_LOSS,The orc believing only in blood and force crushed your prayer. Your holy words failed.,オークは自らの血と暴力のみを信じ、神聖な祈りを踏みにじった。理不尽な力の前に、あなたの祈りは途絶えた。,兽人仅信仰自己的鲜血与暴力，践踏了神圣的祈祷。在蛮横的力量面前，你的祈祷中断了。
 MSG_C_PRAY_P_WIN,A heartfelt prayer returned the pixie to a light spirit. She smiled and blessed your journey.,心からの祈りがピクシーのいたずら心を鎮め、彼女を光の精霊へと戻した。彼女は微笑み、あなたの旅に祝福を与えた。,发自内心的祈祷平息了小仙女的恶作剧心态，令其重回光之精灵。她微笑着，为你的旅途送上了祝福。
-MSG_C_PRAY_Q_LOSS,The coarl's senses perceived your prayer and neutralized it. You were met with lightning.,クアールの持つ超常的な感覚が祈りの波動をも感知し、事前にその効果を霧散させた。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官甚至感知到了祈祷的波动，预先使效果烟消云散。失败的回报是强烈的电击洗礼。
+MSG_C_PRAY_Q_LOSS,The coeurl's senses perceived your prayer and neutralized it. You were met with lightning.,クアールの持つ超常的な感覚が祈りの波動をも感知し、事前にその効果を霧散させた。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔拥有的超常感官甚至感知到了祈祷的波动，预先使效果烟消云散。失败的回报是强烈的电击洗礼。
 MSG_C_PRAY_R_LOSS,There was no room for prayer in the endless rat pack. Nature's harsh rule ignored your words.,尽きることのないラットの群れに、祈りが浸透する隙はなかった。弱肉強食の摂理を前に、あなたの祈りは届かない。,面对无穷无尽的老鼠群，祈祷根本没有渗透的余地。在弱肉强食的摄理面前，你的祈祷无法传达。
 MSG_C_PRAY_S_LOSS,The slime lacked a heart to receive your prayer. It swallowed the holy waves and wriggled on.,スライムには祈りを受け取る心が存在しなかった。清らかな波動さえも飲み込み、怪物は不気味に蠢き続ける。,史莱姆并不存在能够接受祈祷的心智。它连清澈的波动都一并吞下，继续诡异地蠕动。
 MSG_C_PRAY_T_WIN,A prayer for miracles turned the troll into a flowerbed. Silenced it became a bed for new life.,奇跡を求める祈りがトロールの再生力を暴走させ、その肉体を清らかな花園へと変えた。怪物は沈黙し、新たな命の苗床となった。,祈求奇迹的祈祷令巨魔的再生力暴走，将其肉体变成了清净的花园。怪物陷入沉默，成为了新生命的苗床。
@@ -356,7 +357,7 @@ MSG_C_ESCAPE_M_LOSS,The mummy's cursed chains tied your legs blocking flight. Th
 MSG_C_ESCAPE_N_LOSS,The naga's flexible body blocked your exit perfectly. Her tail sought your neck relentlessly.,ナーガのしなやかな胴体があなたの退路を完璧に塞いだ。美しき人面蛇の尾が、あなたの首元を執拗に狙う。,纳迦弯曲的胴体完美封锁了你的退路。美丽人面蛇的尾巴正执拗地瞄准你的咽喉。
 MSG_C_ESCAPE_O_WIN,Leaving the orc's roar behind you fled at full speed. Dodging its charge you felt the wind.,オークの咆哮を背に、あなたは一目散にその場を離脱した。力任せの突撃を華麗にかわし、あなたは自由の風を感じた。,背对着兽人的咆哮，你头也不回地脱离了现场。华丽地避开蛮力突击，你感受到了自由之风。
 MSG_C_ESCAPE_P_WIN,Using patterns of light to hide your true form you fled. The pixie noticed too late.,ピクシーの幻惑の光を逆に利用し、あなたは本物の姿を隠して逃走した。光の精霊が気づいたとき、あなたはすでに安全な場所へ。,反过来利用小仙女迷幻的光芒掩护真身并逃跑。当光之精灵察觉时，你已身处安全地带。
-MSG_C_ESCAPE_Q_LOSS,The coarl's field disrupted your balance making flight impossible. You met with lightning.,クアールの電磁場があなたの平衡感覚を奪い、逃走を困難にした。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔的电磁场夺走了你的平衡感，令逃跑变得困难。失败的回报是强烈的电击洗礼。
+MSG_C_ESCAPE_Q_LOSS,The coeurl's field disrupted your balance making flight impossible. You met with lightning.,クアールの電磁場があなたの平衡感覚を奪い、逃走を困難にした。失敗の報酬は、強烈な電撃の洗礼だった。,夸尔的电磁场夺走了你的平衡感，令逃跑变得困难。失败的回报是强烈的电击洗礼。
 MSG_C_ESCAPE_R_LOSS,Countless rats filled your escape route leaving no exit. You despaired at nature's rule.,数に勝るラットの群れがあなたの退路を埋め尽くし、逃げ場を失わせた。弱肉強食の摂理を前に、あなたは絶望を知る。,数量占优的老鼠群填满了你的退路，让你无处可逃。在弱肉强食的摄理面前，你感到了绝望。
 MSG_C_ESCAPE_S_LOSS,Slime mucus covered the ground slowing your steps. Swallowed by the dark you faced death.,スライムの粘液が地面を覆い、あなたの足取りを重くさせた。粘つく闇に飲まれたあなたは、逃れることのできない死を悟る。,史莱姆的粘液覆盖了地面，令你举步维艰。被粘稠黑暗吞没的你，领悟到了无法逃避之死。
 MSG_C_ESCAPE_T_LOSS,The troll's massive body stood as a wall blocking you. Before this despair your heart broke.,トロールの巨体が壁となって立ちはだかり、あなたの脱出を阻んだ。絶望の光景を前に、あなたの心は折れた。,巨魔的巨体化作高墙拦住了你的去路。面对这绝望的光景，你的心志崩溃了。
@@ -382,7 +383,7 @@ MSG_C_DECEIVE_M_LOSS,The mummy's eternal curse kept its focus locked on you. No 
 MSG_C_DECEIVE_N_WIN,You tricked the naga with a complex illusion. The wise serpent searched the false light.,高度な幻術を編み上げ、ナーガの優れた知性に偽の情報を与えた。美しき賢者は実体のない光の残像を追い、あなたの逃走を許した。,你编织了高超的幻术，向纳迦优秀的智力提供了虚假信息。美丽的贤者追逐着没有实态的光辉残像，放任你逃离了现场。
 MSG_C_DECEIVE_O_WIN,You used a classic pit trap decoy to stop the orc. It charged into empty air while you fled.,オークの猪突猛進な性格を利用し、偽の罠を意識させて足を止めさせた。力任せの突撃が空振りに終わる間に、あなたは戦線を離脱した。,你利用兽人横冲直撞的性格，让它意识到虚假的陷阱从而停下了脚步。趁蛮力的突击落空之际，你脱离了战线。
 MSG_C_DECEIVE_P_LOSS,The pixie laughed as she saw through your trick instantly. You can't outfox a trickster.,ピクシーはあなたの欺瞞を瞬時に見破り、愉快そうに羽を動かした。いたずらの天才を相手に、小細工が通用するはずもなかった。,小仙女瞬时看穿了你的欺瞒，愉快地扇动着羽翼。对手可是恶作剧的天才，这种小把戏根本行不通。
-MSG_C_DECEIVE_Q_WIN,You used an electrical grounding trick to foil the coarl. It struck the fake target with thunder.,微かな電流を別の場所に誘導し、クアールの超感覚を撹乱した。怪物は囮の岩に向かって強烈な電撃を放ち、その間にあなたは消えた。,你将微弱的电流诱导至别处，扰乱了夸尔的超感官。怪物朝着作为诱饵的岩石放出了强烈的电击，在那期间你已消失踪影。
+MSG_C_DECEIVE_Q_WIN,You used an electrical grounding trick to foil the coeurl. It struck the fake target with thunder.,微かな電流を別の場所に誘導し、クアールの超感覚を撹乱した。怪物は囮の岩に向かって強烈な電撃を放ち、その間にあなたは消えた。,你将微弱的电流诱导至别处，扰乱了夸尔的超感官。怪物朝着作为诱饵的岩石放出了强烈的电击，在那期间你已消失踪影。
 MSG_C_DECEIVE_R_WIN,You threw high-protein food to split the rat swarm. They fought each other while you left.,高タンパクな携行食を群れの中心へ投げ込み、彼らの食欲を分断した。ネズミたちが互いに争い始めた隙に、あなたは安全な場所へ。,你将高蛋白携带粮投向鼠群中心，分化了它们的食欲。趁老鼠们开始内斗之际，你已身处安全地带。
 MSG_C_DECEIVE_S_LOSS,The slime sensed your movement through ground vibrations. Your visual decoys were meaningless.,あなたの足音から伝わる僅かな振動が、スライムにあなたの位置を伝えていた。視覚的な囮をいくら並べようと、怪物は迷わず迫る。,你脚步传达的微弱震动，向史莱姆告知了你的位置。无论你摆出多少视觉诱饵，怪物都会毫不犹豫地逼近。
 MSG_C_DECEIVE_T_LOSS,The troll's primal fury wouldn't be distracted by tricks. It focused solely on crushing you.,トロールの狂暴な破壊衝動は、付け焼刃の欺瞞で逸らせるものではなかった。怪物は囮など歯牙にもかけず、あなたの心臓を狙う。,巨魔狂暴的破坏冲动绝非临阵磨枪的欺瞒所能转移。怪物根本不理会什么诱饵，一门心思瞄准了你的心脏。
@@ -408,7 +409,7 @@ MSG_C_INTIMIDATE_M_WIN,You invoked the authority of an elder god. The mummy shiv
 MSG_C_INTIMIDATE_N_WIN,You matched the naga's dignity with your own aura. She recognized a peer and withdrew calmly.,ナーガの放つ静かな威厳に対し、あなたは不遜なまでの覇気で対峙した。美しき賢者はあなたの格を対等と認め、静かに深淵へと引いていった。,面对纳迦散发的寂静威严，你展现出了近乎狂放的霸气。美丽的贤者认可了你的地位，静静地退回了深渊。
 MSG_C_INTIMIDATE_O_WIN,You roared louder than the orc's entire life. Stunned by your lungs it backed off in shock.,オークの全人生を否定するほどの凄まじい咆哮を、奴の眼前で叩きつけた。暴力の化身は自分を上回る野性に気圧され、狼狽えながら退散した。,你在兽人面前爆发出了足以否定其整个人生的惊人咆哮。暴力的化身被超越自身的野性所压制，狼狈不堪地退散了。
 MSG_C_INTIMIDATE_P_LOSS,The pixie laughed at your attempt to scare her. She dazzled your eyes with shimmering dust.,あなたの強面をピクシーは面白がり、無邪気な笑い声を上げた。威嚇の効果はゼロ。代わりに彼女は、あなたの鼻先で煌めく粉を撒き散らした。,小仙女以逗乐的心情看着你的凶样，并发出了天真烂漫的笑声。威吓效果为零，她反倒在你鼻尖撒下了闪耀的粉末。
-MSG_C_INTIMIDATE_Q_WIN,You challenged the coarl with an even brighter aura. Overwhelmed by your energy it fled away.,クアールの放つ雷光を上回る、凄烈なまでの闘気を全身から放った。魔物はあなたの内に制御不能なエネルギーを感じ、本能的に逃走を選んだ。,你全身散发出更甚于夸尔雷光的烈性斗气。魔物察觉到你体内不受控的能量，本能地选择了逃跑。
+MSG_C_INTIMIDATE_Q_WIN,You challenged the coeurl with an even brighter aura. Overwhelmed by your energy it fled away.,クアールの放つ雷光を上回る、凄烈なまでの闘気を全身から放った。魔物はあなたの内に制御不能なエネルギーを感じ、本能的に逃走を選んだ。,你全身散发出更甚于夸尔雷光的烈性斗气。魔物察觉到你体内不受控的能量，本能地选择了逃跑。
 MSG_C_INTIMIDATE_R_LOSS,The rats only understood the gravity of hunger. Your threats were ignored by the swarm.,ラットの群れには、個への恐怖より優先される集団の飢えがあった。あなたの叫びは数万の足音にかき消され、死の津波があなたを呑み込む。,在老鼠群中，集体的饥饿感更甚于对个人的恐惧。你的尖叫被成千上万的脚步声没入，死亡的海啸吞没了你。
 MSG_C_INTIMIDATE_S_LOSS,The slime felt no fear as it lacked a nervous system. Your screams only vibrated its goo.,スライムには恐怖という感情を感じる器官そのものが存在しなかった。あなたの咆哮は怪物の半透明な肉体を心地よく揺らす、ただの振動でしかなかった。,史莱姆并不存在能感受恐惧感的器官。你的咆哮仅是令怪物半透明肉体感到舒适颤动的物理振动。
 MSG_C_INTIMIDATE_T_WIN,You made the troll remember the pain of total fire. Terrified it covered its head and fled.,かつてトロールが受けた、焼き尽くされるような苦痛の記憶を呼び覚ました。怪物は過去のトラウマに打ち震え、頭を抱えて逃走していった。,你唤醒了巨魔曾经遭受过的、仿佛被烧尽般的痛苦记忆。怪物因过去的创伤而颤抖，抱头逃窜。
@@ -434,7 +435,7 @@ MSG_C_FLATTER_M_LOSS,The mummy's pride belonged to a dead world. Your mortal pra
 MSG_C_FLATTER_N_LOSS,The naga saw through your insincere silver tongue. She found your attempts at manipulation insulting.,ナーガの叡智は、あなたの言葉に込められた僅かな打算を見逃さなかった。美しき賢者はあなたの不純な動機を叱責し、冷たい視線を向けた。,纳迦的睿智没有放过你言语中包含的些许打算。美丽的贤者斥责了你那不纯的动机，投来了冷淡的视线。
 MSG_C_FLATTER_O_WIN,You called the orc the mightiest conqueror. Proud of its strength it let you live as a trophy.,オークの強大な筋肉と闘争心を、戦士としての最高の名誉だと称えた。力自慢の魔物は鼻高々と胸を張り、あなたを「話のわかる奴」と見なした。,你称赞了兽人强大的肌肉与斗争心，称其为作为战士的最高名誉。自诩蛮力的魔物昂首挺胸，将你视作“懂行的家伙”。
 MSG_C_FLATTER_P_LOSS,The pixie mocked your obvious attempt at manipulation. She responded with an explosion of dust.,あなたの見え透いたお世辞をピクシーは笑い飛ばし、より激しい悪戯で応えた。彼女を操ろうという試みは、あなたの視界を奪う光に変えられた。,小仙女嘲笑你那浅显的阿谀奉承，并用更激烈的恶作剧作为回礼。企图操纵她的尝试，反而变成了夺走你视野的光芒。
-MSG_C_FLATTER_Q_LOSS,The coarl sensed your biological stress through flattery. Its lightning silenced your words.,お世辞を言うあなたの身体的な強張りを、クアールの超感覚が検知した。欺瞞の報酬は、あなたの舌先を焼き切るような強烈な電撃だった。,夸尔的超感官察觉到了阿谀奉承时你身体的紧绷感。欺瞒的回报，是足以烧焦你舌尖的强烈电击。
+MSG_C_FLATTER_Q_LOSS,The coeurl sensed your biological stress through flattery. Its lightning silenced your words.,お世辞を言うあなたの身体的な強張りを、クアールの超感覚が検知した。欺瞞の報酬は、あなたの舌先を焼き切るような強烈な電撃だった。,夸尔的超感官察觉到了阿谀奉承时你身体的紧绷感。欺瞒的回报，是足以烧焦你舌尖的强烈电击。
 MSG_C_FLATTER_R_LOSS,The rats had no ears for anything but hunger's call. Your praise was lost in the squeaking swarm.,飽くなき食欲に支配されたラットの群れに、称賛の言葉が響く隙間はなかった。数万の鳴き声があなたの声をかき消し、死の奔流が迫る。,在被无尽食欲支配的老鼠群中，并没有称赞之言响起的余地。成千上万的鸣叫声淹没了你的声音，死亡奔流近在咫尺。
 MSG_C_FLATTER_S_WIN,You complimented the slime's beautiful transparency. It wiggled happily and became your friend.,スライムの透明感溢れる美しさを称え、宝石のようだと囁いた。怪物はあなたの言葉の響きに満足したのか、プルプルと震えて敵意を消した。,你称赞了史莱姆充满透明感的美丽，耳语道其宛如宝石。怪物似乎满意于你那言语的回响，Q弹地颤抖着消除了敌意。
 MSG_C_FLATTER_T_WIN,You called the troll the king of the mountain. It flexed its muscles with a grin and let you go.,トロールの巨体を「山の王」と呼び、その強大な力を畏怖するフリをした。自尊心をくすぐられた怪物は満足げに笑い、あなたに道を開けた。,你称呼巨魔的巨体为“山之王”，并假装畏惧其强大的力量。被挠到痒处的怪物满意地笑着，为你让开了道路。
@@ -460,7 +461,7 @@ MSG_C_BRIBE_M_WIN,You returned a stolen relic to the mummy. Respecting the gestu
 MSG_C_BRIBE_N_WIN,You offered the naga a piece of ancient wisdom. Intrigued by the knowledge she let you pass.,ナーガが長年探し求めていた失われた知識の断片を授けた。美しき賢者はその叡智に免じ、あなたに自由な通行を許可した。,你传授了纳迦长年寻求的失传知识的片段。美丽的贤者看在那份睿智的份上，准许了你的自由通行。
 MSG_C_BRIBE_O_WIN,You bribed the orc with a keg of strong ale. It drank and grew too merry to fight anymore.,オークの眼前に強烈な地酒の樽を転がした。酒の香りに誘惑された戦士は、戦うよりも乾杯することを選んだ。,你在兽人眼前滚下了一桶浓烈的烈酒。被酒香诱惑的战士，选择了干杯而非战斗。
 MSG_C_BRIBE_P_WIN,You gave the pixie a bottle of glowing sunshine. Delighted she vanished in a shower of light.,ピクシーに「瓶詰めの太陽光」をプレゼントした。精霊は新しいおもちゃを受け取って歓喜し、またの再会を約束して消えた。,你送给了小仙女一瓶“罐装阳光”。精灵因得到新玩具而欢呼雀跃，约定着再次相会并消失了。
-MSG_C_BRIBE_Q_LOSS,The coarl sensed your fear in your shaking hands. It rejected the bribe and struck with lightning.,賄賂を差し出すあなたの指先の僅かな震えを、クアールは見逃さなかった。怪物は貢物を一蹴し、冷酷な電撃で対話を拒絶した。,夸尔没有放过你递出贿赂时指尖的些许震颤。怪物一脚踢开贡品，用冷酷的电击拒绝了对话。
+MSG_C_BRIBE_Q_LOSS,The coeurl sensed your fear in your shaking hands. It rejected the bribe and struck with lightning.,賄賂を差し出すあなたの指先の僅かな震えを、クアールは見逃さなかった。怪物は貢物を一蹴し、冷酷な電撃で対話を拒絶した。,夸尔没有放过你递出贿赂时指尖的些许震颤。怪物一脚踢开贡品，用冷酷的电击拒绝了对话。
 MSG_C_BRIBE_R_LOSS,The rat swarm only wanted the meat within you. Small gifts couldn't satisfy a thousand hungers.,数千のネズミを満足させるだけの供物は、あなたの持ち物にはなかった。飢えた波は賄賂ごとあなたを呑み込もうと迫る。,你的随身物品中并没有能让数千只老鼠都满意的供品。饥饿的波涛正试图连同贿赂一起将你吞没。
 MSG_C_BRIBE_S_WIN,You fed the slime a bucket of colorful scrap. It wobbled in joy and slid away happily.,スライムに派手な色のガラクタを詰め込んだバケツを与えた。怪物はそれを嬉しそうに飲み込み、満足げに地へと伏した。,你喂给了史莱姆一桶五颜六色的废料。怪物高兴地将其吞下，满足地伏在了地面。
 MSG_C_BRIBE_T_LOSS,The troll wanted more than gold; it wanted blood. Your offer only offended its primal hunger.,トロールが求めていたのは金品ではなく、新鮮な魂の輝きだった。あなたの賄賂は化け物を怒らせ、より激しい攻撃を誘発した。,巨魔索求的不是金银财宝，而是新鲜灵魂的光辉。你的贿赂惹恼了怪物，诱发了更激烈的攻击。
@@ -486,7 +487,7 @@ MSG_C_POISON_M_LOSS,The mummy's dried flesh felt no pain or poison. Your toxins 
 MSG_C_POISON_N_WIN,You used a sophisticated mind-altering toxin on the naga. Her focus broke and she withdrew.,ナーガの高潔な精神を蝕む、魔導的な幻覚毒を練り上げた。知を誇る賢者は思考の混濁に耐えかね、静寂を求めて深淵へと逃げ去った。,你炼制了侵蚀纳迦高洁精神的魔导性幻觉毒。以智自诩的贤者无法忍受思维的浑浊，为了寻求寂静而逃向了深渊。
 MSG_C_POISON_O_WIN,You used a muscle-weakening gas on the orc. It collapsed under the weight of its own arms.,オークの剛力な筋肉を弛緩させる、特殊な毒煙を浴びせた。暴力の化身は自慢の筋力を失い、立ち上がることもできずに地を這った。,你对兽人喷洒了使其刚力肌肉松弛的特殊毒烟。暴力的化身失去了引以为傲的筋力，连站都站不起来，只能在地上爬行。
 MSG_C_POISON_P_LOSS,The pixie turned your poison into harmless bubbles. She blew them back in your face jokingly.,ピクシーの魔法により、あなたの用意した毒は「色鮮やかな泡」へと変えられた。精霊は愉快そうに泡を吹き、あなたの鼻先で弾けさせた。,依凭小仙女的魔法，你准备的毒药变成了“色彩鲜艳的泡泡”。精灵愉快地吹出泡泡，令其在你鼻尖绽放。
-MSG_C_POISON_Q_WIN,You used a conductive toxin against the coarl. Its own lightning backfired and stunned it.,クアールの超感覚を逆手に取り、体内の電位を乱す導電性の毒を与えた。怪物は自らの電撃を制御できずに自爆し、気絶して崩れ落ちた。,你反利用了夸尔的超感官，给予了扰乱其体内电位的导电性毒。怪物无法控制自身的电击而自投罗网，昏死过去并瘫倒在地。
+MSG_C_POISON_Q_WIN,You used a conductive toxin against the coeurl. Its own lightning backfired and stunned it.,クアールの超感覚を逆手に取り、体内の電位を乱す導電性の毒を与えた。怪物は自らの電撃を制御できずに自爆し、気絶して崩れ落ちた。,你反利用了夸尔的超感官，给予了扰乱其体内电位的导电性毒。怪物无法控制自身的电击而自投罗网，昏死过去并瘫倒在地。
 MSG_C_POISON_R_WIN,You poisoned the rations of the leading rats. The pack panicked as their leaders fell and scattered.,群れのリーダーたちに、潜伏期間の短い猛毒を食らわせた。統率者を失ったラットの群れは烏合の衆と化し、混乱の中で散り散りに逃げた。,你让鼠群的首领们吃下了潜伏期极短的剧毒。失去统帅的老鼠群化作乌合之众，在混乱中四散而逃。
 MSG_C_POISON_S_WIN,You injected a chemical solidist into the slime. It stiffened into a brittle glass and broke.,スライムの流動性を奪い、肉体を硬化させる特殊な毒を投入した。プルプルとした体は脆く凍りつき、自身の重みで粉々に砕け散った。,你投放了剥夺史莱姆流动性、使其肉体硬化的特殊毒药。Q弹的身体如脆弱的冰块般冻结，因自身的重量而粉碎。
 MSG_C_POISON_T_WIN,You used a poison that stopped the troll's regeneration. Fearing perma-death it fled in terror.,トロールの超回復を根底から停止させる、禁断の呪毒を付着させた。再生を封じられた怪物は初めて「死の恐怖」を味わい、逃走した。,你使巨魔沾染了从根源停止其超恢复的禁断咒毒。被封印了再生的怪物平生第一次品味到了“死亡的恐怖”，仓皇逃窜。
@@ -512,7 +513,7 @@ MSG_C_SING_M_WIN,You sang a hymn from the mummy's forgotten dynasty. It wept spi
 MSG_C_SING_N_WIN,You debated philosophy through song with the naga. Enraptured by your art she let you pass.,ナーガと共に、叙事詩に隠された真理を歌い合い、知の深淵を共有した。美しき賢者はあなたの卓越した音楽センスを称え、静かに微笑んで道を開けた。,你与纳迦一同对唱了叙事诗中隐藏的真理，共享了知识的深渊。美丽的贤者盛赞了你卓越的音乐品味，静静地微笑着让开了道路。
 MSG_C_SING_O_WIN,You sang a rowdy victory song for the orc. It joined the chorus and forgot about the fight.,オークの武勇を称える、荒々しくも輝かしい勝鬨の歌を響かせた。暴力の化身は戦いの熱狂を歌の中に昇華させ、あなたと肩を組んで咆哮した。,你奏响了称颂兽人武勇的、粗犷而辉煌的凯歌。暴力的化身将战斗的狂热升华为歌声，与你勾肩搭背地共同咆哮。
 MSG_C_SING_P_WIN,You sang a duet of laughter with the pixie. Delighted by your mirth she vanished in sparkles.,ピクシーが仕掛けてくる悪戯の旋律を笑い飛ばし、軽やかな即興曲で返した。妖精はあなたの機転と明るさを喜び、光の粒となって空へ消えた。,你一笑置之了小仙女设下的恶作剧旋律，并以轻盈的即兴曲回敬。精灵为你的机敏与开朗而喜悦，化作光粒消失在天空中。
-MSG_C_SING_Q_LOSS,The coarl sensed the vibration of your song as a threat. It countered your voice with a roar of thunder.,クアールの超感覚は、あなたの歌い出しに含まれる僅かな敵意を敏感に読み取った。称賛の旋律は、空を割るような雷鳴によって無惨に断ち切られた。,夸尔的超感官敏锐地读取到了你歌声开头包含的些许敌意。盛赞的旋律被割裂天空般的雷鸣无情地斩断了。
+MSG_C_SING_Q_LOSS,The coeurl sensed the vibration of your song as a threat. It countered your voice with a roar of thunder.,クアールの超感覚は、あなたの歌い出しに含まれる僅かな敵意を敏感に読み取った。称賛の旋律は、空を割るような雷鳴によって無惨に断ち切られた。,夸尔的超感官敏锐地读取到了你歌声开头包含的些许敌意。盛赞的旋律被割裂天空般的雷鸣无情地斩断了。
 MSG_C_SING_R_LOSS,Individual songs were lost in the roar of the rat swarm. They only heard the sound of approaching meat.,数万のネズミが奏でる死の羽音の前に、一人の歌声など無力だった。あなたの切ない歌は飢えた悲鳴にかき消され、黒い波が迫る。,在数万只老鼠奏响的死亡翅鸣面前，一个人的歌声显而易见是无力的。你悲切的歌声被饥饿的尖叫所掩盖，黑色的波涛迫在眉睫。
 MSG_C_SING_S_WIN,You matched the slime's internal frequency with a hum. It vibrated in harmony and became peaceful.,スライムの体内に響く微細な振動を歌声で再現し、完璧な共鳴を達成した。怪物は心地よい揺れに身を委ね、穏やかな液体となって地面を潤した。,你用歌声再现了史莱姆体内回荡的微细振动，达成了完美的共鸣。怪物任由舒缓的摇晃摆布，化作平和的液体浸润了地面。
 MSG_C_SING_T_WIN,You sang a song of mountains and stones to the troll. It sat down to enjoy the giant's lullaby.,トロールの故郷である、峻烈な山々の雄大さを謳う叙情歌を歌った。巨人は懐かしい響きに瞳を細め、座り込んであなたの歌に聞き入った。,你唱起了歌颂巨魔故乡——峻烈群山雄壮感的抒情歌。巨人由于那怀念的回响而眯起双眼，席地而坐并倾听着你的歌声。
@@ -538,7 +539,7 @@ MSG_C_DANCE_M_WIN,You performed a funeral dance from the mummy's time. Touched b
 MSG_C_DANCE_N_WIN,You Debated ethics through a complex ritual dance with the naga. Her curiosity satisfied she left.,ナーガと共に、指先の動き一つに意味を込めた神聖な舞で語り合った。美しき賢者はあなたの精神性の高さに満足し、静かに深淵へと消えた。,你与纳迦一同，通过指尖的每一个动作都蕴含意义的神圣之舞进行了交流。美丽的贤者对你高尚的精神性感到满意，静静地消失在深渊中。
 MSG_C_DANCE_O_WIN,You performed a triumphant stomp dance for the orc. It joined the rhythm and forgot the fight.,オークの心臓を叩くような、力強い踏み鳴らしのダンスを披露した。戦いの化身はあなたの魂の躍動に共鳴し、戦いを忘れて共に大地を揺らした。,你展示了如敲击兽人心脏般有力的踏步之舞。战斗化身与你灵魂的跃动产生共鸣，忘却了战斗并一同撼动了大地。
 MSG_C_DANCE_P_WIN,You joined the pixie's whirlwinds with your own pirouettes. She cheered your art and vanished.,ピクシーが巻き起こす花吹雪の中で、流麗な旋回舞踊を繰り広げた。精霊はあなたの舞踏を「最高の贈り物」として受け取り、笑顔で去った。,在小仙女掀起的花瓣雪中，你展开了流丽的旋回舞步。精灵将你的舞姿视作“最好的礼物”，微笑着离去。
-MSG_C_DANCE_Q_LOSS,The coarl sensed your physical exertion in the dance as a weakness. It struck as you missed a beat.,クアールの超感覚は、ダンスの最中に生じる僅かな心拍の乱れを見逃さなかった。絶好の機会を見出した怪物は、雷光の如き速度であなたを射抜いた。,夸尔的超感官没有放过舞动过程中产生的心跳的些许紊乱。寻得绝好机会的怪物，以雷光般的速度刺穿了你。
+MSG_C_DANCE_Q_LOSS,The coeurl sensed your physical exertion in the dance as a weakness. It struck as you missed a beat.,クアールの超感覚は、ダンスの最中に生じる僅かな心拍の乱れを見逃さなかった。絶好の機会を見出した怪物は、雷光の如き速度であなたを射抜いた。,夸尔的超感官没有放过舞动过程中产生的心跳的些许紊乱。寻得绝好机会的怪物，以雷光般的速度刺穿了你。
 MSG_C_DANCE_R_LOSS,The individual dancer was lost in the flowing rat swarm. Their collective hunger ignored the art.,死の津波となって押し寄せるラットの群れの前に、個の舞踏はあまりに無力だった。怪物は踊りのリズムを無視し、ただ本能のままにあなたへ殺到する。,在作为死亡海啸席卷而来的老鼠群面前，个人的舞步显得极其无力。怪物无视了舞蹈的节奏，仅遵从本能向你杀到。
 MSG_C_DANCE_S_WIN,You mirrored the slime's ripples with fluid motions. It followed your lead and slid away peacefully.,スライムの肉体が描く波紋を、流体のようなしなやかなダンスで模倣した。怪物はあなたを「同族の大きな波」と誤認し、穏やかに対話を終えた。,你以如流体般柔韧的舞姿模仿了史莱姆肉体描绘的波纹。怪物将你误认为“同族的巨大波动”，和平地结束了对话。
 MSG_C_DANCE_T_WIN,You performed a thunderous stomp dance for the troll. It mimicked you and danced its way home.,トロールの巨躯を揺さぶる、原始的で雄大なステップを刻んだ。怪物はあなたのダンスを気に入り、喜びの咆哮を上げながら山へと帰っていった。,你踏出了撼动巨魔巨大身躯的、原始而雄壮的步法。怪物中意你的舞姿，一边发出喜悦的咆哮一边回到了山里。
@@ -564,7 +565,7 @@ MSG_C_CHEER_M_WIN,You cheered for the mummy's eternal honor. It felt the respect
 MSG_C_CHEER_N_WIN,You cheered for the naga's profound ancient wisdom. Overwhelmed by your respect she left.,ナーガの持つ深遠なる知性と、万物の真理を洞察する力を称賛した。美しき賢者はあなたの謙虚な姿勢に免じ、静かに微笑んで去っていった。,你称赞了纳迦持有的深邃智力及其洞察万物真理的力量。美丽的贤者看在你谦逊的态度份上，静静地微笑着离去了。
 MSG_C_CHEER_O_WIN,You cheered for the orc's legendary physical might. It flexed in triumph and let you live.,オークの剛力な肉体を「神から授かりし武芸」と称え、その覇道を鼓舞した。力自慢の戦士は有頂天になり、あなたに背を向けて勝鬨を上げた。,你称兽人刚力的肉体为“神授的武技”，对其霸道表示了鼓舞。自诩神力的战士得意忘形，背对着你发出了凯旋的呐喊。
 MSG_C_CHEER_P_WIN,You cheered for the pixie's creative cleverness. She laughed in joy and vanished in a puff of light.,ピクシーの悪戯の芸術性を称え、その独創的な手法に拍手を送った。妖精は自分の「作品」を認められたことを喜び、祝福の光を撒いて消えた。,你称赞了小仙女恶作劇的艺术性，并向其独创的手法送上了掌声。精灵为自己的“作品”获得认可而感到喜悦，散播着祝福之光后消失了。
-MSG_C_CHEER_Q_LOSS,The coarl sensed the falseness in your cheer and struck. Your fake enthusiasm didn't fool it.,あなたの「応援」という名の欺瞞を、クアールの超感覚が正確に読み取った。媚びへつらいの報酬は、空気を焦がす強烈な雷撃だった。,夸尔的超感官准确地读取到了你那名为“声援”的欺瞒。谄媚的回报，是足以烧焦空气的强烈雷击。
+MSG_C_CHEER_Q_LOSS,The coeurl sensed the falseness in your cheer and struck. Your fake enthusiasm didn't fool it.,あなたの「応援」という名の欺瞞を、クアールの超感覚が正確に読み取った。媚びへつらいの報酬は、空気を焦がす強烈な雷撃だった。,夸尔的超感官准确地读取到了你那名为“声援”的欺瞒。谄媚的回报，是足以烧焦空气的强烈雷击。
 MSG_C_CHEER_R_LOSS,Individual cheers were lost in the rat swarm's hunger. They only wanted to consume the source of the noise.,数万の飢えた叫びの前に、一人の激励などただの情緒不安定にしか映らなかった。ネズミたちはあなたの声を餌の合図と見なし、殺到する。,在数万只饥饿的尖叫面前，个人的激励不过是情绪不稳的表现。老鼠们将你的声音视作开饭的信号，纷纷杀到。
 MSG_C_CHEER_S_WIN,"You cheered for the slime's beautiful, flowing form. It wiggled in joy and became your friend.",スライムの透明感溢れる美しさを称え、その無限の可能性を激励した。怪物はあなたの熱意に絆されたのか、プルプルと震えてその場を譲った。,你称赞了史莱姆充满透明感的美丽，并激励了其无限的可能性。怪物似乎被你的热忱打动了，Q弹地颤抖着让开了去路。
 MSG_C_CHEER_T_WIN,You cheered for the troll's crushing physical dominance. It flexed happily and let you pass.,トロールの圧倒的な巨躯を「大地の化身」と呼び、その強さを絶賛した。自尊心を刺激された怪物は満足げに笑い、あなたを無罪放免とした。,你称巨魔压倒性的巨体为“大地的化身”，大加赞赏了其强度。自尊心受到激发的怪物满意地大笑，对你宣告无罪释放。
@@ -590,7 +591,7 @@ MSG_C_BRIBE_M_LOSS,The mummy rejected the relic and reached for your soul. Its a
 MSG_C_BRIBE_N_LOSS,The naga found your information useless and constricted you. Wisdom cannot be faked.,ナーガはあなたの提供した情報を「既知の無駄」と切り捨てた。美しき賢者の怒りは、静かにあなたを締め上げる。,纳迦将你提供的信息斥为“已知的废话”。美丽的贤者之怒，正静静地将你缠紧。
 MSG_C_BRIBE_O_LOSS,The orc grew violent after drinking the ale. The bribe only fueled its destructive rage.,酒を飲んだオークは余計に狂暴化し、周囲を破壊し始めた。賄賂は暴力の引き金となってしまった。,喝了酒的兽人反而变得更加狂暴，开始破坏周围。贿赂成了暴力的导火索。
 MSG_C_BRIBE_P_LOSS,The pixie found your sunshine bottle boring and broke it. Magic isn't easily bought.,ピクシーは「瓶詰めの太陽」を乱暴に割り、あなたに光をぶつけた。妖精の気まぐれは、賄賂などでは制御できない。,小仙女粗暴地打碎了“瓶中太阳”，将光芒撞向了你。精灵的反复杂多，绝非贿赂所能控制。
-MSG_C_BRIBE_Q_WIN,You offered the coarl a highly magnetic ore. It spent time investigating it instead of you.,クアールの前に強力な磁力石を投げ置いた。怪物は未知の磁場に興味を惹かれ、あなたを無視して石を調べ始めた。,你在夸尔面前掷下了强力磁石。怪物对未知的磁场产生了兴趣，无视你并开始调查起石头。
+MSG_C_BRIBE_Q_WIN,You offered the coeurl a highly magnetic ore. It spent time investigating it instead of you.,クアールの前に強力な磁力石を投げ置いた。怪物は未知の磁場に興味を惹かれ、あなたを無視して石を調べ始めた。,你在夸尔面前掷下了强力磁石。怪物对未知的磁场产生了兴趣，无视你并开始调查起石头。
 MSG_C_BRIBE_R_WIN,"You scattered refined grain away from you. The main rat swarm chased the food, leaving you a path.",高品質な穀物を別方向に撒き散らした。数千のネズミは食欲に突き動かされ、あなたを置いて穀物へと殺到した。,你向另一个方向撒播了高品质的谷物。数千只老鼠被食欲驱使，撇下你涌向了谷物。
 MSG_C_BRIBE_S_LOSS,The slime swallowed the scraps and remained hungry for you. It desired more than garbage.,スライムは与えられたガラクタを瞬時に消化し、さらなる「生き餌」を求めて迫ってきた。賄賂は奴の腹の足しにもならない。,史莱姆瞬间消化了给它的废材，并为了寻求更多的“活饵”而逼近。贿赂甚至不够给它填肚子。
 MSG_C_BRIBE_T_WIN,"You gave the troll a massive leg of meat. It sat down to enjoy the feast, ignoring you for now.",トロールの目の前に巨大な獣肉を転がした。怪物は喜びの咆嘘を上げ、あなたを忘れて肉に食らいついた。,你在巨魔眼前滚出了一块巨大的兽肉。怪物发出喜悦的咆哮，忘却了你后开始啃咬起肉块。
@@ -616,7 +617,7 @@ MSG_C_POISON_M_WIN,You used a dust-settling poison that solidified the mummy. It
 MSG_C_POISON_N_LOSS,The naga neutralized your poison with an antidote she had prepared. She mocked your lack of ingenuity.,ナーガは自ら精製した解毒薬を飲み、あなたの毒を無力化した。美しき賢者の前で、その程度の小細工が通じるはずもなかった。,纳迦饮下了亲手精制的解毒药，中和了你的毒。在美丽的贤者面前，这种程度的小把戏根本行不通。
 MSG_C_POISON_O_LOSS,The orc used its raw strength to force the poison out of its veins. Its rage only grew.,オークは凄まじい気合で毒の浸食を押し留め、力任せに立ち上がった。体に回る毒さえも、破壊衝動を加速させる燃料でしかない。,兽人以惊人的斗志压制了毒素的侵蚀，并凭蛮力站了起来。流转体内的毒药亦成了加速破坏冲动的燃料。
 MSG_C_POISON_P_WIN,"You tricked the pixie into sniffing a toxic flower. She fell into a deep, magical slumber.",ピクシーが好む花の香りに、微弱な眠り毒を混ぜておいた。妖精は無邪気にその香りを吸い込み、そのまま昏睡へと落ちた。,你在小仙女喜好的花香中混入了微弱的眠毒。精灵天真烂漫地吸入了那股香气，就那样陷入了昏睡。
-MSG_C_POISON_Q_LOSS,The coarl used static electricity to burn the toxic particles away. Its fur sparkled aggressively.,クアールの全身から放電し、大気中の毒の粒子を焼き払った。怪物は不敵に牙を剥き、次の瞬間にあなたの心臓を貫いた。,夸尔全身放电，烧尽了大器中的毒素粒子。怪物不羁地露出獠牙，在下一瞬贯穿了你的心脏。
+MSG_C_POISON_Q_LOSS,The coeurl used static electricity to burn the toxic particles away. Its fur sparkled aggressively.,クアールの全身から放電し、大気中の毒の粒子を焼き払った。怪物は不敵に牙を剥き、次の瞬間にあなたの心臓を貫いた。,夸尔全身放电，烧尽了大器中的毒素粒子。怪物不羁地露出獠牙，在下一瞬贯穿了你的心脏。
 MSG_C_POISON_R_LOSS,The rat swarm was too large for your poison to cover. They trampled the fallen and kept coming.,あなたの用意した毒で殺せたのは、数千の群れのほんの一部に過ぎなかった。ネズミたちは仲間を乗り越え、さらに激しく迫る。,你准备的毒药仅毒杀了数千规模族群中的极少一部分。老鼠们越过同伴，更加剧烈地逼近。
 MSG_C_POISON_S_LOSS,The slime grew larger as it absorbed the organic toxin. It found your gift tasty.,スライムは浴びせられた毒さえも栄養として吸収し、さらにその質量を増大させた。怪物にとって、毒は最高のご馳走だったようだ。,史莱姆连淋向它的毒药都作为营养吸收了，并进一步增加了质量。对于怪物来说，毒药似乎是顶级的珍馐。
 MSG_C_POISON_T_LOSS,The troll's blood boiled and rejected the poison. Its healing power was too great to fail.,トロールの狂暴な生命力は、体内の毒を無理やり体外へと排出した。細胞レベルでの驚異的な再生を前に、毒は無力だった。,巨魔狂暴的生命力强行将体内的毒素排出了体外。在细胞级别的惊人再生面前，毒药毫无用处。
@@ -642,7 +643,7 @@ MSG_C_SING_M_LOSS,The mummy's ears were filled with the silence of the grave. Yo
 MSG_C_SING_N_LOSS,The naga found your poetic logic flawed and tightened her hold. Philosophy didn't save you.,ナーガはあなたの歌に込められた「嘘」と「未熟」を、瞬時に見破った。美しき賢者は失望のため息をつき、逃げ場のない締め上げを開始した。,纳迦瞬时看穿了你歌声中蕴含的“谎言”与“不成熟”。美丽的贤者叹了口气表示失望，开始了无处可逃的绞杀。
 MSG_C_SING_O_LOSS,The orc only wanted the sound of clashing steel. Your song was met with a brutal axe swing.,オークが求めていたのは旋律ではなく、肉と骨が砕ける音だった。歌声は怪物の咆哮にかき消され、頭上から巨大な斧が振り下ろされる。,兽人索求的并非旋律，而是肉骨碎裂的声音。歌声被怪物的咆哮淹没，巨斧从头顶挥了下来。
 MSG_C_SING_P_LOSS,The pixie mocked your singing as out of tune and confused your senses. She won the musical duel.,ピクシーはあなたの歌を「耐え難い音痴」と嘲笑い、不協和音を撒き散らした。脳を揺さぶる魔力に、あなたの歌声は無惨に断ち切られた。,小仙女嘲笑你的歌声是“无法忍受的跑调”，并散播了不和谐音。在动摇大脑的魔力面前，你的歌声无情地被斩断了。
-MSG_C_SING_Q_WIN,Your song carried a calming frequency that effectively jammed the coarl's field. The beast relaxed.,クアールの超感覚を逆手に取り、電磁場を中和する特殊な歌声を響かせた。怪物は戦う理由を見失い、静かに闘気を収めてその場を去った。,你反过来利用夸尔的超感官，发出了中和电磁场的特殊歌声。怪物失去了战斗的理由，静静地收起斗志离开了现场。
+MSG_C_SING_Q_WIN,Your song carried a calming frequency that effectively jammed the coeurl's field. The beast relaxed.,クアールの超感覚を逆手に取り、電磁場を中和する特殊な歌声を響かせた。怪物は戦う理由を見失い、静かに闘気を収めてその場を去った。,你反过来利用夸尔的超感官，发出了中和电磁场的特殊歌声。怪物失去了战斗的理由，静静地收起斗志离开了现场。
 MSG_C_SING_R_WIN,Your high-frequency repel tune that sent the rats running in pain. The swarm scattered.,ネズミたちの聴覚を直接攻撃する、不快極まる高周波の歌を放った。パニックに陥ったラットの群れは、互いを踏み越えて逃げ去っていった。,你发出了直接攻击老鼠听觉的、极其令人不快的高频歌声。陷入恐慌的老鼠群互相踩踏着逃走了。
 MSG_C_SING_S_LOSS,The slime absorbed the sound and vibrated into a more dangerous form. It grew larger.,スライムはあなたの歌声の振動をさらなるエネルギーとして吸収し、不気味に肥大化した。怪物の肉体は脈打ち、捕食の瞬間を待っている。,史莱姆将你歌声的振动作为能量源吸收，诡异地肥大化了。怪物的肉体搏动着，正等待着捕食的瞬间。
 MSG_C_SING_T_LOSS,The troll found your song irritating to its ears. It growled to drown you out and attacked.,トロールの狂暴な精神にとって、歌はただ自分の眠りを妨げる雑音でしかなかった。怪物は耳を塞ぎ、不機嫌そうな叫びとともにあなたを殴り倒した。,对于巨魔狂暴的精神来说，歌声只是妨碍其眠梦的噪音。怪物捂住耳朵，伴随着不悦的叫声将你击倒在地。
@@ -668,7 +669,7 @@ MSG_C_DANCE_M_LOSS,The mummy's ancient pride didn't allow for such mortal gymnas
 MSG_C_DANCE_N_LOSS,The naga found your dance lacked spiritual depth and struck. Art didn't save your skin here.,ナーガの卓越した審美眼は、あなたのダンスに込められた「迷い」を瞬時に見破った。美しき賢者の瞳に失望の色が走り、冷たい尾があなたを絡め取った。,纳迦卓越的审美观瞬时看穿了你舞步中包含的“迷茫”。美丽的贤者瞳孔中闪过一丝失望，冰冷的尾巴将你当场勒住。
 MSG_C_DANCE_O_LOSS,The orc used your rhythm to time its own brutal charge. Your grace was met with raw power.,オークはあなたのダンスのリズムを逆に利用し、完璧なタイミングで突撃を仕掛けた。柔らかな舞踏は、暴力の塊によって無惨に粉砕された。,兽人反过来利用你舞蹈的节奏，选在完美的时机发起了突击。柔美的舞步被暴力块无情地粉碎了。
 MSG_C_DANCE_P_LOSS,The pixie out-danced you and laughed as she led you into a trap. You were lured by the lights.,ピクシーはあなたの舞をなぞり、より軽やかに、より幻想的に踊ってみせた。精霊の誘いから逃れられないまま、あなたの意識は深い霧の中に没した。,小仙女效仿着你的舞步，跳得更轻盈、更梦幻。在你无法逃离精灵诱导的情况下，你的意识没入了浓雾之中。
-MSG_C_DANCE_Q_WIN,Your ritual dance synchronized with the coarl's field neutralizing it. The beast bowed out.,クアールの放電周期と完璧に同調する、魔術的なステップを刻んだ。怪物はあなたの存在を「無害な自然現象」と誤認し、静かに牙を収めた。,你踏出了与夸尔放电周期完美同步的魔术步法。怪物将你的存在误认为“无害的自然现象”，静静地收起了獠牙。
+MSG_C_DANCE_Q_WIN,Your ritual dance synchronized with the coeurl's field neutralizing it. The beast bowed out.,クアールの放電周期と完璧に同調する、魔術的なステップを刻んだ。怪物はあなたの存在を「無害な自然現象」と誤認し、静かに牙を収めた。,你踏出了与夸尔放电周期完美同步的魔术步法。怪物将你的存在误认为“无害的自然现象”，静静地收起了獠牙。
 MSG_C_DANCE_R_WIN,Your rhythmic stomping confused the rats and sent them fleeing in a daze. The swarm dispersed.,一定のリズムで大地を叩くあなたのステップは、数万のネズミの平衡感覚を狂わせた。パニックに陥った群れは逃げ場を求め、互いを踏みつけて四散した。,你以固定节奏叩击大地的步法，扰乱了数万只老鼠的平衡感。陷入恐慌的族群为了寻求逃路，互相踩踏着四散而逃。
 MSG_C_DANCE_S_LOSS,The slime was drawn to the heat of your moving body. Your dance only provided a bigger target.,踊りによるあなたの体温の上昇が、スライムの捕食本能を最大限に刺激した。怪物はあなたの躍動する肉体を「極上の獲物」と見なし、執拗に迫る。,舞蹈带来的体温上升最大限地刺激了史莱姆的捕食本能。怪物将你跃动的肉体视作“绝佳的猎物”，执拗地逼近。
 MSG_C_DANCE_T_LOSS,The troll grew angry at your constant movement and smashed the ground. Your dance stopped.,トロールは目の前でチョコマカと動くあなたのダンスにイライラを爆発させた。怪物は力任せに棍棒を地面に叩きつけ、物理的な衝撃であなたの舞を断った。,巨魔对着在你眼前晃来晃去的舞蹈爆发了怒火。怪物凭蛮力将木棒砸向地面，用物理冲击打断了你的舞姿。
@@ -694,7 +695,7 @@ MSG_C_CHEER_M_LOSS,The mummy found the living's heat annoying to its dry peace. 
 MSG_C_CHEER_N_LOSS,The naga found your support patronizing and tightened her coils. Wisdom didn't need your cheer.,ナーガの不遜な自尊心を、あなたの激励はかえって傷つける結果となった。美しき賢者は「あなたを誰だと思っている」と冷たく言い放ち、締め上げを強めた。,你的激励反而伤到了纳迦那不逊的自尊心。美丽的贤者冷冷地说了句“你以为你是谁”，加强了勒紧的力道。
 MSG_C_CHEER_O_LOSS,The orc grew more arrogant after your cheer and crushed you. Your support backfired badly.,「最高に強いぞ！」と応援されたオークは、慢心とともにさらなる怪力を発揮した。激励は魔物を無敵の狂戦士へと変貌させ、あなたを粉砕した。,被应援说“强到没边了！”的兽人，伴随着慢心发挥出了更惊人的怪力。激励令魔物蜕变成了无敌的狂战士，并粉碎了你。
 MSG_C_CHEER_P_WIN,You cheered for the pixie's beautiful lights. Delighted by your joy she left with a laugh.,ピクシーの操る幻惑の光を、心からの感嘆とともに称賛した。精霊は自分の魔法が「理解」されたことに喜び、虹色の祝福を残して去っていった。,你由衷惊叹并称赞了小仙女操纵的迷幻之光。精灵为自己的魔法获得“理解”而感到喜悦，留下彩虹色的祝福后离去了。
-MSG_C_CHEER_Q_WIN,Your high-energy cheer overloaded the coarl's field making it short circuit. It fled away.,あなたの魂の底からの激励が、意図せずクアールの電磁場と共鳴し、過負荷を引き起こした。怪物は自らの電撃に焼かれ、這いずるように森へ逃げ出した。,你发自灵魂深处的激励，无意中与夸尔的电磁场产生共鸣，引发了过载。怪物被自身的电击灼烧，连滚带爬地逃回了森林。
+MSG_C_CHEER_Q_WIN,Your high-energy cheer overloaded the coeurl's field making it short circuit. It fled away.,あなたの魂の底からの激励が、意図せずクアールの電磁場と共鳴し、過負荷を引き起こした。怪物は自らの電撃に焼かれ、這いずるように森へ逃げ出した。,你发自灵魂深处的激励，无意中与夸尔的电磁场产生共鸣，引发了过载。怪物被自身的电击灼烧，连滚带爬地逃回了森林。
 MSG_C_CHEER_R_WIN,Your brave shout encouraged yourself and terrified the rats. The swarm scattered in fear.,あなたの放った不屈の雄叫びが、臆病なラットたちの本能を恐怖で支配した。戦士の魂を感じた群れは、飢えよりも生存を選び、闇へと消えた。,你发出的不屈雄叫，由恐惧支配了胆小老鼠们的本能。感受到战士之魂的鼠群选择了生存而非饥饿，消失在黑暗中。
 MSG_C_CHEER_S_LOSS,The slime grew larger from the energy of your passionate shout. It desired to absorb your spirit.,スライムはあなたの激励という「精神的エネルギー」さえも吸収し、その肉体を脈動させた。怪物はあなたの熱意を栄養として、さらに激しく迫る。,史莱姆甚至连你名为激励的“精神能量”都吸收了，令肉体搏动起来。怪物以你的热忱作为营养，更加剧烈地逼近。
 MSG_C_CHEER_T_LOSS,The troll grew annoyed at your noise and slammed you into silence. Peace returned quickly.,トロールはあなたの激励を「単なるうるさい騒音」とみなし、激しい苛立ちを見せた。怪物は一撃であなたを殴り飛ばし、不快な音を完全に排除した。,巨魔将你的激励视作“单纯吵人的噪音”，显露出了剧烈的焦躁。怪物一击将你揍飞，彻底排除了不快的声音。
@@ -720,7 +721,7 @@ MSG_C_SPIRIT_M_LOSS,"The ancient curse emanating from the Mummy stifles your ene
 MSG_C_SPIRIT_N_LOSS,The Naga's hypnotic movements lull your consciousness into a trap. Your mind wanders as your spiritual fire begins to dim.,ナーガの催眠的な動きによって、意識は深い霧の中に閉じ込められました。精神の火が弱まり、思考がどこまでも彷徨います。,纳迦催眠般的动作使你的意识陷入陷阱。当你的精神之火开始变暗时，你的心不在焉。
 MSG_C_SPIRIT_O_LOSS,"The Orc's raw, violent power crushes your mental discipline. Your spirit break under the weight of its brutal, crushing blows.",オークの野蛮で暴力的な力が、鍛え上げた精神を蹂躙しました。無慈悲な打撃の重みに、心の糸がプツリと切れてしまいます。,兽人原始、暴力的力量粉碎了你的心理纪律。你的精神在它残暴、压碎性的打击下崩溃了。
 MSG_C_SPIRIT_P_LOSS,Glowing pixie dust fills your head with confusing visions. Your spirit dissipates into a colorful haze of magical tricks.,ピクシーの鱗粉が、あなたの脳内に混乱の色を散らしました。魔法の悪戯によって、精神は色鮮やかな霧へと霧散します。,闪闪发光的精灵粉尘让你的脑袋里充满了混乱的幻象。你的精神消散在五彩缤纷的魔法伎俩阴霾中。
-MSG_C_SPIRIT_Q_LOSS,The Coarl's whiskers emit a steady hum that disrupts your brainwaves. Your focus is scattered by the low-frequency interference.,クアールの髭が放つ一定のハミングが、脳波を乱していきます。低周波の干渉によって、研ぎ澄まされた集中力は散り散りになりました。,寇力的胡须发出的稳定嗡嗡声扰乱了你的脑波。你的注意力被低频干扰分散了。
+MSG_C_SPIRIT_Q_LOSS,The Coeurl's whiskers emit a steady hum that disrupts your brainwaves. Your focus is scattered by the low-frequency interference.,クアールの髭が放つ一定のハミングが、脳波を乱していきます。低周波の干渉によって、研ぎ澄まされた集中力は散り散りになりました。,寇力的胡须发出的稳定嗡嗡声扰乱了你的脑波。你的注意力被低频干扰分散了。
 MSG_C_SPIRIT_R_LOSS,"The Rat gnaws at your resolve like it does a block of cheese. Your determination is eroded by its persistent, nagging presence.",ネズミはあなたの覚悟を、まるでチーズのようにかじり取っていきます。執拗で不快な存在感に、精神が削られていきました。,老鼠啃噬着你的决心，就像啃噬一块奶酪。你的决心被它持久、纠缠不休的存在侵蚀了。
 MSG_C_SPIRIT_S_LOSS,"Every time you rally your spirit, it gets absorbed into the Slime's gooey body. Your mental energy is drained by the mindless ooze.",気合を入れ直すたび、それはスライムの粘着質な体に吸収されてしまいます。意思なき泥濘に、精神エネルギーは枯渇しました。,每当你重振精神，它都会被粘液粘稠的身体吸收。你的精神能量被这无心的软泥耗尽了。
 MSG_C_SPIRIT_T_LOSS,The Troll's massive presence makes your willpower seem insignificant. Your spirit shrinks in the shadow of the giant's overwhelming girth.,トロールの圧倒的な巨躯を前に、意志の力など無力に等しく感じられます。巨人の影に飲み込まれ、あなたの精神は縮こまりました。,巨魔巨大的存在感让你意志力显得微不足道。你的精神在巨人压倒性的腰围阴影下萎缩了。
@@ -746,7 +747,7 @@ MSG_C_SHOCK_M_WIN,The ancient wrappings of the mummy trap the static. It is scor
 MSG_C_SHOCK_N_WIN,"Current surges through the naga's long, wet body. It thrashs wildly before going limp.",長大なナーガの体が電流を受け止める。激しく暴れた後、力なく横たわった。,电流激荡在娜迦长而湿润的躯体上。它疯狂挣扎后瘫软在地上。
 MSG_C_SHOCK_O_WIN,The orc's iron armor becomes a death trap. He is baked in his own protection.,オークの鉄鎧が死の罠と化す。自慢の防具の中で、その肉体は焼き焦げた。,兽人的铁甲变成了死亡陷阱。他在自己的盔甲中被烤焦了。
 MSG_C_SHOCK_P_WIN,Static discharge overloads the pixie's tiny heart. It drifts down like a spent ember.,静電放電がピクシーの小さな心臓を直撃した。燃え滓のようになって地面へ漂う。,静电放电让小精灵微小的心脏超负荷。它像燃尽的余烬一样飘落。
-MSG_C_SHOCK_Q_WIN,The magical energies of the Coarl are short-circuited. It vanishes in a flash of white.,コアールの魔力が短絡を起こす。白光の炸裂と共に、その姿は消え去った。,灵猫的魔力发生了短路。它在白光的闪现中消失了。
+MSG_C_SHOCK_Q_WIN,The magical energies of the Coeurl are short-circuited. It vanishes in a flash of white.,クアールの魔力が短絡を起こす。白光の炸裂と共に、その姿は消え去った。,灵猫的魔力发生了短路。它在白光的闪现中消失了。
 MSG_C_SHOCK_R_WIN,"A focused zap stops the rat's racing heart. It completes its final, twitching sprint.",集束した放電が鼠の鼓動を止める。最後の一蹴りの後、静寂が訪れた。,聚焦的电击停止了老鼠狂跳的心。它完成了最后一次抽搐般的冲刺。
 MSG_C_SHOCK_S_LOSS,The slime's acidic body conducts the surge far too well. It dissociates into a puddle of water.,スライム의酸性体が電流を伝えすぎた。ただの水溜まりへと分解されていく。,史莱姆的酸性身体过度传导了电流。它分解成了一滩水。
 MSG_C_SHOCK_T_LOSS,The troll's thick hide and ground connection neutralize the shock. It roars and swings its club.,トロールの厚皮が絶縁体となり、衝撃を逃がす。咆哮と共に棍棒が振り下ろされた。,巨魔厚实的身皮中和了电击。它怒吼着挥动木棒。
@@ -772,7 +773,7 @@ MSG_C_BLIND_M_WIN,Ancient dust is tossed into the mummy's hollow sockets. It wan
 MSG_C_BLIND_N_WIN,"Gleaming light reflects off the naga's own scales. It recoils, blinded by its own beauty.",輝く光がナーガ自身の鱗に反射する。その美しさに目を奪われ、隙を晒した。,夺目的光芒从娜迦自身的鳞片上反射回来。它在自己的美貌下退缩了。
 MSG_C_BLIND_O_LOSS,The orc smells his blood but cannot see his killer. His eyes are swollen shut with rage.,己の返り血すら見えず、オークは怒りに狂う。腫れ上がった瞼が、視界を閉ざした。,兽人闻到了血腥味，却看不见杀手。他的眼睛因愤怒而肿胀闭合。
 MSG_C_BLIND_P_LOSS,A spray of stardust glitter coats the pixie's tiny eyes. It bumps into every flower on the path.,星屑のグリッターがピクシーの瞳を覆う。道端のあらゆる花に激突しながら飛んでいく。,一阵星尘遮住了小精灵微小的双眼。它撞上了路径上的每一朵花。
-MSG_C_BLIND_Q_LOSS,"The Coarl senses your position through whiskers, not sight. It leaps accurately in the dark.",コアールは視覚ではなく髭で敵を感知する。完全な闇の中でも、その跳躍は正確だ。,灵猫通过胡须而非视觉感知你的位置。它在黑暗中准确跃起。
+MSG_C_BLIND_Q_LOSS,"The Coeurl senses your position through whiskers, not sight. It leaps accurately in the dark.",クアールは視覚ではなく髭で敵を感知する。完全な闇の中でも、その跳躍は正確だ。,灵猫通过胡须而非视觉感知你的位置。它在黑暗中准确跃起。
 MSG_C_BLIND_R_LOSS,The rat has scuttled through darkness for its entire life. It relies purely on whiskers and scent.,鼠は生涯を暗闇で過ごしてきた。髭と嗅覚さえあれば、光など不要なのだ。,老鼠的一生都在黑暗中穿梭。它纯粹依靠胡须和嗅觉。
 MSG_C_BLIND_S_LOSS,The slime has no eyes to blind. It continues to sense your vibration through the floor.,スライムには塞ぐべき目など存在しない。床を伝わる振動が、あなたの位置を教えている。,史莱姆没有可以致盲的眼睛。它继续通过地面感受你的震动。
 MSG_C_BLIND_T_LOSS,The troll's eyes regenerate as fast as you can blur them. It blinks once and resumes the hunt.,トロールの目は瞬時に再生し、視界を取り戻す。一度の瞬きで、狩りは再開された。,巨魔的眼睛再生速度惊人。它眨了眨眼，继续狩猎。
@@ -798,7 +799,7 @@ MSG_C_REFLECT_M_WIN,The mummy's necrotic touch is pulsed back. It turns the anci
 MSG_C_REFLECT_N_WIN,The naga's crushing coils are met with a rigid reaction. It breaks its own ribs in the bind.,ナーガの締め付けが強固な反作用に阻まれる。その力で、自らの肋骨を粉砕した。,娜迦粉碎性的缠绕遭到了坚硬的反应。它在缠绕中折断了自己的肋骨。
 MSG_C_REFLECT_O_WIN,The orc's brutal axe blow is parried with perfect timing. His own strength unbalanced him.,オークの斧が完璧なタイミングで受け流される。自らの剛腕に振り回され、隙を晒した。,兽人残暴的斧击被完美的时机招架。他自身的力量使他失去平衡。
 MSG_C_REFLECT_P_WIN,The pixie's magic dust is blown back by a sudden gust. It finds itself trapped in its own spell.,ピクシーの魔法の粉が風に押し戻される。自らの術に囚われ、その翼は輝きを失った。,小精灵的魔法粉末被一阵狂风吹回。它发现自己陷进了自造的法术中。
-MSG_C_REFLECT_Q_WIN,The Coarl's electric discharge is grounded back through its fur. It is stunned by its own spark.,コアールの電撃が自らの毛皮を通じて接地する。自らの火花に焼かれ、絶命した。,灵猫的放电通过它自己的毛发接地。它被自己的火花震晕了。
+MSG_C_REFLECT_Q_WIN,The Coeurl's electric discharge is grounded back through its fur. It is stunned by its own spark.,クアールの電撃が自らの毛皮を通じて接地する。自らの火花に焼かれ、絶命した。,灵猫的放电通过它自己的毛发接地。它被自己的火花震晕了。
 MSG_C_REFLECT_R_WIN,The rat's desperate bite hits a steel-hard defense. It loses its teeth in a single snap.,鼠の決死の噛みつきが鋼の防御を叩いた。歯を砕き、鼠は絶望の中に沈んだ。,老鼠拼死一咬撞上了钢铁般的防守。一次清脆的碎裂声中，它的牙齿掉光了。
 MSG_C_REFLECT_S_WIN,The slime's attempt to engulf is repulsed from within. It splatters itself across the room.,スライムの捕食が内側から弾き返される。部屋中に飛び散り、その核は砕け散った。,史莱姆吞噬的企图从内部被击退。它溅满了整个房间。
 MSG_C_REFLECT_T_WIN,The troll's legendary strength yields to a superior technical parry. It is forced to its knees.,トロールの怪力が技術的な受け流しに屈した。自らの重みで、誇り高き膝を折った。,巨魔传奇般的力量屈服于高超的招架技术。它被迫跪在了地上。
@@ -829,7 +830,7 @@ MSG_C_PIERCE_M_LOSS,Your pierce passed through the mummy's dry bandages without 
 MSG_C_PIERCE_N_LOSS,The naga parried your strike with its powerful tail. Its eyes glowed with prehistoric malice.,ナーガが強力な尾で一撃を弾いた。その瞳には太古の悪意が宿っている。,娜迦用它强力的尾巴挡住了你的攻击。它的眼睛闪烁着史前的恶意。
 MSG_C_PIERCE_O_LOSS,The orc's heavy armor turned your pierce into a mere scratch. It prepared its massive axe.,オークの重厚な鎧に突きは阻まれ、かすり傷に終わった。奴は大斧を構え直した。,兽人的重甲让你的贯穿只留下了一道划痕。它准备好了巨大的斧头。
 MSG_C_PIERCE_P_WIN,You caught the shimmering pixie with a rapid-fire thrust. Her magic light faded instantly.,微かに輝くピクシーを電光石火の突きで捉えた。彼女の魔法の光は一瞬で消えた。,你用连发的刺击抓住了闪烁的小精灵。她的魔法光芒瞬间消失了。
-MSG_C_PIERCE_Q_LOSS,The coarl's electric fur repelled your blade with a spark. Lightning numbed your arm.,コアールの電磁的な毛並みが火花を散らして刃を跳ね返した。雷撃が腕を痺れさせる。,灵猫带电的皮毛伴随着火花弹开了你的刀刃。闪电让你的手臂发麻。
+MSG_C_PIERCE_Q_LOSS,The coeurl's electric fur repelled your blade with a spark. Lightning numbed your arm.,クアールの電磁的な毛並みが火花を散らして刃を跳ね返した。雷撃が腕を痺れさせる。,灵猫带电的皮毛伴随着火花弹开了你的刀刃。闪电让你的手臂发麻。
 MSG_C_PIERCE_R_LOSS,You couldn't aim through the overwhelming rat swarm. Their numbers made piercing impossible.,圧倒的な数のラットの群れに狙いが定まらない。数に押されて突きが届かない。,你无法在压倒性的鼠群中瞄准。它们的数量让贯穿变得不可能。
 MSG_C_PIERCE_S_LOSS,Your weapon was swallowed by the slime's core. It felt like piercing slow-moving tar.,武器がスライムの核に飲み込まれた。まるで重い泥を突いているような感覚だ。,你的武器被史莱姆的核心吞噬了。感觉就像刺入了缓慢移动的焦油。
 MSG_C_PIERCE_T_LOSS,The troll's massive palm caught your spear before it reached its mark. It laughed gruffly.,目標に届く前にトロールの巨大な掌に槍を掴まれた。奴は野太い笑い声を漏らす。,在你击中目标前，巨魔巨大的手掌抓住了你的长枪。它发出了沙哑的笑声。
@@ -856,7 +857,7 @@ MSG_C_BASH_M_WIN,You pounded the mummy into dry dust. Only tattered bandages rem
 MSG_C_BASH_N_LOSS,"The naga's thick muscular coils deflected your strike. She hissed, baring venomous fangs.",ナーガの強靭な筋肉が打撃を弾き返した。彼女は牙を剥き、毒液を滴らせている。,娜迦粗壮的肌肉盘绕偏转了你的攻击。她嘶鸣着，露出毒牙。
 MSG_C_BASH_O_LOSS,The orc met your bash with his own massive shield. The impact numbed your hands.,オークは巨大な盾で強打を受け止めた。衝撃であなたの両手は痺れている。,兽人用他那面巨大的盾牌挡住了你的重击。冲击力让你的双手发麻。
 MSG_C_BASH_P_WIN,A well-placed bash caught the pixie off-guard. Her fluttering wings fell silent.,的確な一撃がピクシーを捉えた。その軽やかな羽撃きは唐突に終わった。,一次恰到好处的重击让小精灵措手不及。她扇动的翅膀归于沉寂。
-MSG_C_BASH_Q_WIN,You smashed the coarl's head before it could discharge. It collapsed in a heap of fur.,放電の前にコアールの頭部を粉砕した。奴は毛皮の山となって崩れ落ちた。,你在灵猫放电前砸碎了它的头。它瘫倒成了一堆皮毛。
+MSG_C_BASH_Q_WIN,You smashed the coeurl's head before it could discharge. It collapsed in a heap of fur.,放電の前にクアールの頭部を粉砕した。奴は毛皮の山となって崩れ落ちた。,你在灵猫放电前砸碎了它的头。它瘫倒成了一堆皮毛。
 MSG_C_BASH_R_LOSS,"You swung wildly at the rats, but they were too many and too small to hit effectively.",ラットの群れに武器を振るったが、あまりに小さく、決定打には至らなかった。,你疯狂地向老鼠挥舞，但它们太多数且太小，无法有效击中。
 MSG_C_BASH_S_LOSS,"Your weapon hit the slime with a splash, but the liquid heart remained untouched.",武器が飛沫を上げてスライムを打ったが、その核を捉えることはできなかった。,你的武器溅起水花击中了史莱姆，但液态核心依然毫发无损。
 MSG_C_BASH_T_LOSS,The troll's iron skin shrugged off the impact. He prepared a massive counter-shove.,トロールの鉄のような皮膚が衝撃を逸らした。奴は巨大な質量で押し返してくる。,巨魔钢铁般的皮肤无视了冲击。他准备了一次大规模的反推。
@@ -883,7 +884,7 @@ MSG_C_SMARTPHONE_M_LOSS,No signal down here. The mummy just stared at your blank
 MSG_C_SMARTPHONE_N_LOSS,The naga's water magic short-circuited your device.,ナーガの水魔法でスマホが水没し、ショートした。,娜迦的水魔法让你的设备短路了。
 MSG_C_SMARTPHONE_O_LOSS,The orc crushed your phone with one step. Oops.,オークが一歩踏み出し、スマホを粉々に踏み砕いた。あーあ。,兽人一脚踩碎了你的手机。哎呀。
 MSG_C_SMARTPHONE_P_WIN,The pixie was captured in an augmented reality app.,ARアプリを起動し、ピクシーを捕獲した。ゲットだぜ！,小精灵被一个增强现实应用捕捉了。
-MSG_C_SMARTPHONE_Q_LOSS,The coarl's static electricity wiped your phone's memory.,コアールの静電気でスマホのデータがすべて飛んだ。,灵猫的静电抹去了你手机的内存。
+MSG_C_SMARTPHONE_Q_LOSS,The coeurl's static electricity wiped your phone's memory.,クアールの静電気でスマホのデータがすべて飛んだ。,灵猫的静电抹去了你手机的内存。
 MSG_C_SMARTPHONE_R_LOSS,The rats gnawed through the charging cable. It's useless now.,ラットの群れに充電ケーブルを噛み千切られた。もうこれ単なる文鎮だ。,老鼠咬断了充电线。现在它没用了。
 MSG_C_SMARTPHONE_S_LOSS,Your phone slipped and fell into the slime. Plop.,手が滑ってスマホがスライムの中に落ちた。ポチャッ。,你的手机滑落，掉进了史莱姆里。扑通。
 MSG_C_SMARTPHONE_T_LOSS,"The troll asked you what 'WiFi' is. While you were explaining, it punched you.",トロールに「ワイファイとは何か」と聞かれ、説明している隙に殴られた。,巨魔问你什么是‘WiFi’。在你解释的时候，它打了你。
@@ -910,7 +911,7 @@ MSG_C_SNIPERRIFLE_M_WIN,You shot the mummy with an incendiary tracer round. It b
 MSG_C_SNIPERRIFLE_N_LOSS,The naga slithered way too fast and avoided your line of sight.,ナーガの動きが速すぎてスコープに捉えることができなかった。,娜迦滑行得太快了，避开了你的视线。
 MSG_C_SNIPERRIFLE_O_LOSS,The orc's armor actually stopped the bullet. It's charging at you!,信じられないことにオークの鎧が銃弾を弾き返した。突進してくる！,难以置信，兽人的盔甲挡住了子弹。它冲过来了！
 MSG_C_SNIPERRIFLE_P_WIN,You used an infrared scope to easily spot the invisible pixie.,赤外線スコープで透明なピクシーを簡単に見つけて狙撃した。,你使用了红外夜视瞄准镜轻松找到了隐形的小精灵并狙击了她。
-MSG_C_SNIPERRIFLE_Q_WIN,You sniped the coarl while wearing rubber gloves.,ゴム手袋をはめてからコアールを安全な距離から狙撃した。,你戴着橡胶手套从安全的距离狙击了灵猫。
+MSG_C_SNIPERRIFLE_Q_WIN,You sniped the coeurl while wearing rubber gloves.,ゴム手袋をはめてからクアールを安全な距離から狙撃した。,你戴着橡胶手套从安全的距离狙击了灵猫。
 MSG_C_SNIPERRIFLE_R_LOSS,"You sniped one rat, but there are thousands more. You need a machine gun.",ラットを1匹狙撃したが、まだ数千匹いる。マシンガンが必要だ。,你狙击了一只老鼠，但还有几千只。你需要一把机枪。
 MSG_C_SNIPERRIFLE_S_LOSS,The bullet slowed down and got stuck inside the slime's body.,銃弾はスライムの体内で減速し、そのまま取り込まれてしまった。,子弹减速并留在了史莱姆的体内。
 MSG_C_SNIPERRIFLE_T_LOSS,"You shot the troll, but the wound healed instantly while it laughed.",トロールを撃ったが、傷は笑い声と共に一瞬で再生した。,你射中了巨魔，但伴随着它的笑声伤口瞬间愈合了。
@@ -937,7 +938,7 @@ MSG_C_CREDITCARD_M_LOSS,The mummy's treasures are far more valuable than your cr
 MSG_C_CREDITCARD_N_LOSS,The naga doesn't have pockets. She was unimpressed by your plastic.,ナーガにはポケットがない。プラスチックのカードには全く興味を示さなかった。,娜迦没有口袋。她对你的塑料卡片无动于衷。
 MSG_C_CREDITCARD_O_LOSS,The orc just hit you with an axe while you were typing your PIN.,PINコードを入力している隙に、オークの斧が脳天に直撃した。,当你在输入密码时，兽人直接用斧头砍了你。
 MSG_C_CREDITCARD_P_WIN,You bought the pixie a very expensive shiny dress. She is yours now.,超高価でキラキラのドレスを買い与えると、ピクシーはあなたのものになった。,你给小精灵买了一件非常昂贵的闪亮裙子。她现在是你的了。
-MSG_C_CREDITCARD_Q_LOSS,Swiping the card on the coarl's fur caused a severe electrostatic shock.,コアールの毛皮でカードを切ろうとしたら、酷い静電気で感電した。,在灵猫的皮毛上刷卡引起了严重的静电冲击。
+MSG_C_CREDITCARD_Q_LOSS,Swiping the card on the coeurl's fur caused a severe electrostatic shock.,クアールの毛皮でカードを切ろうとしたら、酷い静電気で感電した。,在灵猫的皮毛上刷卡引起了严重的静电冲击。
 MSG_C_CREDITCARD_R_LOSS,You can't buy off a rat swarm. They just chewed your card.,ラットの群れに金は通じない。カードは噛み砕かれてしまった。,你无法收买鼠群。它们只是把你的卡嚼碎了。
 MSG_C_CREDITCARD_S_LOSS,Your contactless payment failed against the slime.,スライムに対するタッチ決済は非対応だった。「ICチップが読み取れません」。,你的非接触式支付对史莱姆无效。
 MSG_C_CREDITCARD_T_LOSS,"The troll demanded a physical toll in gold, not a piece of plastic.",トロールが要求しているのは黄金の通行料であり、プラスチック片ではない。,巨魔要求用金子交过路费，而不是一块塑料。
@@ -964,7 +965,7 @@ MSG_C_LAWSUIT_M_WIN,You hired a lawyer to contest the mummy's ancient curse. You
 MSG_C_LAWSUIT_N_LOSS,The naga's lawyer was a literal shark. You lost everything.,ナーガの弁護士は比喩ではなく本物のサメだった。あなたは法廷で敗北した。,娜迦的律师是一条真正的鲨鱼。你输掉了一切。
 MSG_C_LAWSUIT_O_LOSS,The orc doesn't recognize human laws. He answered with his axe.,オークは人間の法律など知ったことではない。奴は斧で答えた。,兽人不承认人类的法律。他用斧头作答。
 MSG_C_LAWSUIT_P_WIN,You hit the pixie with a cease and desist order. She stopped glowing.,ピクシーに内容証明郵便を送りつけ、魔法の使用を差し止めた。,你向小精灵发出停止侵权通知。她停止了发光。
-MSG_C_LAWSUIT_Q_WIN,You sued the coarl for generating electricity without a license.,無許可での発電行為により、コアールを提訴した。,你起诉灵猫无证发电。
+MSG_C_LAWSUIT_Q_WIN,You sued the coeurl for generating electricity without a license.,無許可での発電行為により、クアールを提訴した。,你起诉灵猫无证发电。
 MSG_C_LAWSUIT_R_LOSS,You can't serve a subpoena to a swarm of rats.,ラットの群れに召喚状を直接手渡すことは不可能だった。,你无法向一群老鼠发送传票。
 MSG_C_LAWSUIT_S_LOSS,The slime dissolved all your legal documents before the trial.,裁判の前に、スライムはすべての法的書類を溶かしてしまった。,在审判前，史莱姆溶解了你所有的法律文件。
 MSG_C_LAWSUIT_T_LOSS,The troll demanded a trial by combat. This didn't go well for your lawyer.,トロールが決闘裁判を要求した。あなたの弁護士は木端微塵になった。,巨魔要求进行比武审判。这对你的律师来说并不顺利。
@@ -991,7 +992,7 @@ MSG_C_GACHA_M_LOSS,The mummy's curse gave you terrible luck forever.,マミー�
 MSG_C_GACHA_N_LOSS,The naga washed away your pity timer with a tidal wave.,ナーガの津波で天井までのカウントが洗い流された。,娜迦的海啸冲走了你的保底计数。
 MSG_C_GACHA_O_LOSS,The orc smashed the gacha machine with his axe in rage.,爆死にキレたオークがガチャ筐体を斧で粉砕した。,抽卡沉船的兽人愤怒地用斧头砸碎了扭蛋机。
 MSG_C_GACHA_P_WIN,You trapped the pixie inside a paid loot box.,ピクシーを有償限定ルートボックスの中に閉じ込めた。,你把小精灵困在了一个付费战利品箱里。
-MSG_C_GACHA_Q_LOSS,The coarl's static erased your save data.,コアールの静電気でセーブデータ（と課金履歴）が飛んだ。,灵猫的静电抹去了你的存档数据。
+MSG_C_GACHA_Q_LOSS,The coeurl's static erased your save data.,クアールの静電気でセーブデータ（と課金履歴）が飛んだ。,灵猫的静电抹去了你的存档数据。
 MSG_C_GACHA_R_LOSS,The rats chewed your credit card. You can't pull anymore!,ラットにクレジットカードを齧られ、もう課金できない！,老鼠咬烂了你的信用卡。你不能再抽了！
 MSG_C_GACHA_S_LOSS,The slime absorbed all your premium currency.,スライムがあなたの課金石をすべて吸収してしまった。,史莱姆吸收了你所有的氪金货币。
 MSG_C_GACHA_T_LOSS,The troll doesn't understand microtransactions. He hit you.,トロールには基本無料（アイテム課金あり）の意味がわからず、あなたを殴った。,巨魔不理解微交易机制。他打了你。
@@ -1018,7 +1019,7 @@ MSG_C_INTERNET_M_WIN,"You looked up how to tie Mummy's bandage on the internet a
 MSG_C_INTERNET_N_WIN,"Naga's graceful dance was exposed as a deep fake, and her number of followers plummeted.",ナーガの優雅なダンスはディープフェイクだと暴かれ、フォロワーが激減した。,娜迦优美的舞蹈被揭露为深造假，她的追随者数量直线下降。
 MSG_C_INTERNET_O_WIN,"When you posted a picture of Orc's muscular beauty on the internet, it became a huge buzz, and he went home satisfied.",オークの筋肉美の画像をネットに上げたら大バズりし、奴は満足して帰っていった。,当你把兽人肌肉美的照片发布到互联网上时，引起了巨大的轰动，他心满意足地回家了。
 MSG_C_INTERNET_P_LOSS,"Pixie played a prank on the internet line, causing a constant lag in spell chanting.",ピクシーはネット回線にイタズラを仕掛け、魔法詠唱を常にラグらせた。,皮克西在网络上搞了个恶作剧，导致咒语吟唱持续滞后。
-MSG_C_INTERNET_Q_LOSS,"The static electricity from Koar's fur destroyed the router, cutting off all connections.",コアールの毛皮の静電気がルーターを破壊し、一切の接続が絶たれた。,科阿尔皮毛上的静电损坏了路由器，切断了所有连接。
+MSG_C_INTERNET_Q_LOSS,"The static electricity from Coeurl's fur destroyed the router, cutting off all connections.",クアールの毛皮の静電気がルーターを破壊し、一切の接続が絶たれた。,科阿尔皮毛上的静电损坏了路由器，切断了所有连接。
 MSG_C_INTERNET_R_WIN,They analyzed the breeding algorithm of a swarm of rats and injected them with a deadly virus.,ラットの群れの増殖アルゴリズムを解析し、致死的なウイルスを流し込んだ。,他们分析了一群老鼠的繁殖算法，并向它们注射了致命的病毒。
 MSG_C_INTERNET_S_WIN,"The slime mud was deeper than the net ocean, and all the packets were absorbed and disappeared.",ネットの海よりもスライムの泥土の方が深く、すべてのパケットは吸収消失した。,粘泥比网海还深，所有的包裹都被吸收消失了。
 MSG_C_INTERNET_T_LOSS,Trolls have been debunking you on internet bulletin board forums and causing psychological damage.,トロールはネット掲示板のレスバであなたを論破し、精神的ダメージを与えてきた。,网络喷子一直在互联网公告板论坛上揭穿你的谎言，并造成心理伤害。
@@ -1045,7 +1046,7 @@ MSG_C_DRONE_M_LOSS,You hooked the drone's arm onto Mummy's bandage and spooled i
 MSG_C_DRONE_N_WIN,A drone was forcibly connected to the end of the Naga's long tail and an electric shock was given to it to knock it out.,ナーガの長い尻尾の先にドローンを強制接続し、電気ショックを与えて気絶させた。,一架无人机被强行连接到娜迦的长尾末端，并对其进行电击，将其击倒。
 MSG_C_DRONE_O_WIN,Strafing fire from the drone completely honeycombed the orcs' thick muscular armor.,ドローンからの機銃掃射が、オークの分厚い筋肉の装甲を完全に蜂の巣にした。,无人机的扫射将兽人厚实的肌肉装甲完全打成蜂窝状。
 MSG_C_DRONE_P_LOSS,Pixie has jacked the drone's control sound waves and sent it flying towards you.,ピクシーがドローンの操縦音波をジャックし、機体をあなたに向けて特攻させてきた。,小精灵已经劫持了无人机的控制声波并将其飞向你。
-MSG_C_DRONE_Q_LOSS,Koir leaps up onto the plane and fires a thunderbolt at you from the air.,コアールが跳躍して機体に飛び乗り、空中からあなたに雷撃を落としてきた。,科伊尔跳上飞机，从空中向你发射雷霆。
+MSG_C_DRONE_Q_LOSS,Koir leaps up onto the plane and fires a thunderbolt at you from the air.,クアールが跳躍して機体に飛び乗り、空中からあなたに雷撃を落としてきた。,科伊尔跳上飞机，从空中向你发射雷霆。
 MSG_C_DRONE_R_LOSS,"A concentrated napalm drop was carried out on a swarm of rats, turning every single one of them to charred black.",ラットの群れに集中的なナパーム投下を行い、一匹残らず黒焦げに変えた。,向一群老鼠投放了浓缩凝固汽油弹，将每只老鼠都变成了焦黑。
 MSG_C_DRONE_S_LOSS,"The drone crashed into the slime's core, but was instantly engulfed and dissolved, providing the slime with new minerals.",ドローンがスライムの核に突撃したが、そのまま体内で包み込まれて溶かされ、奴に新たな栄養分を与えてしまった。,无人机向史莱姆的核心发起了突击，但就这样在体内被包裹溶解，给了那家伙新的营养成分。
 MSG_C_DRONE_T_LOSS,"The troll caught the drone in mid-air with its bare hands and crushed it like a bug, letting out a terrifying roar.",トロールは飛来するドローンを素手で叩き落として虫のように握り潰し、恐るべき雄叫びを上げた。,トロールは飛来するドローンを素手で叩き落として虫のように握り潰し、恐るべき雄叫びを上げた。,巨魔用手拍下了飞来的无人机，像虫子一样捏碎了，发出了可怕的咆哮。
@@ -1072,7 +1073,7 @@ MSG_C_CHAINSAW_M_LOSS,"Mummy's bandage got tangled with the chainsaw, and when t
 MSG_C_CHAINSAW_N_LOSS,"The chainsaw was deflected by the naga's slippery scales, causing the blade to deviate from its trajectory and inflict self-injury.",ナーガの滑りやすい鱗にチェーンソーが弾かれ、逆に刃の軌道がずれて自傷した。,电锯被纳迦光滑的鳞片偏转，导致刀片偏离其轨迹并造成自伤。
 MSG_C_CHAINSAW_O_LOSS,"Although he blocked the orc's giant battle ax with a chainsaw, he was defeated and crushed by the horse power.",オークの巨大な戦斧をチェーンソーで受け止めるも、馬力で敗北し粉砕された。,虽然他用电锯挡住了兽人的巨型战斧，但还是被马匹的力量击败、碾压。
 MSG_C_CHAINSAW_P_WIN,"Pixie's hallucination magic causes her to drive a chainsaw into a tree in the sky, mistaking her for an ally.",ピクシーの幻覚魔法により、味方と間違えてチェーンソーを空の木に突き刺した。,皮克西的幻觉魔法使她将电锯撞向天空中的一棵树，误认为她是盟友。
-MSG_C_CHAINSAW_Q_WIN,"The insulated handle of the chainsaw protected you as the blade sliced through the Coarl's electric fur, ending its threat.",チェーンソーの絶縁ハンドルがあなたを守り、回転する刃がコアールの帯電した毛皮ごと一気に切り裂いて絶命させた。,电锯的绝缘手柄保护了你，旋转的刀刃连同科阿尔带电的皮毛一起猛地切开，使其绝命。
+MSG_C_CHAINSAW_Q_WIN,"The insulated handle of the chainsaw protected you as the blade sliced through the Coeurl's electric fur, ending its threat.",チェーンソーの絶縁ハンドルがあなたを守り、回転する刃がクアールの帯電した毛皮ごと一気に切り裂いて絶命させた。,电锯的绝缘手柄保护了你，旋转的刀刃连同科阿尔带电的皮毛一起猛地切开，使其绝命。
 MSG_C_CHAINSAW_R_LOSS,"He tried to mow down a group of rats, but was crushed by so many that his flesh was gnawed away.",ラットの群れを薙ぎ払おうとしたが、あまりの数に押し潰されて肉を齧られた。,他试图消灭一群老鼠，但被太多的老鼠压死，他的肉被啃掉了。
 MSG_C_CHAINSAW_S_LOSS,"You cut the slime's body with a chainsaw, but it was immediately attached and swallowed.",スライムの体をチェーンソーで斬ったがすぐにくっつかれ、そのまま飲み込まれた。,你用电锯切割了史莱姆的身体，但它立即被粘住并被吞掉了。
 MSG_C_CHAINSAW_T_LOSS,"The troll's self-regeneration was amazing, but the chainsaw's cutting speed exceeded it.",トロールの自己再生は凄まじかったが、チェーンソーの切断速度がそれを上回った。,巨魔的自我再生能力很惊人，但电锯的切割速度却超过了它。
@@ -1098,7 +1099,7 @@ MSG_C_MICROWAVE_M_LOSS,"When Mummy's dried bandage was heated in the microwave, 
 MSG_C_MICROWAVE_N_LOSS,"Naga's huge torso could not fit into the range, and she was strangled to death in frustration.",ナーガの巨大な胴体は到底レンジに入りきらず、イライラした彼女に絞め殺された。,娜迦巨大的躯干根本无法进入范围，无奈之下被勒死。
 MSG_C_MICROWAVE_O_WIN,"Far from being frightened by the unknown machine called Range, the orcs picked it up as a blunt weapon and used it to hit it.",オークはレンジという未知の機械に怯えるどころか、鈍器として拾い上げて殴ってきた。,兽人非但没有被名为Range的未知机器吓倒，反而捡起它作为钝器，并用它来击打。
 MSG_C_MICROWAVE_P_WIN,Pixie messed with the timer setting on the microwave and turned your lunch box into black charcoal.,ピクシーがレンジのタイマー設定を弄り、中身のあなたの弁当を真っ黒い炭に変えた。,小精灵搞乱了微波炉的定时器设置，把你的午餐盒变成了黑木炭。
-MSG_C_MICROWAVE_Q_LOSS,"The coarl's biological electricity fused the microwave's components together, causing it to catch fire in your hands.",コアールの生体電気が電子レンジの精密部品を瞬時に融着させ、あなたの手元で火を噴いて暴走した。,科阿尔的生物电使微波炉的精密零件瞬间熔合，在你的手边喷火失控。MSG_C_MICROWAVE_R_LOSS,"One by one, a bunch of rats were thrown into a microwave oven and made to pop like popcorn.",ラットの群れを次々と電子レンジに放り込み、ポップコーンのように弾けさせた。,一群老鼠被一只接一只地扔进微波炉，像爆米花一样爆开。
+MSG_C_MICROWAVE_Q_LOSS,"The coeurl's biological electricity fused the microwave's components together, causing it to catch fire in your hands.",クアールの生体電気が電子レンジの精密部品を瞬時に融着させ、あなたの手元で火を噴いて暴走した。,科阿尔的生物电使微波炉的精密零件瞬间熔合，在你的手边喷火失控。MSG_C_MICROWAVE_R_LOSS,"One by one, a bunch of rats were thrown into a microwave oven and made to pop like popcorn.",ラットの群れを次々と電子レンジに放り込み、ポップコーンのように弾けさせた。,一群老鼠被一只接一只地扔进微波炉，像爆米花一样爆开。
 MSG_C_MICROWAVE_S_LOSS,"When you heated the slime in the microwave, it melted and became huge, and the entire room was covered in slime.",スライムをレンジで温めたらドロドロに溶けて巨大化し、部屋中がスライムまみれになった。,当你用微波炉加热史莱姆时，它融化并变得巨大，整个房间都被史莱姆覆盖了。
 MSG_C_MICROWAVE_T_WIN,"You threw a microwave at a troll, but he caught it on the spot and chewed it up.",トロールに電子レンジを投げつけたが、奴はその場でキャッチしてそのまま咀嚼して食べた。,你向一个巨魔扔了一个微波炉，但他当场接住了它并把它嚼碎了。
 MSG_C_MICROWAVE_U_LOSS,"Since ghosts are not physical objects, no matter how much you heat them in the microwave, they have no effect and are cursed.",亡霊は物質ではないため、電子レンジでいくら温めても一切の効果がなく呪われた。,由于鬼魂不是实体，所以不管你用微波炉加热多少鬼魂，它们都没有任何效果，而且会受到诅咒。
@@ -1123,7 +1124,7 @@ MSG_C_ROOMBA_M_WIN,"The cleaning robot picked up the end of Mummy's bandage that
 MSG_C_ROOMBA_N_WIN,"A cleaning robot automatically ran up Naga's long torso and vacuumed up the weak point, Gyakuscale, with pinpoint accuracy.",ナーガの長い胴体を自動的にお掃除ロボットが駆け上がり、弱点の逆鱗をピンポイントで吸引した。,清洁机器人自动爬上娜迦的长躯干，精准地吸走弱点 Gyakuscale。
 MSG_C_ROOMBA_O_WIN,The orc saw the cleaning robot as a troublesome metal creature and used all his strength to land a blow with his giant ax.,オークはお掃除ロボットを厄介な金属の生き物と見做し、渾身の力で巨大な斧の一撃を下した。,兽人将清洁机器人视为麻烦的金属生物，用尽全身力气，用巨斧砍了下去。
 MSG_C_ROOMBA_P_LOSS,"Pixie sprinkles a powder that derails the cleaning robot's sensors, causing it to charge at your feet and knock you over.",ピクシーはお掃除ロボットのセンサーを狂わせる粉を撒き、あなたの足元に突撃させて転ばせた。,小精灵撒下一种粉末，使清洁机器人的传感器脱轨，导致它冲到你的脚边，把你撞倒。
-MSG_C_ROOMBA_Q_LOSS,"The hair of the core got tangled in the rotating brush of the cleaning robot, causing an electrical leak and a static electricity explosion.",コアールの毛がお掃除ロボットの回転ブラシに絡まり、そこから漏電して静電気爆発生地獄になった。,芯体的毛发缠绕在扫地机器人的旋转刷上，导致漏电和静电爆炸。
+MSG_C_ROOMBA_Q_LOSS,"The hair of the core got tangled in the rotating brush of the cleaning robot, causing an electrical leak and a static electricity explosion.",クアールの毛がお掃除ロボットの回転ブラシに絡まり、そこから漏電して静電気爆発生地獄になった。,芯体的毛发缠绕在扫地机器人的旋转刷上，导致漏电和静电爆炸。
 MSG_C_ROOMBA_R_WIN,The robot efficiently corralled the rats into a single corner and neutralised them with a high-voltage discharge.,お掃除ロボットがラットの群れを効率的に一角へ追い詰め、高電圧の放電によって一網打尽にした。,扫地机器人高效地将鼠群赶到角落，通过高压放电将其一网打尽。MSG_C_ROOMBA_S_WIN,"Thanks to the slime's slimy body, the cleaning robot's tires were spinning and it was unable to do anything.",スライムのドロドロの身体のおかげでお掃除ロボットのタイヤが空回りし、何もできなくなった。,由于史莱姆的身体黏糊糊的，清洁机器人的轮胎在旋转，它什么也做不了。
 MSG_C_ROOMBA_T_LOSS,The troll uses the cleaning robot as a springboard to make a big jump and then crashes into you.,トロールがお掃除ロボットを踏み台にして大ジャンプし、そのままあなた目掛けて激突してきた。,巨魔利用清洁机器人作为跳板，进行一次大跳跃，然后撞向你。
 MSG_C_ROOMBA_U_LOSS,"Since ghosts cannot physically interfere, the cleaning robot simply passes by and sucks up the dust from the floor.",亡霊は物理的に干渉できないため、お掃除ロボットはただ素通りして床の埃を吸うだけだった。,由于鬼魂无法进行物理干扰，清洁机器人只是路过并吸走地板上的灰尘。
@@ -1149,7 +1150,7 @@ MSG_C_TRUCK_M_LOSS,Even Mummy's ancient curse was meaningless when she was kille
 MSG_C_TRUCK_N_WIN,The wheels of the truck mercilessly wrapped around the large body of the Naga and dragged it around.,ナーガの巨体をトラックの車輪が容赦なく巻き込み、そのまま引きずり回した。,卡车的轮子无情地缠绕着娜迦庞大的身躯，拖着它到处走。
 MSG_C_TRUCK_O_WIN,"The truck collided head-on with the orc's thick muscles, shattering it without leaving even a trace of its bones.",オークの分厚い筋肉にトラックが正面衝突し、骨の原型すら残さず粉砕した。,卡车迎面撞上兽人粗壮的肌肉，将其粉碎得连骨头都没有留下。
 MSG_C_TRUCK_P_LOSS,The truck driver ignored Pixie's hallucination magic and continued to press the accelerator.,ピクシーの幻覚魔法をトラックの運転手は無視し、そのままアクセルを踏み抜いた。,卡车司机无视皮克西的幻觉魔法，继续踩油门。
-MSG_C_TRUCK_Q_LOSS,"The truck sped past Coarl's lightning, but the resulting shockwave caused you to lose control and crash into a ravine.",コアールの雷撃よりもトラックの速度が上回ったが、その際の衝撃波でハンドルを奪われ、そのまま谷底へ転落した。,卡车的速度比科尔的雷击还要快，但当时的冲击波夺走了方向盘，卡车掉进了谷底。
+MSG_C_TRUCK_Q_LOSS,"The truck sped past Coeurl's lightning, but the resulting shockwave caused you to lose control and crash into a ravine.",クアールの雷撃よりもトラックの速度が上回ったが、その際の衝撃波でハンドルを奪われ、そのまま谷底へ転落した。,卡车的速度比科尔的雷击还要快，但当时的冲击波夺走了方向盘，卡车掉进了谷底。
 MSG_C_TRUCK_R_LOSS,"It ran into a group of rats at breakneck speed, trapping large pieces of their flesh in the grooves of its tires.",ラットの群れへ猛スピードで突っ込み、タイヤの溝に奴らの肉片を大量に挟み込んだ。,它以惊人的速度撞上了一群老鼠，轮胎的凹槽里夹住了老鼠的大块肉。
 MSG_C_TRUCK_S_WIN,"The truck's high-speed impact completely dispersed the slime's mass, preventing it from ever reforming.",トラックの高速衝突による凄まじい衝撃がスライムの核をバラバラに粉砕し、再生不可能なほどに四散させた。,卡车高速冲撞产生的巨大冲击将史莱姆的核心粉碎得支离破碎，四处飞散，无法再生。
 MSG_C_TRUCK_T_LOSS,"You tried to run over the troll multiple times, but it eventually grabbed the truck's bumper and flipped it over.",トロールを何度も往復して轢こうとしたが、最後にはバンパーを掴んで持ち上げられ、トラックごとひっくり返された。,你想多次往复碾压巨魔，但最后保险杠被抓起提了起来，连同卡车一起被掀翻了。
@@ -1176,7 +1177,7 @@ MSG_C_VENDINGMACHINE_M_LOSS,A vending machine was placed on top of Mummy's coffi
 MSG_C_VENDINGMACHINE_N_LOSS,"The gigantic Naga swallowed the vending machine whole and died in agony, unable to digest it inside.",巨体のナーガは自販機を丸呑みにしてしまい、内部で消化できずに苦しみ死んだ。,巨大的娜迦将自动售货机整个吞下，无法在里面消化，痛苦地死去。
 MSG_C_VENDINGMACHINE_O_LOSS,"In his anger, the orc smashes the vending machine with his axe and drinks the juice inside, causing his muscles to swell.",オークは怒りのあまり自販機を斧で粉砕し、中のジュースを飲んで筋肉をパンパンに膨張させた。,愤怒的兽人用斧头砸碎了自动售货机，喝下了里面的果汁，导致他的肌肉肿胀。
 MSG_C_VENDINGMACHINE_P_LOSS,"Pixie casts a spell on the vending machine's button, and it has been modified so that it releases a bomb every time it is pressed.",ピクシーが自販機のボタンに魔法をかけ、押すたびに爆弾が出るように改造されてしまった。,小精灵对自动售货机的按钮施展咒语，并对其进行了修改，以便每次按下时都会释放炸弹。
-MSG_C_VENDINGMACHINE_Q_LOSS,"Koir touches the vending machine's electrical leakage point, and a huge explosion occurs, turning the surrounding area into a crater.",コアールが自販機の漏電箇所に触れ、凄まじい大爆発が起きて周囲がクレーターになった。,科伊尔触碰了自动售货机的漏电点，发生了巨大的爆炸，将周围区域变成了一个弹坑。
+MSG_C_VENDINGMACHINE_Q_LOSS,"Koir touches the vending machine's electrical leakage point, and a huge explosion occurs, turning the surrounding area into a crater.",クアールが自販機の漏電箇所に触れ、凄まじい大爆発が起きて周囲がクレーターになった。,科伊尔触碰了自动售货机的漏电点，发生了巨大的爆炸，将周围区域变成了一个弹坑。
 MSG_C_VENDINGMACHINE_R_LOSS,"A swarm of rats crawled into the crevices of the vending machine and chewed through the wiring, completely destroying it.",ラットの群れが自販機の隙間に入り込み、配線を噛みちぎって完全にスクラップにした。,一群老鼠爬进自动售货机的缝隙中，咬断电线，将其彻底摧毁。
 MSG_C_VENDINGMACHINE_S_LOSS,"You dropped a vending machine into the slime, but it was wrapped up in the slime and slowly digested.",スライムに自販機を落としたが、そのまま包み込まれてゆっくりと消化されていった。,你把一台自动售货机扔进了史莱姆里，但它却被史莱姆包裹着，慢慢消化了。
 MSG_C_VENDINGMACHINE_T_LOSS,The troll caught the falling vending machine with one hand and threw it back as a blunt weapon.,トロールは降ってきた自販機を片手で受け止め、そのまま鈍器として投げ返してきた。,巨魔用一只手接住了掉落的自动售货机，并将其作为钝器扔了回去。
@@ -1203,7 +1204,7 @@ MSG_C_ENERGYDRINK_M_WIN,"When you soaked Mummy's dried up body with Enadori, the
 MSG_C_ENERGYDRINK_N_WIN,"When he gave Enadori to Naga, his blood flow accelerated so much that he became wrapped around his own giant body and passed out.",ナーガにエナドリを与えたところ血流が加速しすぎて、自らの巨体に巻き付かれて気絶した。,当他把Enadori喂给Naga时，他的血液流动加速，以至于他被自己巨大的身体包裹住了，昏了过去。
 MSG_C_ENERGYDRINK_O_WIN,"As a result of the orc gulping down Enadori, its muscles bulged to the limit and unleashed a tremendous blow.",オークがエナドリをガブ飲みした結果、筋肉が限界まで隆起して凄まじい打撃を放ってきた。,兽人吞下恩纳多利后，肌肉膨胀到了极限，释放出巨大的一击。
 MSG_C_ENERGYDRINK_P_LOSS,"Pixie mixed the ingredients of Enadri with magic powder, turned it into a powerful sleeping pill, and gave it to you to drink.",ピクシーがエナドリの成分を魔法の粉と混ぜ、強力な睡眠薬に変えてあなたに飲ませた。,皮克西将艾那德里的成分与魔法粉混合，变成了强效安眠药，给你喝了。
-MSG_C_ENERGYDRINK_Q_WIN,"Koar drank Enadori and became extremely charged, turning the surrounding area into a sea of ​​lightning and disappearing.",コアールがエナドリを飲んで極限まで帯電し、周囲一帯を雷の海に変えて消滅した。,科阿尔喝下埃纳多利后，变得极度充能，将周围区域变成了一片雷海，然后消失了。
+MSG_C_ENERGYDRINK_Q_WIN,"Coeurl drank Enadori and became extremely charged, turning the surrounding area into a sea of ​​lightning and disappearing.",クアールがエナドリを飲んで極限まで帯電し、周囲一帯を雷の海に変えて消滅した。,科阿尔喝下埃纳多利后，变得极度充能，将周围区域变成了一片雷海，然后消失了。
 MSG_C_ENERGYDRINK_R_WIN,"A swarm of rats licked a can of red-spotted enamel, multiplying at an alarming rate and covering you.",ラットの群れがエナドリの缶を舐め回し、異常な速度で増殖してあなたを覆い尽くした。,一群老鼠舔了一罐有红斑的珐琅质，它们以惊人的速度繁殖并覆盖了你。
 MSG_C_ENERGYDRINK_S_LOSS,"When you mixed Enadri into slime, it lost its elasticity and became just fluffy water.",スライムにエナドリを混ぜたら、弾力が失われてただのシャバシャバの水になった。,当你将 Enadri 混入史莱姆中时，它就失去了弹性，变成了松软的水。
 MSG_C_ENERGYDRINK_T_LOSS,Enadori added to the troll's superhuman strength and smashed you and the ground into pieces with a hammer.,トロールの怪力にエナドリが加わり、あなたごと地面をハンマーで粉々に叩き割った。,埃纳多里（Enadori）增强了巨魔的超人力量，用锤子将你和地面砸成了碎片。
@@ -1230,7 +1231,7 @@ MSG_C_GAMINGPC_M_LOSS,We analyzed Mummy's ancient curse using the latest PC secu
 MSG_C_GAMINGPC_N_LOSS,You threw a gaming chair at Naga's huge body and gouged out its scales with the sharp part of the caster.,ナーガの巨体にゲーミングチェアを投げつけ、キャスターの鋭い部分で逆鱗を抉った。,你把一把游戏椅扔到娜迦巨大的身体上，用脚轮的锋利部分挖出了它的鳞片。
 MSG_C_GAMINGPC_O_LOSS,"After receiving a physical attack from an orc's giant ax, his proud gaming PC instantly turned into scrap metal.",オークの巨大な斧による物理攻撃を受け、自慢のゲーミングPCは一瞬で鉄屑へと変わった。,在受到兽人巨斧的物理攻击后，他引以为傲的游戏电脑瞬间变成了废铁。
 MSG_C_GAMINGPC_P_LOSS,"Pixie magically shorts out the wiring on the motherboard, causing your PC to explode and blow you away.",ピクシーがマザーボードの配線を魔法でショートさせ、PCが爆発してあなたは吹き飛んだ。,Pixie 神奇地使主板上的接线短路，导致你的电脑爆炸并把你炸飞。
-MSG_C_GAMINGPC_Q_WIN,"A gaming PC's power supply unit was struck by a lightning bolt from a core, and an overvoltage caused an enormous explosion.",コアールの雷撃をゲーミングPCの電源ユニットで受けてしまい、過電圧で特大の爆発が起きた。,一台游戏电脑的电源装置被来自核心的闪电击中，过电压引发了巨大的爆炸。
+MSG_C_GAMINGPC_Q_WIN,"A gaming PC's power supply unit was struck by a lightning bolt from a core, and an overvoltage caused an enormous explosion.",クアールの雷撃をゲーミングPCの電源ユニットで受けてしまい、過電圧で特大の爆発が起きた。,一台游戏电脑的电源装置被来自核心的闪电击中，过电压引发了巨大的爆炸。
 MSG_C_GAMINGPC_R_LOSS,"A swarm of rats chewed off the power cord of your gaming PC, turning it into just a giant square iron box.",ラットの群れにゲーミングPCの電源コードを噛みちぎられ、ただの巨大な四角い鉄の箱になった。,一群老鼠咬断了你游戏电脑的电源线，把它变成了一个巨大的方形铁盒子。
 MSG_C_GAMINGPC_S_WIN,"A gaming PC was thrown into the slime's body and it glowed with RGB, making it a fantastic lamp.",スライムの体内にゲーミングPCを放り込みRGBを光らせて、幻想的なランプとして楽しんだ。,一台游戏电脑被扔进史莱姆的身体里，它发出 RGB 光，使它成为一盏神奇的灯。
 MSG_C_GAMINGPC_T_LOSS,Everything from the monitor to the computer case was smashed by the troll's giant fist.,トロールの巨大な拳に殴られ、モニターからPCケースに至るまですべてが粉砕された。,从显示器到电脑机箱，一切都被巨魔的巨拳砸碎了。
@@ -1257,7 +1258,7 @@ MSG_C_VRHEADSET_M_LOSS,"You tried to put the VR goggles on Mummy, but the bandag
 MSG_C_VRHEADSET_N_LOSS,"The VR goggles were too small to fit on Naga's gigantic body, so he was squeezed in frustration.",ナーガの巨体にはVRゴーグルが小さすぎて装着できず、そのまま苛立ちのまま締め付けられた。,VR眼镜太小，无法戴在娜迦巨大的身体上，他沮丧地被挤着。
 MSG_C_VRHEADSET_O_WIN,"He put VR goggles on the orc, but he got angry at the video and punched himself in the face with the goggles.",オークにVRゴーグルを被せたが、映像に怒ってゴーグルごと自分の顔面を殴り飛ばした。,他给兽人戴上了VR护目镜，但他对视频很生气，用护目镜打了自己的脸。
 MSG_C_VRHEADSET_P_LOSS,"Pixie rewrites the images in your VR goggles into a real nightmare, and you end up going crazy.",ピクシーがVRゴーグルの映像を真実の悪夢に書き換え、あなたが発狂する羽目になった。,Pixie 将你的 VR 护目镜中的图像重写为一场真正的噩梦，而你最终会发疯。
-MSG_C_VRHEADSET_Q_LOSS,"The moment you put the VR goggles on Coarl, the static electricity from the fur caused a short circuit and the goggles exploded.",コアールにVRゴーグルを被せた瞬間、毛の静電気でショートしてゴーグルが爆散した。,当你把VR眼镜戴在Coarl身上的那一刻，皮毛上的静电导致了短路，眼镜爆炸了。
+MSG_C_VRHEADSET_Q_LOSS,"The moment you put the VR goggles on Coeurl, the static electricity from the fur caused a short circuit and the goggles exploded.",クアールにVRゴーグルを被せた瞬間、毛の静電気でショートしてゴーグルが爆散した。,当你把VR眼镜戴在Coeurl身上的那一刻，皮毛上的静电导致了短路，眼镜爆炸了。
 MSG_C_VRHEADSET_R_WIN,"The cord of your VR goggles was bitten off by a swarm of rats, and while your vision was interrupted, you were chewed out countless times.",ラットの群れにVRゴーグルのコードを噛みちぎられ、視界が途切れた隙に無数に嚙まれた。,你的VR眼镜线被一群老鼠咬断，视力被打断的同时，也被咬了无数次。
 MSG_C_VRHEADSET_S_LOSS,"When you put VR goggles on the slime, it was swallowed up and the slime itself began to emit light.",スライムにVRゴーグルを被せたら、そのまま飲み込まれてスライム自身が発光し始めた。,当你把VR眼镜戴在史莱姆身上时，它被吞噬了，史莱姆本身也开始发光。
 MSG_C_VRHEADSET_T_WIN,The troll got so absorbed in the VR fishing game that he dropped his weapon and sat down to enjoy his virtual hobby.,トロールがVRの釣りゲームにどっぷりとハマり込み、棍棒を投げ出してその場で釣り糸を垂らし始めた。,巨魔完全沉浸在VR钓鱼游戏中，丢下武器坐下来享受他的虚拟爱好。MSG_C_VRHEADSET_U_LOSS,"The ghost penetrates through the VR goggles and contacts your brain directly, pulling you into a terrifying nightmare world.",亡霊はVRゴーグルを透過してあなたの脳に直接コンタクトし、恐ろしい悪夢の世界へ引きずり込んだ。,鬼魂穿透VR眼镜，直接接触你的大脑，将你带入恐怖的噩梦世界。
@@ -1283,7 +1284,7 @@ MSG_C_TRACTOR_M_WIN,"Even Mummy's bandages could not withstand the weight of the
 MSG_C_TRACTOR_N_WIN,"You tried to run over the huge body of the Naga with a tractor, but it got wrapped around you and the engine was destroyed.",ナーガの巨体をトラクターで轢き潰そうとしたが、巻き付かれてエンジンを破壊された。,你试图用拖拉机碾过娜迦庞大的身躯，但它缠住了你，发动机也被毁坏了。
 MSG_C_TRACTOR_O_LOSS,The tractor was instantly dismantled into scraps by a physical attack from the orc's giant axe.,オークの巨大な斧による物理攻撃を受け、トラクターは一瞬でスクラップへと分解された。,拖拉机瞬间被兽人巨斧的物理攻击拆成了碎片。
 MSG_C_TRACTOR_P_LOSS,"Pixie magically shorts out the tractor's wiring, causing it to lose control and fall off a cliff.",ピクシーがトラクターの配線を魔法でショートさせ、制御不能になってそのまま崖から落ちた。,小精灵神奇地使拖拉机的电线短路，导致拖拉机失去控制并从悬崖上掉下来。
-MSG_C_TRACTOR_Q_LOSS,The metal part of the tractor was hit by Koar's thunderbolt and was charred black after a huge explosion.,コアールの雷鳴撃をトラクターの金属部分で受けてしまい、大爆発のち黒焦げになった。,拖拉机的金属部分被科尔的雷电击中，发生巨大爆炸后焦黑。
+MSG_C_TRACTOR_Q_LOSS,The metal part of the tractor was hit by Coeurl's thunderbolt and was charred black after a huge explosion.,クアールの雷鳴撃をトラクターの金属部分で受けてしまい、大爆発のち黒焦げになった。,拖拉机的金属部分被科尔的雷电击中，发生巨大爆炸后焦黑。
 MSG_C_TRACTOR_R_LOSS,"He tried to run over a group of rats to death with a tractor, but his wheels became entangled in countless numbers, stopping him from moving.",ラットの群れをトラクターで轢き殺そうとしたが、車輪に無数に絡みついて動きを止められた。,他试图用拖拉机碾死一群老鼠，但他的轮子被无数的老鼠缠住，使他无法前进。
 MSG_C_TRACTOR_S_LOSS,"The slime's body was slashed with a tractor, but it immediately regenerated and was wrapped up and digested in no time.",スライムの体をトラクターで斬ったがすぐに再生し、あっという間に包まれて消化された。,史莱姆的身体被拖拉机划破，但立刻就再生了，不一会儿就被包裹消化了。
 MSG_C_TRACTOR_T_LOSS,"The troll's self-regeneration was amazing, but it was surpassed by the tractor's gravity drop attack.",トロールの自己再生は凄まじかったが、トラクターの重力落下攻撃がそれを上回った。,巨魔的自我再生能力很惊人，但却被拖拉机的重力掉落攻击所超越。
@@ -1310,7 +1311,7 @@ MSG_C_ELECTRICGUITAR_M_WIN,"You offset Mummy's ancient curse with the latest eff
 MSG_C_ELECTRICGUITAR_N_LOSS,"The string of the guitar that was struck by Naga's torso broke and hit you in the face, fatally injuring you.",ナーガの胴体に弾かれたギターの弦が切れ、それがあなたの顔面に直撃して致命傷を負った。,被娜迦躯干击中的吉他弦断了，击中了你的脸，使你受了致命伤。
 MSG_C_ELECTRICGUITAR_O_WIN,"When he tried to block the orc's giant battle ax with his electric guitar, it shattered into pieces.",オークの巨大な戦斧をエレキギターで受け止めようとした結果、木っ端微塵に粉砕し散った。,当他试图用电吉他挡住兽人的巨型战斧时，它碎成了碎片。
 MSG_C_ELECTRICGUITAR_P_WIN,"Pixie's illusion magic made her guitar look like a giant snake, and she smashed it in a panic.",ピクシーの幻覚魔法により、自分のギターが巨大な蛇に見えてしまい、パニックで叩き割った。,皮克西的幻象魔法让她的吉他看起来像一条巨蛇，她惊慌失措地把它砸碎了。
-MSG_C_ELECTRICGUITAR_Q_WIN,"He amplified Koar's electric shock with his guitar pickup, and sent a tremendous back-flow lightning strike into his opponent's face.",コアールの電撃をギターのピックアップで増幅し、凄まじい逆流雷撃を相手の顔面に叩き込んだ。,他用吉他拾音器放大了科阿尔的电击，并向对手的脸上发出了巨大的回流闪电。
+MSG_C_ELECTRICGUITAR_Q_WIN,"He amplified Coeurl's electric shock with his guitar pickup, and sent a tremendous back-flow lightning strike into his opponent's face.",クアールの電撃をギターのピックアップで増幅し、凄まじい逆流雷撃を相手の顔面に叩き込んだ。,他用吉他拾音器放大了科阿尔的电击，并向对手的脸上发出了巨大的回流闪电。
 MSG_C_ELECTRICGUITAR_R_LOSS,"He tries to blast the sound of his guitar at a group of rats, but ends up having the speaker wires chewed off.",ラットの群れにギターの爆音を浴びせようとしたが、スピーカーの配線を噛みちぎられて終了した。,他试图用吉他向一群老鼠发出声音，但最终扬声器的电线被咬断了。
 MSG_C_ELECTRICGUITAR_S_LOSS,"When you slammed the guitar into the slime's body, it was swallowed up, and the final performance echoed inside the slime.",スライムの体にギターを叩きつけたらそのまま飲み込まれ、最期の演奏が粘液の中で響いた。,当你把吉他猛击到史莱姆的身体里时，它就被吞没了，最后的演奏在史莱姆内部回响。
 MSG_C_ELECTRICGUITAR_T_WIN,"The high-voltage riff from your guitar sent a massive electrical current into the troll's wet skin, successfully paralyzing it.",ギターから放たれた高電圧のリフが、トロールの湿った皮膚を通じて全身を駆け巡り、完全に麻痺させることに成功した。,吉他发出的高压连麦声，通过巨魔潮湿的皮肤传遍全身，成功使其完全麻痹。MSG_C_ELECTRICGUITAR_U_LOSS,"Since ghosts have no substance and cannot make physical sounds, all sonic attacks from electric guitars are ignored.",亡霊は実体を持たず物理的な音が響かないため、エレキギターの音波攻撃は全て無視された。,由于鬼魂没有实体，无法发出物理声音，因此所有来自电吉他的声音攻击都会被忽略。
@@ -1336,7 +1337,7 @@ MSG_C_SELFIESTICK_M_LOSS,You hooked the end of the selfie stick into the knot in
 MSG_C_SELFIESTICK_N_LOSS,"The selfie stick was wrapped around the large body of the naga, and the stick was tightened around you, breaking your spine along with the stick.",ナーガの巨体に自撮り棒を絡められ、そのまま締め上げられて棒ごとあなたの背骨がへし折られた。,自拍杆缠住了纳迦庞大的身躯，棍子也紧紧地缠住了你，你的脊椎骨也跟着被棍子折断了。
 MSG_C_SELFIESTICK_O_LOSS,"By foolishly trying to block an orc's giant battle ax with a selfie stick, it was shattered into pieces.",オークの巨大な戦斧を自撮り棒で受け止めようとするという愚行により、木っ端微塵に粉砕された。,愚蠢地试图用自拍杆挡住兽人的巨型战斧，结果它被摔成了碎片。
 MSG_C_SELFIESTICK_P_LOSS,"He discovered the magic of Pixie's hallucinations by seeing the truth through the selfie stick's camera, and hit him with a stick instead.",ピクシーの幻覚に対して自撮り棒のカメラ越しに真実を見ることで魔法を看破し、逆に棒で殴った。,他通过自拍杆的摄像头看到了真相，发现了小精灵幻觉的魔力，并用棍子打了他。
-MSG_C_SELFIESTICK_Q_WIN,"As Coarl released its death blow, you thrust the selfie stick into its open mouth, conducting the entire shock back into its own heart.",コアールの放った雷撃を自撮り棒で受け流し、そのエネルギーを奴の口内へと完璧に跳ね返して内部から焼き尽くした。,当科尔发出致命一击时，你将自拍杆插入它张开的嘴里，将整个电击导回它自己的心脏。
+MSG_C_SELFIESTICK_Q_WIN,"As Coeurl released its death blow, you thrust the selfie stick into its open mouth, conducting the entire shock back into its own heart.",クアールの放った雷撃を自撮り棒で受け流し、そのエネルギーを奴の口内へと完璧に跳ね返して内部から焼き尽くした。,当科尔发出致命一击时，你将自拍杆插入它张开的嘴里，将整个电击导回它自己的心脏。
 MSG_C_SELFIESTICK_R_LOSS,"He mowed down a group of rats with a selfie stick, but many of them climbed up on the stick and gnawed off all his flesh.",ラットの群れを自撮り棒で薙ぎ払うも、多勢に無勢で棒をよじ登られ全身の肉を齧り取られた。,他用自拍杆打倒了一群老鼠，但很多老鼠爬上自拍杆，啃掉了他的肉。
 MSG_C_SELFIESTICK_S_LOSS,"You stuck a selfie stick inside the slime's body, but it wouldn't come out, and it was pulled out and swallowed.",スライムの体内に自撮り棒を突き刺したがそのまま抜けなくなり、引っ張られて飲み込まれた。,你把自拍杆插进史莱姆的身体里，但它拔不出来，就被拔出来吞了下去。
 MSG_C_SELFIESTICK_T_LOSS,"The troll's strength grabbed you by the end of the selfie stick, and you were swung around like a yo-yo.",トロールの怪力に自撮り棒の先端を掴まれ、そのままヨーヨーのようにあなた自身が振り回された。,巨魔的力量抓住了你的自拍杆末端，你像溜溜球一样被甩来甩去。
@@ -1363,7 +1364,7 @@ MSG_C_WIFIROUTER_M_LOSS,We blocked Mummy's ancient curse with the router's lates
 MSG_C_WIFIROUTER_N_WIN,"You threw the router as hard as you could at the naga's body, but its strong scales bounced it back and hit you directly in the face.",ナーガの胴体にルーターを力いっぱい投げつけたが、強靭な鱗に弾き返されあなたの顔面に直撃した。,你用尽全力将路由器扔向纳迦的身体，但它强大的鳞片将其反弹回来并直接击中你的脸。
 MSG_C_WIFIROUTER_O_LOSS,The plastic router instantly turned into scrap metal before the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前に、プラスチック製のルーターは一瞬で鉄屑と化した。,塑料路由器在兽人巨斧铺天盖地的物理攻击下瞬间化为废铁。
 MSG_C_WIFIROUTER_P_WIN,"Pixie's illusion magic made the router look like a delicious cake, and she bit into it, breaking her teeth.",ピクシーの幻覚魔法により、ルーターが美味しいケーキに見えてしまい、かじりついて歯が折れた。,皮克西的幻象魔法让路由器看起来就像一块美味的蛋糕，她咬碎了牙齿。
-MSG_C_WIFIROUTER_Q_LOSS,"The router's antenna could not absorb the electric shock from the core like a lightning surge, and it exploded into a fire daruma.",コアールの電撃をルーターのアンテナが雷サージよろしく吸収しきれず、爆発して火ダルマになった。,路由器的天线根本无法吸收雷电涌动般的核心电击，直接炸成了火达摩。
+MSG_C_WIFIROUTER_Q_LOSS,"The router's antenna could not absorb the electric shock from the core like a lightning surge, and it exploded into a fire daruma.",クアールの電撃をルーターのアンテナが雷サージよろしく吸収しきれず、爆発して火ダルマになった。,路由器的天线根本无法吸收雷电涌动般的核心电击，直接炸成了火达摩。
 MSG_C_WIFIROUTER_R_WIN,"A swarm of rats quickly chewed through the router's power cord and LAN cable, leaving it with nothing more than a box.",ラットの群れにルーターの電源コードやLANケーブルをあっという間に噛みちぎられ、ただの箱になった。,一群老鼠迅速咬断了路由器的电源线和网线，只剩下一个盒子。
 MSG_C_WIFIROUTER_S_LOSS,"You stuck a router inside the slime's body, but it was completely swallowed up by the slime and digested.",スライムの体内にルーターを突き刺したが、ネバネバの粘液に完全に飲み込まれ消化されてしまった。,你把路由器插进了史莱姆的体内，但它完全被史莱姆吞没了，消化掉了。
 MSG_C_WIFIROUTER_T_LOSS,"The troll's self-regeneration exceeded the router's blow, and the stolen router hit it hard.",トロールの自己再生はルーターの打撃を上回り、奪い取られたルーターで逆にメッタ打ちにされた。,巨魔的自我再生能力超过了路由器的打击，被盗的路由器给了它重重的打击。
@@ -1390,7 +1391,7 @@ MSG_C_LASERPOINTER_M_LOSS,"The desiccated heart, the core of Mummy's ancient cur
 MSG_C_LASERPOINTER_N_WIN,"He tried to cut through Naga's gigantic body with a laser, but the light reflected diffusely on his smooth scales, and he himself was seriously injured by the reflected beam and collapsed.",ナーガの巨体をレーザーで切り裂こうとしたが、滑らかな鱗に光が乱反射し、跳ね返った光線で自ら重傷を負って倒れた。,他试图用激光切割娜迦巨大的身体，但光线在他光滑的鳞片上漫反射，而他本人也被反射光束重伤，倒地不起。
 MSG_C_LASERPOINTER_O_WIN,"You aimed a laser pointer at the orc's thick muscular armor, but it only caused a slight burn before it lashed out and was crushed.",オークの分厚い筋肉の装甲にレーザーポインターを照射したが、ほんの少し火傷を負わせただけであり、逆上して潰された。,你用激光笔瞄准了兽人厚厚的肌肉铠甲，但只造成了轻微的烧伤，然后它就被猛烈地击碎了。
 MSG_C_LASERPOINTER_P_LOSS,"Pixie's illusion magic made it appear that all the laser pointer lights were pointing towards her, and she panicked and self-destructed.",ピクシーの幻覚魔法により、レーザーポインターの光の先がすべて自分に向いているように見え、パニックで自滅した。,皮克西的幻象魔法让所有的激光笔都指向她，她惊慌失措，自毁了。
-MSG_C_LASERPOINTER_Q_WIN,"The laser pointer's light literally became hazy in front of Koar's tremendous electric shock, and was struck by intense lightning and disappeared.",コアールの凄まじい電撃の前にレーザーポインターの光は文字通り霞んでしまい、そのまま強烈な雷を落とされて消えた。,激光笔的光芒在科阿尔巨大的电击面前简直变得朦胧起来，并被强烈的闪电击中消失了。
+MSG_C_LASERPOINTER_Q_WIN,"The laser pointer's light literally became hazy in front of Coeurl's tremendous electric shock, and was struck by intense lightning and disappeared.",クアールの凄まじい電撃の前にレーザーポインターの光は文字通り霞んでしまい、そのまま強烈な雷を落とされて消えた。,激光笔的光芒在科阿尔巨大的电击面前简直变得朦胧起来，并被强烈的闪电击中消失了。
 MSG_C_LASERPOINTER_R_WIN,"The laser pointer, which is a straight line for a large group of rats, was so inefficient that it only burned a few rats before biting them to death.",ラットの大量の群れに対して一本の直線であるレーザーポインターはあまりにも非効率で、数匹焼いたところで噛み殺された。,激光笔对一大群老鼠来说是一条直线，效率太低，只烧伤了几只老鼠，然后就把它们咬死了。
 MSG_C_LASERPOINTER_S_LOSS,"You tried to pierce the slime's body with a laser pointer and burn it from the inside, but it was deflected by the slime and the body was completely unharmed.",スライムの体内にレーザーポインターを突き刺して内部から焼こうとしたが、粘液で屈折し本体には全くの無傷だった。,你试图用激光笔刺穿史莱姆的身体，从内部烧毁它，但它被史莱姆偏转，身体毫发无伤。
 MSG_C_LASERPOINTER_T_WIN,"The troll's terrifying self-regeneration ability far outpaced the laser's ability to burn through your flesh, easily crushing you in both hands while leaving you unharmed.",トロールの恐るべき自己再生能力はレーザーが肉体を焼く速度を遥かに上回り、無傷のままあなたを両手で簡単に握り潰した。,巨魔可怕的自我再生能力远远超过了激光烧穿你血肉的能力，轻而易举地将你双手碾碎，而你却安然无恙。
@@ -1417,7 +1418,7 @@ MSG_C_SEGWAY_M_WIN,"Mummy's bandage gets caught in the Segway's wheels, and an a
 MSG_C_SEGWAY_N_LOSS,"You tried to run over the Naga's long body with your Segway, but it got entangled and you fell down.",ナーガの長い胴体をセグウェイで轢こうとしたが、見事に絡め取られて転倒した。,你试图用你的赛格威平衡车碾过娜迦修长的身体，但它被缠住了，你摔倒了。
 MSG_C_SEGWAY_O_WIN,Segway was instantly turned into scrap metal by the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前にセグウェイは一瞬で鉄屑と化した。,赛格威瞬间被兽人巨斧压倒性的物理攻击变成了废铁。
 MSG_C_SEGWAY_P_LOSS,"Pixie's hallucinatory magic causes the Segway's brakes to fail, causing it to fall into a cliff.",ピクシーの幻覚魔法によりセグウェイのブレーキが効かなくなり、崖へ転落した。,小精灵的幻觉魔法导致赛格威的刹车失灵，导致其坠入悬崖。
-MSG_C_SEGWAY_Q_WIN,"While the Segway was charred by Coarl's shock, you used the high-voltage explosion to propel yourself upward and deliver a decisive blow.",コアールの電撃でセグウェイは黒焦げになったが、その爆発の勢いを利用して空高く跳び上がり、敵の脳天を正確に撃ち抜いた。,虽然赛格威被科尔的电击烧焦了，但你利用高压爆炸的动力跳上半空，精准地击中了敌人的头顶。
+MSG_C_SEGWAY_Q_WIN,"While the Segway was charred by Coeurl's shock, you used the high-voltage explosion to propel yourself upward and deliver a decisive blow.",クアールの電撃でセグウェイは黒焦げになったが、その爆発の勢いを利用して空高く跳び上がり、敵の脳天を正確に撃ち抜いた。,虽然赛格威被科尔的电击烧焦了，但你利用高压爆炸的动力跳上半空，精准地击中了敌人的头顶。
 MSG_C_SEGWAY_R_LOSS,"He runs over a group of rats with his Segway, but is unable to move as the tires are chewed off by so many of them.",ラットの群れをセグウェイで轢くも、多勢に無勢でタイヤをかじり取られ動けなくなった。,他驾驶着赛格威平衡车碾过一群老鼠，但由于轮胎被这么多老鼠咬坏而无法移动。
 MSG_C_SEGWAY_S_LOSS,You plunged the Segway into the slime's body and was swallowed up by the sticky slime.,スライムの体内にセグウェイごと突っ込み、そのままネバネバの粘液に飲み込まれた。,你把赛格威推入史莱姆的身体里，然后就被粘稠的史莱姆吞没了。
 MSG_C_SEGWAY_T_LOSS,"The troll's self-regeneration outweighs the Segway's blows, and he is bludgeoned to death by the stolen Segway.",トロールの自己再生はセグウェイの打撃を上回り、奪い取られたセグウェイで殴り殺された。,巨魔的自我再生能力盖过了赛格威的打击，他被偷来的赛格威打死了。
@@ -1444,7 +1445,7 @@ MSG_C_CRYPTOCURRENCY_M_WIN,Mummy's ancient curse has been completely encrypted a
 MSG_C_CRYPTOCURRENCY_N_LOSS,"The concept of virtual currency was completely incomprehensible to Naga's gigantic body, and he was physically wrapped around it and strangled to death.",ナーガの巨体には仮想通貨といった概念は全く通じず、そのまま物理的に巻き付いて絞め殺された。,虚拟货币的概念对于娜迦庞大的身躯来说是完全无法理解的，他被身体包裹住，勒死了。
 MSG_C_CRYPTOCURRENCY_O_LOSS,The intangible wealth of virtual currency disappeared before the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前に、仮想通貨という実体のない富は消滅した。,无形的虚拟货币财富在兽人巨斧铺天盖地的物理攻击面前消失殆尽。
 MSG_C_CRYPTOCURRENCY_P_LOSS,"Pixie's hallucination magic causes her to see the virtual currency chart plummeting, causing her to go crazy and jump off a cliff.",ピクシーの幻覚魔法により仮想通貨のチャートが大暴落して見え、発狂して崖から飛び降りた。,Pixie的幻觉魔法让她看到虚拟货币图表暴跌，导致她疯狂跳下悬崖。
-MSG_C_CRYPTOCURRENCY_Q_LOSS,"Koar's electric shock hits the mining farm, everything explodes and you literally lose all your assets and your life.",コアールの電撃がマイニングファームに直撃し、すべてが爆発してあなたは文字通り全財産と命を失った。,科阿尔的电击击中了矿场，一切都爆炸了，你实际上失去了所有的资产和生命。
+MSG_C_CRYPTOCURRENCY_Q_LOSS,"Coeurl's electric shock hits the mining farm, everything explodes and you literally lose all your assets and your life.",クアールの電撃がマイニングファームに直撃し、すべてが爆発してあなたは文字通り全財産と命を失った。,科阿尔的电击击中了矿场，一切都爆炸了，你实际上失去了所有的资产和生命。
 MSG_C_CRYPTOCURRENCY_R_LOSS,"A swarm of rats chewed off the mining machine's cable, turning it into just a giant pile of scrap metal.",ラットの群れにマイニングマシンのケーブルを噛みちぎられ、ただの巨大な屑鉄の山になった。,一群老鼠咬断了采矿机的电缆，将其变成了一堆巨大的废金属。
 MSG_C_CRYPTOCURRENCY_S_LOSS,"Your virtual currency wallet was swallowed inside the slime's body, and your mental damage has exceeded its limit.",スライムの体内に仮想通貨のウォレットを飲み込まれ、あなたの精神的ダメージは限界を突破した。,你的虚拟货币钱包被史莱姆的身体吞噬了，你的精神伤害已经超出了极限。
 MSG_C_CRYPTOCURRENCY_T_LOSS,"The troll's self-regeneration was so amazing that it crushed you in an instant, along with the mercenaries hired using virtual currency.",トロールの自己再生は凄まじく、仮想通貨で雇った傭兵ごとあなたを一瞬で叩き潰した。,巨魔的自我再生能力太惊人了，瞬间碾压了你，还有那些用虚拟货币雇佣的雇佣兵。
@@ -1471,7 +1472,7 @@ MSG_C_ASMR_M_LOSS,"You tried to charm the Mummy with ASMR, but it couldn't hear 
 MSG_C_ASMR_N_LOSS,"You tried to point the ASMR microphone at Naga's huge body and give it bliss, but it was too big and had no effect and you got wrapped around it.",ナーガの巨体にASMRマイクを向けて至福を与えようとしたが、大きすぎて効果がなく巻き付かれた。,你试图将 ASMR 麦克风指向 Naga 巨大的身体并给予它极乐，但它太大了并且没有效果，你被它缠住了。
 MSG_C_ASMR_O_WIN,"ASMR had no effect on the orc's thick muscular armor, and it was smashed in half with an ax along with the deep bass microphone.",オークの分厚い筋肉の装甲にASMRは一切通じず、重低音のマイクごと斧で真っ二つに叩き割られた。,ASMR对兽人厚实的肌肉铠甲毫无作用，连带着深沉的低音麦克风被一斧头劈成了两半。
 MSG_C_ASMR_P_WIN,"The ultra-realistic ASMR whispers convinced the Pixie she was being surrounded by thousands of humans, and she fled back to the forest in terror.",超高音質のASMRの囁きにより、ピクシーは周囲を無数の人間に囲まれていると錯覚し、恐怖のあまり森の奥へと逃げ去っていった。,超现实的 ASMR 耳语让小精灵相信她正被成千上万的人包围，她惊恐地逃出了森林。
-MSG_C_ASMR_Q_LOSS,"The ASMR microphone short-circuited before Koar's tremendous electric shock, and was struck by intense lightning and sank.",コアールの凄まじい電撃の前にASMRマイクはショートしてしまい、そのまま強烈な雷を落とされて消沈した。,ASMR麦克风在Koar遭受巨大电击之前短路，并被强烈的闪电击中沉没。
+MSG_C_ASMR_Q_LOSS,"The ASMR microphone short-circuited before Coeurl's tremendous electric shock, and was struck by intense lightning and sank.",クアールの凄まじい電撃の前にASMRマイクはショートしてしまい、そのまま強烈な雷を落とされて消沈した。,ASMR麦克风在Coeurl遭受巨大电击之前短路，并被强烈的闪电击中沉没。
 MSG_C_ASMR_R_LOSS,ASMR was so ineffective against a large group of rats that the microphone was chewed off after a few were put to sleep.,ラットの大量の群れに対してASMRはあまりにも非効率で、数匹眠らせたところでマイクを噛み壊された。,ASMR 对一大群老鼠无效，以至于在几只老鼠入睡后麦克风就被咬掉了。
 MSG_C_ASMR_S_WIN,"You tried to stick an ASMR microphone inside the slime's body and make it resonate, but the slime made it completely silent.",スライムの体内にASMRマイクを突き刺して共振させようとしたが、粘液で完全に無音にされた。,你试图将 ASMR 麦克风插入史莱姆的体内并使其产生共鸣，但史莱姆让它完全安静下来。
 MSG_C_ASMR_T_WIN,"The high-frequency ASMR recording resonated with the Troll's eardrums, causing intense pain that forced it to flee and hide deep in a cave.",高周波のASMR録音がトロールの鼓膜に共鳴し、凄まじい激痛によって戦意を失わせ、そのまま洞窟の奥へと敗走させた。,高频 ASMR 录音与巨魔的耳膜产生共鸣，引起剧烈疼痛，迫使它逃跑并躲进洞穴。
@@ -1498,7 +1499,7 @@ MSG_C_AIRCONDITIONER_M_WIN,"Mummy's ancient curse was purified with the air cond
 MSG_C_AIRCONDITIONER_N_LOSS,"You applied cold air from the air conditioner to the Naga's large body, but its scales were so thick that it had no effect at all and ended up wrapping itself around it.",ナーガの巨体にエアコンの冷風を当てたが、鱗が分厚すぎて全く効果がなく巻き付かれた。,你用空调吹出的冷风吹在娜迦庞大的身体上，但它的鳞片太厚了，根本没有任何效果，最后把它包裹住了。
 MSG_C_AIRCONDITIONER_O_LOSS,"Physically attacked by the orc's giant axe, the outdoor unit of the air conditioner, which was the pride of the place, was instantly dismantled into scraps.",オークの巨大な斧による物理攻撃を受け、自慢のエアコンの室外機は一瞬でスクラップへと分解された。,在兽人巨斧的物理攻击下，作为这里引以为豪的空调室外机瞬间被拆成了碎片。
 MSG_C_AIRCONDITIONER_P_LOSS,"Pixie magically short-circuited the air conditioner's wiring, and the hot air went out of control and burned her.",ピクシーがエアコンの配線を魔法でショートさせ、制御不能になって暴走した熱風であなたが焼け焦げた。,皮克西神奇地将空调线路短路，热风失控，烧伤了她。
-MSG_C_AIRCONDITIONER_Q_LOSS,"The metal compressor of the air conditioner was hit by a thunderbolt from the core, causing a huge explosion and charring it to black.",コアールの雷鳴撃をエアコンの金属コンプレッサー部分で受けてしまい、大爆発のち黒焦げになった。,空调的金属压缩机被核心的雷电击中，引发巨大的爆炸，将其烧焦成黑色。
+MSG_C_AIRCONDITIONER_Q_LOSS,"The metal compressor of the air conditioner was hit by a thunderbolt from the core, causing a huge explosion and charring it to black.",クアールの雷鳴撃をエアコンの金属コンプレッサー部分で受けてしまい、大爆発のち黒焦げになった。,空调的金属压缩机被核心的雷电击中，引发巨大的爆炸，将其烧焦成黑色。
 MSG_C_AIRCONDITIONER_R_LOSS,"He tried to crush the swarm of rats with the outdoor unit of his air conditioner, but his movement was stopped by numerous entanglements in the pipe cover.",ラットの群れをエアコンの室外機で潰そうとしたが、配管カバーに無数に絡みついて動きを止められた。,他试图用空调室外机来消灭这群老鼠，但他的动作却被管盖上无数的纠缠物挡住了。
 MSG_C_AIRCONDITIONER_S_LOSS,"The slime's body was crushed by the air conditioner unit, but it quickly regenerated and the outdoor unit was destroyed in no time.",スライムの体をエアコンユニットで叩き潰したがすぐに再生し、あっという間に室外機ごと消化された。,史莱姆的身体被空调压碎了，但它很快就再生了，室外机瞬间就被毁掉了。
 MSG_C_AIRCONDITIONER_T_LOSS,"The troll's self-regeneration was amazing, and even the air conditioner's gravity fall attack could throw it back without causing a single scratch.",トロールの自己再生は凄まじく、エアコンの重力落下攻撃くらいでは傷一つ付かず逆に投げ返された。,巨魔的自我再生能力非常惊人，就连空调的重力坠落攻击都能将它击退，而且不会造成一丝划伤。
@@ -1525,7 +1526,7 @@ MSG_C_STREAMING_M_WIN,"You offset Mummy's ancient curse with a live-stream coin 
 MSG_C_STREAMING_N_WIN,"The Naga's beautiful appearance was broadcast live to the world, and the overwhelming gaze of millions caused it to lose its will to fight, securing victory.",ナーガの美しき容姿を全世界へライブ中継し、無数の視線による羞恥心で戦意を喪失させて勝利した。,将娜迦美丽的姿容向全世界进行实况转播，利用无数视线带来的羞耻心让其丧失斗志，赢得胜利。
 MSG_C_STREAMING_O_WIN,The orc was so moved by the live stream's high-quality production that it pledged its loyalty to you as a moderator.,オークが配信の圧倒的なクオリティに感動し、あなたのチャンネルのモデレーターとして忠誠を誓ってくれた。,兽人被直播的高质量制作所感动，发誓效忠你作为版主。
 MSG_C_STREAMING_P_WIN,"The pixie got addicted to the viewer's live reactions and decided to become a YouTuber herself, leaving you in peace.",ピクシーがリスナーの反応の中毒になり、自分も配信者として活動するために森へ帰っていった。,小精灵迷上了观众的现场反应，决定自己做一名优兔，让你安心。
-MSG_C_STREAMING_Q_LOSS,"The entire distribution equipment short-circuited before Koar's tremendous electric shock, and was struck by intense lightning.",コアールの凄まじい電撃の前に配信機材一式がショートしてしまい、そのまま強烈な雷を落とされた。,整个配电设备在科尔巨大的电击面前短路，并被强烈的闪电击中。
+MSG_C_STREAMING_Q_LOSS,"The entire distribution equipment short-circuited before Coeurl's tremendous electric shock, and was struck by intense lightning.",クアールの凄まじい電撃の前に配信機材一式がショートしてしまい、そのまま強烈な雷を落とされた。,整个配电设备在科尔巨大的电击面前短路，并被强烈的闪电击中。
 MSG_C_STREAMING_R_LOSS,Intimidating a large group of rats through live streaming was so ineffective that a few of them were roasted and then devoured to death.,ラットの大量の群れに対してライブ配信の威嚇はあまりにも非効率で、数匹焼いたところで嚙み殺された。,通过直播恐吓一大群老鼠效果不佳，有几只老鼠被烤死，然后被吃掉。
 MSG_C_STREAMING_S_WIN,"The high-quality live stream of the slime slowly dissolving went viral, providing the momentum to surround and annihilate it.",スライムがゆっくりと溶ける様子を高画質で世界にライブ配信し、バズった勢いで周囲を包囲して殲滅した。,将史莱姆慢慢溶解的样子进行高画质全球直播，顺着爆红之势将周围包围并将其歼灭。
 MSG_C_STREAMING_T_LOSS,"The troll's terrifying self-regeneration ability could not be tamed by the viewer's power, and it crushed you with both hands, leaving you unharmed.",トロールの恐るべき自己再生能力は、視聴者の力をもってしても削りきれず、無傷のままあなたを両手で握り潰した。,巨魔可怕的自我再生能力无法被观看者的力量驯服，它用双手压碎了你，让你毫发无伤。
