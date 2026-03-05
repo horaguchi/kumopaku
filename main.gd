@@ -48,6 +48,7 @@ var move_timer := 0.0
 
 func _process(delta: float) -> void:
 	if is_skill_replace_mode: return
+	if is_printing_message: return
 
 	if move_timer > 0:
 		move_timer -= delta
