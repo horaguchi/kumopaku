@@ -14,30 +14,27 @@ func _ready() -> void:
 func _on_play_pressed() -> void:
 	get_tree().change_scene_to_file("res://main.tscn")
 
+const LANGUAGES = [
+	{"name": "日本語", "code": "ja"},
+	{"name": "English", "code": "en"},
+	{"name": "简体中文", "code": "zh"}
+]
+
 func _init_language_option():
 	language_option.clear()
-	language_option.add_item("日本語", 0)
-	language_option.add_item("English", 1)
-	language_option.add_item("简体中文", 2)
-
-	# 現在のロケールに合わせて初期選択を同期
 	var current_locale = TranslationServer.get_locale()
-	if current_locale.begins_with("en"):
-		language_option.selected = 1
-	elif current_locale.begins_with("zh"):
-		language_option.selected = 2
-	else:
-		language_option.selected = 0
+	var current_idx = 0
+	for i in range(LANGUAGES.size()):
+		var lang = LANGUAGES[i]
+		language_option.add_item(lang.name, i)
+		if current_locale.begins_with(lang.code):
+			current_idx = i
+	language_option.selected = current_idx
 
 func _on_language_option_item_selected(index: int) -> void:
-	var next_locale = "ja"
-	match index:
-		0: next_locale = "ja"
-		1: next_locale = "en"
-		2: next_locale = "zh"
-
-	TranslationServer.set_locale(next_locale)
-	_update_ui_text()
+	if index >= 0 and index < LANGUAGES.size():
+		TranslationServer.set_locale(LANGUAGES[index].code)
+		_update_ui_text()
 
 func _on_mute_button_pressed():
 	mute_button.release_focus()
