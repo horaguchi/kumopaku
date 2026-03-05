@@ -20,6 +20,7 @@ def parse_item_data(file_path):
         content = f.read()
 
     # Find the COMBAT_RESULTS dictionary content
+    # We look for the first '{' after 'const COMBAT_RESULTS =' and find the matching '}'
     start_match = re.search(r'const COMBAT_RESULTS = \{', content)
     if not start_match:
         return {}, 0
@@ -38,33 +39,34 @@ def parse_item_data(file_path):
     if end_idx == -1:
         return {}, 0
 
-    cr_content = content[start_idx:end_idx]
+    dict_str = content[start_idx:end_idx]
 
-    # Count skills (top level keys in COMBAT_RESULTS)
-    # Skills are indented by exactly 4 spaces (or 1 tab) in the GDScript file structure
-    skill_names = []
-    # Find keys at the second level of indentation (inside the main dict)
-    skill_matches = re.finditer(r'^\s{4}"([^"]+)":\s*\{', cr_content, re.MULTILINE)
-    for m in skill_matches:
-        skill_names.append(m.group(1))
+    # Clean up GDScript-specific syntax to make it valid JSON
+    # 1. Remove trailing commas (valid in GDScript, invalid in JSON)
+    dict_str = re.sub(r',\s*(?=[}\]])', '', dict_str)
 
-    # If standard 4-space indent didn't work, try tab or any spaces
-    if not skill_names:
-        skill_matches = re.finditer(r'^\t"([^"]+)":\s*\{', cr_content, re.MULTILINE)
-        for m in skill_matches:
-            skill_names.append(m.group(1))
+    # 2. Convert any single quotes to double quotes (if any exist)
+    # Note: This is a simple replacement and might break if strings contain escaped quotes,
+    # but in our current item_data.gd we only use double quotes.
+    # dict_str = dict_str.replace("'", '"')
 
-    num_skills = len(skill_names)
-    enemy_wins = {eid: 0 for eid in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+    try:
+        import json
+        data = json.loads(dict_str)
 
-    # Find all "EnemyID": {"win": true}
-    # These are indented further (e.g. 8 spaces)
-    win_matches = re.finditer(r'"([A-Z])":\s*\{\s*"win":\s*true', cr_content)
-    for m in win_matches:
-        eid = m.group(1)
-        enemy_wins[eid] = enemy_wins.get(eid, 0) + 1
+        num_skills = len(data)
+        enemy_wins = {eid: 0 for eid in "ABCDEFGHIJKLMNOPQRSTUVWXYZ"}
 
-    return enemy_wins, num_skills
+        for skill_results in data.values():
+            if isinstance(skill_results, dict):
+                for eid, result in skill_results.items():
+                    if isinstance(result, dict) and result.get("win") == True:
+                        enemy_wins[eid] = enemy_wins.get(eid, 0) + 1
+
+        return enemy_wins, num_skills
+    except Exception as e:
+        print(f"Error: Failed to parse item_data.gd as JSON. {e}")
+        return {}, 0
 
 def main():
     # Look for data files in the current working directory
