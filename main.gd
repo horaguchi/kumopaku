@@ -93,7 +93,7 @@ func _update_mute_button_text():
 func _start_game():
 	current_floor = 1
 	player_skills.clear()
-	player_skills.append("Punch")
+	player_skills.append(ItemDataMap.SKILLS.pick_random())
 	active_skill_index = 0
 	return_to_title_button.visible = false
 	message_log.text = ""
