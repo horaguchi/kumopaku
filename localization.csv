@@ -804,10 +804,10 @@ MSG_C_REFLECT_R_WIN,The rat's desperate bite hits a steel-hard defense. It loses
 MSG_C_REFLECT_S_WIN,The slime's attempt to engulf is repulsed from within. It splatters itself across the room.,スライムの捕食が内側から弾き返される。部屋中に飛び散り、その核は砕け散った。,史莱姆吞噬的企图从内部被击退。它溅满了整个房间。
 MSG_C_REFLECT_T_WIN,The troll's legendary strength yields to a superior technical parry. It is forced to its knees.,トロールの怪力が技術的な受け流しに屈した。自らの重みで、誇り高き膝を折った。,巨魔传奇般的力量屈服于高超的招架技术。它被迫跪在了地上。
 MSG_C_REFLECT_U_WIN,The undead's heavy strikes are absorbed and redirected. It is slowly disassembled by itself.,アンデッドの重撃が吸収され、転換される。自らの力で、自らの骨を砕いていった。,亡灵沉重的打击被吸收并重新定向。它正慢慢地瓦解自己。
-MSG_C_REFLECT_V_LOSS,The vampire's graceful lunge is met with a flawless counter. It recoils mid-air in shock.,吸血鬼のしなやかな突進が完璧な迎撃に遭う。空中でのけ反り、信じがたい表情を浮かべた。,吸血鬼优美的冲刺遭到了完美的反击。它在空中震惊地退缩。
-MSG_C_REFLECT_W_LOSS,The wolf's ferocious leap is countered with predatory precision. It is sent tumbling back.,狼の猛烈な跳躍がさらに鋭い一撃で返される。地面を転がり、その野性は沈黙した。,狼凶猛的跃击被捕食者般的精准反击。它被击退翻滚。
+MSG_C_REFLECT_V_LOSS,The vampire's lunge is too swift to reflect. Its fangs bypass your guard effortlessly.,吸血鬼の突進はあまりにも疾く、反射が間に合わない。その牙は容易くあなたの守りをすり抜けた。,吸血鬼的冲刺太快，无法反射。它的尖牙轻而易举地绕过了你的防御。
+MSG_C_REFLECT_W_LOSS,The wolf's ferocious leap shatters your attempted reflection. You are violently thrown to the ground.,狼の猛烈な跳躍があなたの反射の試みを打ち砕く。激しい勢いで地面に引き倒された。,狼凶猛的跃击粉碎了你的反射试图。你被猛烈地扑倒在地。
 MSG_C_REFLECT_X_LOSS,"Xalthis strikes at your soul, bypassing all reflections. It ignores your defensive posturing.",ザルシスの魂への一撃は、あらゆる反射を透過する。防御など、無に等しいのだ。,虚无直击你的灵魂，绕过所有反射。它无视了你的防御架势。
-MSG_C_REFLECT_Y_LOSS,The yeti's crushing weight is turned against its own center. It provides its own downfall.,イエティの巨体が自らの重みで崩れ落ちる。強大な力は、自らを滅ぼす影となった。,雪人巨大的重量反噬了它自己的中心。它自招毁灭。
+MSG_C_REFLECT_Y_LOSS,The yeti's mass is far too great to reflect. You are completely crushed beneath its heavy blow.,イエティの巨体を反射することは叶わない。その恐るべき一撃の下に、あなたは完全に押し潰された。,雪人的巨大身躯远超出你反射的极限。你被其沉重的攻击完全压碎。
 MSG_C_REFLECT_Z_WIN,The zombie collapses as its own momentum shears rotten limbs. It continues to crawl regardless.,ゾンビの突進が自らの腐肉を削ぎ落とした。四肢を失っても、なお肉を求めて這い寄る。,丧尸坍塌了，因为它自己的冲力割断了腐烂的肢体。尽管如此，它仍继续爬行。
 Shock,Shock,衝撃,冲击
 Blind,Blind,盲目,盲目
