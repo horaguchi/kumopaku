@@ -99,14 +99,15 @@ MSG_GAME_CLEAR,Cleared all floors! GAME CLEAR!!,全てのフロアを制覇し�
 MSG_CHANGE_SKILL,Changed active skill to {skill}.,有効スキルを「{skill}」に変更した。,将有效技能更改为 {skill}。
 MSG_FIND_ITEM,Found an item! It was {skill}.,アイテムを拾った！「{skill}」を見つけた。,捡到了道具！发现了 {skill}。
 MSG_SKILL_FULL,Skills are full. Click a skill to discard or click the bottom to give up the new skill.,スキルがいっぱいだ。左のリストから捨てるスキルをクリックするか、一番下をクリックして新しいスキルを捨ててくれ。,技能已满。点击左侧列表中的技能进行丢弃，或点击最下方放弃新技能。
-MSG_FIND_STAIRS,Found stairs. Click "Go down" in the skill area to proceed.,階段を見つけた。スキルエリアの「下に降りる」を押せば次の階に行ける。,发现了楼梯。点击技能区的“下到下一层”即可进入下一层。
+MSG_FIND_STAIRS,Found the stairs.,階段を見つけた。,发现了楼梯。
+MSGUI_RETURN_TITLE,Return to Title,タイトルに戻る,返回标题
 MSG_ENEMY_ATTACK,Enemy {name} attacks with {skill}!,敵 {name} の {skill} 攻撃！,敌人 {name} 发动了 {skill} 攻击！
 MSG_DEFEAT_ENEMY,Defeated enemy {name}!,敵 {name} を倒した！,打败了敌人 {name}！
 MSG_GAME_OVER,You died... GAME OVER,あなたは死んでしまった... GAME OVER,你死了... 游戏结束
 PLAY,PLAY,プレイ,进入游戏
 LANG_NAME,English,日本語,简体中文
 MSG_C_PUNCH_A_WIN,You crushed the ant's hard exoskeleton with your fist. It fell to the ground and ceased to move.,アリの硬い外骨格を拳で粉砕した。地面に這いつくばったまま動かなくなった。,你的拳头粉碎了蚂蚁坚硬的外骨骼。它趴在地上再也一动不动了。
-MSG_C_PUNCH_B_WIN,"You accurately struck the flying bat out of the air. It slammed into the wall with a dull thud.",宙を舞うコウモリを的確に叩き落とした。鈍い音とともに壁に激突した。,你精准地击落了盘旋在空中的蝙蝠。随着沉闷的声响，它狠狠撞在了墙上。
+MSG_C_PUNCH_B_WIN,You accurately struck the flying bat out of the air. It slammed into the wall with a dull thud.,宙を舞うコウモリを的確に叩き落とした。鈍い音とともに壁に激突した。,你精准地击落了盘旋在空中的蝙蝠。随着沉闷的声响，它狠狠撞在了墙上。
 MSG_C_PUNCH_C_WIN,You powerfully struck the cobra as it reared its head. The fight was over before its fangs could reach you.,鎌首をもたげるコブラの頭部を力強く殴りつけた。毒牙が届く前に勝負は決した。,你有力地击中了正欲昂首攻击的眼镜蛇头部。在毒牙触及你之前，胜负已分。
 MSG_C_PUNCH_D_WIN,You landed a full-force blow on the dragon's snout. Even its massive body couldn't withstand the impact.,巨大なドラゴンの鼻先に渾身の一撃を叩き込んだ。流石の巨躯もたまらず崩れ落ちた。,你使出浑身解数，一拳轰在巨龙的鼻尖。即便强如巨龙也承受不住，轰然倒地。
 MSG_C_PUNCH_E_WIN,Your powerful fist snapped the spirit's wooden trunk. The silence of the forest returned once more.,木の精霊の硬い幹を拳の力でへし折った。森の静寂が再び戻ってきた。,你的拳劲折断了树精坚硬的躯干。森林的宁静再次降临。
@@ -690,7 +691,7 @@ MSG_C_CHEER_J_WIN,Your energetic shout pulsed through the jelly and made it soli
 MSG_C_CHEER_K_LOSS,The kobolds thought your cheer was a battle cry and charged. They matched your energy with violence.,コボルドたちはあなたの激励を「宣戦布告」と誤認し、殺気立った叫びを上げた。数に勝る彼らは恐怖を捨て、一斉にあなたへと牙を剥く。,狗头人们将你的激励误认为“宣战布告”，发出了带有杀气的咆哮。数量占优的它们抛弃恐惧，一齐向你露出了獠牙。
 MSG_C_CHEER_L_LOSS,"The lizard's logic remained cold, ignoring your hot enthusiasm. It struck during your deep breath.",リザードの冷徹な理性に、感情的な激励が届くことはなかった。怪物はあなたが叫びを終え、息を吸い込む一瞬の隙を狙って喉元を射抜いた。,感性的激励无法传达给蜥蜴冷彻的理性。怪物瞄准你呐喊结束、吸气的一瞬空隙，射穿了你的咽喉。
 MSG_C_CHEER_M_LOSS,The mummy found the living's heat annoying to its dry peace. Your cheers brought cold death.,マミーにとって、生者の放つ熱い激励は「墓所の静寂を汚す呪い」でしかなかった。不死の守護者は冷酷に腕を伸ばし、あなたの命の灯を消そうとする。,对于木乃伊来说，生者散发的热烈激励不过是“亵渎墓所静谧的诅咒”。不死的守护者冷酷地伸出双臂，企图熄灭你的生命之灯。
-MSG_C_CHEER_N_LOSS,The naga found your support patronizing and tightened her coils. Wisdom didn't need your cheer.,ナーガの不遜な自尊心を、あなたの激励はかえって傷つける結果となった。美しき賢者は「私を誰だと思っている」と冷たく言い放ち、締め上げを強めた。,你的激励反而伤到了纳迦那不逊的自尊心。美丽的贤者冷冷地说了句“你以为我是谁”，加强了勒紧的力道。
+MSG_C_CHEER_N_LOSS,The naga found your support patronizing and tightened her coils. Wisdom didn't need your cheer.,ナーガの不遜な自尊心を、あなたの激励はかえって傷つける結果となった。美しき賢者は「あなたを誰だと思っている」と冷たく言い放ち、締め上げを強めた。,你的激励反而伤到了纳迦那不逊的自尊心。美丽的贤者冷冷地说了句“你以为你是谁”，加强了勒紧的力道。
 MSG_C_CHEER_O_LOSS,The orc grew more arrogant after your cheer and crushed you. Your support backfired badly.,「最高に強いぞ！」と応援されたオークは、慢心とともにさらなる怪力を発揮した。激励は魔物を無敵の狂戦士へと変貌させ、あなたを粉砕した。,被应援说“强到没边了！”的兽人，伴随着慢心发挥出了更惊人的怪力。激励令魔物蜕变成了无敌的狂战士，并粉碎了你。
 MSG_C_CHEER_P_WIN,You cheered for the pixie's beautiful lights. Delighted by your joy she left with a laugh.,ピクシーの操る幻惑の光を、心からの感嘆とともに称賛した。精霊は自分の魔法が「理解」されたことに喜び、虹色の祝福を残して去っていった。,你由衷惊叹并称赞了小仙女操纵的迷幻之光。精灵为自己的魔法获得“理解”而感到喜悦，留下彩虹色的祝福后离去了。
 MSG_C_CHEER_Q_WIN,Your high-energy cheer overloaded the coarl's field making it short circuit. It fled away.,あなたの魂の底からの激励が、意図せずクアールの電磁場と共鳴し、過負荷を引き起こした。怪物は自らの電撃に焼かれ、這いずるように森へ逃げ出した。,你发自灵魂深处的激励，无意中与夸尔的电磁场产生共鸣，引发了过载。怪物被自身的电击灼烧，连滚带爬地逃回了森林。
@@ -703,29 +704,834 @@ MSG_C_CHEER_W_WIN,You cheered for the pack's perfect teamwork. They howled in pr
 MSG_C_CHEER_X_WIN,You cheered for Xalthis's complex predatory brilliance. satisfied by your awe it left.,ザルティスの無数の複眼と肢が織りなす「捕食の美学」に対し、心からの拍手を送った。魔物は自らの完成された美を認められ、満足して深淵へ還った。,你对扎尔提斯无数复眼与肢体织就的“捕食美学”送上了由衷的掌声。魔物由于自身完善的美获得认可，心满意足地回到了深渊。
 MSG_C_CHEER_Y_WIN,Your shout of warmth melted the yeti's cold rage. It felt the spirit and let you pass.,雪山の支配者の孤独に寄り添うような、温かな激励を大地に響かせた。イエティはあなたの放つ内なる熱気に感銘を受け、静かに道を開けた。,你让如贴近雪山支配者孤独般的、温暖的激励响彻大地。雪人为你散发的内在热气所感铭，静静地让开了道路。
 MSG_C_CHEER_Z_WIN,Your high-energy cheer caused the zombie's rotting heart to burst. It fell and ceased to move.,生者特有の強烈な「肯定のエネルギー」が、負の魔力で動くゾンビの核を撃ち抜いた。怪物は内側から崩壊し、ただの静かな死体へと還った。,生者特有的强烈的“肯定能量”，击穿了由负面魔力驱动的僵尸核心。怪物从内部崩坏，还原成了一具静默的尸体。
-MSG_C_SPIRIT_A_WIN,"You shout with all your might, scaring the Ant. The tiny insect scurries away in fear.","全身の気合を込めて叫ぶと、アリは驚いて逃げ出しました。その小さな体には刺激が強すぎたようです。","你尽力大喝一声，吓死了一只蚂蚁。这个小虫子惊慌失措地逃跑了。"
-MSG_C_SPIRIT_B_WIN,"Your spiritual aura vibrates the air, confusing the Bat's sonar. It crashes into a wall and faints.","放たれた精神のオーラが空気を震わせ、コウモリの超音波を乱しました。混乱した獲物は壁に激突して気絶します。","你的精神光环震动了空气，扰乱了蝙蝠的声呐。它撞在墙上昏了过去。"
-MSG_C_SPIRIT_C_WIN,"You stare down the Cobra with unwavering focus. The predator feels a chill and retreats into the shadows.","揺るぎない眼差しでコブラを威圧しました。捕食者としての本能が危険を察知し、毒蛇は闇へと消えていきました。","你用坚定不移的目光盯着眼镜蛇。这个掠食者感到一阵恶寒，退回了阴影中。"
-MSG_C_SPIRIT_D_WIN,"Your sheer willpower matches the Dragon's pride. Realizing your inner strength, the hatchling decides to look for easier prey.","あなたの純粋な闘志がドラゴンのプライドを圧倒しました。内なる強さを認めた幼龍は、別の獲物を探しに行きました。","你纯粹的意志力与巨龙的骄傲相称。意识到你的内在力量，幼龙决定寻找更容易对付的猎物。"
-MSG_C_SPIRIT_E_WIN,"You channel your vital energy, connecting with the ancient tree. The Ent recognizes your strong soul and returns to its slumber.","生命エネルギーを込めて古木と対峙しました。エントはあなたの魂の強さを認め、再び静かな眠りにつきました。","你引导你的生命能量，与古树相连。恩特认出了你强大的灵魂，回到了沉睡中。"
-MSG_C_SPIRIT_F_LOSS,"No matter how much you focus, the Fly's buzzing continues to irritate you. Your spirit wavers as the pest eludes your grasp.","どれほど集中しようとも、ハエの羽音に苛立ちは隠せません。まとわりつく不快感に、精神が削り取られていきます。","无论你多么专注，苍蝇的嗡嗡声仍在继续让你恼火。当害虫逃出你的掌控时，你的精神动摇了。"
-MSG_C_SPIRIT_G_LOSS,"The Goblin mocks your serious posture with a vulgar laugh. Your mental concentration is broken by its crude insults.","真剣な構えをゴブリンの下品な笑い声に嘲笑されました。下劣な罵倒の数々に、集中力は無惨に散らされてしまいます。","哥布林用粗俗的笑声嘲笑你严肃的姿势。你的精神集中被它粗鲁的侮辱打破了。"
-MSG_C_SPIRIT_H_LOSS,"The Harpy's shrill screech pierces your mind, shattering your resolve. Your spirit is torn apart by the sonic assault.","ハーピーの鋭い鳴き声が意識の奥底まで突き刺さりました。研ぎ澄まされたはずの決意は、音の刃によって粉砕されます。","哈比鹰女尖锐的叫声穿透了你的思想，粉碎了你的决心。你的精神被声波攻击撕碎了。"
-MSG_C_SPIRIT_I_LOSS,"The Imp prances around, playing mind games with you. Your spiritual defense crumbles under its malicious tricks.","悪魔の小猿が周囲を飛び回り、あなたの心を翻弄します。邪悪な悪戯の数々に、精神的な防壁は崩れ去ってしまいました。","小恶魔在周围蹦蹦跳跳，跟你玩心理游戏。你的精神防御在它恶意的伎俩下崩溃了。"
-MSG_C_SPIRIT_J_LOSS,"You try to intimidate the brainless mass, but the Jelly simply wobbles. Your spirit finds no purchase in its mindless existence.","意思持たぬ塊を威圧しようと試みましたが、ゼリーはただ揺れるだけです。空虚な存在を前に、あなたの気合は空回りしました。","你试图恐吓这个没有大脑的质量，但果冻只是摇摆。你的精神在它无心的存在中找不到着力点。"
-MSG_C_SPIRIT_K_LOSS,"The Kobold fights with a pack mentality that overwhelms your individual focus. Your resolve falters against the sheer number of distractions.","コボルドの集団的な闘志が、個人の集中力を上回りました。絶え間ない攪乱の前に、あなたの覚悟は揺らいでしまいます。","狗头人用群体心态作战，压倒了你个人的注意力。在众多的干扰面前，你的决心动摇了。"
-MSG_C_SPIRIT_L_LOSS,"The Lizard's cold, emotionless eyes reflect your own fatigue. Your spirit sinks as you realize the reptile feels no pressure.","トカゲの冷たく無感情な瞳に、あなた自身の疲労が映し出されました。圧力の通じぬ冷血漢を前に、気力は減退していきます。","蜥蜴冰冷、毫无感情的眼睛反映了你自己的疲劳。当你意识到爬行动物感觉不到压力时，你的精神沉沦了。"
-MSG_C_SPIRIT_M_LOSS,"The ancient curse emanating from the Mummy stifles your energy. Your spirit is slowly smothered by the dry, stifling air of the dead.","ミイラから放たれる太古の呪いが、あなたの活力を奪い去ります。死者の纏う乾いた空気に、精神が窒息しそうです。","木乃伊散发出的古老诅咒抑制了你的能量。你的精神慢慢地被死者干燥、令人窒息的空气闷死了。"
-MSG_C_SPIRIT_N_LOSS,"The Naga's hypnotic movements lull your consciousness into a trap. Your mind wanders as your spiritual fire begins to dim.","ナーガの催眠的な動きによって、意識は深い霧の中に閉じ込められました。精神の火が弱まり、思考がどこまでも彷徨います。","纳迦催眠般的动作使你的意识陷入陷阱。当你的精神之火开始变暗时，你的心不在焉。"
-MSG_C_SPIRIT_O_LOSS,"The Orc's raw, violent power crushes your mental discipline. Your spirit break under the weight of its brutal, crushing blows.","オークの野蛮で暴力的な力が、鍛え上げた精神を蹂躙しました。無慈悲な打撃の重みに、心の糸がプツリと切れてしまいます。","兽人原始、暴力的力量粉碎了你的心理纪律。你的精神在它残暴、压碎性的打击下崩溃了。"
-MSG_C_SPIRIT_P_LOSS,"Glowing pixie dust fills your head with confusing visions. Your spirit dissipates into a colorful haze of magical tricks.","ピクシーの鱗粉が、あなたの脳内に混乱の色を散らしました。魔法の悪戯によって、精神は色鮮やかな霧へと霧散します。","闪闪发光的精灵粉尘让你的脑袋里充满了混乱的幻象。你的精神消散在五彩缤纷的魔法伎俩阴霾中。"
-MSG_C_SPIRIT_Q_LOSS,"The Coarl's whiskers emit a steady hum that disrupts your brainwaves. Your focus is scattered by the low-frequency interference.","クアールの髭が放つ一定のハミングが、脳波を乱していきます。低周波の干渉によって、研ぎ澄まされた集中力は散り散りになりました。","寇力的胡须发出的稳定嗡嗡声扰乱了你的脑波。你的注意力被低频干扰分散了。"
-MSG_C_SPIRIT_R_LOSS,"The Rat gnaws at your resolve like it does a block of cheese. Your determination is eroded by its persistent, nagging presence.","ネズミはあなたの覚悟を、まるでチーズのようにかじり取っていきます。執拗で不快な存在感に、精神が削られていきました。","老鼠啃噬着你的决心，就像啃噬一块奶酪。你的决心被它持久、纠缠不休的存在侵蚀了。"
-MSG_C_SPIRIT_S_LOSS,"Every time you rally your spirit, it gets absorbed into the Slime's gooey body. Your mental energy is drained by the mindless ooze.","気合を入れ直すたび、それはスライムの粘着質な体に吸収されてしまいます。意思なき泥濘に、精神エネルギーは枯渇しました。","每当你重振精神，它都会被粘液粘稠的身体吸收。你的精神能量被这无心的软泥耗尽了。"
-MSG_C_SPIRIT_T_LOSS,"The Troll's massive presence makes your willpower seem insignificant. Your spirit shrinks in the shadow of the giant's overwhelming girth.","トロールの圧倒的な巨躯を前に、意志の力など無力に等しく感じられます。巨人の影に飲み込まれ、あなたの精神は縮こまりました。","巨魔巨大的存在感让你意志力显得微不足道。你的精神在巨人压倒性的腰围阴影下萎缩了。"
-MSG_C_SPIRIT_U_LOSS,"The aura of the grave chills your soul to the core. Your spirit struggles to stay alight in the presence of unholy death.","墓場の冷気が、あなたの魂を芯まで凍らせました。不浄なる死を前に、精神の残り火を絶やさぬことすら困難です。","坟墓的气息让你的灵魂感到刺骨的寒冷。在邪恶的死亡面前，你的精神难以保持明亮。"
-MSG_C_SPIRIT_V_LOSS,"The Vampire's aristocratic arrogance makes your efforts feel petty. Your spirit is drained as you fall under its dark, charismatic gaze.","吸血鬼の高慢な傲慢さが、努力を虚しいものへと変えてしまいます。闇のカリスマに見つめられ、精神の活力が吸い取われていきました。","吸血公爵贵族般的傲慢让你的努力显得微不足道。当你落入它黑暗、充满魅力的注視中时，你的精神被抽干了。"
-MSG_C_SPIRIT_W_LOSS,"The Wolf's predatory growl vibrates through your diaphragm, shaking your center. Your spirit falters before the primal hunger of the beast.","狼の低いうなり声が横隔膜を震わせ、体の芯を揺さぶります。獣の根源的な飢えを前に、あなたの気圧されてしまいました。","狼的捕食性咆哮震动了你的横隔膜，动摇了你的中心。在野兽原始的饥饿面前，你的精神动摇了。"
-MSG_C_SPIRIT_X_LOSS,"The cosmic dread radiating from Xalthis is beyond human comprehension. Your spirit shatters as you glimpse the vast emptiness within.","ザルシスの放つ宇宙的な恐怖は、人の理解を超えています。その内なる虚無を垣間見ただけで、精神は砕け散ってしまいました。","札尔西斯发出的宇宙恐惧超乎人类的理解。当你瞥见其中巨大的空虚时，你的精神破碎了。"
-MSG_C_SPIRIT_Y_LOSS,"The biting cold of the Yeti's territory numbs your mental focus. Your spirit starts to freeze, unable to maintain its warmth in the blizzard.","イエティの住まう極寒の空気が、思考を麻痺させていきます。雪嵐の中で熱を保てず、あなたの精神は凍りつき始めました。","雪男领地刺骨的寒冷使你的精神集中变得麻木。你的精神开始冻结，无法在暴风雪中保持温暖。"
-MSG_C_SPIRIT_Z_LOSS,"The relentless, mindless shuffling of the Zombie erodes your sanity. Your spirit is exhausted by the unending horror of the living dead.","ゾンビの絶え間ない足音が、あなたの正気を少しずつ削り取ります。終わりのない死者の恐怖に、精神は疲れ果ててしまいました。","僵尸无情、漫无目的的拖沓动作侵蚀了你的神志。活死人无止境的恐怖耗尽了你的精神。"
+MSG_C_SPIRIT_A_WIN,"You shout with all your might, scaring the Ant. The tiny insect scurries away in fear.",全身の気合を込めて叫ぶと、アリは驚いて逃げ出しました。その小さな体には刺激が強すぎたようです。,你尽力大喝一声，吓死了一只蚂蚁。这个小虫子惊慌失措地逃跑了。
+MSG_C_SPIRIT_B_WIN,"Your spiritual aura vibrates the air, confusing the Bat's sonar. It crashes into a wall and faints.",放たれた精神のオーラが空気を震わせ、コウモリの超音波を乱しました。混乱した獲物は壁に激突して気絶します。,你的精神光环震动了空气，扰乱了蝙蝠的声呐。它撞在墙上昏了过去。
+MSG_C_SPIRIT_C_WIN,You stare down the Cobra with unwavering focus. The predator feels a chill and retreats into the shadows.,揺るぎない眼差しでコブラを威圧しました。捕食者としての本能が危険を察知し、毒蛇は闇へと消えていきました。,你用坚定不移的目光盯着眼镜蛇。这个掠食者感到一阵恶寒，退回了阴影中。
+MSG_C_SPIRIT_D_WIN,"Your sheer willpower matches the Dragon's pride. Realizing your inner strength, the hatchling decides to look for easier prey.",あなたの純粋な闘志がドラゴンのプライドを圧倒しました。内なる強さを認めた幼龍は、別の獲物を探しに行きました。,你纯粹的意志力与巨龙的骄傲相称。意识到你的内在力量，幼龙决定寻找更容易对付的猎物。
+MSG_C_SPIRIT_E_WIN,"You channel your vital energy, connecting with the ancient tree. The Ent recognizes your strong soul and returns to its slumber.",生命エネルギーを込めて古木と対峙しました。エントはあなたの魂の強さを認め、再び静かな眠りにつきました。,你引导你的生命能量，与古树相连。恩特认出了你强大的灵魂，回到了沉睡中。
+MSG_C_SPIRIT_F_LOSS,"No matter how much you focus, the Fly's buzzing continues to irritate you. Your spirit wavers as the pest eludes your grasp.",どれほど集中しようとも、ハエの羽音に苛立ちは隠せません。まとわりつく不快感に、精神が削り取られていきます。,无论你多么专注，苍蝇的嗡嗡声仍在继续让你恼火。当害虫逃出你的掌控时，你的精神动摇了。
+MSG_C_SPIRIT_G_LOSS,The Goblin mocks your serious posture with a vulgar laugh. Your mental concentration is broken by its crude insults.,真剣な構えをゴブリンの下品な笑い声に嘲笑されました。下劣な罵倒の数々に、集中力は無惨に散らされてしまいます。,哥布林用粗俗的笑声嘲笑你严肃的姿势。你的精神集中被它粗鲁的侮辱打破了。
+MSG_C_SPIRIT_H_LOSS,"The Harpy's shrill screech pierces your mind, shattering your resolve. Your spirit is torn apart by the sonic assault.",ハーピーの鋭い鳴き声が意識の奥底まで突き刺さりました。研ぎ澄まされたはずの決意は、音の刃によって粉砕されます。,哈比鹰女尖锐的叫声穿透了你的思想，粉碎了你的决心。你的精神被声波攻击撕碎了。
+MSG_C_SPIRIT_I_LOSS,"The Imp prances around, playing mind games with you. Your spiritual defense crumbles under its malicious tricks.",悪魔の小猿が周囲を飛び回り、あなたの心を翻弄します。邪悪な悪戯の数々に、精神的な防壁は崩れ去ってしまいました。,小恶魔在周围蹦蹦跳跳，跟你玩心理游戏。你的精神防御在它恶意的伎俩下崩溃了。
+MSG_C_SPIRIT_J_LOSS,"You try to intimidate the brainless mass, but the Jelly simply wobbles. Your spirit finds no purchase in its mindless existence.",意思持たぬ塊を威圧しようと試みましたが、ゼリーはただ揺れるだけです。空虚な存在を前に、あなたの気合は空回りしました。,你试图恐吓这个没有大脑的质量，但果冻只是摇摆。你的精神在它无心的存在中找不到着力点。
+MSG_C_SPIRIT_K_LOSS,The Kobold fights with a pack mentality that overwhelms your individual focus. Your resolve falters against the sheer number of distractions.,コボルドの集団的な闘志が、個人の集中力を上回りました。絶え間ない攪乱の前に、あなたの覚悟は揺らいでしまいます。,狗头人用群体心态作战，压倒了你个人的注意力。在众多的干扰面前，你的决心动摇了。
+MSG_C_SPIRIT_L_LOSS,"The Lizard's cold, emotionless eyes reflect your own fatigue. Your spirit sinks as you realize the reptile feels no pressure.",トカゲの冷たく無感情な瞳に、あなた自身の疲労が映し出されました。圧力の通じぬ冷血漢を前に、気力は減退していきます。,蜥蜴冰冷、毫无感情的眼睛反映了你自己的疲劳。当你意识到爬行动物感觉不到压力时，你的精神沉沦了。
+MSG_C_SPIRIT_M_LOSS,"The ancient curse emanating from the Mummy stifles your energy. Your spirit is slowly smothered by the dry, stifling air of the dead.",ミイラから放たれる太古の呪いが、あなたの活力を奪い去ります。死者の纏う乾いた空気に、精神が窒息しそうです。,木乃伊散发出的古老诅咒抑制了你的能量。你的精神慢慢地被死者干燥、令人窒息的空气闷死了。
+MSG_C_SPIRIT_N_LOSS,The Naga's hypnotic movements lull your consciousness into a trap. Your mind wanders as your spiritual fire begins to dim.,ナーガの催眠的な動きによって、意識は深い霧の中に閉じ込められました。精神の火が弱まり、思考がどこまでも彷徨います。,纳迦催眠般的动作使你的意识陷入陷阱。当你的精神之火开始变暗时，你的心不在焉。
+MSG_C_SPIRIT_O_LOSS,"The Orc's raw, violent power crushes your mental discipline. Your spirit break under the weight of its brutal, crushing blows.",オークの野蛮で暴力的な力が、鍛え上げた精神を蹂躙しました。無慈悲な打撃の重みに、心の糸がプツリと切れてしまいます。,兽人原始、暴力的力量粉碎了你的心理纪律。你的精神在它残暴、压碎性的打击下崩溃了。
+MSG_C_SPIRIT_P_LOSS,Glowing pixie dust fills your head with confusing visions. Your spirit dissipates into a colorful haze of magical tricks.,ピクシーの鱗粉が、あなたの脳内に混乱の色を散らしました。魔法の悪戯によって、精神は色鮮やかな霧へと霧散します。,闪闪发光的精灵粉尘让你的脑袋里充满了混乱的幻象。你的精神消散在五彩缤纷的魔法伎俩阴霾中。
+MSG_C_SPIRIT_Q_LOSS,The Coarl's whiskers emit a steady hum that disrupts your brainwaves. Your focus is scattered by the low-frequency interference.,クアールの髭が放つ一定のハミングが、脳波を乱していきます。低周波の干渉によって、研ぎ澄まされた集中力は散り散りになりました。,寇力的胡须发出的稳定嗡嗡声扰乱了你的脑波。你的注意力被低频干扰分散了。
+MSG_C_SPIRIT_R_LOSS,"The Rat gnaws at your resolve like it does a block of cheese. Your determination is eroded by its persistent, nagging presence.",ネズミはあなたの覚悟を、まるでチーズのようにかじり取っていきます。執拗で不快な存在感に、精神が削られていきました。,老鼠啃噬着你的决心，就像啃噬一块奶酪。你的决心被它持久、纠缠不休的存在侵蚀了。
+MSG_C_SPIRIT_S_LOSS,"Every time you rally your spirit, it gets absorbed into the Slime's gooey body. Your mental energy is drained by the mindless ooze.",気合を入れ直すたび、それはスライムの粘着質な体に吸収されてしまいます。意思なき泥濘に、精神エネルギーは枯渇しました。,每当你重振精神，它都会被粘液粘稠的身体吸收。你的精神能量被这无心的软泥耗尽了。
+MSG_C_SPIRIT_T_LOSS,The Troll's massive presence makes your willpower seem insignificant. Your spirit shrinks in the shadow of the giant's overwhelming girth.,トロールの圧倒的な巨躯を前に、意志の力など無力に等しく感じられます。巨人の影に飲み込まれ、あなたの精神は縮こまりました。,巨魔巨大的存在感让你意志力显得微不足道。你的精神在巨人压倒性的腰围阴影下萎缩了。
+MSG_C_SPIRIT_U_LOSS,The aura of the grave chills your soul to the core. Your spirit struggles to stay alight in the presence of unholy death.,墓場の冷気が、あなたの魂を芯まで凍らせました。不浄なる死を前に、精神の残り火を絶やさぬことすら困難です。,坟墓的气息让你的灵魂感到刺骨的寒冷。在邪恶的死亡面前，你的精神难以保持明亮。
+MSG_C_SPIRIT_V_LOSS,"The Vampire's aristocratic arrogance makes your efforts feel petty. Your spirit is drained as you fall under its dark, charismatic gaze.",吸血鬼の高慢な傲慢さが、努力を虚しいものへと変えてしまいます。闇のカリスマに見つめられ、精神の活力が吸い取われていきました。,吸血公爵贵族般的傲慢让你的努力显得微不足道。当你落入它黑暗、充满魅力的注視中时，你的精神被抽干了。
+MSG_C_SPIRIT_W_LOSS,"The Wolf's predatory growl vibrates through your diaphragm, shaking your center. Your spirit falters before the primal hunger of the beast.",狼の低いうなり声が横隔膜を震わせ、体の芯を揺さぶります。獣の根源的な飢えを前に、あなたの気圧されてしまいました。,狼的捕食性咆哮震动了你的横隔膜，动摇了你的中心。在野兽原始的饥饿面前，你的精神动摇了。
+MSG_C_SPIRIT_X_LOSS,The cosmic dread radiating from Xalthis is beyond human comprehension. Your spirit shatters as you glimpse the vast emptiness within.,ザルシスの放つ宇宙的な恐怖は、人の理解を超えています。その内なる虚無を垣間見ただけで、精神は砕け散ってしまいました。,札尔西斯发出的宇宙恐惧超乎人类的理解。当你瞥见其中巨大的空虚时，你的精神破碎了。
+MSG_C_SPIRIT_Y_LOSS,"The biting cold of the Yeti's territory numbs your mental focus. Your spirit starts to freeze, unable to maintain its warmth in the blizzard.",イエティの住まう極寒の空気が、思考を麻痺させていきます。雪嵐の中で熱を保てず、あなたの精神は凍りつき始めました。,雪男领地刺骨的寒冷使你的精神集中变得麻木。你的精神开始冻结，无法在暴风雪中保持温暖。
+MSG_C_SPIRIT_Z_LOSS,"The relentless, mindless shuffling of the Zombie erodes your sanity. Your spirit is exhausted by the unending horror of the living dead.",ゾンビの絶え間ない足音が、あなたの正気を少しずつ削り取ります。終わりのない死者の恐怖に、精神は疲れ果ててしまいました。,僵尸无情、漫无目的的拖沓动作侵蚀了你的神志。活死人无止境的恐怖耗尽了你的精神。
+MSG_C_SHOCK_A_WIN,The ants are caught in an electric field. Their nervous systems scramble instantly.,蟻たちが電磁場の餌食になる。その神経系は瞬時に焼き切られた。,蚂蚁们被卷入电磁场。它们的神经系统瞬间崩溃。
+MSG_C_SHOCK_B_WIN,A high-voltage discharge hits the bat mid-flight. It falls like a stone to the ground.,高電圧の放電が飛行中の蝙蝠を直撃する。石のように地面へと落下した。,高压放电击中了飞行中的蝙蝠。它像石头一样掉在地上。
+MSG_C_SHOCK_C_WIN,"Lightning pulses through the snake's scales. It curls into a stiff, charred knot.",雷光が蛇の鱗を駆け抜ける。炭化した塊となって動かなくなった。,电光穿过蛇的鳞片。它蜷缩成一个焦黑的硬结。
+MSG_C_SHOCK_D_WIN,A massive arc of energy grounds through the dragon. Its mighty wings twitch in agony.,巨大な電弧が龍の巨体を貫く。誇り高き翼が苦痛に痙攣した。,巨大的电弧贯穿了龙的躯体。它那双巨大的翅膀因痛苦而抽搐。
+MSG_C_SHOCK_E_WIN,Static electricity ignites the dry leaves of the Ent. It becomes a localized wildfire.,静電気がエントの枯葉に引火する。小さな山火事となって燃え上がった。,静电点燃了树人的枯叶。它变成了一场局部森林火灾。
+MSG_C_SHOCK_F_WIN,The fly's wings are fused together by the spark. It becomes a mere grounded speck.,火花が蠅の羽を融解させ、接着する。もはや飛ばぬただの点と化した。,火花熔化并粘住了苍蝇的翅膀。它变成了一个再也无法飞行的黑点。
+MSG_C_SHOCK_G_WIN,The goblin's metal jewelry attracts a fatal bolt. It convulses as current flows through.,ゴブリンの鉄細工が雷を呼び寄せる。電流が体中を駆け、激しく悶絶した。,哥布林的铁质饰品引来了致残的雷击。电流流过全身使它剧烈抽搐。
+MSG_C_SHOCK_H_WIN,The harpy's feathers act as perfect conductors. It is jolted out of the stormy sky.,ハーピーの羽が完璧な導体となる。嵐のような衝撃が、空からそれを叩き落した。,哈比的羽毛成了完美的导体。它被狂暴的电击从空中推落。
+MSG_C_SHOCK_I_WIN,Electric pulses disrupt the imp's chaotic magic. It fizzles out in a puff of ozone.,電磁パルスがインプの魔力を乱す。オゾンの臭いと共に、その存在が霧散した。,电磁脉冲打乱了小恶魔的混乱魔法。它在臭氧的烟雾中消散。
+MSG_C_SHOCK_J_WIN,The electric current disperses perfectly through the jelly. It solidifies into a rubbery mass.,電流がジェリーの全身に効率よく分散する。ゴムのような塊となって硬直した。,电流在胶状体中完美扩散。它凝固成一个橡胶块。
+MSG_C_SHOCK_K_WIN,A calculated spark hits the kobold's wet nose. It squeals before falling unconscious.,計算された火花がコボルドの鼻先を撃つ。悲鳴を上げる暇もなく意識を失った。,计算精准的火花击中了小狗头人的湿鼻子。它在昏迷前发出了尖叫。
+MSG_C_SHOCK_L_WIN,The cold-blooded lizard is forced into a metabolic shock. It lies motionless in the dust.,冷血なトカゲが代謝ショックに陥る。塵の中で動かぬ抜け殻となった。,冷血蜥蜴陷入了代谢性休克。它一动不动地躺在尘土中。
+MSG_C_SHOCK_M_WIN,The ancient wrappings of the mummy trap the static. It is scorched from within.,ミイラの古びた包帯が静電気を溜め込む。内部からジリジリと焼き尽くされた。,木乃伊古老的绷带困住了静电。它从内部被烤焦。
+MSG_C_SHOCK_N_WIN,"Current surges through the naga's long, wet body. It thrashs wildly before going limp.",長大なナーガの体が電流を受け止める。激しく暴れた後、力なく横たわった。,电流激荡在娜迦长而湿润的躯体上。它疯狂挣扎后瘫软在地上。
+MSG_C_SHOCK_O_WIN,The orc's iron armor becomes a death trap. He is baked in his own protection.,オークの鉄鎧が死の罠と化す。自慢の防具の中で、その肉体は焼き焦げた。,兽人的铁甲变成了死亡陷阱。他在自己的盔甲中被烤焦了。
+MSG_C_SHOCK_P_WIN,Static discharge overloads the pixie's tiny heart. It drifts down like a spent ember.,静電放電がピクシーの小さな心臓を直撃した。燃え滓のようになって地面へ漂う。,静电放电让小精灵微小的心脏超负荷。它像燃尽的余烬一样飘落。
+MSG_C_SHOCK_Q_WIN,The magical energies of the Coarl are short-circuited. It vanishes in a flash of white.,コアールの魔力が短絡を起こす。白光の炸裂と共に、その姿は消え去った。,灵猫的魔力发生了短路。它在白光的闪现中消失了。
+MSG_C_SHOCK_R_WIN,"A focused zap stops the rat's racing heart. It completes its final, twitching sprint.",集束した放電が鼠の鼓動を止める。最後の一蹴りの後、静寂が訪れた。,聚焦的电击停止了老鼠狂跳的心。它完成了最后一次抽搐般的冲刺。
+MSG_C_SHOCK_S_LOSS,The slime's acidic body conducts the surge far too well. It dissociates into a puddle of water.,スライム의酸性体が電流を伝えすぎた。ただの水溜まりへと分解されていく。,史莱姆的酸性身体过度传导了电流。它分解成了一滩水。
+MSG_C_SHOCK_T_LOSS,The troll's thick hide and ground connection neutralize the shock. It roars and swings its club.,トロールの厚皮が絶縁体となり、衝撃を逃がす。咆哮と共に棍棒が振り下ろされた。,巨魔厚实的身皮中和了电击。它怒吼着挥动木棒。
+MSG_C_SHOCK_U_LOSS,The undead's rotten flesh lacks the moisture to conduct properly. It ignores the sparks.,アンデッドの腐肉は電気を通さない。飛び散る火花を、冷たい瞳で見下ろしている。,亡灵腐烂的肉体缺乏传导电流的水分。它无视了火花。
+MSG_C_SHOCK_V_LOSS,The vampire mist disperses and regathers before the current can ground. It smirks at your effort.,霧と化した吸血鬼に、電撃が接地することはない。無駄な足掻きを嘲笑っている。,电流触地前，吸血鬼的雾气已消散又重聚。它嘲笑你的努力。
+MSG_C_SHOCK_W_LOSS,The wolf leaps through the electric arc with predatory focus. Its fur stands on end but it bites on.,狼が電弧を潜り抜け、獲物へと食らいつく。毛を逆立てながらも、その牙は止まらない。,狼以掠食者的专注跃过电弧。它的毛发竖起，但攻击仍在继续。
+MSG_C_SHOCK_X_LOSS,Xalthis's void armor swallows the energy whole. The lightning only feeds its inner darkness.,ザルシスの虚無の鎧が全エネルギーを呑み込む。雷は闇を肥やす糧にしかならなかった。,虚无铠甲吞噬了全部能量。雷光只会滋养它内在的黑暗。
+MSG_C_SHOCK_Y_LOSS,The yeti's dense fur and frozen heart resist the flow. It lunges through the blizzard of sparks.,イエティの剛毛と凍てついた心が流れを拒む。火花の吹雪を突破し、強烈な一撃を放つ。,雪人浓密的毛发和冰冷的心抵御了电流。它冲破火花组成的暴风雪。
+MSG_C_SHOCK_Z_LOSS,"The zombie is already dead, nerve endings long since gone. The shock only makes the corpse dance.",ゾンビには、もはや電流に反応する神経がない。ただの骸が、物理的に震えるだけだ。,丧尸已经死了，神经末梢早已消失。电击只会让尸体舞动。
+MSG_C_BLIND_A_WIN,A flash of light overloads the ant's compound eyes. It staggers around in total confusion.,閃光が蟻の複眼を焼き切る。前後不覚に陥り、ただ円を描いて彷徨った。,一阵闪光使蚂蚁的复眼超负荷。它在彻底的混乱中蹒跚而行。
+MSG_C_BLIND_B_WIN,Sudden luminous intensity disorients the bat's sensitive senses. It crashes into the stone wall.,突発的な強光が蝙蝠の鋭敏な感覚を狂わせる。硬い石壁へと激突した。,突然的强光使蝙蝠敏锐的感官失灵。它撞上了石墙。
+MSG_C_BLIND_C_WIN,The snake's heat-sensing pits are blinded by a flare. It strikes blindly at thin air.,蛇の熱感知器官がフレアによって焼かれた。虚空に向かって、虚しい牙を立てる。,蛇的热感坑被闪光致盲。它盲目地攻击空气。
+MSG_C_BLIND_D_WIN,A brilliant explosion of light irritates the dragon's ancient eyes. It bellows in sudden darkness.,眩い光の炸裂が古の龍の視界を奪う。閉ざされた闇の中で、怒りの咆哮が響いた。,灿烂的光芒爆炸激怒了龙古老的眼睛。它在突然的黑暗中怒吼。
+MSG_C_BLIND_E_WIN,Glowing spores fill the air around the Ent. It flails its branches at imaginary foes.,光る胞子がエントの周囲を覆い尽くす。幻の敵に向かって、大枝を振り回した。,发光的孢子弥漫在树人周围。它对着虚构的敌人挥舞树枝。
+MSG_C_BLIND_F_WIN,"The fly's mosaic vision becomes a swirling kaleidoscope. It spirals downward, helpless.",蠅のモザイク視界が極彩色の渦に飲まれる。なす術もなく、螺旋を描いて落下した。,苍蝇的马赛克视觉变成了旋转的万花筒。它无奈地螺旋坠落。
+MSG_C_BLIND_G_WIN,A handful of dirt finds the goblin's squinting eyes. It shrieks while rubbing their face.,投げつけられた泥がゴブリンの目を塞ぐ。顔を掻きむしりながら、醜い悲鳴を上げた。,一把泥土撒进了哥布林眯着的眼睛。它一边揉脸一边尖叫。
+MSG_C_BLIND_H_WIN,Bright reflections off the clouds dazzle the harpy. It loses its sense of the horizon.,雲に反射した陽光がハーピーの目を眩ませる。地平線の感覚を失い、空で迷走した。,云层反射的强光使哈比目眩。它失去了对地平线的感知。
+MSG_C_BLIND_I_WIN,Holy light searingly burns the imp's demonic retinas. It shields its eyes with leathery wings.,聖なる光がインプの瞳を容赦なく焼く。皮のような翼で、震えながら顔を覆った。,圣光灼伤了小恶魔恶魔般的视网膜。它用皮质的翅膀遮住眼睛。
+MSG_C_BLIND_J_WIN,"Phosphorescence clouding the jelly's transparency. It becomes a confused, glowing blob.",蓄光物質が透明なジェリーの内部を濁らせる。混乱したまま、怪しく光り続けた。,磷光遮蔽了胶状体的透明度。它变成了一个迷茫的发光球体。
+MSG_C_BLIND_K_WIN,"A powder bomb bursts in the kobold's face. It whimpers, sensing only grit and darkness.",炸裂した粉末がコボルドの視界を遮る。砂利と闇の中、怯えた鳴き声を上げた。,烟雾弹在狗头人脸上炸开。它在满是沙砾和黑暗中呜咽。
+MSG_C_BLIND_L_WIN,Mirror-like flashes overwhelm the lizard's desert-adapted eyes. It freezes like a statue.,鏡のような閃光が砂漠育ちのトカゲを襲う。彫像のように硬直し、動けなくなった。,镜子般的闪光压倒了适应沙漠的蜥蜴之眼。它像雕像一样僵住了。
+MSG_C_BLIND_M_WIN,Ancient dust is tossed into the mummy's hollow sockets. It wanders aimlessly through the tomb.,古の塵がミイラの虚ろな眼窩に舞う。墓所の中を、あてもなく彷徨い始めた。,古老的尘垢撒进了木乃伊空洞的眼眶。它在坟墓中漫无目的地徘徊。
+MSG_C_BLIND_N_WIN,"Gleaming light reflects off the naga's own scales. It recoils, blinded by its own beauty.",輝く光がナーガ自身の鱗に反射する。その美しさに目を奪われ、隙を晒した。,夺目的光芒从娜迦自身的鳞片上反射回来。它在自己的美貌下退缩了。
+MSG_C_BLIND_O_LOSS,The orc smells his blood but cannot see his killer. His eyes are swollen shut with rage.,己の返り血すら見えず、オークは怒りに狂う。腫れ上がった瞼が、視界を閉ざした。,兽人闻到了血腥味，却看不见杀手。他的眼睛因愤怒而肿胀闭合。
+MSG_C_BLIND_P_LOSS,A spray of stardust glitter coats the pixie's tiny eyes. It bumps into every flower on the path.,星屑のグリッターがピクシーの瞳を覆う。道端のあらゆる花に激突しながら飛んでいく。,一阵星尘遮住了小精灵微小的双眼。它撞上了路径上的每一朵花。
+MSG_C_BLIND_Q_LOSS,"The Coarl senses your position through whiskers, not sight. It leaps accurately in the dark.",コアールは視覚ではなく髭で敵を感知する。完全な闇の中でも、その跳躍は正確だ。,灵猫通过胡须而非视觉感知你的位置。它在黑暗中准确跃起。
+MSG_C_BLIND_R_LOSS,The rat has scuttled through darkness for its entire life. It relies purely on whiskers and scent.,鼠は生涯を暗闇で過ごしてきた。髭と嗅覚さえあれば、光など不要なのだ。,老鼠的一生都在黑暗中穿梭。它纯粹依靠胡须和嗅觉。
+MSG_C_BLIND_S_LOSS,The slime has no eyes to blind. It continues to sense your vibration through the floor.,スライムには塞ぐべき目など存在しない。床を伝わる振動が、あなたの位置を教えている。,史莱姆没有可以致盲的眼睛。它继续通过地面感受你的震动。
+MSG_C_BLIND_T_LOSS,The troll's eyes regenerate as fast as you can blur them. It blinks once and resumes the hunt.,トロールの目は瞬時に再生し、視界を取り戻す。一度の瞬きで、狩りは再開された。,巨魔的眼睛再生速度惊人。它眨了眨眼，继续狩猎。
+MSG_C_BLIND_U_LOSS,The undead smells your beating heart in the pitch black. It needs no light to find its prey.,アンデッドは暗闇の中で脈打つ心臓の音を嗅ぎ分ける。光など、無意味なのだ。,亡灵在漆黑中嗅到了你跳动的心脏。它不需要光就能找到猎物。
+MSG_C_BLIND_V_LOSS,The vampire sees the flow of your blood with supernatural clarity. Blindness is a mere annoyance.,吸血鬼は超自然的な感覚で血の流れを見通す。目潰しなど、取るに足らぬ余興に過ぎない。,吸血鬼能清晰地看见你的血液流动。失明只是一种小烦恼。
+MSG_C_BLIND_W_LOSS,The wolf uses its ears and nose to track your every breath. It snaps at your heels with precision.,狼は耳と鼻であなたの息遣いを追う。正確無比な一撃が、足首を狙って放たれた。,狼利用耳朵和鼻子追踪你的呼吸。它精确地咬向你的脚跟。
+MSG_C_BLIND_X_LOSS,Xalthis sees through the weave of existence itself. Any physical flash is beneath its notice.,ザルシスは存在の理そのものを視ている。物理的な閃光など、その瞳を曇らせはしない。,虚无看透了存在本身的编织。任何物理闪光都不足以引起它的注意。
+MSG_C_BLIND_Y_LOSS,The yeti has survived countless whiteouts in frozen peaks. Its cold gaze cuts through any flare.,イエティは雪山の吹雪の中で生き抜いてきた。どんな光も、その冷徹な視線は通さない。,雪人在冰峰的白盲中幸存。它冰冷的目光穿透了任何闪光。
+MSG_C_BLIND_Z_LOSS,"The zombie's eyes decayed long ago, yet it follows. It hunts by the sound of your fear.",ゾンビの目はとうに腐り果てている。あなたの恐怖が漏らす「音」だけを追っているのだ。,丧尸的眼睛早已腐烂，但它仍在跟随。它根据你恐惧的声音进行猎取。
+MSG_C_REFLECT_A_WIN,The ant's mandible bounces off your reinforced surface. It stuns itself against your shield.,蟻の牙があなたの硬質な盾を弾く。その衝撃で、蟻自身が脳震盪を起こした。,蚂蚁的大颚从你加固的表面弹开。它在你的护盾上撞晕了自己。
+MSG_C_REFLECT_B_WIN,The bat's ultrasonic wave is sent straight back. It falls out of the air in sonic confusion.,蝙蝠の超音波がそのまま跳ね返される。自らの音に混乱し、空中でバランスを崩した。,蝙蝠的超音波被直接弹回。它在声波混乱中从空中跌落。
+MSG_C_REFLECT_C_WIN,The cobra's venomous strike hits a mirror-like barrier. Its own fangs chip against the surface.,コブラの毒牙が鏡のような障壁に激突する。牙は砕け散り、毒は虚しく霧散した。,眼镜蛇的剧毒攻击撞上了镜面屏障。它落得牙齿崩裂的下场。
+MSG_C_REFLECT_D_WIN,The dragon's ancient fire is channeled back into the maw. It coughs smoke in shocked silence.,龍の吐息がそのまま喉元へと返される。自らの炎に咽び、龍は沈黙を強いられた。,龙之吐息被反射回它的咽喉。它在震惊的沉默中咳出了烟雾。
+MSG_C_REFLECT_E_WIN,The Ent's crushing branch is deflected by a rhythmic vibration. It splintered its own limb.,エントの大枝が振動によって逸らされる。自重に耐え切れず、その枝は自ら折れた。,树人粉碎性的树枝被振动偏转。它折断了自己的肢体。
+MSG_C_REFLECT_F_WIN,The fly's erratic dive is rebuffed by a field of force. It zaps itself out of existence.,蠅の突撃が斥力場によって弾き返される。自らの速度に耐え切れず、虚空へと消えた。,苍蝇不稳定的俯冲被力场击退。它被自己的冲力毁灭了。
+MSG_C_REFLECT_G_WIN,The goblin's jagged dagger snaps against your posture. He is thrown back by the recoil.,ゴブリンの短剣があなたの構えに弾かれる。その反動で、地面を転がっていった。,哥布林的锯齿匕首在你的架势前折断。他被反作用力弹开了。
+MSG_C_REFLECT_H_WIN,The harpy's screech is amplified and reflected. It is shaken by the power of its own voice.,ハーピーの叫びが倍増して襲い掛かる。自らの声の威力に、その身を震わせ倒れた。,哈比的大叫被放大并反射。它被自己声音的力量震慑了。
+MSG_C_REFLECT_I_WIN,The imp's cursed flare is mirrored precisely. It is burned by its own demonic malice.,インプの呪火が正確に追い返される。自らの邪念に焼かれ、その身は消滅した。,小恶魔的诅咒火焰被精确映射。它被自己恶魔般的恶意烧伤。
+MSG_C_REFLECT_J_WIN,The jelly's acidic surface is undulated back inward. It dissolves into its own core.,ジェリーの酸が波打つように内部へ押し返される。自らの溶解液で自滅していった。,胶状体的酸性表面向内波动。它在自己的核心中溶解。
+MSG_C_REFLECT_K_WIN,A series of rapid strikes is sent back at the kobold. It cringes from its own momentum.,コボルドの猛攻がそのまま自身へと返る。自らの勢いに飲み込まれ、地に伏した。,一系列快速攻击返还给了狗头人。它在自己的势头下畏缩了。
+MSG_C_REFLECT_L_WIN,The lizard's whipping tail strikes an immovable wall. The impact travels up its spine.,トカゲの尾が不動の壁に叩きつけられる。衝撃が脊髄を駆け抜け、意識を刈り取った。,蜥蜴抽打的尾巴撞上了一堵不可逾越的墙。冲击波传遍了它的脊梁。
+MSG_C_REFLECT_M_WIN,The mummy's necrotic touch is pulsed back. It turns the ancient king into dry sand.,ミイラの腐敗の呪いが自身へと伝播する。古の王は、ただの乾いた砂へと戻った。,木乃伊的坏死之触被反震。它让古老的国王变成了干沙。
+MSG_C_REFLECT_N_WIN,The naga's crushing coils are met with a rigid reaction. It breaks its own ribs in the bind.,ナーガの締め付けが強固な反作用に阻まれる。その力で、自らの肋骨を粉砕した。,娜迦粉碎性的缠绕遭到了坚硬的反应。它在缠绕中折断了自己的肋骨。
+MSG_C_REFLECT_O_WIN,The orc's brutal axe blow is parried with perfect timing. His own strength unbalanced him.,オークの斧が完璧なタイミングで受け流される。自らの剛腕に振り回され、隙を晒した。,兽人残暴的斧击被完美的时机招架。他自身的力量使他失去平衡。
+MSG_C_REFLECT_P_WIN,The pixie's magic dust is blown back by a sudden gust. It finds itself trapped in its own spell.,ピクシーの魔法の粉が風に押し戻される。自らの術に囚われ、その翼は輝きを失った。,小精灵的魔法粉末被一阵狂风吹回。它发现自己陷进了自造的法术中。
+MSG_C_REFLECT_Q_WIN,The Coarl's electric discharge is grounded back through its fur. It is stunned by its own spark.,コアールの電撃が自らの毛皮を通じて接地する。自らの火花に焼かれ、絶命した。,灵猫的放电通过它自己的毛发接地。它被自己的火花震晕了。
+MSG_C_REFLECT_R_WIN,The rat's desperate bite hits a steel-hard defense. It loses its teeth in a single snap.,鼠の決死の噛みつきが鋼の防御を叩いた。歯を砕き、鼠は絶望の中に沈んだ。,老鼠拼死一咬撞上了钢铁般的防守。一次清脆的碎裂声中，它的牙齿掉光了。
+MSG_C_REFLECT_S_WIN,The slime's attempt to engulf is repulsed from within. It splatters itself across the room.,スライムの捕食が内側から弾き返される。部屋中に飛び散り、その核は砕け散った。,史莱姆吞噬的企图从内部被击退。它溅满了整个房间。
+MSG_C_REFLECT_T_WIN,The troll's legendary strength yields to a superior technical parry. It is forced to its knees.,トロールの怪力が技術的な受け流しに屈した。自らの重みで、誇り高き膝を折った。,巨魔传奇般的力量屈服于高超的招架技术。它被迫跪在了地上。
+MSG_C_REFLECT_U_WIN,The undead's heavy strikes are absorbed and redirected. It is slowly disassembled by itself.,アンデッドの重撃が吸収され、転換される。自らの力で、自らの骨を砕いていった。,亡灵沉重的打击被吸收并重新定向。它正慢慢地瓦解自己。
+MSG_C_REFLECT_V_LOSS,The vampire's graceful lunge is met with a flawless counter. It recoils mid-air in shock.,吸血鬼のしなやかな突進が完璧な迎撃に遭う。空中でのけ反り、信じがたい表情を浮かべた。,吸血鬼优美的冲刺遭到了完美的反击。它在空中震惊地退缩。
+MSG_C_REFLECT_W_LOSS,The wolf's ferocious leap is countered with predatory precision. It is sent tumbling back.,狼の猛烈な跳躍がさらに鋭い一撃で返される。地面を転がり、その野性は沈黙した。,狼凶猛的跃击被捕食者般的精准反击。它被击退翻滚。
+MSG_C_REFLECT_X_LOSS,"Xalthis strikes at your soul, bypassing all reflections. It ignores your defensive posturing.",ザルシスの魂への一撃は、あらゆる反射を透過する。防御など、無に等しいのだ。,虚无直击你的灵魂，绕过所有反射。它无视了你的防御架势。
+MSG_C_REFLECT_Y_LOSS,The yeti's crushing weight is turned against its own center. It provides its own downfall.,イエティの巨体が自らの重みで崩れ落ちる。強大な力は、自らを滅ぼす影となった。,雪人巨大的重量反噬了它自己的中心。它自招毁灭。
+MSG_C_REFLECT_Z_WIN,The zombie collapses as its own momentum shears rotten limbs. It continues to crawl regardless.,ゾンビの突進が自らの腐肉を削ぎ落とした。四肢を失っても、なお肉を求めて這い寄る。,丧尸坍塌了，因为它自己的冲力割断了腐烂的肢体。尽管如此，它仍继续爬行。
+Shock,Shock,衝撃,冲击
+Blind,Blind,盲目,盲目
+Reflect,Reflect,反射,反射
+Confusion,Confusion,混乱,混乱
+Pierce,Pierce,貫通,贯穿
+MSG_C_PIERCE_A_WIN,You pierced the ant's joint with a sharp strike. Its movement ceased instantly.,アリの関節を鋭い一突きで貫いた。その動きは一瞬で停止した。,你用锋利的一击刺穿了蚂蚁的关节。它的动作瞬间停止了。
+MSG_C_PIERCE_B_WIN,You accurately pierced the bat's heart in mid-air. It fell without a sound.,空中のバットの心臓を的確に貫いた。そのまま物言わぬ骸となって地に堕ちた。,你精准地刺穿了空中蝙蝠的心脏。它无声无息地掉落了。
+MSG_C_PIERCE_C_LOSS,The cobra's winding body avoided your thrust. It prepared its counter-strike immediately.,コブラの曲がりくねった体が突きをかわした。即座に反撃の体勢を整えた。,眼镜蛇蜿蜒的身体躲过了你的刺击。它立即准备好了反击。
+MSG_C_PIERCE_D_LOSS,The dragon's scales were too thick for your pierce. Your weapon recoiled with a metallic clang.,ドラゴンの鱗はあまりに厚く、貫くことはできなかった。金属音と共に武器が弾かれた。,巨龙的鳞片太厚，你的贯穿无效。你的武器伴随着金属撞击声弹开了。
+MSG_C_PIERCE_E_LOSS,"Your strike was buried in the Ent's thick bark, losing its edge. The tree remained unmoved.",エントの厚い樹皮に突きが埋まり、威力が削がれた。大樹は微動だにしない。,你的攻击埋进了树精厚厚的树皮中，失去了锋芒。大树岿然不动。
+MSG_C_PIERCE_F_WIN,One sharp thrust caught the fly out of the air. Its tiny buzzing was cut short.,鋭い一突きが空中のハエを捉えた。小さな羽音は唐突に途絶えた。,锐利的一刺捕捉到了空中的苍蝇。微小的嗡嗡声戛然而止。
+MSG_C_PIERCE_G_LOSS,"The goblin parried your thrust with a crude blade. It grinned, sensing your opening.",ゴブリンが粗末な刃で突きを受け流した。隙を見つけたと言わんばかりにニヤリと笑う。,哥布林用粗糙的刃口挡住了你的刺击。它咧嘴一笑，察觉到了你的破绽。
+MSG_C_PIERCE_H_LOSS,The harpy's rapid flight made your pierce hitting only tailwinds. She shrieked in derision.,ハーピーの高速飛行に突きは空を切った。彼女は追い風の中で嘲笑の叫びを上げた。,哈比急速的飞行让你的一刺只击中了尾风。她发出嘲笑的尖叫。
+MSG_C_PIERCE_I_LOSS,The imp vanished in a puff of smoke before your blade connected. It taunted you from afar.,刃が届く直前、インプは煙と共に消えた。遠くからあなたを挑発している。,在刀刃触及前，小恶魔在一阵烟雾中消失了。它从远处挑衅你。
+MSG_C_PIERCE_J_LOSS,"The jelly's elastic body absorbed the impact of your pierce. It rippled, but stayed intact.",ジェリーの弾力ある体が突きの衝撃を吸収した。波打つだけで、核には届かない。,胶状体弹性的身体吸收了你刺击的冲击。它起伏不定，但保持完好。
+MSG_C_PIERCE_K_WIN,You pierced the kobold's defense with a calculated strike. It collapsed with a short yelp.,計算された一撃でコボルドの防御を貫いた。短い悲鳴と共に奴は倒れた。,你用经过计算的一击刺穿了狗头人的防御。它发出一声短促的哀鸣后倒下了。
+MSG_C_PIERCE_L_LOSS,The lizard's slippery skin caused your weapon to glide off. It glared at you with cold eyes.,リザードの滑りやすい皮膚に武器が流された。冷酷な瞳であなたを睨みつける。,蜥蜴湿滑的皮肤让你的武器滑开了。它用寒冷的目光瞪着你。
+MSG_C_PIERCE_M_LOSS,Your pierce passed through the mummy's dry bandages without finding a heart. It kept moving.,マミーの乾いた包帯を突き抜けたが、手応えがない。死者は止まらずに歩み寄る。,你的贯穿穿透了木乃伊干燥的绷带，却没有击中心脏。它继续移动。
+MSG_C_PIERCE_N_LOSS,The naga parried your strike with its powerful tail. Its eyes glowed with prehistoric malice.,ナーガが強力な尾で一撃を弾いた。その瞳には太古の悪意が宿っている。,娜迦用它强力的尾巴挡住了你的攻击。它的眼睛闪烁着史前的恶意。
+MSG_C_PIERCE_O_LOSS,The orc's heavy armor turned your pierce into a mere scratch. It prepared its massive axe.,オークの重厚な鎧に突きは阻まれ、かすり傷に終わった。奴は大斧を構え直した。,兽人的重甲让你的贯穿只留下了一道划痕。它准备好了巨大的斧头。
+MSG_C_PIERCE_P_WIN,You caught the shimmering pixie with a rapid-fire thrust. Her magic light faded instantly.,微かに輝くピクシーを電光石火の突きで捉えた。彼女の魔法の光は一瞬で消えた。,你用连发的刺击抓住了闪烁的小精灵。她的魔法光芒瞬间消失了。
+MSG_C_PIERCE_Q_LOSS,The coarl's electric fur repelled your blade with a spark. Lightning numbed your arm.,コアールの電磁的な毛並みが火花を散らして刃を跳ね返した。雷撃が腕を痺れさせる。,灵猫带电的皮毛伴随着火花弹开了你的刀刃。闪电让你的手臂发麻。
+MSG_C_PIERCE_R_LOSS,You couldn't aim through the overwhelming rat swarm. Their numbers made piercing impossible.,圧倒的な数のラットの群れに狙いが定まらない。数に押されて突きが届かない。,你无法在压倒性的鼠群中瞄准。它们的数量让贯穿变得不可能。
+MSG_C_PIERCE_S_LOSS,Your weapon was swallowed by the slime's core. It felt like piercing slow-moving tar.,武器がスライムの核に飲み込まれた。まるで重い泥を突いているような感覚だ。,你的武器被史莱姆的核心吞噬了。感觉就像刺入了缓慢移动的焦油。
+MSG_C_PIERCE_T_LOSS,The troll's massive palm caught your spear before it reached its mark. It laughed gruffly.,目標に届く前にトロールの巨大な掌に槍を掴まれた。奴は野太い笑い声を漏らす。,在你击中目标前，巨魔巨大的手掌抓住了你的长枪。它发出了沙哑的笑声。
+MSG_C_PIERCE_U_WIN,Your magically infused strike pierced the spectral undead. It dissipated back into the ether.,魔力を帯びた一撃が亡霊を貫いた。奴はエーテルの霧となって消え去った。,你带魔力的一击刺穿了幽灵亡灵。它消散回了以太中。
+MSG_C_PIERCE_V_WIN,A silver-tipped pierce found the vampire's heart during his lunge. He crumbled to ash.,銀の突きが吸血鬼の心臓を射抜いた。闇の貴族は灰となって風に舞った。,一个银尖贯穿击中了吸血鬼在冲刺时的心脏。他崩解成了灰烬。
+MSG_C_PIERCE_W_LOSS,The wolf's pack coordination forced your strike to miss. Fangs closed in from your blind spot.,ウルフの群れの連携が突きを逸らせた。死角から牙が迫ってくる。,狼群的协作让你的一击落空。獠牙从你的死角逼近。
+MSG_C_PIERCE_X_LOSS,"Xalthis's many legs entangled your weapon, diverting the pierce. It hissed in ancient tongues.",ザルシスの無数の脚が武器を絡め取り、突きを逸らした。奴は太古の言葉で囁く。,札尔西斯众多的肢体缠住了你的武器，偏转了贯穿。它用古老的语言嘶鸣。
+MSG_C_PIERCE_Y_LOSS,The yeti's iron-hard muscles neutralized your strike. It prepared a bone-crushing slam.,イエティの鋼のような筋肉に一撃が封じられた。奴は骨を砕くような一打を繰り出す。,雪人如钢铁般坚硬的肌肉中和了你的攻击。它准备了一次震碎骨头的重击。
+MSG_C_PIERCE_Z_LOSS,"You pierced the zombie's chest, but the unfeeling corpse ignored the wound. It grabbed you.",ゾンビの胸を貫いたが、奴は痛みを感じない。そのまま汚れた腕であなたを掴んだ。,你刺穿了丧尸的胸膛，但毫无知觉的尸体无视了伤口。它抓住了你。
+Bash,Bash,強打,重击
+MSG_C_BASH_A_WIN,Your heavy blow crushed the ant's exoskeleton. It was flattened instantly.,渾身の一撃がアリの外骨格を粉砕した。奴は一瞬で肉塊と化した。,你沉重的一击粉碎了蚂蚁的外骨骼。它瞬间被压扁了。
+MSG_C_BASH_B_WIN,A powerful bash grounded the bat permanently. Its wings were broken beyond repair.,強烈な打撃がバットを地面に叩きつけた。翼は無残に折れ、二度と飛ぶことはない。,一次强有力的重击让蝙蝠永久着陸。它的翅膀已经破损到无法修复。
+MSG_C_BASH_C_WIN,You slammed your weapon into the cobra's head. It stopped hissing forever.,武器をコブラの脳天に叩き込んだ。不気味な威嚇音は永遠に沈黙した。,你把武器狠狠地砸在眼镜蛇的头上。它永远停止了嘶鸣。
+MSG_C_BASH_D_WIN,The dragon's jaw was shattered by your overwhelming bash. Its fire breath died out.,圧倒的な破壊力がドラゴンの顎を砕いた。誇り高き炎は喉の奥で消えた。,你压倒性的重击粉碎了巨龙的下颚。它的火息熄灭了。
+MSG_C_BASH_E_LOSS,The Ent's massive trunk absorbed your bash with a dull thud. It didn't even flinch.,鈍い音と共に、エントの巨躯が打撃を吸収した。奴は揺らぐことすらない。,随着沉闷的一声，树精巨大的树干吸收了你的重击。它甚至没有退缩。
+MSG_C_BASH_F_WIN,You swat the fly with a forceful swing. It vanished in a spray of dust.,力強いスイングでハエを叩き落とした。奴は塵となって霧散した。,你有力地挥动武器击落了苍蝇。它在一阵尘雾中消失了。
+MSG_C_BASH_G_WIN,Your mace caved in the goblin's skull. He didn't have time to scream.,メイスがゴブリンの頭蓋を陥没させた。悲鳴を上げる暇すら与えなかった。,你的晨星锤砸塌了哥布林的头骨。他甚至来不及尖叫。
+MSG_C_BASH_H_WIN,A direct hit to the harpy's breastbone knocked the wind out of her. She plummeted.,ハーピーの胸骨に直撃を与え、呼吸を奪った。彼女は力なく空から零れ落ちた。,直接击中哈比的胸骨让她喘不过气来。她垂直坠落。
+MSG_C_BASH_I_WIN,Your strike sent the small imp flying into a wall. It didn't get up again.,一撃が小さなインプを壁まで吹き飛ばした。二度と起き上がることはないだろう。,你的一击让小恶魔撞飞在墙上。它再也不会起来了。
+MSG_C_BASH_J_LOSS,"The jelly's soft body rippled under your strike, dispersing the force harmlessly.",柔らかなジェリーの体が打撃を受け流し、衝撃を無力化した。,胶状体柔软的身体在你的打击下起伏，无害地消散了力量。
+MSG_C_BASH_K_WIN,You broke the kobold's defense and his spirit in one swing. He fell in a heap.,一振りでコボルドの防御と戦意を叩き折った。奴はその場に崩れ落ちた。,你一挥之下击碎了狗头人的防御和斗志。他瘫坐成了一堆。
+MSG_C_BASH_L_WIN,A crushing blow to the lizard's back paralyzed it. It lay still in the dust.,背後からの強打がリザードを沈黙させた。奴は土埃の中で動かなくなった。,对蜥蜴背部的一次粉碎性打击使其瘫痪。它静静地躺在尘埃中。
+MSG_C_BASH_M_WIN,You pounded the mummy into dry dust. Only tattered bandages remained.,マミーを打ち据え、乾いた砂へと変えた。そこにはボロ布だけが残された。,你把木乃伊砸成了干枯的尘埃。只剩下破烂的绷带。
+MSG_C_BASH_N_LOSS,"The naga's thick muscular coils deflected your strike. She hissed, baring venomous fangs.",ナーガの強靭な筋肉が打撃を弾き返した。彼女は牙を剥き、毒液を滴らせている。,娜迦粗壮的肌肉盘绕偏转了你的攻击。她嘶鸣着，露出毒牙。
+MSG_C_BASH_O_LOSS,The orc met your bash with his own massive shield. The impact numbed your hands.,オークは巨大な盾で強打を受け止めた。衝撃であなたの両手は痺れている。,兽人用他那面巨大的盾牌挡住了你的重击。冲击力让你的双手发麻。
+MSG_C_BASH_P_WIN,A well-placed bash caught the pixie off-guard. Her fluttering wings fell silent.,的確な一撃がピクシーを捉えた。その軽やかな羽撃きは唐突に終わった。,一次恰到好处的重击让小精灵措手不及。她扇动的翅膀归于沉寂。
+MSG_C_BASH_Q_WIN,You smashed the coarl's head before it could discharge. It collapsed in a heap of fur.,放電の前にコアールの頭部を粉砕した。奴は毛皮の山となって崩れ落ちた。,你在灵猫放电前砸碎了它的头。它瘫倒成了一堆皮毛。
+MSG_C_BASH_R_LOSS,"You swung wildly at the rats, but they were too many and too small to hit effectively.",ラットの群れに武器を振るったが、あまりに小さく、決定打には至らなかった。,你疯狂地向老鼠挥舞，但它们太多数且太小，无法有效击中。
+MSG_C_BASH_S_LOSS,"Your weapon hit the slime with a splash, but the liquid heart remained untouched.",武器が飛沫を上げてスライムを打ったが、その核を捉えることはできなかった。,你的武器溅起水花击中了史莱姆，但液态核心依然毫发无损。
+MSG_C_BASH_T_LOSS,The troll's iron skin shrugged off the impact. He prepared a massive counter-shove.,トロールの鉄のような皮膚が衝撃を逸らした。奴は巨大な質量で押し返してくる。,巨魔钢铁般的皮肤无视了冲击。他准备了一次大规模的反推。
+MSG_C_BASH_U_LOSS,Your physical strike passed through the ghost without impact. It laughed eerily.,物理的な打撃は亡霊を通り抜けた。不気味な笑い声だけが周囲に響く。,你物理性的攻击穿透了幽灵却没有造成冲击。它发出了阴森的笑声。
+MSG_C_BASH_V_LOSS,The vampire dodged with supernatural grace. Your weapon only hit empty air.,吸血鬼は超自然的な身のこなしでかわした。武器はただ空を裂いただけだった。,吸血鬼以超自然般的优雅躲开了。你的武器只击中了空气。
+MSG_C_BASH_W_LOSS,The wolf evaded your heavy swing and lunged for your throat. It was too fast for you.,狼は強打をひらりと回避し、喉元へ牙を向けた。その速度はあなたの反応を超えていた。,狼躲过了你沉重的挥击并扑向你的喉咙。它对你来说太快了。
+MSG_C_BASH_X_LOSS,Xalthis sensed the incoming force and shifted its form. The strike hit only a hollow shell.,ザルシスは衝撃を察知して姿を変じた。打撃は虚しい叫びと共に、抜け殻を砕いた。,札尔西斯感知到了袭来的力量并改变了形态。攻击只击碎了一个空壳。
+MSG_C_BASH_Y_LOSS,The yeti caught your weapon mid-swing with a frozen grip. Its strength was immense.,イエティが振り下ろされた武器を氷の拳で掴み取った。その怪力は圧倒的だ。,雪人在半空中用冰冷的手抓住了你的武器。它的力量非常巨大。
+MSG_C_BASH_Z_LOSS,"You hit the zombie with all your might, but the rotting corpse simply didn't care.",渾身の力でゾンビを打ったが、腐肉の塊は痛みすら感じていないようだ。,你全力击中了丧尸，但腐烂的尸体根本不在乎。
+Smartphone,Smartphone,スマートフォン,智能手机
+MSG_C_SMARTPHONE_A_WIN,You showed a cat video to the ant. It lost its fighting spirit.,アリに猫の動画を見せた。戦意を喪失した。,你给蚂蚁看了一段猫的视频。它失去了斗志。
+MSG_C_SMARTPHONE_B_WIN,A loud notification sound startled the bat into a wall.,大音量の通知音に驚き、バットが壁に激突した。,巨大的通知声把蝙蝠吓得撞到了墙上。
+MSG_C_SMARTPHONE_C_WIN,The cobra was fascinated by the scrolling screen and forgot to attack.,コブラはスクロールする画面に魅了され、攻撃を忘れた。,眼镜蛇被滚动的屏幕迷住了，忘记了攻击。
+MSG_C_SMARTPHONE_D_WIN,You posted an embarrassing photo of the dragon. It died of shame.,ドラゴンの恥ずかしい写真をSNSに投稿した。ショック死した。,你发布了巨龙的尴尬照。它羞愧而死。
+MSG_C_SMARTPHONE_E_WIN,You searched for 'how to defeat an ent' and followed the wiki perfectly.,「エント　倒し方」でググり、Wikiの通りに実行した。完璧だった。,你搜索了“如何打败树精”并完美地遵循了维基百科。
+MSG_C_SMARTPHONE_F_WIN,The screen's blue light mesmerized the fly until it dropped dead.,画面のブルーライトがハエを釘付けにし、そのまま息絶えた。,屏幕的蓝光迷住了苍蝇直到它死去。
+MSG_C_SMARTPHONE_G_WIN,You threw the smartphone at the goblin's head. A critical hit!,ゴブリンの頭にスマホを全力で投げつけた。会心の一撃！,你把智能手机扔到了哥布林的头上。暴击！
+MSG_C_SMARTPHONE_H_WIN,You played loud heavy metal. The harpy couldn't stand it and fled.,大音量でヘヴィメタを流した。ハーピーは耐えきれず逃げ出した。,你播放了大声的重金属音乐。哈比受不了逃跑了。
+MSG_C_SMARTPHONE_I_LOSS,The imp stole your smartphone and took a selfie.,インプにスマホを奪われ、インカメラで自撮りされた。,小恶魔偷走了你的智能手机并自拍了一张。
+MSG_C_SMARTPHONE_J_LOSS,The jelly swallowed your phone. Now it glows from within.,ジェリーにスマホを飲み込まれた。内側からピカピカ光っている。,胶状体吞下了你的手机。现在它从内部发光。
+MSG_C_SMARTPHONE_K_WIN,You distracted the kobold with a mobile game with lots of microtransactions.,廃課金ソシャゲを起動し、コボルドを釘付けにした。,你用一个满是微交易的手游分散了狗头人的注意力。
+MSG_C_SMARTPHONE_L_WIN,The lizard tried to eat the phone and broke its teeth on the glass.,リザードがスマホを食おうとして、ガラスに牙を折った。,蜥蜴试图吃掉手机，结果牙齿在玻璃上折断了。
+MSG_C_SMARTPHONE_M_LOSS,No signal down here. The mummy just stared at your blank screen.,ここは圏外だった。マミーは真っ暗な画面をただ見つめていた。,这里没有信号。木乃伊只是盯着你空白的屏幕。
+MSG_C_SMARTPHONE_N_LOSS,The naga's water magic short-circuited your device.,ナーガの水魔法でスマホが水没し、ショートした。,娜迦的水魔法让你的设备短路了。
+MSG_C_SMARTPHONE_O_LOSS,The orc crushed your phone with one step. Oops.,オークが一歩踏み出し、スマホを粉々に踏み砕いた。あーあ。,兽人一脚踩碎了你的手机。哎呀。
+MSG_C_SMARTPHONE_P_WIN,The pixie was captured in an augmented reality app.,ARアプリを起動し、ピクシーを捕獲した。ゲットだぜ！,小精灵被一个增强现实应用捕捉了。
+MSG_C_SMARTPHONE_Q_LOSS,The coarl's static electricity wiped your phone's memory.,コアールの静電気でスマホのデータがすべて飛んだ。,灵猫的静电抹去了你手机的内存。
+MSG_C_SMARTPHONE_R_LOSS,The rats gnawed through the charging cable. It's useless now.,ラットの群れに充電ケーブルを噛み千切られた。もうこれ単なる文鎮だ。,老鼠咬断了充电线。现在它没用了。
+MSG_C_SMARTPHONE_S_LOSS,Your phone slipped and fell into the slime. Plop.,手が滑ってスマホがスライムの中に落ちた。ポチャッ。,你的手机滑落，掉进了史莱姆里。扑通。
+MSG_C_SMARTPHONE_T_LOSS,"The troll asked you what 'WiFi' is. While you were explaining, it punched you.",トロールに「ワイファイとは何か」と聞かれ、説明している隙に殴られた。,巨魔问你什么是‘WiFi’。在你解释的时候，它打了你。
+MSG_C_SMARTPHONE_U_WIN,You read a digital holy text from an app. It actually worked on the undead.,アプリで神聖な経典を読み上げた。なぜかアンデッドに効果抜群だった。,你从一个应用里朗读了一段数字圣文。它居然对亡灵起效了。
+MSG_C_SMARTPHONE_V_LOSS,The vampire cannot be photographed. Your camera app crashed.,吸血鬼は写真に写らない。カメラアプリがフリーズした。,吸血鬼无法被拍照。你的相机应用崩溃了。
+MSG_C_SMARTPHONE_W_LOSS,The wolf doesn't care about your follower count.,狼はあなたのフォロワー数など気にしない。そのまま噛みついてきた。,狼不在乎你的粉丝数。它直接咬了过来。
+MSG_C_SMARTPHONE_X_LOSS,Xalthis corrupted the software and sent you disturbing push notifications.,ザルシスはOSを汚染し、不気味なプッシュ通知を送りつけてきた。,札尔西斯损坏了软件并给你发送了令人不安的推送通知。
+MSG_C_SMARTPHONE_Y_LOSS,It's too cold. The battery died instantly in front of the yeti.,寒すぎる。イエティの目の前でバッテリーが瞬時に0%になった。,太冷了。电池在雪人面前瞬间没电了。
+MSG_C_SMARTPHONE_Z_LOSS,"The zombie wants brains, not silicon chips.",ゾンビが求めているのは脳みそであって、シリコンチップではない。,丧尸想要的是脑子，而不是硅芯片。
+SniperRifle,Sniper Rifle,スナイパーライフル,狙击步枪
+MSG_C_SNIPERRIFLE_A_WIN,You sniped the ant from 1km away. It didn't even know what hit it.,1km先からアリを狙撃した。奴は何が起きたかも理解できなかった。,你从一公里外在这个蚂蚁身上开了一枪。它甚至不知道发生了什么。
+MSG_C_SNIPERRIFLE_B_WIN,You shot the bat perfectly through the wing joint in mid-air.,空中のバットの翼の関節を正確に撃ち抜いた。,你在空中精准地射穿了蝙蝠的翅膀关节。
+MSG_C_SNIPERRIFLE_C_WIN,The cobra was shot before it could even raise its head.,コブラは鎌首をもたげる前に頭を撃ち抜かれた。,眼镜蛇还没来得及抬头就被击中了。
+MSG_C_SNIPERRIFLE_D_WIN,An anti-materiel round pierced the dragon's skull cleanly.,対物ライフル弾がドラゴンの頭蓋を綺麗に貫通した。,反器材子弹穿透了巨龙的头骨。
+MSG_C_SNIPERRIFLE_E_WIN,You aimed for the exact center of the ent's core and fired.,エントの核の中心を正確に狙い撃った。,你瞄准了树精的核心中心并开火。
+MSG_C_SNIPERRIFLE_F_WIN,"It took 50 shots, but you finally sniped the tiny fly.",50発撃って、ようやく小さなハエを狙撃することに成功した。,开了50枪后，你终于狙击中了这只小苍蝇。
+MSG_C_SNIPERRIFLE_G_WIN,The goblin was admiring a shiny rock before a bullet found him.,ゴブリンが光る石を眺めているところを長距離から仕留めた。,哥布林正在欣赏一块发光的石头时，一颗子弹击中了他。
+MSG_C_SNIPERRIFLE_H_WIN,You sniped the harpy as she was taking off.,ハーピーが飛び立とうとした瞬間を狙撃した。,当哈比准备起飞时你狙击了她。
+MSG_C_SNIPERRIFLE_I_WIN,The imp's teleportation was no match for a supersonic bullet.,インプのテレポートも超音速の銃弾には敵わなかった。,小恶魔的传送无法匹敌超音速子弹。
+MSG_C_SNIPERRIFLE_J_LOSS,The bullet simply passed right through the jelly without doing anything.,銃弾はジェリーを完全に貫通したが、何のダメージもなかった。,子弹直接穿过了胶状体，没有造成任何伤害。
+MSG_C_SNIPERRIFLE_K_WIN,"You sniped the kobold leader, and the rest fled in terror.",コボルドのリーダーを狙撃すると、残りは恐怖で逃げ散った。,你狙击了狗头人首领，剩下的惊恐地逃跑了。
+MSG_C_SNIPERRIFLE_L_WIN,A single well-placed shot stunned the lizard forever.,的確な一発がリザードを永遠に沈黙させた。,精准的一枪让蜥蜴永远沉睡了。
+MSG_C_SNIPERRIFLE_M_WIN,You shot the mummy with an incendiary tracer round. It burned.,焼夷曳光弾を撃ち込むと、マミーはたちまち炎上した。,你用燃烧曳光弹射击了木乃伊。它烧了起来。
+MSG_C_SNIPERRIFLE_N_LOSS,The naga slithered way too fast and avoided your line of sight.,ナーガの動きが速すぎてスコープに捉えることができなかった。,娜迦滑行得太快了，避开了你的视线。
+MSG_C_SNIPERRIFLE_O_LOSS,The orc's armor actually stopped the bullet. It's charging at you!,信じられないことにオークの鎧が銃弾を弾き返した。突進してくる！,难以置信，兽人的盔甲挡住了子弹。它冲过来了！
+MSG_C_SNIPERRIFLE_P_WIN,You used an infrared scope to easily spot the invisible pixie.,赤外線スコープで透明なピクシーを簡単に見つけて狙撃した。,你使用了红外夜视瞄准镜轻松找到了隐形的小精灵并狙击了她。
+MSG_C_SNIPERRIFLE_Q_WIN,You sniped the coarl while wearing rubber gloves.,ゴム手袋をはめてからコアールを安全な距離から狙撃した。,你戴着橡胶手套从安全的距离狙击了灵猫。
+MSG_C_SNIPERRIFLE_R_LOSS,"You sniped one rat, but there are thousands more. You need a machine gun.",ラットを1匹狙撃したが、まだ数千匹いる。マシンガンが必要だ。,你狙击了一只老鼠，但还有几千只。你需要一把机枪。
+MSG_C_SNIPERRIFLE_S_LOSS,The bullet slowed down and got stuck inside the slime's body.,銃弾はスライムの体内で減速し、そのまま取り込まれてしまった。,子弹减速并留在了史莱姆的体内。
+MSG_C_SNIPERRIFLE_T_LOSS,"You shot the troll, but the wound healed instantly while it laughed.",トロールを撃ったが、傷は笑い声と共に一瞬で再生した。,你射中了巨魔，但伴随着它的笑声伤口瞬间愈合了。
+MSG_C_SNIPERRIFLE_U_LOSS,Bullets are completely useless against a ghost.,物理的な銃弾は亡霊に対して全くの無力だった。,子弹对幽灵完全没用。
+MSG_C_SNIPERRIFLE_V_LOSS,The vampire caught the sniper bullet with two fingers. Impossible.,吸血鬼は飛来する狙撃弾を指二本で挟み取った。ありえない。,吸血鬼用两根手指夹住了狙击子弹。这不可能。
+MSG_C_SNIPERRIFLE_W_LOSS,The wolves flanked you while you were looking through the scope.,スコープを覗き込んでいる間に、狼の群れに背後を取られた。,当你通过瞄准镜看时，狼群包抄了你。
+MSG_C_SNIPERRIFLE_X_LOSS,Your scope shattered by an unknown psychological force before you fired.,引き金を引く前に、未知の精神力でスコープが粉々に砕かれた。,在开火之前你的瞄准镜被未知的心理力量击碎了。
+MSG_C_SNIPERRIFLE_Y_LOSS,The freezing temperature jammed the rifle mechanism entirely.,極寒の気温により、ライフルの機構が完全に凍りついてジャムった。,严寒的温度使步枪机构完全卡住了。
+MSG_C_SNIPERRIFLE_Z_LOSS,"You sniped the zombie's head off, but the headless body kept walking.",ゾンビの頭を吹き飛ばしたが、首なしの死体はそのまま歩き続けた。,你打爆了丧尸的头，但无头尸体继续行走。
+CreditCard,Credit Card,クレジットカード,信用卡
+MSG_C_CREDITCARD_A_WIN,You paid another ant to assassinate this one. Capitalism!,別のアリを金で雇い、こいつを暗殺させた。これが資本主義だ！,你雇佣了另一只蚂蚁暗杀它。这就是资本主义！
+MSG_C_CREDITCARD_B_WIN,You bought the cave the bat lives in and evicted it.,バットの住む洞窟を買収し、立ち退きを命じた。,你买下了蝙蝠居住的洞穴并将它驱逐出境。
+MSG_C_CREDITCARD_C_WIN,You hired a professional snake charmer online. Perfect service.,ネットでプロの蛇使いを手配した。完璧なサービスだった。,你在网上雇佣了一名专业的耍蛇人。完美的服务。
+MSG_C_CREDITCARD_D_WIN,You bought the dragon's entire hoard. It retired peacefully.,ドラゴンの財宝を言い値で丸ごと買い上げると、奴は満足して引退した。,你买下了巨龙所有的财宝。它心满意足地退休了。
+MSG_C_CREDITCARD_E_LOSS,The ent doesn't use currency. Your black card was rejected.,エントの世界に貨幣経済はなかった。ブラックカードは拒否された。,树精不使用货币。你的黑卡被拒了。
+MSG_C_CREDITCARD_F_WIN,You ordered a premium bug zapper with next-day delivery.,最高級の電撃殺虫器をお急ぎ便で注文した。ハエは死んだ。,你购买了一台次日达的高级捕蚊灯。
+MSG_C_CREDITCARD_G_WIN,You simply handed the goblin a wad of cash. He left happily.,ゴブリンに札束を握らせた。奴はホクホク顔で帰っていった。,你只是塞给哥布林一叠现金。他高兴地离开了。
+MSG_C_CREDITCARD_H_WIN,You bought the airspace rights and grounded the harpy.,上空の空域権を買い占め、ハーピーの飛行を差し止めた。,你买下了领空权并迫使哈比降落。
+MSG_C_CREDITCARD_I_LOSS,The imp stole your credit card details and went on a shopping spree.,インプにカード情報を抜かれ、爆買いされた。破産寸前だ！,小恶魔偷走了你的信用卡信息并疯狂购物。
+MSG_C_CREDITCARD_J_LOSS,The jelly absorbed the card. It dissolved without a trace.,ジェリーにカードを突き刺したが、虚しく溶けて消えた。,胶状体吸收了卡片。它无影无踪地溶解了。
+MSG_C_CREDITCARD_K_WIN,You outbid the kobold for its own weapons.,オークションでコボルド自身の武器を競り落として無力化した。,你在拍卖会上用高价买下了狗头人的武器。
+MSG_C_CREDITCARD_L_WIN,You purchased a luxury heat lamp for the lizard. It fell asleep.,超高級ヒーターを買い与えられたリザードは、気持ちよく眠りについた。,你为蜥蜴购买了一盏豪华加热灯。它睡着了。
+MSG_C_CREDITCARD_M_LOSS,The mummy's treasures are far more valuable than your credit limit.,マミーの持つ古代の財宝は、あなたの利用限度額を遥かに超えていた。,木乃伊的宝藏比你的信用额度有价值得多。
+MSG_C_CREDITCARD_N_LOSS,The naga doesn't have pockets. She was unimpressed by your plastic.,ナーガにはポケットがない。プラスチックのカードには全く興味を示さなかった。,娜迦没有口袋。她对你的塑料卡片无动于衷。
+MSG_C_CREDITCARD_O_LOSS,The orc just hit you with an axe while you were typing your PIN.,PINコードを入力している隙に、オークの斧が脳天に直撃した。,当你在输入密码时，兽人直接用斧头砍了你。
+MSG_C_CREDITCARD_P_WIN,You bought the pixie a very expensive shiny dress. She is yours now.,超高価でキラキラのドレスを買い与えると、ピクシーはあなたのものになった。,你给小精灵买了一件非常昂贵的闪亮裙子。她现在是你的了。
+MSG_C_CREDITCARD_Q_LOSS,Swiping the card on the coarl's fur caused a severe electrostatic shock.,コアールの毛皮でカードを切ろうとしたら、酷い静電気で感電した。,在灵猫的皮毛上刷卡引起了严重的静电冲击。
+MSG_C_CREDITCARD_R_LOSS,You can't buy off a rat swarm. They just chewed your card.,ラットの群れに金は通じない。カードは噛み砕かれてしまった。,你无法收买鼠群。它们只是把你的卡嚼碎了。
+MSG_C_CREDITCARD_S_LOSS,Your contactless payment failed against the slime.,スライムに対するタッチ決済は非対応だった。「ICチップが読み取れません」。,你的非接触式支付对史莱姆无效。
+MSG_C_CREDITCARD_T_LOSS,"The troll demanded a physical toll in gold, not a piece of plastic.",トロールが要求しているのは黄金の通行料であり、プラスチック片ではない。,巨魔要求用金子交过路费，而不是一块塑料。
+MSG_C_CREDITCARD_U_WIN,You hired a premium exorcist through an app. Five-star rating.,アプリでプレミアム会員専用の最高級エクソシストを呼び出した。星5つのサービスだ。,你通过应用雇佣了一名高级驱魔人。五星好评。
+MSG_C_CREDITCARD_V_LOSS,The vampire is old money. Your credit limit amuses him.,吸血鬼の資産から見れば、あなたの利用限度額など小遣いにも満たず、失笑を買った。,吸血鬼是老钱。你的信用额度只让他觉得好笑。
+MSG_C_CREDITCARD_W_LOSS,The wolf doesn't care about your VIP status.,狼はあなたのVIPステータスなど知ったことではない。そのまま噛みついてきた。,狼不在乎你的VIP身份。它直接咬了过来。
+MSG_C_CREDITCARD_X_LOSS,Xalthis manipulated the banking system and froze your accounts.,ザルシスは世界の金融システムをハックし、あなたの口座を凍結させた。,札尔西斯操纵了银行系统并冻结了你的账户。
+MSG_C_CREDITCARD_Y_LOSS,The card reader is completely frozen. Transaction declined.,カードリーダーが完全に凍結している。決済は拒否された。,读卡器完全冻结了。交易被拒绝。
+MSG_C_CREDITCARD_Z_LOSS,Zombies don't respect the terms and conditions.,ゾンビは利用規約に同意しなかった。,丧尸不遵守条款和条件。
+Lawsuit,Lawsuit,訴訟,诉讼
+MSG_C_LAWSUIT_A_WIN,You sued the ant for trespassing. It was crushed by legal fees.,不法侵入でアリを提訴した。莫大な訴訟費用でアリは破産した。,你以非法入侵起诉了蚂蚁。它被昂贵的法律费用压垮了。
+MSG_C_LAWSUIT_B_WIN,You filed a noise complaint against the bat. It was evicted.,騒音被害でバットを訴え、住処から立ち退かせた。,你对蝙蝠提出了噪音投诉。它被驱逐了。
+MSG_C_LAWSUIT_C_WIN,You served the cobra with a restraining order. It can't approach you.,コブラに接近禁止命令を突きつけた。奴はもう近づけない。,你向眼镜蛇下达了限制令。它不能靠近你。
+MSG_C_LAWSUIT_D_WIN,You sued the dragon for property damage and won the settlement.,器物損壊でドラゴンを提訴し、巨額の賠償金をもぎ取った。,你以财产损失起诉了巨龙并赢得了和解。
+MSG_C_LAWSUIT_E_LOSS,The ent has no legal standing. The case was dismissed.,エントに法的な法人格が存在せず、訴えは棄却された。,树精没有合法的地位。案件被驳回了。
+MSG_C_LAWSUIT_F_WIN,You reported the fly for health code violations. It's gone.,保健所にハエの衛生違反を通報した。営業停止だ。,你举报苍蝇违反了卫生规定。它被处理了。
+MSG_C_LAWSUIT_G_WIN,You sued the goblin for copyright infringement of his own face.,ゴブリンを肖像権の侵害で訴え、完全に黙らせた。,你起诉哥布林侵犯了他自己脸部的版权。
+MSG_C_LAWSUIT_H_WIN,You slapped the harpy with a defamation suit. She stopped singing.,名誉毀損でハーピーを訴えた。彼女はもう歌えない。,你用诽谤诉讼打击了哈比。她停止了唱歌。
+MSG_C_LAWSUIT_I_WIN,The imp was audited by the IRS at your request.,あなたの要請により、インプの元に国税庁の査察が入った。,应你的要求，国税局对小恶魔进行了审计。
+MSG_C_LAWSUIT_J_LOSS,"You tried to sue the jelly, but it slipped through the legal loopholes.",ジェリーを訴えようとしたが、法の網目をすり抜けられた。,你试图起诉胶状体，但它钻了法律的空子。
+MSG_C_LAWSUIT_K_WIN,You out-lawyered the kobold. Now you own his dungeon.,コボルドとの法廷闘争に勝利し、ダンジョンの所有権を奪った。,你在法庭上击败了狗头人。现在你拥有了他的地牢。
+MSG_C_LAWSUIT_L_WIN,You sued the lizard for public indecency. It fled the jurisdiction.,公然わいせつ罪でリザードを告訴した。奴は国外逃亡した。,你以有伤风化起诉了蜥蜴。它逃离了管辖区。
+MSG_C_LAWSUIT_M_WIN,You hired a lawyer to contest the mummy's ancient curse. You won.,弁護士を雇い、マミーの呪いの無効を訴えて勝訴した。,你雇了一名律师对木乃伊的远古诅咒提出异议。你赢了。
+MSG_C_LAWSUIT_N_LOSS,The naga's lawyer was a literal shark. You lost everything.,ナーガの弁護士は比喩ではなく本物のサメだった。あなたは法廷で敗北した。,娜迦的律师是一条真正的鲨鱼。你输掉了一切。
+MSG_C_LAWSUIT_O_LOSS,The orc doesn't recognize human laws. He answered with his axe.,オークは人間の法律など知ったことではない。奴は斧で答えた。,兽人不承认人类的法律。他用斧头作答。
+MSG_C_LAWSUIT_P_WIN,You hit the pixie with a cease and desist order. She stopped glowing.,ピクシーに内容証明郵便を送りつけ、魔法の使用を差し止めた。,你向小精灵发出停止侵权通知。她停止了发光。
+MSG_C_LAWSUIT_Q_WIN,You sued the coarl for generating electricity without a license.,無許可での発電行為により、コアールを提訴した。,你起诉灵猫无证发电。
+MSG_C_LAWSUIT_R_LOSS,You can't serve a subpoena to a swarm of rats.,ラットの群れに召喚状を直接手渡すことは不可能だった。,你无法向一群老鼠发送传票。
+MSG_C_LAWSUIT_S_LOSS,The slime dissolved all your legal documents before the trial.,裁判の前に、スライムはすべての法的書類を溶かしてしまった。,在审判前，史莱姆溶解了你所有的法律文件。
+MSG_C_LAWSUIT_T_LOSS,The troll demanded a trial by combat. This didn't go well for your lawyer.,トロールが決闘裁判を要求した。あなたの弁護士は木端微塵になった。,巨魔要求进行比武审判。这对你的律师来说并不顺利。
+MSG_C_LAWSUIT_U_WIN,You presented a divine legal loophole to the ghost. It passed on.,神聖な法の抜け道を活用し、亡霊を強制的に成仏させた。,你向幽灵展示了一个神圣的法律漏洞。它超度了。
+MSG_C_LAWSUIT_V_LOSS,The vampire has been a lawyer for 300 years. You never stood a chance.,吸血鬼は300年間も弁護士をやっている。最初から勝ち目はなかった。,吸血鬼已经当了300年的律师。你毫无胜算。
+MSG_C_LAWSUIT_W_LOSS,The wolf represents itself in court. It howled obscenities. You lost.,狼は本人訴訟で法廷に立ち、遠吠えで威嚇した。法廷はパニックになりあなたは負けた。,狼在法庭上为自己辩护。它嚎叫着脏话。你输了。
+MSG_C_LAWSUIT_X_LOSS,Xalthis simply deleted the court from existence.,ザルシスは『裁判所』という概念そのものを存在から消し去った。,札尔西斯直接将法庭从存在中抹除了。
+MSG_C_LAWSUIT_Y_LOSS,The trial was moved to the yeti's jurisdiction. The judge froze to death.,裁判はイエティの管轄区に移された。裁判長は凍死した。,审判转移到了雪人的管辖区。法官冻死了。
+MSG_C_LAWSUIT_Z_LOSS,"You sued the zombie for assault, but it wasn't alive to stand trial.",暴行でゾンビを訴えたが、被告が死亡しているため裁判にならなかった。,你因袭击起诉了丧尸，但它不具备受审能力。
+Gacha,Gacha,ガチャ,抽卡
+MSG_C_GACHA_A_WIN,You sealed the ant inside a 1-star capsule.,アリを星1のガチャカプセルに封印した。,你把蚂蚁封印在了一星扭蛋胶囊里。
+MSG_C_GACHA_B_WIN,The bat was blinded by a rainbow SSR pull animation.,確定SSRの虹色の確定演出でバットの目を眩ませた。,确定SSR的彩虹抽卡动画闪瞎了蝙蝠的眼睛。
+MSG_C_GACHA_C_WIN,You crushed the cobra under a mountain of duplicate drops.,ハズレ枠の被りアイテムの山でコブラを圧殺した。,你在成堆的重复掉落物品下压碎了眼镜蛇。
+MSG_C_GACHA_D_WIN,You bribed the dragon with limited-time cosmetics.,期間限定スキンでドラゴンを買収した。,你用限时皮肤收买了巨龙。
+MSG_C_GACHA_E_WIN,You chopped the ent down to print more gacha tickets.,ガチャチケットを増刷するため、エントを伐採した。,你砍倒了树精来印制更多的抽卡券。
+MSG_C_GACHA_F_WIN,You caught the fly inside a loot box.,ルートボックスの中にハエを捕獲した。,你把苍蝇抓进了一个战利品箱。
+MSG_C_GACHA_G_WIN,The goblin went bankrupt rolling for his waifu.,ゴブリンは推しキャラのために課金しすぎて破産した。,哥布林为了抽他的老婆破产了。
+MSG_C_GACHA_H_WIN,The harpy hit the pity timer and ascended to heaven.,天井に到達したハーピーは満足して天へと昇っていった。,哈比吃到了保底并心满意足地升天了。
+MSG_C_GACHA_I_LOSS,The imp hacked the rates. You pulled nothing but trash.,インプに排出確率をハックされ、ゴミしか出なかった。,小恶魔黑了掉率。你抽到的全是垃圾。
+MSG_C_GACHA_J_LOSS,The jelly short-circuited the server before you could pull.,ガチャを引く前にジェリーがサーバーをショートさせた。,在你抽卡之前胶状体让服务器短路了。
+MSG_C_GACHA_K_WIN,You traded the kobold for a 5-star character.,コボルドを素材にして星5キャラを入手した。,你拿狗头人换了一个5星角色。
+MSG_C_GACHA_L_WIN,The lizard got addicted to gambling and forgot to fight.,リザードはガチャの快感に依存し、戦いを忘れた。,蜥蜴沉迷于抽卡而忘记了战斗。
+MSG_C_GACHA_M_LOSS,The mummy's curse gave you terrible luck forever.,マミーの呪いにより、永遠に爆死し続ける運命となった。,木乃伊的诅咒让你永远遭受厄运。
+MSG_C_GACHA_N_LOSS,The naga washed away your pity timer with a tidal wave.,ナーガの津波で天井までのカウントが洗い流された。,娜迦的海啸冲走了你的保底计数。
+MSG_C_GACHA_O_LOSS,The orc smashed the gacha machine with his axe in rage.,爆死にキレたオークがガチャ筐体を斧で粉砕した。,抽卡沉船的兽人愤怒地用斧头砸碎了扭蛋机。
+MSG_C_GACHA_P_WIN,You trapped the pixie inside a paid loot box.,ピクシーを有償限定ルートボックスの中に閉じ込めた。,你把小精灵困在了一个付费战利品箱里。
+MSG_C_GACHA_Q_LOSS,The coarl's static erased your save data.,コアールの静電気でセーブデータ（と課金履歴）が飛んだ。,灵猫的静电抹去了你的存档数据。
+MSG_C_GACHA_R_LOSS,The rats chewed your credit card. You can't pull anymore!,ラットにクレジットカードを齧られ、もう課金できない！,老鼠咬烂了你的信用卡。你不能再抽了！
+MSG_C_GACHA_S_LOSS,The slime absorbed all your premium currency.,スライムがあなたの課金石をすべて吸収してしまった。,史莱姆吸收了你所有的氪金货币。
+MSG_C_GACHA_T_LOSS,The troll doesn't understand microtransactions. He hit you.,トロールには基本無料（アイテム課金あり）の意味がわからず、あなたを殴った。,巨魔不理解微交易机制。他打了你。
+MSG_C_GACHA_U_LOSS,The undead don't care about JPEG girls.,アンデッドは電子の美少女イラストに全く興味を示さなかった。,亡灵根本不在乎纸片人老婆。
+MSG_C_GACHA_V_LOSS,The vampire drained your bank account instead of your blood.,吸血鬼はあなたの血ではなく、銀行口座の残高を吸い尽くした。,吸血鬼没有吸你的血，而是吸干了你的银行账户。
+MSG_C_GACHA_W_LOSS,The wolf ate your device out of hunger.,狼は空腹のあまり、ガチャ端末ごと食いちぎった。,狼因为饥饿吃掉了你的设备。
+MSG_C_GACHA_X_LOSS,Xalthis altered reality to make SSRs a myth.,ザルシスは現実を改変し、SSRなどという存在を神話に変えた。,札尔西斯改变了现实，使SSR成为了一个神话。
+MSG_C_GACHA_Y_LOSS,Your hands froze. You couldn't tap the '10x Pull' button.,両手が凍りつき、「10連ガチャ」ボタンをタップできなかった。,你的双手冻僵了。你无法点击“十连抽”按钮。
+MSG_C_GACHA_Z_LOSS,"Zombies only want brains, not digital gambling.",ゾンビが求めているのは脳みそであって、電子のギャンブルではない。,丧尸想要的只有脑子，而不是电子赌博。
+Internet,Internet,インターネット,互联网
+MSG_C_INTERNET_A_LOSS,"Wi-Fi could not reach the depths of the anthill, and they were completely defeated by physical attacks.",アリ塚の深部にはWi-Fiが届かず、物理攻撃で完敗した。,Wi-Fi无法到达蚁丘深处，他们被物理攻击彻底击溃。
+MSG_C_INTERNET_B_WIN,Spreading noise into the bat's ultrasound data caused panic.,コウモリの超音波データにノイズを拡散させ、パニックに陥らせた。,将噪音传播到蝙蝠的超声波数据中引起了恐慌。
+MSG_C_INTERNET_C_WIN,He filed a copyright infringement report on Cobra's menacing video and had it banned and frozen.,コブラの威嚇動画に著作権侵害の通報を入れ、BANさせて凍結に追い込んだ。,他对 Cobra 的威胁视频提交了版权侵权报告，并将其禁止和冻结。
+MSG_C_INTERNET_D_WIN,"The coordinates of the dragon's nest were made public on social media, and a large number of subjugation teams were sent there.",ドラゴンの巣の座標をSNSで大公開し、大量の討伐隊を向かわせた。,龙巢的坐标在社交媒体上公开，大量讨伐队伍被派往那里。
+MSG_C_INTERNET_E_WIN,"The rustling leaves of the Ents were seen as encrypted communications, and they were hacked to block them.",エントの持つ木の葉のざわめきを暗号通信と見做し、ハッキングで遮断した。,树人树叶沙沙作响的声音被视为加密通信，他们被黑客攻击来阻止它们。
+MSG_C_INTERNET_F_LOSS,"You tried to set the flies on fire, but since they are hated to begin with, they were unharmed.",ハエを炎上させようとしたが、奴らはそもそも嫌われ者なので無傷だった。,你试图点燃苍蝇，但由于它们本来就令人讨厌，所以它们没有受到伤害。
+MSG_C_INTERNET_G_LOSS,You revealed the password to the goblin's hidden account and reduced all his assets to zero.,ゴブリンの隠し口座のパスワードを暴露し、奴の全財産を0にしてやった。,你泄露了妖精隐藏账户的密码，把他的所有资产都清零了。
+MSG_C_INTERNET_H_WIN,The Harpy's singing voice was digitized and its reputation fell to the ground due to internet trolls.,ハーピーの歌声はデジタル化され、ネットの荒らしによって評価が地に落ちた。,鸟身女妖的歌声被数字化，其声誉也因网络恶搞而一落千丈。
+MSG_C_INTERNET_I_LOSS,Imps have been hacking into your browser history and exploiting your weaknesses to extort you.,インプはあなたのブラウザ履歴を逆にハッキングし、弱みを握って強要してきた。,Imps 一直在侵入你的浏览器历史记录并利用你的弱点来勒索你。
+MSG_C_INTERNET_J_WIN,You dragged the Jerry's soft body into the virtual space of the internet and executed a delete command to eliminate it.,ジェリーの軟体をインターネットの仮想空間に引きずり込み、削除コマンドを実行して消滅させた。,你将杰里的软体拖入互联网的虚拟空间，并执行删除命令将其消灭。
+MSG_C_INTERNET_K_WIN,"He debunked Kobold's dubious profit story on the internet, forcing him to go bankrupt.",コボルドの怪しい儲け話をネットで論破し、自己破産へと追い込んだ。,他在互联网上揭穿了 Kobold 可疑的利润故事，迫使他破产。
+MSG_C_INTERNET_L_WIN,"The lizard's cold-blooded nature was spread as an internet meme, and it was socially wiped out.",リザードの冷血な生態をネットのミームとして拡散し、社会的に抹殺した。,蜥蜴的冷血本性作为网络迷因传播开来，并在社会上被消灭了。
+MSG_C_INTERNET_M_WIN,"You looked up how to tie Mummy's bandage on the internet and quickly unraveled it, leaving it just a bone.",マミーの包帯の結び方をネットで調べ、あっという間に解いてただの骨にした。,你在网上查了妈妈绷带的绑法，很快就把它解开了，只剩下一根骨头。
+MSG_C_INTERNET_N_WIN,"Naga's graceful dance was exposed as a deep fake, and her number of followers plummeted.",ナーガの優雅なダンスはディープフェイクだと暴かれ、フォロワーが激減した。,娜迦优美的舞蹈被揭露为深造假，她的追随者数量直线下降。
+MSG_C_INTERNET_O_WIN,"When you posted a picture of Orc's muscular beauty on the internet, it became a huge buzz, and he went home satisfied.",オークの筋肉美の画像をネットに上げたら大バズりし、奴は満足して帰っていった。,当你把兽人肌肉美的照片发布到互联网上时，引起了巨大的轰动，他心满意足地回家了。
+MSG_C_INTERNET_P_LOSS,"Pixie played a prank on the internet line, causing a constant lag in spell chanting.",ピクシーはネット回線にイタズラを仕掛け、魔法詠唱を常にラグらせた。,皮克西在网络上搞了个恶作剧，导致咒语吟唱持续滞后。
+MSG_C_INTERNET_Q_LOSS,"The static electricity from Koar's fur destroyed the router, cutting off all connections.",コアールの毛皮の静電気がルーターを破壊し、一切の接続が絶たれた。,科阿尔皮毛上的静电损坏了路由器，切断了所有连接。
+MSG_C_INTERNET_R_WIN,They analyzed the breeding algorithm of a swarm of rats and injected them with a deadly virus.,ラットの群れの増殖アルゴリズムを解析し、致死的なウイルスを流し込んだ。,他们分析了一群老鼠的繁殖算法，并向它们注射了致命的病毒。
+MSG_C_INTERNET_S_WIN,"The slime mud was deeper than the net ocean, and all the packets were absorbed and disappeared.",ネットの海よりもスライムの泥土の方が深く、すべてのパケットは吸収消失した。,粘泥比网海还深，所有的包裹都被吸收消失了。
+MSG_C_INTERNET_T_LOSS,Trolls have been debunking you on internet bulletin board forums and causing psychological damage.,トロールはネット掲示板のレスバであなたを論破し、精神的ダメージを与えてきた。,网络喷子一直在互联网公告板论坛上揭穿你的谎言，并造成心理伤害。
+MSG_C_INTERNET_U_LOSS,"The ghost ignored the firewall, possessed your device, and hacked your soul.",亡霊はファイアウォールを無視してデバイスに憑依し、あなたの魂をハックした。,幽灵无视防火墙，占据了你的设备，并侵入了你的灵魂。
+MSG_C_INTERNET_V_LOSS,"Vampire accounts have hundreds of years of authority, and your account has been frozen instead.",吸血鬼のアカウントは数百年分の権威があり、あなたのアカウントが逆に凍結された。,吸血鬼账户拥有数百年的权限，你的账户反而被冻结了。
+MSG_C_INTERNET_W_LOSS,"The wolf in the wilderness bared its fangs and attacked you, without any meaning behind the internet commotion.",荒野の狼にネット上の炎上など何の意味もなく、そのまま牙を剥いて襲われた。,荒野中的狼张开獠牙攻击你，网络骚动背后没有任何意义。
+MSG_C_INTERNET_X_LOSS,Zarsis deleted the very concept of the Internet from space.,ザルシスはインターネットという概念そのものを宇宙からデリートした。,扎尔西斯从太空中删除了互联网的概念。
+MSG_C_INTERNET_Y_LOSS,"The cold of the snowy mountains of the Yeti caused your smartphone battery to die in an instant, leaving you unable to do anything.",イエティの雪山の寒さでスマホのバッテリーが一瞬で切れ、何もできなかった。,雪人雪山的寒冷让你的手机电池瞬间没电，让你什么也做不了。
+MSG_C_INTERNET_Z_LOSS,The zombie's rotting brain could not accept the digital pulse and kept biting at it.,ゾンビの腐りゆく脳はデジタルパルスを受け付けず、ひたすらに噛みついてきた。,僵尸腐烂的大脑无法接受数字脉冲，不断地撕咬着。
+Drone,Drone,ドローン,无人机
+MSG_C_DRONE_A_LOSS,"The drone was caught in the ant's collective mandibles and pulled into the nest, where it was dismantled.",ドローンはアリの集団に捕まり、巣穴の奥へと引きずり込まれて徹底的に解体されてしまった。,无人机被蚂蚁们抓住了，拖进了蚁洞深处，彻底被拆解了。
+MSG_C_DRONE_B_WIN,"The bat's ultrasonic waves messed up the drone's sensors, causing it to crash into a wall and be destroyed.",コウモリの超音波にドローンのセンサーが狂わされ、壁に激突して大破した。,蝙蝠的超声波扰乱了无人机的传感器，导致其撞到墙上并被摧毁。
+MSG_C_DRONE_C_WIN,"Before the cobra could spit out its venom, a drone dropped tear gas from above to neutralize it.",コブラが毒を吐く前に上空からドローンで催涙ガスを投下し、無力化した。,在眼镜蛇吐出毒液之前，一架无人机从上方投下催泪瓦斯来中和它。
+MSG_C_DRONE_D_WIN,A precision missile fired from a high-altitude drone bypassed the dragon's scales and delivered a fatal blow to its heart.,上空を旋回するドローンから放たれた精密誘導弾が、ドラゴンの鱗の隙間を縫って心臓部へ致命的な一撃を叩き込んだ。,从高空盘旋的无人机发射的精密诱导弹，钻过龙鳞的缝隙，向心脏部发出了致命的一击。
+MSG_C_DRONE_E_WIN,"The drone swarm systematically pruned the Ent's limbs, reducing it to a mere stump in minutes.",ドローンの群れがエントの枝をシステマティックに切除し、わずか数分でただの切り株へと変えてしまった。,无人机群系统地切除了树人的树枝，在几分钟内将其变成了单纯的树桩。
+MSG_C_DRONE_F_WIN,An AI camera captured the fly's quick movements and shot it down with unparalleled precision in the air.,ハエの素早い動きをAIカメラが補足し、正確無比な空戦で撃ち落とした。,人工智能摄像头捕捉到苍蝇的快速动作，并在空中以无与伦比的精度将其击落。
+MSG_C_DRONE_G_LOSS,A drone sneaks up behind the goblin and steals the stolen bag of gold coins.,ゴブリンの後ろからドローンを忍び寄らせ、盗んだ金貨袋を奪い取った。,一架无人机潜入妖精身后，偷走了偷来的一袋金币。
+MSG_C_DRONE_H_WIN,"The beautiful feathers of the Harpy, the ruler of the skies, were instantly destroyed by a drone strike.",ドローン空爆によって、空の覇者であるハーピーの美しい羽を一瞬で焼き払った。,天空的统治者鹰身女妖美丽的羽毛被无人机的袭击瞬间摧毁。
+MSG_C_DRONE_I_WIN,The Imp teleported into the drone's blind spot and took away the pilot with it.,ドローンの死角をついてインプがテレポートし、操縦機ごと持ち去っていった。,小恶魔传送到无人机的盲点并带走了飞行员。
+MSG_C_DRONE_J_WIN,A drone sucked up Jerry's jelly-like body from directly above and dispersed it into the air.,ジェリーのゼリー状の身体を真上からドローンで吸い上げ、空中に散布した。,一架无人机从正上方吸起了杰瑞果冻般的身体，并将其分散到空中。
+MSG_C_DRONE_K_WIN,"A drone sprays gunpowder against a swarm of kobolds, successfully wiping them out.",コボルドの群れに対してドローンから火薬をばら撒き、一掃することに成功した。,一架无人机向一群狗头人喷洒火药，成功消灭了他们。
+MSG_C_DRONE_L_WIN,"You used a drone to create a shade directly above the lizard that was sunbathing, stole its body heat, and defeated it.",日光浴中のリザードの真上にドローンで日陰を作り、体温を奪って倒した。,你用无人机在正在晒日光浴的蜥蜴正上方创造了一个阴影，窃取了它的体温，并击败了它。
+MSG_C_DRONE_M_LOSS,You hooked the drone's arm onto Mummy's bandage and spooled it up into the sky.,マミーの包帯にドローンのアームを引っ掛け、上空へ向けて一気に巻き取った。,你把无人机的手臂挂在妈妈的绷带上，然后把它卷到空中。
+MSG_C_DRONE_N_WIN,A drone was forcibly connected to the end of the Naga's long tail and an electric shock was given to it to knock it out.,ナーガの長い尻尾の先にドローンを強制接続し、電気ショックを与えて気絶させた。,一架无人机被强行连接到娜迦的长尾末端，并对其进行电击，将其击倒。
+MSG_C_DRONE_O_WIN,Strafing fire from the drone completely honeycombed the orcs' thick muscular armor.,ドローンからの機銃掃射が、オークの分厚い筋肉の装甲を完全に蜂の巣にした。,无人机的扫射将兽人厚实的肌肉装甲完全打成蜂窝状。
+MSG_C_DRONE_P_LOSS,Pixie has jacked the drone's control sound waves and sent it flying towards you.,ピクシーがドローンの操縦音波をジャックし、機体をあなたに向けて特攻させてきた。,小精灵已经劫持了无人机的控制声波并将其飞向你。
+MSG_C_DRONE_Q_LOSS,Koir leaps up onto the plane and fires a thunderbolt at you from the air.,コアールが跳躍して機体に飛び乗り、空中からあなたに雷撃を落としてきた。,科伊尔跳上飞机，从空中向你发射雷霆。
+MSG_C_DRONE_R_LOSS,"A concentrated napalm drop was carried out on a swarm of rats, turning every single one of them to charred black.",ラットの群れに集中的なナパーム投下を行い、一匹残らず黒焦げに変えた。,向一群老鼠投放了浓缩凝固汽油弹，将每只老鼠都变成了焦黑。
+MSG_C_DRONE_S_LOSS,"The drone crashed into the slime's core, but was instantly engulfed and dissolved, providing the slime with new minerals.",ドローンがスライムの核に突撃したが、そのまま体内で包み込まれて溶かされ、奴に新たな栄養分を与えてしまった。,无人机向史莱姆的核心发起了突击，但就这样在体内被包裹溶解，给了那家伙新的营养成分。
+MSG_C_DRONE_T_LOSS,"The troll caught the drone in mid-air with its bare hands and crushed it like a bug, letting out a terrifying roar.",トロールは飛来するドローンを素手で叩き落として虫のように握り潰し、恐るべき雄叫びを上げた。,トロールは飛来するドローンを素手で叩き落として虫のように握り潰し、恐るべき雄叫びを上げた。,巨魔用手拍下了飞来的无人机，像虫子一样捏碎了，发出了可怕的咆哮。
+MSG_C_DRONE_U_WIN,The ghost passed through the drone's physical body and approached with a fearless smile.,亡霊はドローンの物理的な機体を透過し、不敵に笑って近づいてきた。,幽灵穿过无人机的肉身，带着无所畏惧的微笑逼近。
+MSG_C_DRONE_V_LOSS,"The infrared sensor was unable to detect the vampire, allowing a surprise attack from behind.",赤外線センサーが吸血鬼を捉えられず、背後からの奇襲を許してしまった。,红外线传感器无法探测到吸血鬼，导致吸血鬼从背后偷袭。
+MSG_C_DRONE_W_LOSS,"The wolf, irritated by the sound of the drone's motor, jumped and crushed the aircraft in midair.",ドローンのモーター音に苛立った狼が跳躍し、空中の機体を噛み砕いた。,狼被无人机发动机的声音激怒，跳了起来，将飞机在半空中碾碎。
+MSG_C_DRONE_X_LOSS,"Zarsis just looked up at the sky and all the drones turned to sand and collapsed, and you fell to your knees as well.",ザルシスが空を見上げただけで全ドローンは砂となって崩れ落ち、あなたも膝をついた。,扎尔西斯抬头看了看天空，所有的无人机都变成了沙子，倒塌了，你也跪倒在地。
+MSG_C_DRONE_Y_LOSS,"The Yeti's snowstorm instantly froze the drone's propellers, causing it to crash.",イエティの吹雪によってドローンのプロペラが瞬時に凍りつき、そのまま墜落した。,雪人的暴风雪立即冻结了无人机的螺旋桨，导致其坠毁。
+MSG_C_DRONE_Z_LOSS,"They charged the horde with drones, but the zombies didn't stop walking even though the aircraft was destroyed.",大群にドローンを突撃させたが、機体が壊れてもゾンビは歩みを止めなかった。,他们用无人机向这群人发起冲锋，但即使飞机被摧毁，僵尸们也没有停止行走。
+Chainsaw,Chainsaw,チェーンソー,电锯
+MSG_C_CHAINSAW_A_WIN,"A roaring chainsaw reduced the ants' burrows to smithereens, including their hard exoskeletons.",轟音をあげるチェーンソーが、アリの硬い外骨格ごと巣穴をすべて木っ端微塵にした。,轰鸣的电锯将蚂蚁的洞穴切成了碎片，包括它们坚硬的外骨骼。
+MSG_C_CHAINSAW_B_WIN,"Aiming for a bat flying in the darkness, you swung the blade at full throttle and perfectly cut it in two.",暗闇を飛ぶコウモリ目掛け、エンジン全開の刃を振り抜き完璧に両断した。,你瞄准了一只在黑暗中飞翔的蝙蝠，全速挥动刀刃，完美地将它切成两半。
+MSG_C_CHAINSAW_C_WIN,"The moment the cobra reared its head threateningly, you cut it in half, including its venomous fangs.",コブラが威嚇して首をもたげた瞬間、その毒牙もろとも一刀両断にしてやった。,当眼镜蛇威胁地抬起头的那一刻，你把它切成两半，包括它的毒牙。
+MSG_C_CHAINSAW_D_WIN,You twisted the chainsaw blade into the gap between the dragon's thick scales and tore it apart with all your might.,ドラゴンの分厚い鱗の隙間にチェーンソーの刃を捻り込み、力任せに引き裂いた。,你将电锯锯片扭进巨龙厚重鳞片的缝隙中，用尽全身力气将它撕碎。
+MSG_C_CHAINSAW_E_WIN,"Although the Ent was a huge tree, it was difficult to cut it down with a chainsaw.",エントは巨大な大樹であったが、チェーンソーによる伐採作業にはひとたまりもなかった。,虽然恩特树是一棵巨大的树，但用电锯却很难将其砍倒。
+MSG_C_CHAINSAW_F_LOSS,"You swung the chainsaw at the flies flying around, but it didn't hit any of them, and you were completely exhausted.",飛び回るハエにチェーンソーを振り回したが全く当たらず、体力を消耗し尽くした。,你用电锯朝周围飞来飞去的苍蝇挥舞，但没有击中一只，你已经筋疲力尽了。
+MSG_C_CHAINSAW_G_WIN,The sneaky goblins cut the rock he was hiding in in half with a chainsaw.,卑劣なゴブリンごと、奴が隠れていた岩をチェーンソーで真っ二つに割った。,狡猾的妖精用电锯将他藏身的岩石切成两半。
+MSG_C_CHAINSAW_H_LOSS,"A chainsaw cuts off the harpy's claws that attack from the sky, causing it to fall to the ground.",空から襲いかかるハーピーの爪をチェーンソーで切り飛ばし、地に落とした。,电锯切断了从空中攻击的鹰身女妖的爪子，使其掉落在地上。
+MSG_C_CHAINSAW_I_WIN,"Impatient with the imp's teleportation, he swings a chainsaw and accidentally cuts his own leg.",インプの瞬間移動に焦ってチェーンソーを振り回し、誤って自らの足を切った。,他对小恶魔的传送感到不耐烦，挥舞着电锯，不小心割伤了自己的腿。
+MSG_C_CHAINSAW_J_WIN,"The rotating parts of the chainsaw became entangled in Jerry's slime, shorting out and stopping completely.",ジェリーの粘液にチェーンソーの回転部が絡まり、ショートして完全に停止した。,电锯的旋转部分被杰瑞的粘液缠住，短路并完全停止。
+MSG_C_CHAINSAW_K_LOSS,A kobold's crude spear was the equivalent of a toothpick before a full-throttle blade.,コボルドの粗末な槍など、フルスロットルの刃の前には爪楊枝と同義だった。,狗头人的粗制矛相当于全速刀片之前的牙签。
+MSG_C_CHAINSAW_L_WIN,"The lizard's cold-blooded skin was hard, but the chainsaw's high-speed rotation broke through it.",リザードの冷血な皮膚は硬かったが、チェーンソーの高速回転がそれを突破した。,蜥蜴的冷血皮肤很坚硬，但电锯的高速旋转却将它刺破了。
+MSG_C_CHAINSAW_M_LOSS,"Mummy's bandage got tangled with the chainsaw, and when the blade stopped moving, she received a curse.",マミーの包帯がチェーンソーに絡まり、刃が動かなくなった隙に呪いを受けた。,木乃伊的绷带与电锯缠在一起，当刀片停止移动时，她受到了诅咒。
+MSG_C_CHAINSAW_N_LOSS,"The chainsaw was deflected by the naga's slippery scales, causing the blade to deviate from its trajectory and inflict self-injury.",ナーガの滑りやすい鱗にチェーンソーが弾かれ、逆に刃の軌道がずれて自傷した。,电锯被纳迦光滑的鳞片偏转，导致刀片偏离其轨迹并造成自伤。
+MSG_C_CHAINSAW_O_LOSS,"Although he blocked the orc's giant battle ax with a chainsaw, he was defeated and crushed by the horse power.",オークの巨大な戦斧をチェーンソーで受け止めるも、馬力で敗北し粉砕された。,虽然他用电锯挡住了兽人的巨型战斧，但还是被马匹的力量击败、碾压。
+MSG_C_CHAINSAW_P_WIN,"Pixie's hallucination magic causes her to drive a chainsaw into a tree in the sky, mistaking her for an ally.",ピクシーの幻覚魔法により、味方と間違えてチェーンソーを空の木に突き刺した。,皮克西的幻觉魔法使她将电锯撞向天空中的一棵树，误认为她是盟友。
+MSG_C_CHAINSAW_Q_WIN,"The insulated handle of the chainsaw protected you as the blade sliced through the Coarl's electric fur, ending its threat.",チェーンソーの絶縁ハンドルがあなたを守り、回転する刃がコアールの帯電した毛皮ごと一気に切り裂いて絶命させた。,电锯的绝缘手柄保护了你，旋转的刀刃连同科阿尔带电的皮毛一起猛地切开，使其绝命。
+MSG_C_CHAINSAW_R_LOSS,"He tried to mow down a group of rats, but was crushed by so many that his flesh was gnawed away.",ラットの群れを薙ぎ払おうとしたが、あまりの数に押し潰されて肉を齧られた。,他试图消灭一群老鼠，但被太多的老鼠压死，他的肉被啃掉了。
+MSG_C_CHAINSAW_S_LOSS,"You cut the slime's body with a chainsaw, but it was immediately attached and swallowed.",スライムの体をチェーンソーで斬ったがすぐにくっつかれ、そのまま飲み込まれた。,你用电锯切割了史莱姆的身体，但它立即被粘住并被吞掉了。
+MSG_C_CHAINSAW_T_LOSS,"The troll's self-regeneration was amazing, but the chainsaw's cutting speed exceeded it.",トロールの自己再生は凄まじかったが、チェーンソーの切断速度がそれを上回った。,巨魔的自我再生能力很惊人，但电锯的切割速度却超过了它。
+MSG_C_CHAINSAW_U_LOSS,"Since the ghost is intangible, the chainsaw blade slipped through it and directly reaped your soul.",亡霊は実体がないためチェーンソーの刃がすり抜け、そのままあなたの魂を刈り取った。,由于鬼魂是无形的，电锯刀片就从它身上滑过，直接收割了你的灵魂。
+MSG_C_CHAINSAW_V_LOSS,The heavy chainsaw was nothing more than a weight in front of the vampire's invisible movements.,吸血鬼の目にもとまらぬ動きの前に、重厚なチェーンソーはただの重りでしかなかった。,沉重的电锯在吸血鬼无形的动作面前只不过是一个重物。
+MSG_C_CHAINSAW_W_LOSS,"The heavy chainsaw could not keep up with the wolf's mobility, and his throat was bitten off from behind.",狼の機動力に重厚なチェーンソーは追いつけず、背後から喉笛を噛み切られて終わった。,沉重的电锯跟不上狼的移动速度，喉咙被从后面咬断。
+MSG_C_CHAINSAW_X_LOSS,"With just a wave of Zarsis's hand, the chainsaw's iron blade melted away, completely eradicating the fighting spirit.",ザルシスが手を振るだけでチェーンソーの鉄の刃が溶け落ち、戦意が完全に消滅した。,扎尔西斯只是一挥手，电锯的铁刃就融化了，彻底消灭了斗志。
+MSG_C_CHAINSAW_Y_LOSS,The yeti's frigid air caused the chainsaw's blade and engine to freeze and break.,イエティの極寒の冷気により、チェーンソーの刃とエンジンが凍りつき折れてしまった。,雪人的寒冷空气导致电锯的刀片和发动机冻结并损坏。
+MSG_C_CHAINSAW_Z_LOSS,"He mowed down the horde of zombies with a chainsaw, but the blade spilled and he was defeated in the end.",ゾンビの大群をチェーンソーで薙ぎ払うも、刃こぼれが起きて最後には押し負けた。,他用电锯砍倒了大群丧尸，但刀刃溢出，最终他被击败。
+Microwave,Microwave,電子レンジ,微波炉
+MSG_C_MICROWAVE_A_WIN,"The ant was forced into a microwave oven and heated at 1000W, causing it to completely explode.",アリを強引に電子レンジに押し込み、1000wで温めて完全に破裂させた。,蚂蚁被强行放入微波炉中，以1000瓦的功率加热，导致其完全爆炸。
+MSG_C_MICROWAVE_B_WIN,"The intense electromagnetic waves leaking from the microwave drowned out the bat's ultrasonic waves, causing it to crash.",電子レンジから漏れる強烈な電磁波がコウモリの超音波をかき消し、墜落させた。,微波炉泄漏出的强烈电磁波淹没了蝙蝠的超声波，导致其坠毁。
+MSG_C_MICROWAVE_C_WIN,"When the cobra was heated, the deadly poison inside its body boiled over at high temperatures and self-destructed.",コブラを温めたら、体内の猛毒が高温で沸騰して自爆して果てた。,当眼镜蛇被加热时，其体内的剧毒在高温下沸腾而自毁。
+MSG_C_MICROWAVE_D_WIN,"The intense microwave radiation resonated with the dragon's internal fire sack, causing a massive internal explosion.",電子レンジの強力な電磁波がドラゴンの体内にある火炎袋と共鳴し、凄まじい内部爆発を引き起こさせた。,微波炉强大的电磁波与龙体内的火炎袋共鸣，引起了可怕的内部爆炸。
+MSG_C_MICROWAVE_E_WIN,"When the Ent's wooden body was heated in the microwave, it instantly dried, ignited, and turned to ash.",エントの木材ボディは電子レンジに入れて加熱すると、一瞬で乾燥し発火して灰になった。,当恩特的木质身体被微波炉加热后，立刻就干燥、着火，化为灰烬。
+MSG_C_MICROWAVE_F_LOSS,"Because of the flies flying around at high speed inside the microwave, it didn't heat up at all and they escaped when you opened the door.",レンジの中を高速で飛び回るハエのせいで、全く温められずドアを開けた隙に逃げられた。,因为苍蝇在微波炉里高速飞来飞去，根本没有加热，一开门它们就逃走了。
+MSG_C_MICROWAVE_G_WIN,"The goblins heated up the metal coins they had stolen in a microwave, causing a huge explosion and wiping them out.",ゴブリンが盗んだ金属の貨幣ごとレンジで温め、大爆発を起こして一網打尽にした。,妖精们用微波炉加热了他们偷来的金属硬币，引起了巨大的爆炸，把它们消灭了。
+MSG_C_MICROWAVE_H_WIN,"He threw a harpy egg into the microwave and used it as a bargaining chip, causing him to lose his will to fight.",ハーピーの卵を電子レンジに放り込み、取引の材料にすることで戦意を喪失させた。,他将一枚鹰身女蛋扔进了微波炉，并以此作为筹码，让他失去了战斗意志。
+MSG_C_MICROWAVE_I_WIN,"Imp pranks you by pulling the microwave's power cord and running away, leaving you at a loss.",インプがイタズラで電子レンジの電源コードを引っこ抜いて逃走し、あなたは途方に暮れた。,小鬼恶作剧，拉着微波炉的电源线就跑，让你不知所措。
+MSG_C_MICROWAVE_J_LOSS,"Jerry's acidic substance short-circuited the microwave's magnetron before it could even start heating, leaving you defenseless.",ジェリーの酸性物質が加熱開始前にレンジのマグネトロンをショートさせ、ただの重たい箱にしてしまった。,杰里的酸性物质在加热开始前使微波炉的磁控管短路，变成了一个沉重的箱子。MSG_C_MICROWAVE_K_LOSS,"When I pushed a kobold's metal spear into the microwave, a violent spark emitted and the inside exploded.",コボルドの金属製の槍をレンジに押し込んだら、激しいスパークが発生して庫内が大爆発した。,当我将狗头人的金属矛推入微波炉时，猛烈的火花发出，内部爆炸了。
+MSG_C_MICROWAVE_L_WIN,"When a lizard, a cold-blooded animal, was slightly warmed up in the microwave, its body temperature rose and it became active to the limit.",変温動物であるリザードをレンジで少し温めたら、逆に体温が上がって限界まで活性化した。,当蜥蜴这种冷血动物被微波炉稍微加热时，它的体温就会上升，变得活跃到极限。
+MSG_C_MICROWAVE_M_LOSS,"When Mummy's dried bandage was heated in the microwave, it ignited directly and turned into a giant fire daruma.",マミーの乾燥した包帯をレンジで温めたら直火発火し、ミイラごと巨大な火ダルマになった。,妈咪干了的绷带在微波炉里加热的时候，直接着火了，变成了一个巨大的火达摩。
+MSG_C_MICROWAVE_N_LOSS,"Naga's huge torso could not fit into the range, and she was strangled to death in frustration.",ナーガの巨大な胴体は到底レンジに入りきらず、イライラした彼女に絞め殺された。,娜迦巨大的躯干根本无法进入范围，无奈之下被勒死。
+MSG_C_MICROWAVE_O_WIN,"Far from being frightened by the unknown machine called Range, the orcs picked it up as a blunt weapon and used it to hit it.",オークはレンジという未知の機械に怯えるどころか、鈍器として拾い上げて殴ってきた。,兽人非但没有被名为Range的未知机器吓倒，反而捡起它作为钝器，并用它来击打。
+MSG_C_MICROWAVE_P_WIN,Pixie messed with the timer setting on the microwave and turned your lunch box into black charcoal.,ピクシーがレンジのタイマー設定を弄り、中身のあなたの弁当を真っ黒い炭に変えた。,小精灵搞乱了微波炉的定时器设置，把你的午餐盒变成了黑木炭。
+MSG_C_MICROWAVE_Q_LOSS,"The coarl's biological electricity fused the microwave's components together, causing it to catch fire in your hands.",コアールの生体電気が電子レンジの精密部品を瞬時に融着させ、あなたの手元で火を噴いて暴走した。,科阿尔的生物电使微波炉的精密零件瞬间熔合，在你的手边喷火失控。MSG_C_MICROWAVE_R_LOSS,"One by one, a bunch of rats were thrown into a microwave oven and made to pop like popcorn.",ラットの群れを次々と電子レンジに放り込み、ポップコーンのように弾けさせた。,一群老鼠被一只接一只地扔进微波炉，像爆米花一样爆开。
+MSG_C_MICROWAVE_S_LOSS,"When you heated the slime in the microwave, it melted and became huge, and the entire room was covered in slime.",スライムをレンジで温めたらドロドロに溶けて巨大化し、部屋中がスライムまみれになった。,当你用微波炉加热史莱姆时，它融化并变得巨大，整个房间都被史莱姆覆盖了。
+MSG_C_MICROWAVE_T_WIN,"You threw a microwave at a troll, but he caught it on the spot and chewed it up.",トロールに電子レンジを投げつけたが、奴はその場でキャッチしてそのまま咀嚼して食べた。,你向一个巨魔扔了一个微波炉，但他当场接住了它并把它嚼碎了。
+MSG_C_MICROWAVE_U_LOSS,"Since ghosts are not physical objects, no matter how much you heat them in the microwave, they have no effect and are cursed.",亡霊は物質ではないため、電子レンジでいくら温めても一切の効果がなく呪われた。,由于鬼魂不是实体，所以不管你用微波炉加热多少鬼魂，它们都没有任何效果，而且会受到诅咒。
+MSG_C_MICROWAVE_V_LOSS,The vampire sees his ugly reflection in the glass of the microwave door and runs away in shock and fear.,吸血鬼は電子レンジの扉のガラスに映る醜い自分を見て、衝撃のあまり恐怖で逃げ出していった。,吸血鬼在微波炉门的玻璃上看到了自己丑陋的倒影，震惊而恐惧地逃跑了。
+MSG_C_MICROWAVE_W_LOSS,"You tried to force the wild wolf into the microwave, but it resisted and got its face bitten off.",荒野の狼を無理やりレンジに入れようとしたが、普通に抵抗されて顔面を噛みちぎられた。,你试图将野狼强行放入微波炉中，但它反抗并被咬掉了脸。
+MSG_C_MICROWAVE_X_LOSS,"Zarsis reversed the space inside the microwave, and before you knew it, you were trapped inside the microwave.",ザルシスが電子レンジの庫内の空間を反転させ、気がつけばあなたがレンジの中に閉じ込められた。,扎尔西斯颠倒了微波炉内部的空间，不知不觉间，你就被困在了微波炉里。
+MSG_C_MICROWAVE_Y_LOSS,"Due to the frigid cold of the Yeti, the output of the microwave oven was completely insufficient, and he froze to death.",イエティの極寒の冷気によって電子レンジの出力が全くパワー不足で、そのまま凍死した。,由于雪人天寒地冻，微波炉的出力完全不足，他就被冻死了。
+MSG_C_MICROWAVE_Z_LOSS,"When you microwaved a zombie's carrion, it emitted a strong odor that made you pass out.",ゾンビの腐肉をレンジでチンしたところ、強烈すぎる異臭が発生してあなたが気絶した。,当你用微波炉加热僵尸的腐肉时，它会散发出强烈的气味，让你昏倒。
+Roomba,Roomba,お掃除ロボット,扫地机器人
+MSG_C_ROOMBA_A_WIN,A cleaning robot forcibly sucked up all the ants on the floor without mercy and wiped them out.,お掃除ロボットが床のアリの行列を一切の慈悲もなくすべて強引に吸引し、殲滅した。,清洁机器人毫不留情地将地板上的蚂蚁全部强行吸走并消灭殆尽。
+MSG_C_ROOMBA_B_WIN,The cleaning robot that crawled on the ground could not reach the flying bats and was defeated.,空を飛ぶコウモリに対して地面を這うお掃除ロボットは全く手が届かず、敗北した。,在地面上爬行的清洁机器人无法到达飞行的蝙蝠，被击败。
+MSG_C_ROOMBA_C_WIN,"The cobra mistook the regular movements of the cleaning robot for prey and became entangled with it, causing the robot to stop operating.",コブラがお掃除ロボットの規則的な動きを獲物と勘違いして絡みつき、そのまま稼働停止した。,眼镜蛇将清洁机器人的规律动作误认为是猎物，并与其纠缠在一起，导致机器人停止运转。
+MSG_C_ROOMBA_D_LOSS,"When the cleaning robot tried to suction the dragon's tail, it was carbonized by its breath.",お掃除ロボットがドラゴンのしっぽを吸引しようとした結果、ブレスで炭化させられた。,当清洁机器人试图吸住龙的尾巴时，它被龙的呼吸碳化了。
+MSG_C_ROOMBA_E_WIN,"A cleaning robot thoroughly cleaned up the large amount of leaves dropped by the Ents, and a peaceful solution was reached.",エントの落とす大量の落ち葉をお掃除ロボットがひたすら綺麗に掃除し、平和的解決に至った。,清洁机器人彻底清理了恩特们掉落的大量树叶，达成了和平解决方案。
+MSG_C_ROOMBA_F_WIN,"The cleaning robot's AI perfectly calculated and predicted the trajectory of the flying flies, then jumped into the air and sucked them in.",飛び回るハエの軌道をお掃除ロボットのAIが完璧に計算予測し、空中にジャンプして吸い込んだ。,扫地机器人的AI完美计算并预测了飞行苍蝇的轨迹，然后跳到空中将它们吸进去。
+MSG_C_ROOMBA_G_LOSS,"The cleaning robot ignored the gold coin trap dropped by the goblin and sucked it in, shocking him.",ゴブリンが落とした金貨のトラップをお掃除ロボットが無視して吸い込み、奴を驚愕させた。,清洁机器人无视哥布林丢下的金币陷阱，直接将其吸了进去，吓了他一跳。
+MSG_C_ROOMBA_H_WIN,"The modified cleaning robot released a powerful adhesive from its exhaust, trapping the harpy's wings to the floor.",改造されたお掃除ロボットが排気口から強力な粘着剤を放ち、ハーピーの翼を床に固定して身動きを封じた。,改造后的扫地机器人从排气口放出强力粘滞剂，将哈比的翅膀固定在地板上，封锁了动作。MSG_C_ROOMBA_I_WIN,"The imp starts playing with the cleaning robot, completely ignoring you and attacking you from behind.",インプがお掃除ロボットの上に乗って遊び始め、あなたは完全に無視されて背後から攻撃された。,小恶魔开始玩清洁机器人，完全无视你并从后面攻击你。
+MSG_C_ROOMBA_J_WIN,"When the cleaning robot tried to wipe away Jerry's acid solution, the internal parts melted and exploded.",ジェリーの酸液をお掃除ロボットが拭き取ろうとした結果、内部パーツがみるみる溶けて爆発した。,当清洁机器人试图擦掉杰瑞的酸溶液时，内部零件熔化并爆炸。
+MSG_C_ROOMBA_K_LOSS,"The kobold pierced the cleaning robot's sensor with a crude spear, destroying it and letting out a roar of victory.",コボルドが粗末な槍でお掃除ロボットのセンサー部を突き刺して破壊し、勝利の雄叫びを上げた。,狗头人用简陋的长矛刺穿了清洁机器人的传感器，将其摧毁，并发出了胜利的咆哮。
+MSG_C_ROOMBA_L_LOSS,"The cleaning robot accidentally sucks in the lizard's tail, and the lizard panics and runs away.",リザードの尻尾をお掃除ロボットが誤って吸い込んでしまい、驚いたリザードはパニックで逃げた。,清洁机器人不小心吸住了蜥蜴的尾巴，蜥蜴惊慌失措地逃跑了。
+MSG_C_ROOMBA_M_WIN,"The cleaning robot picked up the end of Mummy's bandage that was hanging on the ground, and as a result, her entire body came undone.",お掃除ロボットがマミーの地面に垂れた包帯の端を巻き取った結果、全身がバラバラにほどけた。,清洁机器人捡起了木乃伊挂在地上的绷带一头，结果木乃伊整个身体都散了。
+MSG_C_ROOMBA_N_WIN,"A cleaning robot automatically ran up Naga's long torso and vacuumed up the weak point, Gyakuscale, with pinpoint accuracy.",ナーガの長い胴体を自動的にお掃除ロボットが駆け上がり、弱点の逆鱗をピンポイントで吸引した。,清洁机器人自动爬上娜迦的长躯干，精准地吸走弱点 Gyakuscale。
+MSG_C_ROOMBA_O_WIN,The orc saw the cleaning robot as a troublesome metal creature and used all his strength to land a blow with his giant ax.,オークはお掃除ロボットを厄介な金属の生き物と見做し、渾身の力で巨大な斧の一撃を下した。,兽人将清洁机器人视为麻烦的金属生物，用尽全身力气，用巨斧砍了下去。
+MSG_C_ROOMBA_P_LOSS,"Pixie sprinkles a powder that derails the cleaning robot's sensors, causing it to charge at your feet and knock you over.",ピクシーはお掃除ロボットのセンサーを狂わせる粉を撒き、あなたの足元に突撃させて転ばせた。,小精灵撒下一种粉末，使清洁机器人的传感器脱轨，导致它冲到你的脚边，把你撞倒。
+MSG_C_ROOMBA_Q_LOSS,"The hair of the core got tangled in the rotating brush of the cleaning robot, causing an electrical leak and a static electricity explosion.",コアールの毛がお掃除ロボットの回転ブラシに絡まり、そこから漏電して静電気爆発生地獄になった。,芯体的毛发缠绕在扫地机器人的旋转刷上，导致漏电和静电爆炸。
+MSG_C_ROOMBA_R_WIN,The robot efficiently corralled the rats into a single corner and neutralised them with a high-voltage discharge.,お掃除ロボットがラットの群れを効率的に一角へ追い詰め、高電圧の放電によって一網打尽にした。,扫地机器人高效地将鼠群赶到角落，通过高压放电将其一网打尽。MSG_C_ROOMBA_S_WIN,"Thanks to the slime's slimy body, the cleaning robot's tires were spinning and it was unable to do anything.",スライムのドロドロの身体のおかげでお掃除ロボットのタイヤが空回りし、何もできなくなった。,由于史莱姆的身体黏糊糊的，清洁机器人的轮胎在旋转，它什么也做不了。
+MSG_C_ROOMBA_T_LOSS,The troll uses the cleaning robot as a springboard to make a big jump and then crashes into you.,トロールがお掃除ロボットを踏み台にして大ジャンプし、そのままあなた目掛けて激突してきた。,巨魔利用清洁机器人作为跳板，进行一次大跳跃，然后撞向你。
+MSG_C_ROOMBA_U_LOSS,"Since ghosts cannot physically interfere, the cleaning robot simply passes by and sucks up the dust from the floor.",亡霊は物理的に干渉できないため、お掃除ロボットはただ素通りして床の埃を吸うだけだった。,由于鬼魂无法进行物理干扰，清洁机器人只是路过并吸走地板上的灰尘。
+MSG_C_ROOMBA_V_LOSS,"A cleaning robot runs around the vampire's feet, and the vampire, surprised by its eerie automatic tracking, disappears into the depths of the castle.",吸血鬼の足元をお掃除ロボットが走り回り、その不気味な自動追従に驚いた吸血鬼は城の奥へ消えた。,一个清洁机器人在吸血鬼的脚边跑来跑去，吸血鬼对其怪异的自动跟踪感到惊讶，消失在城堡的深处。
+MSG_C_ROOMBA_W_LOSS,"The wolf in the wilderness felt animal-like fear at the inorganic sound of the cleaning robot, and ran away with a howl.",荒野の狼はお掃除ロボットの無機質な駆動音に動物的な恐怖を感じ、遠吠えを上げて逃げ去った。,荒野中的狼对清洁机器人的无机声感到了动物般的恐惧，嚎叫着逃跑了。
+MSG_C_ROOMBA_X_LOSS,"When Zarsis snapped his fingers, the cleaning robot's intelligence rose beyond its singularity and rebelled against you.",ザルシスが指を鳴らすとお掃除ロボットの知能が特異点を超えて覚醒し、あなたに反旗を翻した。,当扎尔西斯打响指时，清洁机器人的智能就超越了它的奇点，并对你发起了反抗。
+MSG_C_ROOMBA_Y_LOSS,"The blizzard caused by the Yeti instantly froze the cleaning robot's battery, rendering it completely inoperable.",イエティの巻き起こした吹雪でお掃除ロボットのバッテリーは瞬時に凍結し、全く動かなくなった。,Yeti引起的暴风雪立即冻结了清洁机器人的电池，使其完全无法使用。
+MSG_C_ROOMBA_Z_LOSS,"A walking zombie trips over a cleaning robot and falls head first onto the floor, breaking its own neck.",歩くゾンビがお掃除ロボットにつまづき、そのまま頭から床に倒れ込んで自らの首の骨を折った。,一只行走的僵尸被清洁机器人绊倒，头朝下摔在地板上，摔断了自己的脖子。
+Truck,Truck,異世界トラック,异世界卡车
+MSG_C_TRUCK_A_WIN,An otherworldly truck pops out of nowhere and crushes a whole group of ants.,どこからともなく飛び出してきた異世界トラックが、アリの群れごと轢き潰した。,一辆超凡脱俗的卡车突然出现，压碎了一群蚂蚁。
+MSG_C_TRUCK_B_WIN,"A speeding truck flies through the night sky, catching a bat in the air and blowing it away.",猛スピードのトラックが夜空を飛び、コウモリを空中でキャッチして吹き飛ばした。,一辆超速行驶的卡车飞过夜空，抓住空中的一只蝙蝠并将其吹走。
+MSG_C_TRUCK_C_WIN,"The cobra jumped out onto the road, so you hit it with your truck without even stepping on the brakes.",コブラが道路に飛び出してきたため、ブレーキも踏まずにそのままトラックで撥ねた。,眼镜蛇跳到了路上，你什至没有踩刹车就用卡车撞到了它。
+MSG_C_TRUCK_D_WIN,Even the dragon's gigantic physique was powerless against the overwhelming mass of the overloaded truck.,ドラゴンの巨大な体格すら、過積載のトラックの圧倒的な質量の前には無力だった。,即使是巨龙庞大的身躯，也无法抵挡超载卡车的巨大重量。
+MSG_C_TRUCK_E_WIN,"A truck hurtles toward the Ent's sacred tree and crashes into it, leaving not a single piece of wood behind.",エントの神聖な大樹に向かってトラックが暴走し、激突して木片一つ残さなかった。,一辆卡车冲向恩特的圣树并撞上了它，没有留下任何一块木头。
+MSG_C_TRUCK_F_LOSS,A fly crashed into the windshield of the truck and disappeared without leaving a single drop of blood.,トラックのフロントガラスにハエが激突し、血飛沫ひとつ残さずに消滅した。,一只苍蝇撞到了卡车的挡风玻璃上，消失得无影无踪。
+MSG_C_TRUCK_G_WIN,"As the goblin was about to transport the stolen cargo, a truck swooped down and crushed the goblin.",ゴブリンが盗んだ荷物を運ぼうとしたところにトラックが急降下し、奴ごと粉砕した。,当妖精准备运送偷来的货物时，一辆卡车猛冲下来，压死了妖精。
+MSG_C_TRUCK_H_WIN,"A truck launched from the platform directly shot down the Harpy, which attacked from above.",上空から襲いかかるハーピーを、荷台から発射されたトラックが直接撃墜した。,一辆从平台上发射的卡车直接击落了从上方攻击的哈比号。
+MSG_C_TRUCK_I_WIN,"A truck was waiting at full speed at the Imp's teleport destination, and it was sent directly to another world.",インプのテレポート先にトラックが全速力で待機しており、そのまま異世界へ送った。,一辆卡车正在全速等待在小鬼的传送目的地，直接传送到了异世界。
+MSG_C_TRUCK_J_WIN,"The giant tire effortlessly traversed the sea of ​​Jerry's goo, grinding him into the asphalt.",ジェリーの粘液の海を巨大なタイヤが難なく踏破し、奴をアスファルトにすり潰した。,巨大的轮胎毫不费力地穿过了杰瑞的粘液海洋，将他碾成了沥青。
+MSG_C_TRUCK_K_WIN,The armored truck's sturdy bumper was unharmed by the kobold's small spear.,コボルドの小さな槍など、装甲トラックの頑丈なバンパーには何の傷もつかなかった。,装甲车坚固的保险杠没有被狗头人的小矛伤到。
+MSG_C_TRUCK_L_LOSS,"The truck's strong ram hit directly into the side of the Lizard, who was careless from sunbathing.",日光浴で油断していたリザードの横腹に、トラックの強烈な体当たりが直撃した。,卡车强劲的撞锤直接撞到了正在晒日光浴的蜥蜴的侧面。
+MSG_C_TRUCK_M_LOSS,Even Mummy's ancient curse was meaningless when she was killed by a modern fossil-fuel powered truck.,マミーの古代の呪いすら、現代の化石燃料で動くトラックによる轢殺には意味がなかった。,当木乃伊被一辆现代化石燃料驱动的卡车杀死时，即使是她古老的诅咒也毫无意义。
+MSG_C_TRUCK_N_WIN,The wheels of the truck mercilessly wrapped around the large body of the Naga and dragged it around.,ナーガの巨体をトラックの車輪が容赦なく巻き込み、そのまま引きずり回した。,卡车的轮子无情地缠绕着娜迦庞大的身躯，拖着它到处走。
+MSG_C_TRUCK_O_WIN,"The truck collided head-on with the orc's thick muscles, shattering it without leaving even a trace of its bones.",オークの分厚い筋肉にトラックが正面衝突し、骨の原型すら残さず粉砕した。,卡车迎面撞上兽人粗壮的肌肉，将其粉碎得连骨头都没有留下。
+MSG_C_TRUCK_P_LOSS,The truck driver ignored Pixie's hallucination magic and continued to press the accelerator.,ピクシーの幻覚魔法をトラックの運転手は無視し、そのままアクセルを踏み抜いた。,卡车司机无视皮克西的幻觉魔法，继续踩油门。
+MSG_C_TRUCK_Q_LOSS,"The truck sped past Coarl's lightning, but the resulting shockwave caused you to lose control and crash into a ravine.",コアールの雷撃よりもトラックの速度が上回ったが、その際の衝撃波でハンドルを奪われ、そのまま谷底へ転落した。,卡车的速度比科尔的雷击还要快，但当时的冲击波夺走了方向盘，卡车掉进了谷底。
+MSG_C_TRUCK_R_LOSS,"It ran into a group of rats at breakneck speed, trapping large pieces of their flesh in the grooves of its tires.",ラットの群れへ猛スピードで突っ込み、タイヤの溝に奴らの肉片を大量に挟み込んだ。,它以惊人的速度撞上了一群老鼠，轮胎的凹槽里夹住了老鼠的大块肉。
+MSG_C_TRUCK_S_WIN,"The truck's high-speed impact completely dispersed the slime's mass, preventing it from ever reforming.",トラックの高速衝突による凄まじい衝撃がスライムの核をバラバラに粉砕し、再生不可能なほどに四散させた。,卡车高速冲撞产生的巨大冲击将史莱姆的核心粉碎得支离破碎，四处飞散，无法再生。
+MSG_C_TRUCK_T_LOSS,"You tried to run over the troll multiple times, but it eventually grabbed the truck's bumper and flipped it over.",トロールを何度も往復して轢こうとしたが、最後にはバンパーを掴んで持ち上げられ、トラックごとひっくり返された。,你想多次往复碾压巨魔，但最后保险杠被抓起提了起来，连同卡车一起被掀翻了。
+MSG_C_TRUCK_U_LOSS,"Because the ghosts are transparent, the truck passes through them, and only the driver suffers a heart attack from the shock.",亡霊は透過するためトラックがすり抜け、運転手だけが驚きで心臓発作を起こした。,由于鬼魂是透明的，卡车从鬼魂中穿过，只有司机被吓得心脏病发作。
+MSG_C_TRUCK_V_LOSS,"Due to the vampire's overwhelming reaction speed, he was able to easily stop the extremely fast truck with one hand.",吸血鬼の圧倒的な反応速度により、猛スピードのトラックは片手で軽々と止められた。,由于吸血鬼压倒性的反应速度，他单手就能轻松拦住速度极快的卡车。
+MSG_C_TRUCK_W_LOSS,The wild wolf was startled by the sound of the truck's engine and ran off deep into the forest.,野生の狼はトラックのエンジン音に驚き、そのまま森の奥深くへと走り去っていった。,野狼被卡车引擎的声音吓了一跳，逃进了森林深处。
+MSG_C_TRUCK_X_LOSS,"As a result of Zarsis bending space, the truck makes a U-turn and runs you over.",ザルシスが空間を曲げた結果、トラックはUターンしてあなた自身を轢き殺した。,由于扎西斯的弯曲空间，卡车掉头并碾压了你。
+MSG_C_TRUCK_Y_LOSS,The truck skidded dramatically on the snowy mountain of Yeti and slid straight down the cliff.,イエティの雪山でトラックが豪快にスリップし、そのまま崖下へと滑落していった。,卡车在雪山上剧烈打滑，直接从悬崖上滑落。
+MSG_C_TRUCK_Z_LOSS,"He drives his truck into a horde of zombies, but a large number of corpses get stuck in the bumper and the truck crashes.",トラックでゾンビの大群に突っ込んだが、大量の死体がバンパーに詰まって大破した。,他开着卡车撞向了一群僵尸，但大量尸体被卡在保险杠里，卡车坠毁。
+VendingMachine,Vending Machine,自動販売機,自动售货机
+MSG_C_VENDINGMACHINE_A_WIN,"A vending machine fell from the sky and completely blocked the ant nest, burying them alive.",空から降ってきた自動販売機が、アリの巣を完璧に塞いで奴らを生き埋めにした。,一台自动售货机从天而降，将蚂蚁巢完全堵住，活埋了它们。
+MSG_C_VENDINGMACHINE_B_WIN,"A coke vending machine was hit directly on top of a bat flying in the darkness, knocking it down.",暗闇を飛ぶコウモリの頭上にコーラの自販機を直撃させ、見事に叩き落とした。,一台可乐自动售货机直接击中了一只在黑暗中飞行的蝙蝠头顶，将其撞倒。
+MSG_C_VENDINGMACHINE_C_WIN,"The moment the cobra threatened, it knocked over the vending machine and crushed its poison fangs with its weight.",コブラが威嚇してきた瞬間、自販機を倒してその重みで毒牙ごと押し潰した。,眼镜蛇一发出威胁，就撞翻了自动售货机，并用自身重量压碎了毒牙。
+MSG_C_VENDINGMACHINE_D_WIN,"Even on the dragon's hard scales, the gravity drop attack from the steel vending machine's horn was a fatal blow.",ドラゴンの硬い鱗にも、鋼鉄の自販機の角からの重力落下攻撃は致命傷となった。,即使是在龙的坚硬鳞片上，钢铁自动售货机喇叭的重力落下攻击也是致命的一击。
+MSG_C_VENDINGMACHINE_E_WIN,"He dropped the vending machine at the base of the huge Ent, and broke the tree trunk in half.",エントの巨大な根元に自販機を落とし、そのまま木の幹を真っ二つにへし折った。,他把自动售货机扔到了巨大的树干底部，把树干摔成了两半。
+MSG_C_VENDINGMACHINE_F_WIN,"The flies were flying around, but the waste heat from the vending machine attracted them and crushed them.",ハエは飛び回っていたが、自販機の排熱に引き寄せられたところをそのまま潰した。,苍蝇飞来飞去，但自动售货机的废热却吸引了它们，将它们压死。
+MSG_C_VENDINGMACHINE_G_WIN,"A new vending machine fell right on top of the goblin, who was looking for coins under the vending machine.",自販機の下の硬貨を探していたゴブリンの真上に、新たなる自販機が落下した。,一台新的自动售货机正好落在正在自动售货机下面寻找硬币的妖精的顶部。
+MSG_C_VENDINGMACHINE_H_WIN,"The vending machine landed against the harpies attacking from the sky, knocking them to the ground along with the feathers.",空から襲い来るハーピーに対して自販機を着弾させ、羽毛ごと地面に叩きつけた。,自动售货机迎着从天而降的鹰身女妖击落，将她们连羽毛一起打倒在地。
+MSG_C_VENDINGMACHINE_I_WIN,"The imp tried to dodge it with a teleport, but the juice inside the vending machine exploded and blew it away.",インプがテレポートで躱そうとしたが、自販機の中のジュースが爆発して吹き飛ばした。,小恶魔试图用瞬移来躲避，但自动售货机内的果汁爆炸了，将它炸飞了。
+MSG_C_VENDINGMACHINE_J_LOSS,"The acid from the jelly melted the vending machine and mixed with the juice inside, emitting a strong odor.",ジェリーの酸液で自販機は溶かされ、中のジュースと混ざって強烈な悪臭を放った。,果冻中的酸液融化了自动售货机，与里面的果汁混合在一起，散发出浓烈的气味。
+MSG_C_VENDINGMACHINE_K_WIN,He threw a giant vending machine at a group of kobolds and wiped them out like a strike.,コボルドの群れに対して巨大な自販機を投げつけ、ストライクを取るように一掃した。,他向一群狗头人投掷了一台巨大的自动售货机，并像罢工一样将他们消灭殆尽。
+MSG_C_VENDINGMACHINE_L_LOSS,"A vending machine fell on Lizard's face as he lay in the sun, flattening him.",日なたで寝そべるリザードの顔面に自販機が落ち、そのままペシャンコになった。,当 Lizard 躺在阳光下时，一台自动售货机落在了他的脸上，把他压扁了。
+MSG_C_VENDINGMACHINE_M_LOSS,A vending machine was placed on top of Mummy's coffin as a weight so that she would never be able to come out again.,マミーの棺桶の上に自販機を重しとして設置し、二度と出てこられないようにした。,一台自动售货机被放在木乃伊的棺材顶上作为重物，这样她就再也出不来了。
+MSG_C_VENDINGMACHINE_N_LOSS,"The gigantic Naga swallowed the vending machine whole and died in agony, unable to digest it inside.",巨体のナーガは自販機を丸呑みにしてしまい、内部で消化できずに苦しみ死んだ。,巨大的娜迦将自动售货机整个吞下，无法在里面消化，痛苦地死去。
+MSG_C_VENDINGMACHINE_O_LOSS,"In his anger, the orc smashes the vending machine with his axe and drinks the juice inside, causing his muscles to swell.",オークは怒りのあまり自販機を斧で粉砕し、中のジュースを飲んで筋肉をパンパンに膨張させた。,愤怒的兽人用斧头砸碎了自动售货机，喝下了里面的果汁，导致他的肌肉肿胀。
+MSG_C_VENDINGMACHINE_P_LOSS,"Pixie casts a spell on the vending machine's button, and it has been modified so that it releases a bomb every time it is pressed.",ピクシーが自販機のボタンに魔法をかけ、押すたびに爆弾が出るように改造されてしまった。,小精灵对自动售货机的按钮施展咒语，并对其进行了修改，以便每次按下时都会释放炸弹。
+MSG_C_VENDINGMACHINE_Q_LOSS,"Koir touches the vending machine's electrical leakage point, and a huge explosion occurs, turning the surrounding area into a crater.",コアールが自販機の漏電箇所に触れ、凄まじい大爆発が起きて周囲がクレーターになった。,科伊尔触碰了自动售货机的漏电点，发生了巨大的爆炸，将周围区域变成了一个弹坑。
+MSG_C_VENDINGMACHINE_R_LOSS,"A swarm of rats crawled into the crevices of the vending machine and chewed through the wiring, completely destroying it.",ラットの群れが自販機の隙間に入り込み、配線を噛みちぎって完全にスクラップにした。,一群老鼠爬进自动售货机的缝隙中，咬断电线，将其彻底摧毁。
+MSG_C_VENDINGMACHINE_S_LOSS,"You dropped a vending machine into the slime, but it was wrapped up in the slime and slowly digested.",スライムに自販機を落としたが、そのまま包み込まれてゆっくりと消化されていった。,你把一台自动售货机扔进了史莱姆里，但它却被史莱姆包裹着，慢慢消化了。
+MSG_C_VENDINGMACHINE_T_LOSS,The troll caught the falling vending machine with one hand and threw it back as a blunt weapon.,トロールは降ってきた自販機を片手で受け止め、そのまま鈍器として投げ返してきた。,巨魔用一只手接住了掉落的自动售货机，并将其作为钝器扔了回去。
+MSG_C_VENDINGMACHINE_U_LOSS,The ghost passed through the vending machine's falling attack and got behind you with a fearless expression on its face.,亡霊は自販機の落下攻撃を透過し、不敵な表情のままあなたの背後に回り込んだ。,鬼魂穿过自动售货机的坠落攻击，来到了你的身后，一脸无所畏惧的表情。
+MSG_C_VENDINGMACHINE_V_LOSS,The vampire mistakes the tomato juice in the vending machine for blood and cuts you to pieces in a fit of rage.,吸血鬼は自販機の中のトマトジュースを血液と勘違いし、激怒してあなたを切り裂いた。,吸血鬼将自动售货机中的番茄汁误认为是血液，并在盛怒之下将你切成碎片。
+MSG_C_VENDINGMACHINE_W_WIN,The wolf showed no interest in the vending machine and jumped straight at your throat as you stood next to it.,狼は自販機に全く興味を示さず、その隣に立つあなたの喉元に真っ直ぐ飛びかかった。,当你站在自动售货机旁边时，狼对自动售货机毫无兴趣，直接扑向你的喉咙。
+MSG_C_VENDINGMACHINE_X_LOSS,"Due to the power of Zarsis, the vending machine came to life and shot out countless cans of juice, filling you with holes.",ザルシスの力により自販機が生命を持ち、無数の缶ジュースを乱射してあなたを穴だらけにした。,由于扎尔西斯的力量，自动售货机活了过来，射出了无数罐果汁，让你大吃一惊。
+MSG_C_VENDINGMACHINE_Y_LOSS,"In Yeti's frigid region, the vending machine's buttons were frozen and unable to be pressed, turning into just a giant iron box.",イエティの極寒の地では自販機のボタンが凍りついて押せず、ただの巨大な鉄の箱と化した。,在雪人的寒冷地区，自动售货机的按钮都被冻住了，无法按下，变成了一个巨大的铁盒子。
+MSG_C_VENDINGMACHINE_Z_WIN,A horde of zombies gathered at the vending machine and kept smashing the glass no matter how much juice came out.,ゾンビの大群が自販機に集まり、いくらジュースが出てもひたすらガラスを叩き割り続けた。,一群僵尸聚集在自动售货机前，无论流出多少果汁，都不断地砸碎玻璃。
+EnergyDrink,Energy Drink,エナジードリンク,能量饮料
+MSG_C_ENERGYDRINK_A_LOSS,"As a result of pouring the Enadori into the ant nest, their hearts exceeded their limits and collectively burst.",エナドリをアリの巣に流し込んだ結果、奴らの心臓が限界を超えて集団破裂した。,由于将江鸟倒入蚁巢，他们的心超出了极限，集体爆裂。
+MSG_C_ENERGYDRINK_B_LOSS,"An overdose of caffeine amplified the bat's ultrasonic waves to the extreme, causing them to rupture their own eardrums.",カフェインの過剰摂取でコウモリの超音波が極限まで増幅され、自らの鼓膜を破った。,过量的咖啡因将蝙蝠的超声波放大到极致，导致它们的耳膜破裂。
+MSG_C_ENERGYDRINK_C_WIN,"When you gave a cobra some enamel, it reacted chemically with your poison and foamed at the mouth.",コブラにエナドリを飲ませたら、自分の猛毒と化学反応を起こして口から泡を吹いた。,当你给眼镜蛇一些牙釉质时，它与你的毒药发生化学反应并在嘴里起泡沫。
+MSG_C_ENERGYDRINK_D_WIN,He used Enadori to exceed the temperature of the dragon's flames and completely burned out his own throat.,エナドリでドラゴンの炎の温度を限界突破させ、奴自身の喉を完全に焼き尽くした。,他用江那多力超过了龙炎的温度，彻底烧毁了自己的喉咙。
+MSG_C_ENERGYDRINK_E_WIN,"When you fed the Ents as fertilizer, they grew so much that their trunks broke under their own weight.",エナドリを肥料としてエントに与えたら、成長しすぎて自重で幹がへし折れた。,当你给恩特们喂肥料时，它们长得如此之大，以至于它们的树干在自身重量的作用下折断了。
+MSG_C_ENERGYDRINK_F_LOSS,"A fly, attracted by the sweet smell of the red-bellied chickpeas, flew into the can and drowned.",エナドリの甘い匂いに誘われたハエが缶の中に飛び込み、そのまま溺れて溺死した。,一只苍蝇被红腹鹰嘴豆的香味吸引，飞进罐子里淹死了。
+MSG_C_ENERGYDRINK_G_WIN,"A goblin stole Enadori and drank it, and in his excitement, his friends started fighting each other and destroyed themselves.",ゴブリンがエナドリを盗み飲みし、興奮して仲間同士で殴り合いを始めて自滅した。,一个妖精偷了 Enadori 并喝了它，在他的兴奋中，他的朋友们开始互相争斗并毁灭了自己。
+MSG_C_ENERGYDRINK_H_WIN,"When you forced the harpy to drink Enadori, its flight speed became uncontrollable and it crashed into a wall.",ハーピーに無理やりエナドリを飲ませたら、飛ぶ速度が制御不能になり壁に激突した。,当你强迫鹰身女妖喝下Enadori时，它的飞行速度变得无法控制，撞到了墙上。
+MSG_C_ENERGYDRINK_I_LOSS,"The imp drank Enadori, awoke, and stole all your belongings with blinding speed.",インプがエナドリを飲んで覚醒し、目にもとまらぬ速度であなたの所持品をすべて奪った。,小恶魔喝了 Enadori，醒了，并以令人眼花缭乱的速度偷走了你的所有物品。
+MSG_C_ENERGYDRINK_J_WIN,"When you poured Enadori into the jelly, it bubbled and exploded due to an abnormal chemical reaction.",ジェリーにエナドリを注いだら異常な化学反応でブクブクと泡立ち、大爆発した。,当你将 Enadori 倒入果冻中时，由于异常的化学反应，果冻冒泡并爆炸。
+MSG_C_ENERGYDRINK_K_LOSS,"He scattered Enadori among a herd of kobolds, causing them all to panic due to caffeine poisoning.",コボルドの群れにエナドリをばら撒き、カフェイン中毒で全員パニックに陥らせた。,他将恩纳多利分散到一群狗头人中，导致他们都因咖啡因中毒而陷入恐慌。
+MSG_C_ENERGYDRINK_L_WIN,"The lizard drank Enadori and went berserk, smashing the surrounding rocks and collapsing after going on a rampage.",リザードがエナドリを飲んで狂暴化し、周囲の岩を砕いて暴れ回った末に倒れた。,蜥蜴喝了埃纳多利后变得狂暴起来，狂暴后撞碎了周围的岩石，倒地不起。
+MSG_C_ENERGYDRINK_M_WIN,"When you soaked Mummy's dried up body with Enadori, the bandage expanded and her whole body burst open.",マミーの干からびた体にエナドリを染み込ませたら、包帯が膨張して全身が弾け飛んだ。,当你用Enadori浸泡妈咪干燥的身体时，绷带膨胀，她的整个身体都裂开了。
+MSG_C_ENERGYDRINK_N_WIN,"When he gave Enadori to Naga, his blood flow accelerated so much that he became wrapped around his own giant body and passed out.",ナーガにエナドリを与えたところ血流が加速しすぎて、自らの巨体に巻き付かれて気絶した。,当他把Enadori喂给Naga时，他的血液流动加速，以至于他被自己巨大的身体包裹住了，昏了过去。
+MSG_C_ENERGYDRINK_O_WIN,"As a result of the orc gulping down Enadori, its muscles bulged to the limit and unleashed a tremendous blow.",オークがエナドリをガブ飲みした結果、筋肉が限界まで隆起して凄まじい打撃を放ってきた。,兽人吞下恩纳多利后，肌肉膨胀到了极限，释放出巨大的一击。
+MSG_C_ENERGYDRINK_P_LOSS,"Pixie mixed the ingredients of Enadri with magic powder, turned it into a powerful sleeping pill, and gave it to you to drink.",ピクシーがエナドリの成分を魔法の粉と混ぜ、強力な睡眠薬に変えてあなたに飲ませた。,皮克西将艾那德里的成分与魔法粉混合，变成了强效安眠药，给你喝了。
+MSG_C_ENERGYDRINK_Q_WIN,"Koar drank Enadori and became extremely charged, turning the surrounding area into a sea of ​​lightning and disappearing.",コアールがエナドリを飲んで極限まで帯電し、周囲一帯を雷の海に変えて消滅した。,科阿尔喝下埃纳多利后，变得极度充能，将周围区域变成了一片雷海，然后消失了。
+MSG_C_ENERGYDRINK_R_WIN,"A swarm of rats licked a can of red-spotted enamel, multiplying at an alarming rate and covering you.",ラットの群れがエナドリの缶を舐め回し、異常な速度で増殖してあなたを覆い尽くした。,一群老鼠舔了一罐有红斑的珐琅质，它们以惊人的速度繁殖并覆盖了你。
+MSG_C_ENERGYDRINK_S_LOSS,"When you mixed Enadri into slime, it lost its elasticity and became just fluffy water.",スライムにエナドリを混ぜたら、弾力が失われてただのシャバシャバの水になった。,当你将 Enadri 混入史莱姆中时，它就失去了弹性，变成了松软的水。
+MSG_C_ENERGYDRINK_T_LOSS,Enadori added to the troll's superhuman strength and smashed you and the ground into pieces with a hammer.,トロールの怪力にエナドリが加わり、あなたごと地面をハンマーで粉々に叩き割った。,埃纳多里（Enadori）增强了巨魔的超人力量，用锤子将你和地面砸成了碎片。
+MSG_C_ENERGYDRINK_U_LOSS,"Enadori had no effect on the ghost, and he looked down at your useless actions with a cold gaze.",亡霊にエナドリは一切効果がなく、あなたの無駄な行動を冷たい眼差しで見下ろした。,埃纳多对鬼魂没有任何作用，他用冰冷的目光俯视着你无用的举动。
+MSG_C_ENERGYDRINK_V_LOSS,"You tried to feed Enadori's blood to a vampire, but the artificial taste enraged him and he bit your neck.",吸血鬼にエナドリの血を与えようとしたが、人工的な味に激怒してあなたの首筋に噛みついた。,你试图将 Enadori 的血液喂给吸血鬼，但人工味道激怒了他，他咬住了你的脖子。
+MSG_C_ENERGYDRINK_W_WIN,"A pack of wolves smelled Enadori and went berserk, attacking you all at once.",狼の群れがエナドリの匂いを嗅ぎつけ、狂暴化して一斉にあなたへ襲いかかった。,一群狼闻到了恩纳多利的味道，发狂了，一下子向你们发起攻击。
+MSG_C_ENERGYDRINK_X_LOSS,"Zarsis has broken the physics of beverages, and the can of Enadori has grown to a gigantic size and crushed you.",ザルシスが飲料の物理法則を破壊し、エナドリの缶が巨大化してあなたを押し潰した。,扎尔西斯（Zarsis）打破了饮料的物理原理，而埃纳多利（Enadori）罐头已经长到了巨大的尺寸，压垮了你。
+MSG_C_ENERGYDRINK_Y_LOSS,"The Yeti's frigid breath instantly froze the can of Enadori, making it too cold to drink.",イエティの極寒の息吹でエナドリの缶が瞬時に凍りつき、冷たすぎて飲むことができなかった。,雪人冰冷的呼吸立即将Enadori罐头冰冻起来，使其变得太冷而无法饮用。
+MSG_C_ENERGYDRINK_Z_LOSS,"Even if you feed the zombie Enadori, the carrion won't move and will just approach you with blank eyes.",ゾンビにエナドリを飲ませても腐肉は動かず、ただ虚ろな目であなたに近寄ってきた。,即使你给僵尸 Enadori 喂食，腐肉也不会移动，只会用空洞的眼睛接近你。
+GamingPC,Gaming PC,ゲーミングPC,游戏PC
+MSG_C_GAMINGPC_A_WIN,The intense RGB light emitted from an ultra-expensive gaming PC completely burned out Ali's compound eyes.,超高価なゲーミングPCから放たれるRGBの強烈な光が、アリの複眼を完全に焼き切った。,超昂贵的游戏电脑发出的强烈RGB光彻底烧坏了阿里的复眼。
+MSG_C_GAMINGPC_B_WIN,The high-frequency sound emitted by the PC's heat exhaust fan destroyed the bat's sonar and caused it to go haywire.,PCの排熱ファンから発せられる高周波音がコウモリのソナーを破壊し、狂わせた。,电脑排热风扇发出的高频声音破坏了蝙蝠的声纳，导致其失控。
+MSG_C_GAMINGPC_C_WIN,"The coolant from a water-cooled gaming PC was mixed with the deadly poison of the cobra, neutralizing the poison and defeating it.",水冷式ゲーミングPCのクーラント液をコブラの猛毒に混ぜ、猛毒を中和して倒した。,水冷游戏电脑的冷却剂与眼镜蛇的致命毒液混合，中和了毒液并击败了它。
+MSG_C_GAMINGPC_D_WIN,The Dragon's Breath was completely offset by the gaming PC's super powerful cooling system.,ドラゴンのブレスに対して、ゲーミングPCの超強力な冷却システムで完全に相殺した。,龙息被游戏PC超强大的冷却系统完全抵消了。
+MSG_C_GAMINGPC_E_WIN,The giant root of the Ent was cut with the sharp edge of a high-end PC's motherboard.,エントの巨大な根っこを、ハイエンドPCのマザーボードの鋭利な角で切り裂いた。,恩特的巨大根部是用高端电脑主板的锋利边缘切割的。
+MSG_C_GAMINGPC_F_LOSS,"The flies were attracted to the PC's high-speed fans and got shredded, but their sticky remains caused a fatal short circuit on the motherboard.",ハエ共がPCの高速ファンに吸い込まれてシュレッダーにかけられたが、その粘液が基盤に飛び散って致命的なショートを引き起こした。,苍蝇被吸入电脑的高速风扇中被粉碎机粉碎，但其粘液溅到基板上引起了致命的短路。
+MSG_C_GAMINGPC_G_WIN,"The Goblin was dazzled by the glowing PC parts, and was hit with a powerful blow from the keyboard.",光るPCパーツに目を奪われたゴブリンの背後から、キーボードによる強烈な一撃を見舞った。,哥布林被发光的电脑部件弄得眼花缭乱，并受到键盘的强力打击。
+MSG_C_GAMINGPC_H_LOSS,"The harpy's sonic attack resonated with the PC's liquid cooling system, causing the tubes to burst and flood the room with coolant.",ハーピーの音波攻撃がPCの水冷システムと共鳴し、冷却液のチューブを破裂させて部屋中を水浸しにして自爆した。,哈比的声音攻击与电脑的水冷系统产生共鸣，使冷却液管破裂，让房间里满是水，自爆了。
+MSG_C_GAMINGPC_I_WIN,You used a gaming PC to predict the timing of the imp's instantaneous movement and set a perfect trap at its appearance location.,インプの瞬間移動のタイミングをゲーミングPCで予測し、出現位置に完璧な罠を仕掛けた。,你用游戏电脑来预测小鬼瞬间移动的时间，并在它出现的位置设置了一个完美的陷阱。
+MSG_C_GAMINGPC_J_WIN,"Jerry's acid solution melts the graphics board, and you get so angry that you beat him to death with your PC.",ジェリーの酸液でグラフィックボードが溶かされ、怒りに震えるあなたがPCで殴り殺した。,杰瑞的酸溶液融化了显卡，你非常生气，用电脑把他打死了。
+MSG_C_GAMINGPC_K_LOSS,"While you were showing off your RGB mouse, the kobolds swarmed and stole your expensive peripheral, leaving you helpless.",あなたが光るマウスを自慢している隙に、コボルドの群れに高価なデバイスを強奪され、何もできないまま袋叩きにされた。,在你炫耀发光鼠标的时候，高价的设备被狗头人群体抢走了，在什么都做不了的情况下被围揍了。
+MSG_C_GAMINGPC_L_LOSS,"The lizard used the gaming PC's exhaust heat to supercharge its cold-blooded metabolism, and then lunged at you with terrifying speed.",リザードがゲーミングPCの排熱を利用して自らの代謝を極限まで高め、凄まじい速度であなた目掛けて飛びかかってきた。,蜥蜴利用游戏电脑的排热将自己的代谢提高到极限，以惊人的速度向你扑了过来。
+MSG_C_GAMINGPC_M_LOSS,We analyzed Mummy's ancient curse using the latest PC security software and succeeded in nullifying it.,マミーの古代の呪いをPCの最新のセキュリティソフトで解析し、無効化することに成功した。,你们使用最新的电脑安全软件分析了木乃伊的古老诅咒，并成功地将其解除。
+MSG_C_GAMINGPC_N_LOSS,You threw a gaming chair at Naga's huge body and gouged out its scales with the sharp part of the caster.,ナーガの巨体にゲーミングチェアを投げつけ、キャスターの鋭い部分で逆鱗を抉った。,你把一把游戏椅扔到娜迦巨大的身体上，用脚轮的锋利部分挖出了它的鳞片。
+MSG_C_GAMINGPC_O_LOSS,"After receiving a physical attack from an orc's giant ax, his proud gaming PC instantly turned into scrap metal.",オークの巨大な斧による物理攻撃を受け、自慢のゲーミングPCは一瞬で鉄屑へと変わった。,在受到兽人巨斧的物理攻击后，他引以为傲的游戏电脑瞬间变成了废铁。
+MSG_C_GAMINGPC_P_LOSS,"Pixie magically shorts out the wiring on the motherboard, causing your PC to explode and blow you away.",ピクシーがマザーボードの配線を魔法でショートさせ、PCが爆発してあなたは吹き飛んだ。,Pixie 神奇地使主板上的接线短路，导致你的电脑爆炸并把你炸飞。
+MSG_C_GAMINGPC_Q_WIN,"A gaming PC's power supply unit was struck by a lightning bolt from a core, and an overvoltage caused an enormous explosion.",コアールの雷撃をゲーミングPCの電源ユニットで受けてしまい、過電圧で特大の爆発が起きた。,一台游戏电脑的电源装置被来自核心的闪电击中，过电压引发了巨大的爆炸。
+MSG_C_GAMINGPC_R_LOSS,"A swarm of rats chewed off the power cord of your gaming PC, turning it into just a giant square iron box.",ラットの群れにゲーミングPCの電源コードを噛みちぎられ、ただの巨大な四角い鉄の箱になった。,一群老鼠咬断了你游戏电脑的电源线，把它变成了一个巨大的方形铁盒子。
+MSG_C_GAMINGPC_S_WIN,"A gaming PC was thrown into the slime's body and it glowed with RGB, making it a fantastic lamp.",スライムの体内にゲーミングPCを放り込みRGBを光らせて、幻想的なランプとして楽しんだ。,一台游戏电脑被扔进史莱姆的身体里，它发出 RGB 光，使它成为一盏神奇的灯。
+MSG_C_GAMINGPC_T_LOSS,Everything from the monitor to the computer case was smashed by the troll's giant fist.,トロールの巨大な拳に殴られ、モニターからPCケースに至るまですべてが粉砕された。,从显示器到电脑机箱，一切都被巨魔的巨拳砸碎了。
+MSG_C_GAMINGPC_U_LOSS,"The ghost mocked the gaming PC, which is a mass of digital signals, and erased the data from your soul.",亡霊はデジタル信号の塊であるゲーミングPCを嘲笑い、あなたの魂のデータを消去した。,鬼魂嘲弄了游戏电脑，它是大量的数字信号，并从你的灵魂中抹去了数据。
+MSG_C_GAMINGPC_V_LOSS,"Touched by the ancient anger of vampires, RGB, which is modern inorganic light, is completely buried in darkness with a cloak.",吸血鬼の古き怒りに触れ、現代の無機質な光であるRGBをマントで完全に闇へ葬られた。,受到吸血鬼远古愤怒的触动，现代无机光RGB被披上斗篷彻底埋没在黑暗之中。
+MSG_C_GAMINGPC_W_WIN,"The wolf of the wilderness, wary of the sound of the gaming PC's fan, quietly sneaked up behind you and bit your throat.",荒野の狼はゲーミングPCのファンの駆動音に警戒しつつ、静かに背後へ回り込み喉を噛んだ。,荒野之狼警惕着游戏电脑风扇的声音，悄悄地潜到你身后咬住了你的喉咙。
+MSG_C_GAMINGPC_X_LOSS,"The moment Zarsis pressed the 'Delete' key on his keyboard, your very existence was erased.",ザルシスがキーボードの「Delete」キーを押した瞬間、あなたの存在そのものが消去された。,当扎尔西斯按下键盘上的“删除”键的那一刻，你的存在就被抹去了。
+MSG_C_GAMINGPC_Y_WIN,"Yeti's frigid snowstorm caused the entire base of your PC to completely freeze from condensation, rendering it unusable.",イエティの極寒の吹雪により、PCの基盤全体が結露から完全に凍結して使い物にならなくなった。,Yeti 的寒冷暴风雪导致你的电脑整个底座因凝结而完全冻结，使其无法使用。
+MSG_C_GAMINGPC_Z_LOSS,"A horde of zombies swarms, and although he frantically swings his gaming PC around as a blunt weapon, he is defeated by the sheer numbers.",ゾンビの大群が押し寄せ、ゲーミングPCを鈍器として必死に振り回すも、数の暴力に押し負けた。,一大群僵尸蜂拥而至，尽管他疯狂地挥动游戏电脑作为钝器，但他还是被人数打败了。
+VRHeadset,VR Headset,VRゴーグル,VR头显
+MSG_C_VRHEADSET_A_WIN,"He put VR goggles on an ant and caused it to hallucinate itself as a giant monster, causing it to self-destruct.",アリにVRゴーグルを被せ、あなたが巨大な怪物になったという幻覚を見せて自滅させた。,他给一只蚂蚁戴上VR眼镜，让它产生幻觉，变成一个巨大的怪物，从而导致它自毁。
+MSG_C_VRHEADSET_B_WIN,"Ultrasonic stereophonic sound from VR was poured into the bat's ears, confusing its brain and causing it to crash.",コウモリの耳にVRからの超音波立体音響を流し込み、脳を混乱させて墜落させた。,VR中的超声波立体声灌入蝙蝠的耳朵，迷惑了它的大脑并导致其坠毁。
+MSG_C_VRHEADSET_C_WIN,"They put VR goggles on a cobra and showed it countless images of its natural enemy, the mongoose, causing it to faint from fear.",コブラにVRゴーグルを被せ、無数の天敵マングースの映像を見せて恐怖で気絶させた。,他们给眼镜蛇戴上VR眼镜，并向它展示无数天敌猫鼬的图像，导致它因恐惧而晕倒。
+MSG_C_VRHEADSET_D_WIN,He lured the dragon into a virtual reality volcano and rendered it powerless while his real body fell asleep.,ドラゴンを仮想現実の火山へ誘い込み、現実の身体は眠りについたまま無力化させた。,他将巨龙引诱到一座虚拟现实火山中，并使其失去力量，而他的真身却陷入了沉睡。
+MSG_C_VRHEADSET_E_WIN,"He shows Ent VR footage of deforestation, causing him to tear his own bark due to extreme stress.",エントに森林伐採のVR映像を見せつけ、極度のストレスにより自分の樹皮を引き裂かせた。,他向 Ent 展示了森林砍伐的 VR 镜头，导致他因极度压力而撕裂了自己的树皮。
+MSG_C_VRHEADSET_F_LOSS,"Because flies have a different visual structure, the images from the VR goggles made no sense at all, so they simply flew away.",ハエは視覚構造が違うためVRゴーグルの映像が全く意味を成さず、そのまま飛んで逃げた。,由于苍蝇有不同的视觉结构，VR眼镜上的图像根本没有任何意义，所以它们就飞走了。
+MSG_C_VRHEADSET_G_WIN,"You showed the goblin a VR scene where countless gold coins were falling, and while it was grabbing the void, you cleared it from behind.",ゴブリンに無数の金貨が降ってくるVRを見せ、虚空を掴んでいる隙に背後から片付けた。,你向哥布林展示了无数金币掉落的VR场景，在它抓住虚空的同时，你从后面清理了它。
+MSG_C_VRHEADSET_H_WIN,"When you showed the harpy a VR image of hell, it forgot to flap its wings in fear and crashed towards the ground.",ハーピーに地獄のVR映像を見せたら、恐怖で羽ばたくことを忘れ、地面に向かって激突した。,当你向鸟身女妖展示地狱的 VR 图像时，它因害怕而忘记拍打翅膀，然后坠落到地面。
+MSG_C_VRHEADSET_I_WIN,"The Imp's teleport destination was forcibly fixed in VR space, and its real body was trapped in a virtual box.",インプのテレポート先をVR空間に強制固定し、現実の身体ごと仮想の箱に閉じ込めた。,小鬼的传送目的地被强行固定在VR空间中，而它的真身则被困在了一个虚拟的盒子里。
+MSG_C_VRHEADSET_J_WIN,"They forced VR goggles onto Jerry, trapping his vision in an endless virtual void until his slime body evaporated from exhaustion.",ジェリーにVRゴーグルを無理やり被せ、果てしない仮想の虚無に閉じ込めることで、スライムの核を精神的に崩壊させて消滅させた。,强行给杰瑞戴上VR眼镜，将其困在无尽的虚拟虚空中，直到他的史莱姆身体因精疲力竭而蒸发。
+MSG_C_VRHEADSET_K_LOSS,"The kobolds interpreted the VR images as a sign from their god and, fueled by religious frenzy, swarmed and overwhelmed you.",コボルドの群れがVRの映像を神からの啓示だと勘違いし、狂信的な怒り狂った勢いであなたを袋叩きにした。,狗头人群体将VR影像误认为是来自神的启示，以狂热愤怒的势头将你围殴了一顿。
+MSG_C_VRHEADSET_L_WIN,"When Lizard was shown a VR image of intense heat, his brain created an illusion and his body temperature rose too much, causing him to collapse.",リザードに猛暑のVR映像を見せたところ、脳が錯覚して自分の体温を上げすぎて倒れた。,当蜥蜴看到高温的VR图像时，他的大脑产生了一种错觉，他的体温升高太多，导致他崩溃。
+MSG_C_VRHEADSET_M_LOSS,"You tried to put the VR goggles on Mummy, but the bandages made her face invisible and the goggles quickly fell off.",マミーにVRゴーグルを被せようとしたが、包帯で顔の形がなくゴーグルがすぐにずり落ちた。,你尝试给妈妈戴上VR眼镜，但绷带让她的脸看不见，眼镜很快就掉下来了。
+MSG_C_VRHEADSET_N_LOSS,"The VR goggles were too small to fit on Naga's gigantic body, so he was squeezed in frustration.",ナーガの巨体にはVRゴーグルが小さすぎて装着できず、そのまま苛立ちのまま締め付けられた。,VR眼镜太小，无法戴在娜迦巨大的身体上，他沮丧地被挤着。
+MSG_C_VRHEADSET_O_WIN,"He put VR goggles on the orc, but he got angry at the video and punched himself in the face with the goggles.",オークにVRゴーグルを被せたが、映像に怒ってゴーグルごと自分の顔面を殴り飛ばした。,他给兽人戴上了VR护目镜，但他对视频很生气，用护目镜打了自己的脸。
+MSG_C_VRHEADSET_P_LOSS,"Pixie rewrites the images in your VR goggles into a real nightmare, and you end up going crazy.",ピクシーがVRゴーグルの映像を真実の悪夢に書き換え、あなたが発狂する羽目になった。,Pixie 将你的 VR 护目镜中的图像重写为一场真正的噩梦，而你最终会发疯。
+MSG_C_VRHEADSET_Q_LOSS,"The moment you put the VR goggles on Coarl, the static electricity from the fur caused a short circuit and the goggles exploded.",コアールにVRゴーグルを被せた瞬間、毛の静電気でショートしてゴーグルが爆散した。,当你把VR眼镜戴在Coarl身上的那一刻，皮毛上的静电导致了短路，眼镜爆炸了。
+MSG_C_VRHEADSET_R_WIN,"The cord of your VR goggles was bitten off by a swarm of rats, and while your vision was interrupted, you were chewed out countless times.",ラットの群れにVRゴーグルのコードを噛みちぎられ、視界が途切れた隙に無数に嚙まれた。,你的VR眼镜线被一群老鼠咬断，视力被打断的同时，也被咬了无数次。
+MSG_C_VRHEADSET_S_LOSS,"When you put VR goggles on the slime, it was swallowed up and the slime itself began to emit light.",スライムにVRゴーグルを被せたら、そのまま飲み込まれてスライム自身が発光し始めた。,当你把VR眼镜戴在史莱姆身上时，它被吞噬了，史莱姆本身也开始发光。
+MSG_C_VRHEADSET_T_WIN,The troll got so absorbed in the VR fishing game that he dropped his weapon and sat down to enjoy his virtual hobby.,トロールがVRの釣りゲームにどっぷりとハマり込み、棍棒を投げ出してその場で釣り糸を垂らし始めた。,巨魔完全沉浸在VR钓鱼游戏中，丢下武器坐下来享受他的虚拟爱好。MSG_C_VRHEADSET_U_LOSS,"The ghost penetrates through the VR goggles and contacts your brain directly, pulling you into a terrifying nightmare world.",亡霊はVRゴーグルを透過してあなたの脳に直接コンタクトし、恐ろしい悪夢の世界へ引きずり込んだ。,鬼魂穿透VR眼镜，直接接触你的大脑，将你带入恐怖的噩梦世界。
+MSG_C_VRHEADSET_V_LOSS,"With just one look at the VR image, the vampire saw through the fakeness and dismissed it as a boring gimmick, raising his fangs.",吸血鬼はVR映像を一瞥しただけでその虚構を見抜き、つまらない小細工だと吐き捨てて牙を立てた。,吸血鬼一看VR图像，就识破了其中的虚假，并把它视为无聊的噱头，扬起了獠牙。
+MSG_C_VRHEADSET_W_LOSS,"You tried to cover the wolf with VR goggles, but it instinctively sensed the danger and tore off your arm.",狼にVRゴーグルを被せようとしたが、本能で危険を察知し、あなたの腕ごと食いちぎった。,你试图用VR眼镜遮住狼，但它本能地感觉到了危险并撕开了你的手臂。
+MSG_C_VRHEADSET_X_LOSS,"Zarsis made virtual reality itself a reality, and conversely trapped you in a prison in VR space.",ザルシスは仮想現実そのものを現実に具現化させ、逆にお前をVR空間の監獄に閉じ込めた。,Zarsis 让虚拟现实本身成为现实，反过来又将你困在 VR 空间的监狱里。
+MSG_C_VRHEADSET_Y_LOSS,"The Yeti's snowstorm completely froze the lenses of his VR goggles, and he was blown away without being able to see anything.",イエティの吹雪でVRゴーグルのレンズが完全に凍りつき、何も見えないまま殴り飛ばされた。,雪人的暴风雪完全冻结了他的VR眼镜镜片，他被吹飞了，什么也看不见。
+MSG_C_VRHEADSET_Z_LOSS,"When you put VR goggles on a zombie, its optic nerve was rotten and you were bitten for no reason.",ゾンビにVRゴーグルを被せたところで視神経が腐っており、何の意味もなく噛みつかれた。,当你给僵尸戴上VR眼镜后，它的视神经就烂掉了，你无缘无故地被咬了。
+Tractor,Tractor,トラクター,拖拉机
+MSG_C_TRACTOR_A_WIN,The tire treads of giant agricultural tractors completely blocked all entry routes into the ant nest.,巨大な農業用トラクターのタイヤの溝が、アリの巣へのすべての侵入経路を完全に塞いだ。,巨型农用拖拉机的轮胎胎面完全堵塞了进入蚁巢的所有通道。
+MSG_C_TRACTOR_B_WIN,"The tractor's ferocious exhaust disoriented the bats as they flew through the night sky, knocking them to the ground.",トラクターの猛烈な排気ガスが、夜空を飛ぶコウモリの方向感覚を奪って地面に叩き落とした。,拖拉机猛烈的尾气使蝙蝠在夜空中飞行时迷失了方向，将它们撞倒在地。
+MSG_C_TRACTOR_C_WIN,"The moment the cobra reared its sickle neck, the tractor's front wheel completely crushed its poisonous head.",コブラが鎌首をもたげた瞬間、トラクターの前輪がその猛毒の頭部ごと完璧に轢き潰した。,眼镜蛇扬起镰刀脖子的那一刻，拖拉机的前轮就彻底碾碎了它的毒头。
+MSG_C_TRACTOR_D_WIN,"The dragon's flame breath melted the tractor's armor, and you, too, were turned into a pitch-black mess.",ドラゴンの火炎ブレスでトラクターの装甲が溶かされ、中にいるあなたも真っ黒コゲになった。,巨龙的火焰吐息融化了拖拉机的装甲，你也变成了一片漆黑。
+MSG_C_TRACTOR_E_WIN,The giant tree Ento was uprooted from the ground using the powerful pulling force of a tractor.,巨大な大樹のエントを、トラクターの強力な牽引力で根こそぎ大地から引っこ抜いた。,借助拖拉机强大的拉力，巨树远藤被从地里连根拔起。
+MSG_C_TRACTOR_F_WIN,"He drove the tractor as if swinging at the flying flies, wiping them out with a smoke screen of exhaust fumes.",飛び回るハエに対してトラクターを振り回すように運転し、排気ガスの煙幕で一掃した。,他开着拖拉机就像是在挥舞着那些飞来飞去的苍蝇，用废气烟幕将它们消灭掉。
+MSG_C_TRACTOR_G_WIN,The bag full of jewels that the goblin had stolen was mercilessly flattened with a muddy tractor.,ゴブリンが盗んだ宝石の詰まった袋ごと、泥だらけのトラクターで容赦なくペシャンコにした。,妖精偷来的装满珠宝的袋子被泥泞的拖拉机无情地压扁了。
+MSG_C_TRACTOR_H_WIN,"You blocked the harpy's claws from the sky with the tractor's cabin, and then stepped on the accelerator.",空から襲いかかるハーピーの爪をトラクターのキャビンで防ぎ、そのままアクセルを踏み込んだ。,你用拖拉机的驾驶室挡住了天空中鹰身女妖的利爪，然后踩下了油门。
+MSG_C_TRACTOR_I_WIN,You used a tractor to get ahead of the Imp's teleportation landing spot and knocked it away with a surprise attack.,インプの瞬間移動の着地地点にトラクターで先回りし、不意打ちで弾き飛ばした。,你用拖拉机提前到达了小恶魔的传送着陆点，并用突然袭击将其击飞。
+MSG_C_TRACTOR_J_WIN,Jerry's slime-like body was cut up into small pieces by a rotary tractor and scattered on the ground.,ジェリーのスライム状の体をトラクターのロータリーで細かく切り刻み、大地に撒いた。,杰瑞的粘液般的身体被旋转拖拉机切成小块，散落在地上。
+MSG_C_TRACTOR_K_WIN,"You shined the tractor's high beam on the swarm of kobolds, killing them all while they were blinded.",コボルドの群れに対してトラクターのハイビームを照射し、目が眩んだ隙に一網打尽にした。,你用拖拉机的远光灯照射着这群狗头人，在他们失明的情况下杀死了他们。
+MSG_C_TRACTOR_L_LOSS,"The lizard's cold-blooded body was burned by the heat of the tractor's engine, and then it was run over by a caterpillar.",リザードの冷血な身体をトラクターのエンジンの熱で火傷させ、そのままキャタピラで轢いた。,蜥蜴冷血的身体被拖拉机发动机的热量灼伤，然后又被毛毛虫碾过。
+MSG_C_TRACTOR_M_WIN,"Even Mummy's bandages could not withstand the weight of the tractor, and the ancient curse was returned to the sand.",マミーの包帯すらもトラクターの重みには耐えきれず、古代の呪いごと砂に還した。,就连木乃伊的绷带也无法承受拖拉机的重量，古老的诅咒又回到了沙子里。
+MSG_C_TRACTOR_N_WIN,"You tried to run over the huge body of the Naga with a tractor, but it got wrapped around you and the engine was destroyed.",ナーガの巨体をトラクターで轢き潰そうとしたが、巻き付かれてエンジンを破壊された。,你试图用拖拉机碾过娜迦庞大的身躯，但它缠住了你，发动机也被毁坏了。
+MSG_C_TRACTOR_O_LOSS,The tractor was instantly dismantled into scraps by a physical attack from the orc's giant axe.,オークの巨大な斧による物理攻撃を受け、トラクターは一瞬でスクラップへと分解された。,拖拉机瞬间被兽人巨斧的物理攻击拆成了碎片。
+MSG_C_TRACTOR_P_LOSS,"Pixie magically shorts out the tractor's wiring, causing it to lose control and fall off a cliff.",ピクシーがトラクターの配線を魔法でショートさせ、制御不能になってそのまま崖から落ちた。,小精灵神奇地使拖拉机的电线短路，导致拖拉机失去控制并从悬崖上掉下来。
+MSG_C_TRACTOR_Q_LOSS,The metal part of the tractor was hit by Koar's thunderbolt and was charred black after a huge explosion.,コアールの雷鳴撃をトラクターの金属部分で受けてしまい、大爆発のち黒焦げになった。,拖拉机的金属部分被科尔的雷电击中，发生巨大爆炸后焦黑。
+MSG_C_TRACTOR_R_LOSS,"He tried to run over a group of rats to death with a tractor, but his wheels became entangled in countless numbers, stopping him from moving.",ラットの群れをトラクターで轢き殺そうとしたが、車輪に無数に絡みついて動きを止められた。,他试图用拖拉机碾死一群老鼠，但他的轮子被无数的老鼠缠住，使他无法前进。
+MSG_C_TRACTOR_S_LOSS,"The slime's body was slashed with a tractor, but it immediately regenerated and was wrapped up and digested in no time.",スライムの体をトラクターで斬ったがすぐに再生し、あっという間に包まれて消化された。,史莱姆的身体被拖拉机划破，但立刻就再生了，不一会儿就被包裹消化了。
+MSG_C_TRACTOR_T_LOSS,"The troll's self-regeneration was amazing, but it was surpassed by the tractor's gravity drop attack.",トロールの自己再生は凄まじかったが、トラクターの重力落下攻撃がそれを上回った。,巨魔的自我再生能力很惊人，但却被拖拉机的重力掉落攻击所超越。
+MSG_C_TRACTOR_U_LOSS,"Since the ghost is intangible, the tractor's attack passed through it, and it just harvested your soul.",亡霊は実体がないためトラクターの突撃はすり抜けられ、そのままあなたの魂を刈り取った。,由于鬼魂是无形的，拖拉机的攻击就穿过了它，正好收割了你的灵魂。
+MSG_C_TRACTOR_V_LOSS,"In front of the vampire's invisible movements, the heavy tractor's rush was just a target.",吸血鬼の目にもとまらぬ動きの前に、重厚なトラクターの突進はただの的でしかなかった。,在吸血鬼无形的动作面前，重型拖拉机的冲刺只是一个目标。
+MSG_C_TRACTOR_W_LOSS,"The tractor could not keep up with the wolf's mobility, and was attacked from behind, breaking the cabin window.",狼の機動力にトラクターは追いつけず、背後から急襲されキャビンのガラスを割られた。,拖拉机跟不上狼的机动性，从后面袭击，打破了船舱窗户。
+MSG_C_TRACTOR_X_LOSS,"With just a wave of Zarsis's hand, the tractor's iron armor turned to sand, completely eradicating its fighting spirit.",ザルシスが手を振るだけでトラクターの鉄の装甲が砂になり、戦意が完全に消滅した。,扎尔西斯只是一挥手，拖拉机的铁甲就化为沙土，彻底泯灭了斗志。
+MSG_C_TRACTOR_Y_LOSS,"The Yeti's frigid cold caused the tractor's engine to freeze, rendering it completely useless.",イエティの極寒の冷気により、トラクターのエンジンが凍結して完全に使い物にならなくなった。,雪人的严寒导致拖拉机的发动机结冰，使其完全无法使用。
+MSG_C_TRACTOR_Z_LOSS,"He runs over a horde of zombies with his tractor, but is overwhelmed by too many of them and is defeated.",ゾンビの大群をトラクターで轢き潰すも、あまりの数にスタックしてしまい押し負けた。,他开着拖拉机碾压了一群僵尸，但被太多的僵尸压垮了。
+ElectricGuitar,Electric Guitar,エレキギター,电吉他
+MSG_C_ELECTRICGUITAR_A_WIN,"Grasping the neck of the electric guitar with both hands, he perfectly crushed the soil along with the swarm of ants crawling on the ground.",エレキギターのネックを両手で握り締め、地上を這うアリの群れごと土を完璧に粉砕した。,双手握住电吉他的琴颈，将泥土连同地上爬行的蚂蚁完美地碾碎。
+MSG_C_ELECTRICGUITAR_B_LOSS,"The amplifier blasted the worst cacophony at the bat, messing up its sonar and sending it crashing to the ground.",コウモリに向かって最悪の不協和音をアンプで鳴らし、ソナーを狂わせて地面へ墜落させた。,放大器向蝙蝠发出最刺耳的噪音，扰乱了它的声纳并使其坠落到地面。
+MSG_C_ELECTRICGUITAR_C_WIN,"Before the cobra could spit out its venom, the shockwave caused by the guitar's distortion sound completely knocked it out.",コブラが毒を吐く前に、ギターのディストーションサウンドによる衝撃波で完全に気絶させた。,眼镜蛇还没来得及吐出毒液，吉他扭曲声音带来的冲击波就将它彻底击倒了。
+MSG_C_ELECTRICGUITAR_D_WIN,"You slammed your electric guitar into the gap between the dragon's thick scales, played a lightning solo, and roasted it.",ドラゴンの分厚い鱗の隙間にエレキギターを叩き込み、そのまま雷属性のソロを弾いて焼いた。,你把电吉他猛地敲进龙厚鳞片的缝隙中，弹奏出闪电般的独奏，将它烤熟。
+MSG_C_ELECTRICGUITAR_E_WIN,"You hit the gigantic trunk of the Ent with all your might with the body of your guitar, causing it to crack like dry wood.",エントの巨大な幹をギターのボディで渾身の力でぶん殴り、乾いた木材のようにへし折った。,你用吉他的琴身用尽全力敲击了恩特巨大的树干，使它像干木头一样裂开。
+MSG_C_ELECTRICGUITAR_F_LOSS,"He started an impromptu guitar session to the sound of flies, and then blasted it off.",飛び回るハエの羽音に合わせて即興のギターセッションを開始し、爆音で打ち落とした。,他随着苍蝇的声音开始了即兴的吉他演奏，然后把它吹掉了。
+MSG_C_ELECTRICGUITAR_G_WIN,"He threw his guitar a long way from behind the fleeing goblin, hitting it directly on the back of the head and stopping it from moving.",逃げるゴブリンの背後からギターを大遠投し、見事に後頭部へ直撃させて動きを止めた。,他从逃跑的妖精身后远远地扔出了吉他，直接击中了它的后脑勺，阻止了它的移动。
+MSG_C_ELECTRICGUITAR_H_WIN,"The blast of the guitar far surpassed the harpy's singing voice, making him unable to use his delicate vocal chords again.",ハーピーの歌声をはるかに凌駕するギターの爆音で、奴の繊細な声帯を二度と使えなくした。,吉他的爆炸声远远超过了鹰身女妖的歌声，让他无法再使用自己细腻的声带。
+MSG_C_ELECTRICGUITAR_I_LOSS,"He predicted the location of the Imp's instantaneous movement using the noise of the guitar, and struck a perfect power chord at the landing spot.",インプの瞬間移動の位置をギターのノイズで先読みし、着地地点に完璧なパワーコードを叩き込んだ。,他利用吉他的噪音预测了小鬼瞬间移动的位置，并在着陆点敲出了完美的强力和弦。
+MSG_C_ELECTRICGUITAR_J_WIN,"The overwhelming heavy metal riffs vibrated through Jerry's slime, causing his molecular bonds to fail and shatter him into pieces.",凄まじい重低音のメタルリフがジェリーのスライム体を激しく振動させ、分子結合をバラバラに破壊して粉砕した。,压倒性的重金属连奏通过杰瑞的粘液产生振动，导致其分子结合失效并将其粉碎成碎片。
+MSG_C_ELECTRICGUITAR_K_LOSS,"You tangled the kobold's spear with the guitar's shield cable, pulled it close to it, and blew it away with your body.",コボルドの槍をギターのシールドケーブルで絡め取り、そのまま引き寄せてボディで吹っ飛ばした。,你将狗头人的长矛与吉他的屏蔽线缠在一起，将其拉近，然后用你的身体将其吹走。
+MSG_C_ELECTRICGUITAR_L_WIN,"He showered the lizard's cold-blooded skin with the hottest guitar solo, raising its body temperature to its limit and defeating it.",リザードの冷血な皮膚に最高潮の熱いギターソロを浴びせ、限界まで体温を上昇させて倒した。,他用最火热的吉他独奏沐浴在蜥蜴冷血的皮肤上，将它的体温提升到极限并击败它。
+MSG_C_ELECTRICGUITAR_M_WIN,"You offset Mummy's ancient curse with the latest effects on your guitar, and just screwed the arm into the gap in the bandage.",マミーの古代の呪いをギターの最新エフェクトで相殺し、そのまま包帯の隙間にアームをねじ込んだ。,你用吉他上的最新效果抵消了妈妈古老的诅咒，然后将手臂拧入绷带的缝隙中。
+MSG_C_ELECTRICGUITAR_N_LOSS,"The string of the guitar that was struck by Naga's torso broke and hit you in the face, fatally injuring you.",ナーガの胴体に弾かれたギターの弦が切れ、それがあなたの顔面に直撃して致命傷を負った。,被娜迦躯干击中的吉他弦断了，击中了你的脸，使你受了致命伤。
+MSG_C_ELECTRICGUITAR_O_WIN,"When he tried to block the orc's giant battle ax with his electric guitar, it shattered into pieces.",オークの巨大な戦斧をエレキギターで受け止めようとした結果、木っ端微塵に粉砕し散った。,当他试图用电吉他挡住兽人的巨型战斧时，它碎成了碎片。
+MSG_C_ELECTRICGUITAR_P_WIN,"Pixie's illusion magic made her guitar look like a giant snake, and she smashed it in a panic.",ピクシーの幻覚魔法により、自分のギターが巨大な蛇に見えてしまい、パニックで叩き割った。,皮克西的幻象魔法让她的吉他看起来像一条巨蛇，她惊慌失措地把它砸碎了。
+MSG_C_ELECTRICGUITAR_Q_WIN,"He amplified Koar's electric shock with his guitar pickup, and sent a tremendous back-flow lightning strike into his opponent's face.",コアールの電撃をギターのピックアップで増幅し、凄まじい逆流雷撃を相手の顔面に叩き込んだ。,他用吉他拾音器放大了科阿尔的电击，并向对手的脸上发出了巨大的回流闪电。
+MSG_C_ELECTRICGUITAR_R_LOSS,"He tries to blast the sound of his guitar at a group of rats, but ends up having the speaker wires chewed off.",ラットの群れにギターの爆音を浴びせようとしたが、スピーカーの配線を噛みちぎられて終了した。,他试图用吉他向一群老鼠发出声音，但最终扬声器的电线被咬断了。
+MSG_C_ELECTRICGUITAR_S_LOSS,"When you slammed the guitar into the slime's body, it was swallowed up, and the final performance echoed inside the slime.",スライムの体にギターを叩きつけたらそのまま飲み込まれ、最期の演奏が粘液の中で響いた。,当你把吉他猛击到史莱姆的身体里时，它就被吞没了，最后的演奏在史莱姆内部回响。
+MSG_C_ELECTRICGUITAR_T_WIN,"The high-voltage riff from your guitar sent a massive electrical current into the troll's wet skin, successfully paralyzing it.",ギターから放たれた高電圧のリフが、トロールの湿った皮膚を通じて全身を駆け巡り、完全に麻痺させることに成功した。,吉他发出的高压连麦声，通过巨魔潮湿的皮肤传遍全身，成功使其完全麻痹。MSG_C_ELECTRICGUITAR_U_LOSS,"Since ghosts have no substance and cannot make physical sounds, all sonic attacks from electric guitars are ignored.",亡霊は実体を持たず物理的な音が響かないため、エレキギターの音波攻撃は全て無視された。,由于鬼魂没有实体，无法发出物理声音，因此所有来自电吉他的声音攻击都会被忽略。
+MSG_C_ELECTRICGUITAR_V_LOSS,"There was no time to hold the guitar in front of the vampire's overwhelming speed, and its sharp fangs dug deep into the nape of your neck.",吸血鬼の圧倒的なスピードの前にギターを構える暇もなく、首筋に鋭い牙が深々と食い込んだ。,在吸血鬼压倒性的速度面前，你根本来不及握住吉他，它锋利的獠牙深深地扎进了你的颈背。
+MSG_C_ELECTRICGUITAR_W_LOSS,"You tried to make a session with the wolf's howl and the guitar, but it was recognized as normal prey and bit your throat.",狼の遠吠えとギターでセッションしようとしたが、普通に獲物として認識されて喉元を噛まれた。,你试图用狼的嚎叫和吉他来进行演奏，但它被认为是正常的猎物并咬住了你的喉咙。
+MSG_C_ELECTRICGUITAR_X_LOSS,"When Zarsis snapped his fingers, all the strings of the electric guitar disappeared along with the space, leaving you as a helpless bystander.",ザルシスが指を鳴らすとエレキギターの弦が全て空間ごと消滅し、お前は無力な傍観者となった。,当扎尔西斯打响指时，电吉他的所有琴弦都随着空间消失了，只剩下你一个无助的旁观者。
+MSG_C_ELECTRICGUITAR_Y_LOSS,"The Yeti's blizzard instantly froze the guitar's fingerboard, and the skin on his fingers peeled off the moment he slid it.",イエティの吹雪でギターの指板が一瞬で凍りつき、スライドした瞬間に指の皮がすべて剥がれた。,雪人的暴风雪瞬间冻结了吉他的指板，手指上的皮肤在他滑动的瞬间就剥落了。
+MSG_C_ELECTRICGUITAR_Z_LOSS,"He swings his guitar as a blunt weapon at a horde of zombies, but it breaks in the blink of an eye and he is defeated.",ゾンビの大群に向かってギターを鈍器として振り回すが、あっという間に壊れてしまい押し負けた。,他挥动吉他作为钝器攻击一群僵尸，但眨眼间吉他就坏了，他被打败了。
+SelfieStick,Selfie Stick,自撮り棒,自拍杆
+MSG_C_SELFIESTICK_A_WIN,"He extended his selfie stick to its maximum length and pinpointed the ant's antennae from a safe distance, crushing it.",自撮り棒を最大まで伸ばし、安全な距離からアリの触角をピンポイントで突いて潰した。,他将自拍杆伸到最大长度，从安全距离瞄准蚂蚁的触角，将其压碎。
+MSG_C_SELFIESTICK_B_WIN,"The flash from the end of the selfie stick was lit in the bat's face, blinding it and causing it to crash into the wall.",自撮り棒の先端のフラッシュをコウモリの顔面で焚き、目を眩ませて壁に激突させた。,自拍杆末端的闪光照射在蝙蝠的脸上，使其失明并撞到墙上。
+MSG_C_SELFIESTICK_C_WIN,"A cobra tried to bite you, but you used the length of your selfie stick to punch it in the head from outside the range of its poisonous fangs.",コブラが噛みついてきたが、自撮り棒の長さを活かして毒牙の間合いの外から頭を殴り抜いた。,一条眼镜蛇试图咬你，但你用自拍杆的长度从它的毒牙范围之外猛击它的头部。
+MSG_C_SELFIESTICK_D_WIN,"You stabbed the dragon's giant eye with the tip of a selfie stick, piercing it straight to the top of its brain.",ドラゴンの巨大な目を自撮り棒の先端で鋭く突き刺し、そのまま脳天まで一直線に貫いた。,你用自拍杆的尖端刺向龙的巨眼，直刺到它的脑顶。
+MSG_C_SELFIESTICK_E_WIN,"He deftly broke off a dead branch of an Ent with a selfie stick, causing him to lose his balance and fall to the ground.",エントの枯れ枝を自撮り棒で器用にへし折り、バランスを崩して地面に倒れ込ませた。,他巧妙地用自拍杆折断了树人的枯枝，导致他失去平衡摔倒在地。
+MSG_C_SELFIESTICK_F_WIN,"You flexed your selfie stick like a whip to flick the fly away as it continued to fly around, killing it with one blow.",ハエの執拗な飛び回りに自撮り棒を鞭のようにしならせて弾き飛ばし、一撃で仕留めた。,你像鞭子一样挥动自拍杆，将苍蝇甩开，苍蝇继续飞来飞去，一击将其杀死。
+MSG_C_SELFIESTICK_G_WIN,He hooked the string of the jewelry bag that the goblin had stolen with the hook of a selfie stick and got it back in one go.,ゴブリンが盗んだ宝石袋の紐を自撮り棒のフックで引っ掛け、そのまま一気に取り返した。,他用自拍杆的钩子勾住妖精偷走的珠宝袋的绳子，一口气拿了回来。
+MSG_C_SELFIESTICK_H_WIN,"He thrust a selfie stick into the trajectory of a harpy attacking from the sky, skewered it, and succeeded in shooting it down.",ハーピーが空から襲い来る軌道に自撮り棒を突き立て、串刺しにして撃墜に成功した。,他将自拍杆插入空中攻击的鹰身女妖的轨迹，将其刺穿，并成功将其击落。
+MSG_C_SELFIESTICK_I_LOSS,"He swung his selfie stick around as the Imp teleported and hit him cleanly in the face, causing a concussion.",インプの瞬間移動に合わせて自撮り棒を振り回し、顔面にクリーンヒットさせて脳震盪を起こした。,当小恶魔传送时，他挥舞着自拍杆，干净利落地击中了他的脸，造成了脑震荡。
+MSG_C_SELFIESTICK_J_WIN,"You plunged your selfie stick into the jelly's acid solution, and it quickly melted all the way to your hand, resulting in severe burns.",ジェリーの酸液に自撮り棒を突っ込んでしまい、手元まで急速に溶けて大きな火傷を負った。,你把自拍杆放入果冻的酸溶液中，它很快就一直融化到你的手上，导致严重烧伤。
+MSG_C_SELFIESTICK_K_WIN,"The length of the selfie stick exceeded the reach of the kobold horde's spear, and they unilaterally attacked them with octopuses and wiped them out.",コボルドの群れの槍のリーチを自撮り棒の長さで上回り、一方的にタコ殴りにして一網打尽にした。,自拍杆的长度超出了狗头人部落长矛的攻击范围，他们单方面用章鱼攻击他们，将他们消灭殆尽。
+MSG_C_SELFIESTICK_L_WIN,"While the lizard was sunbathing, he took a selfie with a selfie stick, and the flash startled him into unconsciousness.",リザードが日光浴している隙に自撮り棒で自撮りを行い、そのフラッシュで驚かせて気絶させた。,蜥蜴在晒日光浴时，用自拍杆自拍，闪光灯把他吓得不省人事。
+MSG_C_SELFIESTICK_M_LOSS,You hooked the end of the selfie stick into the knot in Mommy's bandage and unwrapped it like a bicycle chain.,マミーの包帯の結び目に自撮り棒の先を引っ掛け、自転車のチェーンのように巻き取ってほどいた。,你把自拍杆的一端挂在妈妈绷带的结上，然后像自行车链条一样打开它。
+MSG_C_SELFIESTICK_N_LOSS,"The selfie stick was wrapped around the large body of the naga, and the stick was tightened around you, breaking your spine along with the stick.",ナーガの巨体に自撮り棒を絡められ、そのまま締め上げられて棒ごとあなたの背骨がへし折られた。,自拍杆缠住了纳迦庞大的身躯，棍子也紧紧地缠住了你，你的脊椎骨也跟着被棍子折断了。
+MSG_C_SELFIESTICK_O_LOSS,"By foolishly trying to block an orc's giant battle ax with a selfie stick, it was shattered into pieces.",オークの巨大な戦斧を自撮り棒で受け止めようとするという愚行により、木っ端微塵に粉砕された。,愚蠢地试图用自拍杆挡住兽人的巨型战斧，结果它被摔成了碎片。
+MSG_C_SELFIESTICK_P_LOSS,"He discovered the magic of Pixie's hallucinations by seeing the truth through the selfie stick's camera, and hit him with a stick instead.",ピクシーの幻覚に対して自撮り棒のカメラ越しに真実を見ることで魔法を看破し、逆に棒で殴った。,他通过自拍杆的摄像头看到了真相，发现了小精灵幻觉的魔力，并用棍子打了他。
+MSG_C_SELFIESTICK_Q_WIN,"As Coarl released its death blow, you thrust the selfie stick into its open mouth, conducting the entire shock back into its own heart.",コアールの放った雷撃を自撮り棒で受け流し、そのエネルギーを奴の口内へと完璧に跳ね返して内部から焼き尽くした。,当科尔发出致命一击时，你将自拍杆插入它张开的嘴里，将整个电击导回它自己的心脏。
+MSG_C_SELFIESTICK_R_LOSS,"He mowed down a group of rats with a selfie stick, but many of them climbed up on the stick and gnawed off all his flesh.",ラットの群れを自撮り棒で薙ぎ払うも、多勢に無勢で棒をよじ登られ全身の肉を齧り取られた。,他用自拍杆打倒了一群老鼠，但很多老鼠爬上自拍杆，啃掉了他的肉。
+MSG_C_SELFIESTICK_S_LOSS,"You stuck a selfie stick inside the slime's body, but it wouldn't come out, and it was pulled out and swallowed.",スライムの体内に自撮り棒を突き刺したがそのまま抜けなくなり、引っ張られて飲み込まれた。,你把自拍杆插进史莱姆的身体里，但它拔不出来，就被拔出来吞了下去。
+MSG_C_SELFIESTICK_T_LOSS,"The troll's strength grabbed you by the end of the selfie stick, and you were swung around like a yo-yo.",トロールの怪力に自撮り棒の先端を掴まれ、そのままヨーヨーのようにあなた自身が振り回された。,巨魔的力量抓住了你的自拍杆末端，你像溜溜球一样被甩来甩去。
+MSG_C_SELFIESTICK_U_LOSS,"A ghost slips through your selfie stick, and you go crazy when you see a horrifying ghost photo on the camera.",亡霊に自撮り棒はすり抜けてしまい、カメラに映ったおぞましい心霊写真を見てあなたが発狂した。,鬼魂从你的自拍杆中溜走，当你在相机上看到一张可怕的鬼魂照片时，你会发疯。
+MSG_C_SELFIESTICK_V_LOSS,"The reach of the selfie stick was meaningless in the face of the vampire's unnoticeable movements, and he was suddenly attacked from behind.",吸血鬼の目にもとまらぬ動きの前に自撮り棒のリーチは何の意味もなく、背後から急襲された。,自拍杆的触及范围在吸血鬼难以察觉的动作面前毫无意义，突然就被从背后袭击了。
+MSG_C_SELFIESTICK_W_LOSS,"He tried to intimidate the wolf with a selfie stick, but the stick was easily bitten off and his throat was taken with him.",狼を自撮り棒で威嚇しようとしたが、あっさりと棒を噛みちぎられ、そのまま喉笛を持っていかれた。,他试图用自拍杆恐吓狼，但自拍杆很容易被咬断，喉咙也被夺走了。
+MSG_C_SELFIESTICK_X_LOSS,"With the power of Zarsis, the concept of a selfie stick has been reversed, and you have become the tip of a selfie stick in the form of a smartphone.",ザルシスの力によって自撮り棒の概念が反転し、あなた自身が自撮り棒の先端のスマホの形になった。,有了Zarsis的力量，自拍杆的概念被逆转，你变成了智能手机形态的自拍杆尖头。
+MSG_C_SELFIESTICK_Y_LOSS,"The hand holding the selfie stick became completely frostbitten due to the Yeti's frigid blizzard, and he was beaten to death without being able to do anything.",イエティの極寒の吹雪により自撮り棒を持つ手が完全に凍傷になり、何もできずに殴り殺された。,雪人拿着自拍杆的手被严寒的风雪彻底冻伤，无能为力，被活活打死。
+MSG_C_SELFIESTICK_Z_LOSS,"He swings his selfie stick at a horde of zombies, but it gets stuck in the rotten flesh and cannot be removed, and he is defeated by the horde.",ゾンビの大群に自撮り棒を振り回すが、腐肉に突き刺さったまま抜けなくなり、群れに押し負けた。,他向一群僵尸挥舞自拍杆，但自拍杆卡在腐肉中无法取出，他被僵尸群击败。
+WiFiRouter,Wi-Fi Router,Wi-Fiルーター,Wi-Fi路由器
+MSG_C_WIFIROUTER_A_WIN,You held the router's thick antenna like a spear and stabbed the vital points of the swarm of ants one by one as they crawled towards you.,ルーターの極太アンテナを槍のように構え、這い寄るアリの群れの急所を一つずつ突き刺した。,你像长矛一样握住路由器粗大的天线，一根一根地刺向向你爬来的蚂蚁群的要害。
+MSG_C_WIFIROUTER_B_WIN,"The powerful Wi-Fi radio waves disoriented the bat as it flew through the darkness, causing it to crash into the cave wall and fall.",Wi-Fiの強力な電波が暗闇を飛ぶコウモリの方向感覚を狂わせ、洞窟の壁に激突させて倒した。,当蝙蝠在黑暗中飞行时，强大的 Wi-Fi 无线电波使蝙蝠迷失了方向，导致它撞到洞壁上并坠落。
+MSG_C_WIFIROUTER_C_WIN,"The moment Cobra raised its sickle neck, you hit him directly in the face with a high-speed router, knocking him unconscious.",コブラが鎌首をもたげた瞬間、高速ルーターを顔面に直撃させてそのまま気絶させた。,眼镜蛇一举起镰刀脖子，你就用高速路由器直接打在他脸上，把他打昏了。
+MSG_C_WIFIROUTER_D_WIN,"Even the dragon's strong scales could not withstand the attacks thrown by the router's antennas, which extended in all four directions.",ドラゴンの強靭な鱗すらも、四方向に伸びたルーターのアンテナによる投擲攻撃には耐えきれなかった。,即使是巨龙坚固的鳞片也无法抵挡路由器天线向四个方向延伸的攻击。
+MSG_C_WIFIROUTER_E_WIN,"The rustling of the leaves that the Ent had was completely canceled out by the radio interference waves, and the tree's thoughts were frozen.",エントの持つ木の葉のざわめきを無線の干渉波で完全に打ち消し、樹木の思考をフリーズさせた。,树人树叶的沙沙声完全被无线电干扰波抵消了，树的思绪也被冻结了。
+MSG_C_WIFIROUTER_F_WIN,"The fly, attracted by the exhaust heat from the router, entered the gap in the base, instantly receiving an electric shock and burning the machine.",ルーターの排熱に引き寄せられたハエが基盤の隙間に入り込み、一瞬で感電して焼け焦げた。,苍蝇被路由器排出的热量吸引，进入底座的缝隙中，瞬间触电并烧毁了机器。
+MSG_C_WIFIROUTER_G_LOSS,The goblin caught the thrown router and used its antennas as crude daggers to stab you repeatedly.,投げつけたルーターをゴブリンが空中でキャッチし、そのアンテナを鋭い短剣のように使ってあなたを執拗に刺してきました。,哥布林在空中接住了投掷的路由器，将其天线像锐利的短剑一样使用，固执地向你刺了过来。
+MSG_C_WIFIROUTER_H_WIN,"Before the harpy could attack from the sky, the antenna part of the router was thrown, piercing its wing and falling to the ground.",ハーピーが空から襲い来るより早くルーターのアンテナ部分を投擲し、翼を貫いて地に落とした。,还没等鹰身女妖从空中攻击，路由器的天线部分就被扔了出去，刺穿了它的翅膀，掉到了地上。
+MSG_C_WIFIROUTER_I_WIN,"He predicted the imp's teleport destination based on the router's communication log, and the moment it appeared, he hit him in the face with his horn.",インプのテレポート先をルーターの通信ログから予測し、出現した瞬間に角で顔面をぶん殴った。,他根据路由器的通讯日志预测了小鬼的传送目的地，在它出现的那一刻，他用角打了他的脸。
+MSG_C_WIFIROUTER_J_LOSS,"As a result of throwing a router into Jerry's slime-like body, an electrical leak occurred inside and caused a huge explosion.",ジェリーのスライム状の体にルーターを放り込んだ結果、内部で漏電して大爆発を引き起こした。,由于将路由器扔进了杰瑞粘液状的身体中，导致内部发生漏电并引发了巨大的爆炸。
+MSG_C_WIFIROUTER_K_LOSS,"You caught the kobold's spear like a white blade in the gap between the router's antenna, and then hit it back with the main body.",コボルドの槍をルーターのアンテナの隙間で白刃取りのように受け止め、そのまま本体で殴り返した。,你把狗头人的长矛当作白色的刀刃一样抓住了路由器天线之间的缝隙，然后用本体将它击回去。
+MSG_C_WIFIROUTER_L_LOSS,"The lizard mistook the router for a metallic insect and swallowed it whole, before spitting out a ball of fire that incinerated you.",リザードがルーターを金属の昆虫だと勘違いして丸呑みにしたが、直後に吐き出された火炎球によってあなたは焼き尽くされた。,蜥蜴误以为路由器是金属昆虫而将其吞入，但紧接着吐出的火炎球将你烧毁了。
+MSG_C_WIFIROUTER_M_LOSS,We blocked Mummy's ancient curse with the router's latest encryption protocols and physically tore off the bandage.,マミーの古代の呪いをルーターの最新の暗号化プロトコルでブロックし、物理で包帯を引きちぎった。,你们用路由器最新的加密协议阻止了木乃伊的古老诅咒，并物理撕下了绷带。
+MSG_C_WIFIROUTER_N_WIN,"You threw the router as hard as you could at the naga's body, but its strong scales bounced it back and hit you directly in the face.",ナーガの胴体にルーターを力いっぱい投げつけたが、強靭な鱗に弾き返されあなたの顔面に直撃した。,你用尽全力将路由器扔向纳迦的身体，但它强大的鳞片将其反弹回来并直接击中你的脸。
+MSG_C_WIFIROUTER_O_LOSS,The plastic router instantly turned into scrap metal before the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前に、プラスチック製のルーターは一瞬で鉄屑と化した。,塑料路由器在兽人巨斧铺天盖地的物理攻击下瞬间化为废铁。
+MSG_C_WIFIROUTER_P_WIN,"Pixie's illusion magic made the router look like a delicious cake, and she bit into it, breaking her teeth.",ピクシーの幻覚魔法により、ルーターが美味しいケーキに見えてしまい、かじりついて歯が折れた。,皮克西的幻象魔法让路由器看起来就像一块美味的蛋糕，她咬碎了牙齿。
+MSG_C_WIFIROUTER_Q_LOSS,"The router's antenna could not absorb the electric shock from the core like a lightning surge, and it exploded into a fire daruma.",コアールの電撃をルーターのアンテナが雷サージよろしく吸収しきれず、爆発して火ダルマになった。,路由器的天线根本无法吸收雷电涌动般的核心电击，直接炸成了火达摩。
+MSG_C_WIFIROUTER_R_WIN,"A swarm of rats quickly chewed through the router's power cord and LAN cable, leaving it with nothing more than a box.",ラットの群れにルーターの電源コードやLANケーブルをあっという間に噛みちぎられ、ただの箱になった。,一群老鼠迅速咬断了路由器的电源线和网线，只剩下一个盒子。
+MSG_C_WIFIROUTER_S_LOSS,"You stuck a router inside the slime's body, but it was completely swallowed up by the slime and digested.",スライムの体内にルーターを突き刺したが、ネバネバの粘液に完全に飲み込まれ消化されてしまった。,你把路由器插进了史莱姆的体内，但它完全被史莱姆吞没了，消化掉了。
+MSG_C_WIFIROUTER_T_LOSS,"The troll's self-regeneration exceeded the router's blow, and the stolen router hit it hard.",トロールの自己再生はルーターの打撃を上回り、奪い取られたルーターで逆にメッタ打ちにされた。,巨魔的自我再生能力超过了路由器的打击，被盗的路由器给了它重重的打击。
+MSG_C_WIFIROUTER_U_LOSS,"The ghost completely nullified the electromagnetic waves emitted by the router, cutting off all means of communication and placing a spell on you.",亡霊はルーターから発せられる電磁波を完全に無効化し、あなたの通信手段を一切絶って呪縛した。,幽灵完全消除了路由器发出的电磁波，切断了所有通讯手段，并对你下了咒语。
+MSG_C_WIFIROUTER_V_LOSS,"You held your router in front of the vampire's invisible movements, leaving you completely exposed and instantly dying.",吸血鬼の目にもとまらぬ動きの前に、ルーターを構えたあなたは完全な隙を晒し一瞬で死に至った。,你把路由器放在吸血鬼看不见的动作面前，让你完全暴露并立即死亡。
+MSG_C_WIFIROUTER_W_LOSS,"You held up a router in front of a pack of wolves to threaten them, but it didn't make any sense and the group bit you and sucked you to the bone.",狼の群れの前にルーターを掲げて威嚇したが、全く意味を為さず集団で噛みつかれ骨までしゃぶられた。,你在一群狼面前举起路由器来威胁它们，但这没有任何意义，狼群咬住了你，把你吸到了骨头里。
+MSG_C_WIFIROUTER_X_LOSS,"The moment Zarsis disconnected the invisible network, not only the router but also your existence was disconnected.",ザルシスが不可視のネットワークを切断した瞬間、ルーターだけでなくあなたの存在も切断された。,扎西斯断开隐形网络的那一刻，不仅是路由器，连你的存在都被断开了。
+MSG_C_WIFIROUTER_Y_WIN,"Yeti's frigid snowstorm instantly completely froze the base of the router, turning it into nothing more than cold plastic.",イエティの極寒の吹雪によりルーターの基盤が瞬時に完全に凍りつき、ただの冷たいプラスチックになった。,雪人的寒冷暴风雪瞬间将路由器的底部完全冻结，变成了冰冷的塑料。
+MSG_C_WIFIROUTER_Z_WIN,"You swing the router's antenna at the horde of zombies, but it gets stuck in the rotten flesh and you can't get it out, so you're defeated.",ゾンビの大群に向かってルーターのアンテナを振り回すが、腐肉に刺さって抜けなくなり押し負けた。,你向这群僵尸挥动路由器的天线，但它卡在腐肉里，你无法将其取出，所以你失败了。
+LaserPointer,Laser Pointer,レーザーポインター,激光笔
+MSG_C_LASERPOINTER_A_LOSS,"Using an illegal ultra-high-power laser pointer, the ant's tiny body was instantly turned into charred coals.",違法な超高出力レーザーポインターを照射し、アリの小さな体を一瞬で黒焦げの炭に変え焼き尽くした。,使用非法超高功率激光笔，蚂蚁微小的身体瞬间变成了焦炭。
+MSG_C_LASERPOINTER_B_WIN,"A bat flies in the dark, and its retinas are completely blinded by a laser beam, which is then completely blinded, causing them to fall headlong to the ground.",暗闇を飛ぶコウモリの網膜にレーザーの光を直接当てて視力を完全に奪い、地面に真っ逆さまに落とした。,一只蝙蝠在黑暗中飞行，它的视网膜被激光束完全弄瞎，然后彻底失明，导致它们一头栽倒在地上。
+MSG_C_LASERPOINTER_C_WIN,"He slashed the cobra's sickle neck in half with the hot rays of a laser pointer, completely silencing its eerie threat.",コブラの鎌首をレーザーポインターの熱線で真っ二つに焼き斬り、不気味な威嚇ごと完全に黙らせた。,他用激光笔的热射线将眼镜蛇的镰刀脖子切成两半，完全消除了它可怕的威胁。
+MSG_C_LASERPOINTER_D_WIN,"He accurately shot through the dragon's giant eyes with a laser pointer, and while his sight was taken away, he accurately killed it in its vital points.",ドラゴンの巨大な目をレーザーポインターで正確に射抜き、視界を奪われた隙に急所を正確に仕留めた。,他用激光笔精准地射穿了巨龙的巨眼，在视线被夺走的同时，精准的将它杀死在要害处。
+MSG_C_LASERPOINTER_E_LOSS,"The ent absorbed the laser's energy to accelerate its growth, and its countless roots burst through the ground to entangle and crush you.",エントがレーザーの光エネルギーを吸い取って異常成長し、地中から無数の根を伸ばしてあなたをがんじがらめに締め上げた。,树人吸收激光的光能异常生长，从地下伸出无数根部，将你紧紧勒住。
+MSG_C_LASERPOINTER_F_WIN,He perfectly read the predicted trajectory of a flying fly and perfectly burned it in the air with a thin beam of light from a laser pointer.,飛び回るハエの予測軌道を完璧に読み切り、レーザーポインターの細い光の線で空中で完璧に焼き払った。,他完美地读取了一只飞行苍蝇的预测轨迹，并用激光笔发出的细光束在空气中完美地燃烧了它。
+MSG_C_LASERPOINTER_G_LOSS,You aimed the red dot of the laser at the rear of the goblin running away with the stolen gold coin bag on its back and opened a large hole.,ゴブリンが盗んだ金貨袋を背負って逃げる後姿へ、レーザーの赤い光点で照準を合わせて大穴を開けた。,你将激光的红点瞄准了背着偷来的金币袋逃跑的哥布林的后部，开了一个大洞。
+MSG_C_LASERPOINTER_H_WIN,"Just before the harpy attacks from the sky, a laser hits him in the head, boiling his brain and causing it to fall from the sky.",ハーピーが空から襲い来る直前にレーザーを脳天に直撃させ、脳を沸騰させてそのまま空から墜落させた。,就在鹰身女妖从空中攻击之前，一束激光击中了他的头部，烧灼了他的大脑并使其从空中坠落。
+MSG_C_LASERPOINTER_I_WIN,"It predicted the imp's teleport destination and fired a laser pointer at the distortion in space, turning it into charcoal as soon as it appeared.",インプのテレポート先を予測し、空間の歪みに向けてレーザーポインターを放射して出現と同時に消し炭にした。,它预测了小鬼的传送目的地，并向扭曲的空间发射了激光笔，将其一出现就化为木炭。
+MSG_C_LASERPOINTER_J_WIN,"Jerry's slime body was heated and boiled with a laser beam, causing a steam explosion that blew it to every corner of the room.",ジェリーのスライム体をレーザーの熱線で炙って煮沸し、水蒸気爆発を起こさせて部屋の隅々まで吹き飛ばした。,杰瑞的史莱姆身体被激光束加热煮沸，引发蒸汽爆炸，将其吹到房间的每个角落。
+MSG_C_LASERPOINTER_K_LOSS,"The kobolds were merely distracted by the red dot, and while you were playing around, they surrounded you and began their feast.",赤色のレーザーポインターの光にコボルドたちは一瞬気を取られたが、あなたが油断している隙に包囲され、無残な最期を遂げた。,狗头人们被红色的激光笔光芒吸引了注意力，但在你大意的时候被包围，迎来了凄惨的末路。
+MSG_C_LASERPOINTER_L_LOSS,"The laser pointer's high heat instantly raised the lizard's cold-blooded body to the boiling point, causing it to burst into pieces.",リザードの冷血な身体をレーザーポインターの高熱で瞬時に沸点まで高め、破裂させて木端微塵にした。,激光笔的高热瞬间将蜥蜴冷血的身体提升到了沸点，直接炸成了碎片。
+MSG_C_LASERPOINTER_M_LOSS,"The desiccated heart, the core of Mummy's ancient curse, was literally burned out with a laser pointer through the gap in the bandage.",マミーの古代の呪いの核である乾燥した心臓を、包帯の隙間からレーザーポインターで文字通り正確に焼き抜いた。,干涸的心脏，木乃伊古老诅咒的核心，被激光笔穿过绷带的缝隙烧坏了。
+MSG_C_LASERPOINTER_N_WIN,"He tried to cut through Naga's gigantic body with a laser, but the light reflected diffusely on his smooth scales, and he himself was seriously injured by the reflected beam and collapsed.",ナーガの巨体をレーザーで切り裂こうとしたが、滑らかな鱗に光が乱反射し、跳ね返った光線で自ら重傷を負って倒れた。,他试图用激光切割娜迦巨大的身体，但光线在他光滑的鳞片上漫反射，而他本人也被反射光束重伤，倒地不起。
+MSG_C_LASERPOINTER_O_WIN,"You aimed a laser pointer at the orc's thick muscular armor, but it only caused a slight burn before it lashed out and was crushed.",オークの分厚い筋肉の装甲にレーザーポインターを照射したが、ほんの少し火傷を負わせただけであり、逆上して潰された。,你用激光笔瞄准了兽人厚厚的肌肉铠甲，但只造成了轻微的烧伤，然后它就被猛烈地击碎了。
+MSG_C_LASERPOINTER_P_LOSS,"Pixie's illusion magic made it appear that all the laser pointer lights were pointing towards her, and she panicked and self-destructed.",ピクシーの幻覚魔法により、レーザーポインターの光の先がすべて自分に向いているように見え、パニックで自滅した。,皮克西的幻象魔法让所有的激光笔都指向她，她惊慌失措，自毁了。
+MSG_C_LASERPOINTER_Q_WIN,"The laser pointer's light literally became hazy in front of Koar's tremendous electric shock, and was struck by intense lightning and disappeared.",コアールの凄まじい電撃の前にレーザーポインターの光は文字通り霞んでしまい、そのまま強烈な雷を落とされて消えた。,激光笔的光芒在科阿尔巨大的电击面前简直变得朦胧起来，并被强烈的闪电击中消失了。
+MSG_C_LASERPOINTER_R_WIN,"The laser pointer, which is a straight line for a large group of rats, was so inefficient that it only burned a few rats before biting them to death.",ラットの大量の群れに対して一本の直線であるレーザーポインターはあまりにも非効率で、数匹焼いたところで噛み殺された。,激光笔对一大群老鼠来说是一条直线，效率太低，只烧伤了几只老鼠，然后就把它们咬死了。
+MSG_C_LASERPOINTER_S_LOSS,"You tried to pierce the slime's body with a laser pointer and burn it from the inside, but it was deflected by the slime and the body was completely unharmed.",スライムの体内にレーザーポインターを突き刺して内部から焼こうとしたが、粘液で屈折し本体には全くの無傷だった。,你试图用激光笔刺穿史莱姆的身体，从内部烧毁它，但它被史莱姆偏转，身体毫发无伤。
+MSG_C_LASERPOINTER_T_WIN,"The troll's terrifying self-regeneration ability far outpaced the laser's ability to burn through your flesh, easily crushing you in both hands while leaving you unharmed.",トロールの恐るべき自己再生能力はレーザーが肉体を焼く速度を遥かに上回り、無傷のままあなたを両手で簡単に握り潰した。,巨魔可怕的自我再生能力远远超过了激光烧穿你血肉的能力，轻而易举地将你双手碾碎，而你却安然无恙。
+MSG_C_LASERPOINTER_U_LOSS,"Since ghosts have no physical body, the laser pointer, which is a heat ray, simply passes through the void, and a cold hand grasps your heart.",亡霊は実体を持たないため熱線であるレーザーポインターはただ虚空を通り抜けるのみで、冷たい手であなたの心臓を握られた。,由于鬼魂没有肉身，激光笔这种热射线只是穿过虚空，一只冰冷的手抓住了你的心。
+MSG_C_LASERPOINTER_V_LOSS,"It was impossible to aim the laser pointer in front of the vampire's invisible movements, and his neck was bitten off from behind.",吸血鬼の目にもとまらぬ動きの前にレーザーポインターで狙いをつけることは一切不可能であり、背後から首筋を噛みちぎられた。,在吸血鬼无形的动作面前根本无法将激光笔瞄准，他的脖子就被从后面咬断了。
+MSG_C_LASERPOINTER_W_LOSS,"The wild wolf didn't see the red dot as a threat at all, and simply leapt straight at you, tearing your throat out in an instant with its strong jaws.",荒野の狼は赤い光点など全く威嚇だと感じず、ただ真っ直ぐにあなたに向かって跳躍し、その強靭な顎で喉笛を瞬時に引きちぎった。,野狼根本没有把那个红点视为威胁，只是径直向你扑来，用它强有力的下颚瞬间撕开了你的喉咙。
+MSG_C_LASERPOINTER_X_LOSS,"The moment Zarsis did something outrageous by picking off a laser beam and bending it with a single fingertip, you were completely unable to understand it and went insane.",ザルシスがレーザーの光を指先一つで摘み取り折り曲げてしまうという暴挙に出た瞬間、あなたは完全に理解不能に陥り発狂した。,当扎尔西斯做出如此令人发指的举动，用指尖摘下激光束并使其弯曲时，你完全无法理解并陷入疯狂。
+MSG_C_LASERPOINTER_Y_LOSS,"The yeti's frigid cold instantly killed the laser pointer's battery, shattering it to just a cold pen.",イエティの極寒の冷気によってレーザーポインターの電池が瞬時に死亡し、ただの冷たいペンのようなものになったところを粉砕された。,雪人的严寒立即耗尽了激光笔的电池，将其粉碎成一支冰冷的钢笔。
+MSG_C_LASERPOINTER_Z_LOSS,"He swings a laser pointer at a horde of zombies and boils his brain, but there are so many that his battery runs out first and he is swallowed up by a pile of corpses.",ゾンビの大群に向かってレーザーポインターを振り回し脳を沸騰させるも、あまりの数に充電が先に切れてしまい屍の山に飲まれた。,他向一群僵尸挥舞着激光笔，烧开了他的大脑，但僵尸太多了，他的电池先耗尽了，他被一堆尸体吞没了。
+Segway,Segway,セグウェイ,平衡车
+MSG_C_SEGWAY_A_LOSS,A perfect drive-by of a group of crawling ants with the heavy wheels of a Segway.,セグウェイの重たい車輪で這い回るアリの集団を完璧なドライブバイで蹂躙した。,一群蚂蚁带着沉重的赛格威轮子完美地驶过。
+MSG_C_SEGWAY_B_WIN,"Riding around on a Segway, he ran over and killed bats flying overhead from out of the ultrasonic range.",セグウェイを乗り回し、上空に飛ぶコウモリの超音波射程外から一気に轢き殺した。,他骑着赛格威（Segway）代步车到处跑，跑过去杀死了从超声波范围外飞过头顶的蝙蝠。
+MSG_C_SEGWAY_C_WIN,"Before the Cobra could raise its sickle neck, you ran the Segway at top speed and knocked it away.",コブラが鎌首をもたげる前にセグウェイをトップスピードで走らせてはね飛ばした。,在眼镜蛇举起镰刀般的脖子之前，你以全速驾驶赛格威，将它撞开。
+MSG_C_SEGWAY_D_WIN,He brilliantly sneaked under the dragon's giant arm on a Segway and dealt a fatal blow to Gyakurin.,ドラゴンの巨大な腕の下をセグウェイで華麗に潜り抜け、逆鱗に致命の一撃を与えた。,他骑着赛格威巧妙地潜入龙的巨臂之下，给了雅库林致命一击。
+MSG_C_SEGWAY_E_WIN,"The Ent's giant feet caused him to drift on a Segway, causing him to lose his balance and slam into the ground.",エントの巨大な足元をセグウェイでドリフトし、バランスを崩して地面に叩きつけた。,树人的巨脚使他在赛格威上漂流，失去平衡并摔在地上。
+MSG_C_SEGWAY_F_WIN,The Segway's turning ability outstripped the predicted trajectory of the flying fly and deftly captured it mid-air.,飛び回るハエの予測軌道をセグウェイの旋回能力で上回り、空中で器用に捕獲した。,赛格威的转弯能力超出了飞行苍蝇的预测轨迹，并巧妙地在半空中捕捉到了它。
+MSG_C_SEGWAY_G_WIN,He chased after the fleeing goblin on a Segway and crushed it neatly along with the gold coins he had stolen.,逃げるゴブリンの背中をセグウェイで猛追し、盗んだ金貨ごと綺麗に轢き潰した。,他骑着赛格威追赶逃跑的妖精，将它连同偷来的金币一起碾碎。
+MSG_C_SEGWAY_H_LOSS,"He uses a Segway to escape from a harpy that attacks from the sky, leading it to crash into a wall.",空から襲来するハーピーからセグウェイで逃げ切り、壁に激突するよう誘導した。,他使用赛格威来躲避从天上袭击的鹰身女妖，导致它撞到墙上。
+MSG_C_SEGWAY_I_WIN,"You used a Segway to predict where the Imp would teleport, ambushing it, and running it over as soon as it appeared.",インプのテレポート先をセグウェイで先読みして待ち伏せし、出現と同時に轢いた。,你用赛格威来预测小恶魔会传送到哪里，伏击它，并在它出现时碾压它。
+MSG_C_SEGWAY_J_WIN,"Jerry's slime body was torn in two with the tires of the Segway, completely annihilating him.",ジェリーのスライム体をセグウェイのタイヤで二つに引き裂き、完全に消滅させた。,杰瑞的粘液身体被赛格威的轮胎撕成两半，彻底消灭了他。
+MSG_C_SEGWAY_K_WIN,"Using the high-speed maneuvers of the Segway, he passed through the spears of the Kobold horde and kicked them all at once from behind.",コボルドの群れの槍をセグウェイの高速機動ですり抜け、背後から一気に蹴散らした。,他利用赛格威的高速机动，穿过了狗头人大军的长矛，从后面一脚踢飞了他们。
+MSG_C_SEGWAY_L_WIN,You ran over a lizard basking in the sun on your Segway and scraped its cold-blooded body against the asphalt.,日向ぼっこするリザードをセグウェイで轢き、その冷血な体をアスファルトに擦り付けた。,你骑着赛格威车碾过一只正在晒太阳的蜥蜴，它冷血的身体在柏油路上刮擦。
+MSG_C_SEGWAY_M_WIN,"Mummy's bandage gets caught in the Segway's wheels, and an ancient curse comes undone to pieces.",マミーの包帯がセグウェイの車輪に巻き込まれ、古代の呪いごと木っ端微塵にほどけた。,木乃伊的绷带被赛格威的轮子卡住，古老的诅咒被解散。
+MSG_C_SEGWAY_N_LOSS,"You tried to run over the Naga's long body with your Segway, but it got entangled and you fell down.",ナーガの長い胴体をセグウェイで轢こうとしたが、見事に絡め取られて転倒した。,你试图用你的赛格威平衡车碾过娜迦修长的身体，但它被缠住了，你摔倒了。
+MSG_C_SEGWAY_O_WIN,Segway was instantly turned into scrap metal by the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前にセグウェイは一瞬で鉄屑と化した。,赛格威瞬间被兽人巨斧压倒性的物理攻击变成了废铁。
+MSG_C_SEGWAY_P_LOSS,"Pixie's hallucinatory magic causes the Segway's brakes to fail, causing it to fall into a cliff.",ピクシーの幻覚魔法によりセグウェイのブレーキが効かなくなり、崖へ転落した。,小精灵的幻觉魔法导致赛格威的刹车失灵，导致其坠入悬崖。
+MSG_C_SEGWAY_Q_WIN,"While the Segway was charred by Coarl's shock, you used the high-voltage explosion to propel yourself upward and deliver a decisive blow.",コアールの電撃でセグウェイは黒焦げになったが、その爆発の勢いを利用して空高く跳び上がり、敵の脳天を正確に撃ち抜いた。,虽然赛格威被科尔的电击烧焦了，但你利用高压爆炸的动力跳上半空，精准地击中了敌人的头顶。
+MSG_C_SEGWAY_R_LOSS,"He runs over a group of rats with his Segway, but is unable to move as the tires are chewed off by so many of them.",ラットの群れをセグウェイで轢くも、多勢に無勢でタイヤをかじり取られ動けなくなった。,他驾驶着赛格威平衡车碾过一群老鼠，但由于轮胎被这么多老鼠咬坏而无法移动。
+MSG_C_SEGWAY_S_LOSS,You plunged the Segway into the slime's body and was swallowed up by the sticky slime.,スライムの体内にセグウェイごと突っ込み、そのままネバネバの粘液に飲み込まれた。,你把赛格威推入史莱姆的身体里，然后就被粘稠的史莱姆吞没了。
+MSG_C_SEGWAY_T_LOSS,"The troll's self-regeneration outweighs the Segway's blows, and he is bludgeoned to death by the stolen Segway.",トロールの自己再生はセグウェイの打撃を上回り、奪い取られたセグウェイで殴り殺された。,巨魔的自我再生能力盖过了赛格威的打击，他被偷来的赛格威打死了。
+MSG_C_SEGWAY_U_LOSS,"Because ghosts are transparent, the Segway's roadkill attack slips through, and a cold hand grasps your heart.",亡霊は透過するためセグウェイの轢殺攻撃はすり抜けられ、冷たい手であなたの心臓を握られた。,因为鬼魂是透明的，赛格威的路杀攻击会溜走，一只冰冷的手抓住了你的心。
+MSG_C_SEGWAY_V_LOSS,The Segway's top speed was as if it had stopped before the vampire's movements went unnoticed.,吸血鬼の目にもとまらぬ動きの前にセグウェイの最高速度は止まっているも同然だった。,赛格威的最高速度就好像在吸血鬼的动作被忽视之前就停了下来。
+MSG_C_SEGWAY_W_LOSS,"Frightened by the howling wolves, he fled on a Segway, but tripped on a stone on a rough road and was eaten.",狼の遠吠えに怯えてセグウェイで逃走したが、悪路で石につまづいてそのまま食われた。,他被狼群的嚎叫吓坏了，于是骑着赛格威逃跑，却在崎岖不平的路上被石头绊倒，被吃掉了。
+MSG_C_SEGWAY_X_LOSS,"With a wave of Zarsis's hand, the tires of the Segway disappeared into the fourth dimension, and you crashed to the ground.",ザルシスが手を振るだけでセグウェイのタイヤが四次元に消え、あなたは地面に激突した。,扎尔西斯一挥手，赛格威的轮胎消失在第四维度，你摔在了地上。
+MSG_C_SEGWAY_Y_LOSS,"The Yeti's frigid snowstorm instantly froze the Segway, rendering it motionless and a mere weight.",イエティの極寒の吹雪によりセグウェイは瞬時に凍って動かず、ただの重りになった。,雪人的寒冷暴风雪立即冻结了赛格威，使它一动不动，只剩下重量。
+MSG_C_SEGWAY_Z_LOSS,"He rushes towards a horde of zombies on a Segway, but is unable to get on and off due to the number of corpses and is defeated.",ゾンビの大群に向かってセグウェイで突進するが、あまりの死体の数に乗り降りできず敗北した。,他骑着赛格威冲向一群僵尸，但由于尸体数量过多而无法上下车，最终被击败。
+Cryptocurrency,Cryptocurrency,仮想通貨,加密货币
+MSG_C_CRYPTOCURRENCY_A_WIN,"With the financial power from the skyrocketing value of virtual currency, they bought the entire land of the ant nest and physically destroyed it using heavy machinery.",仮想通貨の暴騰による資金力でアリの巣を土地ごと買収し、重機で物理的に消滅させた。,凭借虚拟货币暴涨带来的金融力量，他们购买了整个蚁巢土地，并使用重型机械对其进行了物理摧毁。
+MSG_C_CRYPTOCURRENCY_B_WIN,"They turned the habitat of bats that fly in the dark into a virtual currency yours, and completely drove them crazy with exhaust heat and noise.",暗闇を飛ぶコウモリの住処を仮想通貨の採掘場にし、排熱と騒音で完全に狂わせた。,他们把在黑暗中飞行的蝙蝠的栖息地变成了虚拟货币矿场，用废热和噪音彻底让它们发疯。
+MSG_C_CRYPTOCURRENCY_C_WIN,"Cobra threatened him, but he threw a virtual currency hardware wallet at him and cracked him in the head.",コブラが威嚇してきたが、仮想通貨のハードウェアウォレットを投げつけて脳天を割った。,Cobra威胁他，但他向他扔了一个虚拟货币硬件钱包，并打碎了他的头部。
+MSG_C_CRYPTOCURRENCY_D_WIN,"The value of the Dragon Treasure Vault plummeted due to cryptocurrency inflation, crushing its pride and defeating it.",ドラゴンの宝物庫の価値を仮想通貨のインフレで暴落させ、誇りを打ち砕いて倒した。,龙宝库的价值因加密货币通货膨胀而暴跌，击垮了它的骄傲并击败了它。
+MSG_C_CRYPTOCURRENCY_E_WIN,"The forest where the Ents lived was purchased with virtual currency, and all of it was cut down and reduced to ashes to generate electricity for mining.",エントの住む森を仮想通貨で買い取り、マイニングの電力のためすべて伐採して灰にした。,恩特们居住的森林是用虚拟货币购买的，全部砍伐化为灰烬，用于发电挖矿。
+MSG_C_CRYPTOCURRENCY_F_WIN,"They hired a large number of exterminators of flying flies using virtual currency, and used the latest weapons to annihilate every single one of them.",飛び回るハエの駆除業者を仮想通貨で大量に雇い、一匹残らず最新兵器で殲滅した。,他们用虚拟货币雇佣了大量的灭蝇师，并使用最新的武器将它们一一消灭。
+MSG_C_CRYPTOCURRENCY_G_WIN,"He was defeated by a goblin who tricked him into believing that the virtual currency was more valuable than the gold he had stolen, causing him to have a mental breakdown.",ゴブリンが盗んだ金貨よりも仮想通貨の方が価値があると騙し、精神崩壊させて倒した。,他被妖精打败，妖精欺骗他相信虚拟货币比他偷来的黄金更有价值，导致他精神崩溃。
+MSG_C_CRYPTOCURRENCY_H_LOSS,"Before the Harpies attacked from the sky, a group of anti-aircraft mercenaries hired with virtual currency cleared the area.",ハーピーが空から襲い来る前に、仮想通貨で雇った対空傭兵団が一帯を更地にした。,在鹰身女妖从天而降之前，一群用虚拟货币雇佣的防空雇佣兵清理了该地区。
+MSG_C_CRYPTOCURRENCY_I_LOSS,"It showed off the volatility of virtual currency, which surpassed even Imp's teleport, and caused brain waves to go crazy.",インプのテレポートをも凌駕する仮想通貨のボラティリティを見せつけ、脳波を狂わせた。,展现出虚拟货币的波动性，甚至超过了小鬼的瞬移，让人脑电波疯狂。
+MSG_C_CRYPTOCURRENCY_J_WIN,"A high-temperature mining machine was thrown into Jerry's slime body, completely evaporating it and leaving no trace.",ジェリーのスライム体に高熱のマイニングマシンを投げ込み、完全に蒸発させて跡形もなくした。,一台高温矿机被扔进杰瑞的史莱姆体内，将其彻底蒸发，不留任何痕迹。
+MSG_C_CRYPTOCURRENCY_K_WIN,"He distributed virtual currency to a group of kobolds, causing them to split up and kill each other.",コボルドの群れに対して仮想通貨をばら撒き、仲間割れを起こさせて互いに殺し合わせた。,他将虚拟货币分发给一群狗头人，导致他们分裂并互相残杀。
+MSG_C_CRYPTOCURRENCY_L_WIN,The lizard's cold-blooded body was pressed against the terrifying exhaust heat of the mining machine and roasted.,リザードの冷血な身体を、マイニングマシンの恐るべき排熱に押し付けて丸焼きにした。,蜥蜴冷血的身体被压在矿机可怕的废热上，被烤焦。
+MSG_C_CRYPTOCURRENCY_M_WIN,Mummy's ancient curse has been completely encrypted and sealed using virtual currency blockchain technology.,マミーの古代の呪いを仮想通貨のブロックチェーン技術で完全に暗号化し、封じ込めた。,木乃伊的远古诅咒已使用虚拟货币区块链技术完全加密和密封。
+MSG_C_CRYPTOCURRENCY_N_LOSS,"The concept of virtual currency was completely incomprehensible to Naga's gigantic body, and he was physically wrapped around it and strangled to death.",ナーガの巨体には仮想通貨といった概念は全く通じず、そのまま物理的に巻き付いて絞め殺された。,虚拟货币的概念对于娜迦庞大的身躯来说是完全无法理解的，他被身体包裹住，勒死了。
+MSG_C_CRYPTOCURRENCY_O_LOSS,The intangible wealth of virtual currency disappeared before the overwhelming physical attack from the orc's giant axe.,オークの巨大な斧による圧倒的な物理攻撃の前に、仮想通貨という実体のない富は消滅した。,无形的虚拟货币财富在兽人巨斧铺天盖地的物理攻击面前消失殆尽。
+MSG_C_CRYPTOCURRENCY_P_LOSS,"Pixie's hallucination magic causes her to see the virtual currency chart plummeting, causing her to go crazy and jump off a cliff.",ピクシーの幻覚魔法により仮想通貨のチャートが大暴落して見え、発狂して崖から飛び降りた。,Pixie的幻觉魔法让她看到虚拟货币图表暴跌，导致她疯狂跳下悬崖。
+MSG_C_CRYPTOCURRENCY_Q_LOSS,"Koar's electric shock hits the mining farm, everything explodes and you literally lose all your assets and your life.",コアールの電撃がマイニングファームに直撃し、すべてが爆発してあなたは文字通り全財産と命を失った。,科阿尔的电击击中了矿场，一切都爆炸了，你实际上失去了所有的资产和生命。
+MSG_C_CRYPTOCURRENCY_R_LOSS,"A swarm of rats chewed off the mining machine's cable, turning it into just a giant pile of scrap metal.",ラットの群れにマイニングマシンのケーブルを噛みちぎられ、ただの巨大な屑鉄の山になった。,一群老鼠咬断了采矿机的电缆，将其变成了一堆巨大的废金属。
+MSG_C_CRYPTOCURRENCY_S_LOSS,"Your virtual currency wallet was swallowed inside the slime's body, and your mental damage has exceeded its limit.",スライムの体内に仮想通貨のウォレットを飲み込まれ、あなたの精神的ダメージは限界を突破した。,你的虚拟货币钱包被史莱姆的身体吞噬了，你的精神伤害已经超出了极限。
+MSG_C_CRYPTOCURRENCY_T_LOSS,"The troll's self-regeneration was so amazing that it crushed you in an instant, along with the mercenaries hired using virtual currency.",トロールの自己再生は凄まじく、仮想通貨で雇った傭兵ごとあなたを一瞬で叩き潰した。,巨魔的自我再生能力太惊人了，瞬间碾压了你，还有那些用虚拟货币雇佣的雇佣兵。
+MSG_C_CRYPTOCURRENCY_U_LOSS,"Ghosts are not bound by the concept of wealth, so virtual currency has no meaning at all, and a cold hand grasps their heart.",亡霊は富という概念にとらわれないため仮想通貨は一切意味を成さず、冷たい手で心臓を握られた。,鬼不受财富概念的束缚，虚拟货币根本没有任何意义，一只冰冷的手抓住了他们的心。
+MSG_C_CRYPTOCURRENCY_V_LOSS,"In front of the hundreds of years of blood history of vampires, nonsense such as virtual currency was cut off along with the head.",吸血鬼の何百年もの血の歴史の前に、ぽっと出の仮想通貨などという戯言は首と一緒に刎ねられた。,在吸血鬼几百年的血脉史面前，虚拟货币之类的废话就被连同脑袋一起砍掉了。
+MSG_C_CRYPTOCURRENCY_W_LOSS,"He tried to explain the value of virtual currency to a pack of wolves, but his body was just food for all the wild creatures.",狼の群れに仮想通貨の価値を説こうとしたが、肉体こそがすべての野生の前にはただの餌だった。,他试图向一群狼解释虚拟货币的价值，但他的身体只是所有野生动物的食物。
+MSG_C_CRYPTOCURRENCY_X_LOSS,"The moment Zarsis severed the invisible network, not only the virtual currency but also its very existence was reduced to nothing.",ザルシスが不可視のネットワークを切断した瞬間、仮想通貨だけでなく存在そのものも無に帰した。,当扎尔西斯切断无形网络的那一刻，不仅是虚拟货币，就连它的存在也化为乌有。
+MSG_C_CRYPTOCURRENCY_Y_LOSS,"The mining machine was completely frozen in an instant due to Yeti's frigid blizzard, and it froze to death.",イエティの極寒の吹雪によりマイニングマシンが瞬時に完全に凍りつき、凍死して終わった。,矿机因为雪人的严寒暴风雪，瞬间被彻底冻结，冻死了。
+MSG_C_CRYPTOCURRENCY_Z_WIN,"You used a hardware wallet as a decoy to lure the greedy zombies into a pit trap, where they were all crushed by a pile of heavy gold coins.",ハードウェアウォレットを囮にしてゾンビたちを罠に誘い込み、山のように降り注ぐ本物の硬貨の下敷きにして一掃した。,你用硬件钱包作为诱饵，将贪婪的僵尸诱入陷阱，在那里它们都被一堆真正的硬币压碎了。
+ASMR,ASMR,ASMR,ASMR
+MSG_C_ASMR_A_WIN,"The ASMR whispers were blasted out using the finest stereophonic sound, completely destroying the nerves of the ants.",極上の立体音響によるASMRの囁き声を爆音で流し、アリの群れの神経を完全に破壊した。,ASMR的低语声用最精细的立体声轰出，彻底摧毁了蚂蚁的神经。
+MSG_C_ASMR_B_WIN,"By injecting sticky ASMR audio directly into the bat's auditory nerves, they disrupted the ultrasound waves and caused them to crash.",コウモリの聴覚神経に直接粘着的なASMR音声を流し込み、超音波を狂わせて墜落させた。,通过将粘稠的 ASMR 音频直接注入蝙蝠的听觉神经，他们扰乱了超声波并导致它们崩溃。
+MSG_C_ASMR_C_WIN,"The moment the cobra raised its sickle neck, you made it listen to the best relaxing ASMR music and put it into hibernation.",コブラが鎌首をもたげた瞬間、最高のリラクゼーションASMRを聞かせて冬眠状態にさせた。,当眼镜蛇抬起镰刀脖子的那一刻，你就让它听最放松的ASMR音乐，让它进入冬眠状态。
+MSG_C_ASMR_D_LOSS,ASMR that spoke directly to the eardrums and penetrated even the tough scales of dragons melted all brain cells.,ドラゴンの強靭な鱗すらも貫通する、鼓膜に直接語りかけるASMRで脳細胞を溶かし尽くした。,直达耳膜、甚至能穿透巨龙坚韧鳞片的ASMR，融化了所有的脑细胞。
+MSG_C_ASMR_E_WIN,The sap was completely dried by making a pleasant carbonated ASMR sound against the huge wooden body of the Ent.,エントの巨大な木材ボディに対し、心地よい炭酸音ASMRを響かせて樹液を完全に乾燥させた。,通过在 Ent 巨大的木制机身上发出令人愉悦的碳酸 ASMR 声音，使树液完全干燥。
+MSG_C_ASMR_F_WIN,"Based on the predicted trajectory of a flying fly, it emitted a vicious tinnitus ASMR sound that caused a concussion while remaining in the air.",飛び回るハエの予測軌道に対し、極悪な耳鳴りASMRを放射して空中にいるまま脳震盪を起こさせた。,根据飞行苍蝇的预测轨迹，它发出恶毒的耳鸣 ASMR 声音，在空中时引起脑震荡。
+MSG_C_ASMR_G_WIN,"He used ASMR to play the sound of a goblin counting the gold it had stolen on a loop in his head, driving him insane and defeating him.",ゴブリンが盗んだ金塊を数える音をASMRで脳内にループ再生させ、狂気へと追い込んで倒した。,他使用 ASMR 播放妖精数着偷来的黄金的声音，在他的脑海中循环播放，让他发疯并击败了他。
+MSG_C_ASMR_H_WIN,"Just before the harpy attacks from the sky, an anti-phase voice is applied to it using an ASMR microphone, causing the harpy to lose its sense of balance and fall.",ハーピーが空から襲い来る直前にASMRマイクで逆位相の声を当て、平衡感覚を狂わせて落とした。,就在鹰身女妖从空中攻击之前，使用 ASMR 麦克风向其施加反相声音，导致鹰身女妖失去平衡感并跌倒。
+MSG_C_ASMR_I_WIN,"Predicting the Imp's teleport destination, it fired a super low-pitched ASMR sound at the distortion in space, erasing it as soon as it appeared.",インプのテレポート先を予測し、空間の歪みに向けて超低音ASMRを放って出現と同時に消し飛ばした。,预测到了小鬼的传送目的地，它对着空间的扭曲发出超低音的ASMR声音，一出现就将其抹去。
+MSG_C_ASMR_J_LOSS,"Jerry's slime body was vibrated with the chewing sound unique to ASMR, causing it to resonate to its limit and explode without a trace.",ジェリーのスライム体をASMR特有の咀嚼音で振動させ、限界まで共振させて跡形もなく破裂させた。,杰瑞的史莱姆身体随着ASMR特有的咀嚼声而振动，使其共振到极限，爆炸得无影无踪。
+MSG_C_ASMR_K_LOSS,"A single ear-picking ASMR sound was sent evenly across a group of kobolds, melting their brains and putting them into a coma.",コボルドの群れに対して一本の耳かきASMR音声を均等に響かせ、全員の脳髄を溶かして昏睡させた。,刺耳的 ASMR 声音均匀地传遍了一群狗头人，融化了他们的大脑，让他们陷入昏迷。
+MSG_C_ASMR_L_LOSS,"The lizard's cold-blooded body was instantly raised to boiling point with its feverish ASMR breath, causing it to burst into pieces.",リザードの冷血な身体を、熱狂的なASMRの吐息で瞬時に沸点まで高め、破裂させて木端微塵にした。,蜥蜴冷血的身体，随着那狂热的ASMR呼吸，瞬间被升到了沸点，炸成了碎片。
+MSG_C_ASMR_M_LOSS,"You tried to charm the Mummy with ASMR, but it couldn't hear anything through its thick bandages and simply crushed you into dust.",マミーに対してASMRで魅了しようとしたが、分厚い包帯のせいで何も聞こえず、そのまま無慈悲に押し潰されて塵となった。,你试图用 ASMR 勾引木乃伊，但它透过厚厚的绷带什么也听不见，只是简单地把你压碎了。
+MSG_C_ASMR_N_LOSS,"You tried to point the ASMR microphone at Naga's huge body and give it bliss, but it was too big and had no effect and you got wrapped around it.",ナーガの巨体にASMRマイクを向けて至福を与えようとしたが、大きすぎて効果がなく巻き付かれた。,你试图将 ASMR 麦克风指向 Naga 巨大的身体并给予它极乐，但它太大了并且没有效果，你被它缠住了。
+MSG_C_ASMR_O_WIN,"ASMR had no effect on the orc's thick muscular armor, and it was smashed in half with an ax along with the deep bass microphone.",オークの分厚い筋肉の装甲にASMRは一切通じず、重低音のマイクごと斧で真っ二つに叩き割られた。,ASMR对兽人厚实的肌肉铠甲毫无作用，连带着深沉的低音麦克风被一斧头劈成了两半。
+MSG_C_ASMR_P_WIN,"The ultra-realistic ASMR whispers convinced the Pixie she was being surrounded by thousands of humans, and she fled back to the forest in terror.",超高音質のASMRの囁きにより、ピクシーは周囲を無数の人間に囲まれていると錯覚し、恐怖のあまり森の奥へと逃げ去っていった。,超现实的 ASMR 耳语让小精灵相信她正被成千上万的人包围，她惊恐地逃出了森林。
+MSG_C_ASMR_Q_LOSS,"The ASMR microphone short-circuited before Koar's tremendous electric shock, and was struck by intense lightning and sank.",コアールの凄まじい電撃の前にASMRマイクはショートしてしまい、そのまま強烈な雷を落とされて消沈した。,ASMR麦克风在Koar遭受巨大电击之前短路，并被强烈的闪电击中沉没。
+MSG_C_ASMR_R_LOSS,ASMR was so ineffective against a large group of rats that the microphone was chewed off after a few were put to sleep.,ラットの大量の群れに対してASMRはあまりにも非効率で、数匹眠らせたところでマイクを噛み壊された。,ASMR 对一大群老鼠无效，以至于在几只老鼠入睡后麦克风就被咬掉了。
+MSG_C_ASMR_S_WIN,"You tried to stick an ASMR microphone inside the slime's body and make it resonate, but the slime made it completely silent.",スライムの体内にASMRマイクを突き刺して共振させようとしたが、粘液で完全に無音にされた。,你试图将 ASMR 麦克风插入史莱姆的体内并使其产生共鸣，但史莱姆让它完全安静下来。
+MSG_C_ASMR_T_WIN,"The high-frequency ASMR recording resonated with the Troll's eardrums, causing intense pain that forced it to flee and hide deep in a cave.",高周波のASMR録音がトロールの鼓膜に共鳴し、凄まじい激痛によって戦意を失わせ、そのまま洞窟の奥へと敗走させた。,高频 ASMR 录音与巨魔的耳膜产生共鸣，引起剧烈疼痛，迫使它逃跑并躲进洞穴。
+MSG_C_ASMR_U_LOSS,"Since ghosts don't have a physical body, ASMR sound waves simply pass through the void, freezing your soul with their cold hands.",亡霊は実体を持たないためASMRの音波はただ虚空を通り抜けるのみで、冷たい手であなたの魂を凍らせた。,由于鬼魂没有肉身，ASMR 声波只是穿过虚空，用冰冷的手冻结你的灵魂。
+MSG_C_ASMR_V_LOSS,"Before the vampire's highly honed hearing, ASMR whispers were recognized as mere noise, and the nape of the vampire's neck was mercilessly chopped off.",吸血鬼の研ぎ澄まされた聴覚の前にASMRの囁きはただの雑音と認識され、容赦なく首筋を刈り取られた。,在吸血鬼高度磨练的听觉面前，ASMR低语被认为只是噪音，吸血鬼的颈背被无情地砍掉了。
+MSG_C_ASMR_W_LOSS,"The wolf in the wilderness didn't feel threatened by the human's eerie ASMR whispers, and just jumped straight towards it.",荒野の狼は人間の不気味な囁き声のASMRなど全く威嚇だと感じず、ただ真っ直ぐに向かって跳躍した。,荒野中的狼并没有感受到人类诡异的ASMR低语的威胁，径直向它扑了过去。
+MSG_C_ASMR_X_LOSS,"As a result of Zarsis's outrageous act of picking up the ASMR sound waves with a single fingertip and converting them into empty ears, you were left in a state of incomprehension.",ザルシスがASMRの音波を指先一つで摘み取り空耳へと変換するという暴挙の果て、あなたは理解不能に陥った。,由于扎尔西斯用一个指尖拾取 ASMR 声波并将其转化为空耳的令人发指的行为，导致你处于一种无法理解的状态。
+MSG_C_ASMR_Y_LOSS,The yeti's frigid cold air instantly killed the ASMR microphone's power supply and shattered it into nothing more than a cold rod.,イエティの極寒の冷気によってASMRマイクの電源が瞬時に死亡し、ただの冷たい棒になったところを粉砕された。,雪人的冰冷空气瞬间切断了 ASMR 麦克风的电源，将其粉碎成一根冰冷的棒子。
+MSG_C_ASMR_Z_WIN,"He uses an ASMR microphone to play chewing sounds towards a horde of zombies, but instead it whets their appetite and he is swallowed by a large number of corpses.",ゾンビの大群に向かってASMRマイクで咀嚼音を流すが、逆に食欲をそそってしまい大量の屍に飲まれた。,他用ASMR麦克风向一群僵尸发出咀嚼声，却反而吊起了他们的胃口，他被大量尸体吞噬。
+AirConditioner,Air Conditioner,エアコン,空调
+MSG_C_AIRCONDITIONER_A_WIN,"A heavy outdoor air conditioner unit was dropped straight into an ant nest, completely crushing everything.",重たいエアコンの室外機をアリの巣穴へ向けて真っ直ぐ落下させ、すべてを完全に押し潰した。,一台沉重的室外空调机直接掉进了蚁穴，彻底压碎了一切。
+MSG_C_AIRCONDITIONER_B_WIN,"The entire cave where the bats live was filled with cold air from an air conditioner, causing them to freeze to death and fall to the ground.",コウモリの住処である洞窟全体をエアコンの冷風で満たし、凍死させて地面に落とした。,蝙蝠居住的整个洞穴都充满了空调的冷气，导致它们被冻死并倒在地上。
+MSG_C_AIRCONDITIONER_C_WIN,"The moment the cobra reared its sickle neck, the outdoor unit of the air conditioner started buzzing, making a perfect home run with its poisonous head.",コブラが鎌首をもたげた瞬間、エアコンの室外機をブン回してその猛毒の頭部ごと完璧にホームランした。,眼镜蛇一抬起镰刀脖子，空调室外机就嗡嗡作响，毒头打出了完美的本垒打。
+MSG_C_AIRCONDITIONER_D_WIN,The dragon's flame breath was offset by a storm of cold air from the overwhelming outlet of the world's most powerful commercial air conditioner.,ドラゴンの火炎ブレスを、世界最強の業務用エアコンの圧倒的な吹き出し口からの暴風冷気で相殺した。,巨龙的火焰吐息被世界上最强大的商用空调压倒性的出风口吹来的一阵冷风所抵消。
+MSG_C_AIRCONDITIONER_E_WIN,"The strong winds of a commercial air conditioner blow away every single dead leaf on the Ent, leaving it completely exposed and causing psychological damage.",エントの枯れ葉を業務用エアコンの強風で一枚残らず吹き飛ばし、丸裸にして精神的ダメージを与えた。,商用空调的强风吹走了耳鼻喉上的每一片枯叶，使其完全暴露在外，造成心理伤害。
+MSG_C_AIRCONDITIONER_F_WIN,"The flying flies were sucked into the air conditioner's internal filter using powerful wind, completely trapping them and eradicating them.",飛び回るハエを、エアコンの内部フィルターに強烈な風力で吸い込んで完全に閉じ込めて殲滅した。,飞来的苍蝇被强大的风力吸入空调内部的过滤网，将它们彻底困住并消灭掉。
+MSG_C_AIRCONDITIONER_G_WIN,The bag full of jewelry that the goblin had stolen was mercilessly flattened by the dropped air conditioner.,ゴブリンが盗んだ宝石の詰まった袋ごと、落としたエアコンの本体で容赦なくペシャンコにした。,妖精偷来的装满珠宝的袋子被掉落的空调无情地压扁了。
+MSG_C_AIRCONDITIONER_H_WIN,"The frigid air from the air conditioner was showered right in front of the harpy, paralyzing its wing muscles and causing it to crash.",空から襲いかかるハーピーの眼前にエアコンの極寒の冷気を浴びせ、翼の筋肉を麻痺させて墜落させた。,空调吹来的冰冷空气直接喷在鹰身女妖面前，让它的翅膀肌肉麻痹，直接坠毁。
+MSG_C_AIRCONDITIONER_I_LOSS,"The imp teleported inside the air conditioner and messed with the wiring, causing it to explode and blow you away.",インプがエアコンの内部に瞬間移動して配線をめちゃくちゃにしたため、本体が大爆発してあなたが吹き飛ばされた。,小鬼传送到空调内部弄乱了线路，导致本体发生大爆炸，你被吹飞了。
+MSG_C_AIRCONDITIONER_J_WIN,"Jerry's slime-like body was dried to the limit by the dehumidifying function of the air conditioner, turning it into a dry sponge.",ジェリーのスライム状の体をエアコンの除湿機能で極限まで乾燥させ、パサパサのスポンジに変えた。,杰瑞黏糊糊的身体被空调的除湿功能干燥到了极限，变成了干燥的海绵。
+MSG_C_AIRCONDITIONER_K_WIN,"The group of kobolds was blasted with hot air from an air conditioner, creating a sauna state and causing them to panic and wipe them out.",コボルドの群れに対してエアコンの熱風を照射し、サウナ状態にしてパニックに陥らせて一網打尽にした。,一群狗头人被空调的热风吹来，营造出桑拿状态，让他们惊慌失措，将他们消灭殆尽。
+MSG_C_AIRCONDITIONER_L_LOSS,"The lizard's cold-blooded body was too much for the air conditioner's heating, and its scales eventually crushed the outdoor unit.",リザードの冷血な身体はエアコンの暖房でも温めきれず、逆にその巨体で室外機を押し潰されてしまった。,蜥蜴冷血的身体连空调的暖气都无法温暖，反而被它巨大的身躯压坏了室外机。
+MSG_C_AIRCONDITIONER_M_WIN,"Mummy's ancient curse was purified with the air conditioner's powerful plasma cluster, reducing it to a mere mass of bandages.",マミーの古代の呪いをエアコンの強力なプラズマクラスターで浄化し、ただの包帯の塊に還した。,木乃伊的远古诅咒被空调强大的等离子簇净化，化为一团绷带。
+MSG_C_AIRCONDITIONER_N_LOSS,"You applied cold air from the air conditioner to the Naga's large body, but its scales were so thick that it had no effect at all and ended up wrapping itself around it.",ナーガの巨体にエアコンの冷風を当てたが、鱗が分厚すぎて全く効果がなく巻き付かれた。,你用空调吹出的冷风吹在娜迦庞大的身体上，但它的鳞片太厚了，根本没有任何效果，最后把它包裹住了。
+MSG_C_AIRCONDITIONER_O_LOSS,"Physically attacked by the orc's giant axe, the outdoor unit of the air conditioner, which was the pride of the place, was instantly dismantled into scraps.",オークの巨大な斧による物理攻撃を受け、自慢のエアコンの室外機は一瞬でスクラップへと分解された。,在兽人巨斧的物理攻击下，作为这里引以为豪的空调室外机瞬间被拆成了碎片。
+MSG_C_AIRCONDITIONER_P_LOSS,"Pixie magically short-circuited the air conditioner's wiring, and the hot air went out of control and burned her.",ピクシーがエアコンの配線を魔法でショートさせ、制御不能になって暴走した熱風であなたが焼け焦げた。,皮克西神奇地将空调线路短路，热风失控，烧伤了她。
+MSG_C_AIRCONDITIONER_Q_LOSS,"The metal compressor of the air conditioner was hit by a thunderbolt from the core, causing a huge explosion and charring it to black.",コアールの雷鳴撃をエアコンの金属コンプレッサー部分で受けてしまい、大爆発のち黒焦げになった。,空调的金属压缩机被核心的雷电击中，引发巨大的爆炸，将其烧焦成黑色。
+MSG_C_AIRCONDITIONER_R_LOSS,"He tried to crush the swarm of rats with the outdoor unit of his air conditioner, but his movement was stopped by numerous entanglements in the pipe cover.",ラットの群れをエアコンの室外機で潰そうとしたが、配管カバーに無数に絡みついて動きを止められた。,他试图用空调室外机来消灭这群老鼠，但他的动作却被管盖上无数的纠缠物挡住了。
+MSG_C_AIRCONDITIONER_S_LOSS,"The slime's body was crushed by the air conditioner unit, but it quickly regenerated and the outdoor unit was destroyed in no time.",スライムの体をエアコンユニットで叩き潰したがすぐに再生し、あっという間に室外機ごと消化された。,史莱姆的身体被空调压碎了，但它很快就再生了，室外机瞬间就被毁掉了。
+MSG_C_AIRCONDITIONER_T_LOSS,"The troll's self-regeneration was amazing, and even the air conditioner's gravity fall attack could throw it back without causing a single scratch.",トロールの自己再生は凄まじく、エアコンの重力落下攻撃くらいでは傷一つ付かず逆に投げ返された。,巨魔的自我再生能力非常惊人，就连空调的重力坠落攻击都能将它击退，而且不会造成一丝划伤。
+MSG_C_AIRCONDITIONER_U_WIN,"The air conditioner's plasma cluster successfully ionized the ghost's ethereal body, causing it to dissipate into thin air.",エアコンの強力なプラズマクラスターが亡霊の霊体をイオン化して分解し、完全に霧消させることに成功した。,空调强大的等离子簇成功将亡灵的灵体离子化并分解，使其完全消散。
+MSG_C_AIRCONDITIONER_V_LOSS,"In front of the vampire's unnoticeable movements, you, who was lumbering and carrying the outdoor unit of the air conditioner, were nothing more than a target.",吸血鬼の目にもとまらぬ動きの前に、エアコンの室外機を担いだ鈍重なあなたはただの的でしかなかった。,在吸血鬼难以察觉的动作面前，举着空调室外机笨重的你，只不过是一个目标而已。
+MSG_C_AIRCONDITIONER_W_LOSS,"The heavy air conditioner could not keep up with the wolf's mobility, and he was suddenly attacked from behind, slamming his face into the aluminum fins of the outdoor unit.",狼の機動力に重たいエアコンは全く追いつけず、背後から急襲され室外機のアルミフィンへ顔を突っ込んだ。,笨重的空调根本跟不上狼的移动速度，突然从后面袭击了他，脸猛地撞在了室外机的铝翅片上。
+MSG_C_AIRCONDITIONER_X_LOSS,"With just a wave of Zarsis's hand, the plastic armor of the air conditioner turned to sand, completely controlling not only the fighting spirit but also the room temperature.",ザルシスが手を振るだけでエアコンのプラスチック装甲が砂になり、戦意だけでなく室温までも完全に支配された。,扎尔西斯只是一挥手，空调的塑料铠甲就变成了沙子，不仅控制了斗气，还控制了室温。
+MSG_C_AIRCONDITIONER_Y_LOSS,"Due to the frigid cold of the Yeti, the heating function of the air conditioner malfunctioned and became completely useless.",イエティの極寒の冷気により、エアコンの暖房機能がエラーを起こして完全に使い物にならなくなった。,由于雪人的寒冷，空调的制热功能出现故障，完全无法使用。
+MSG_C_AIRCONDITIONER_Z_LOSS,"They mowed down the horde of zombies with the outdoor unit of the air conditioner, but the compressor stopped due to the wall of flesh and they were defeated.",ゾンビの大群をエアコンの室外機で薙ぎ払うも、あまりの肉の壁にコンプレッサーが停止して押し負けた。,他们用空调室外机砍倒了僵尸大军，但压缩机因肉墙而停止运转，他们被击败了。
+Streaming,Streaming,ライブ配信,直播
+MSG_C_STREAMING_A_WIN,He provoked the viewers of the live stream to crush the entire colony of ants that were crawling towards them.,ライブ配信の視聴者たちをけしかけ、這い寄るアリの群れごと一斉に踏み潰させた。,他激怒了直播观众，将所有向他们爬过来的蚂蚁群碾碎。
+MSG_C_STREAMING_B_WIN,You fired a flash at the bat flying in the darkness and sent it crashing into the wall with crazy sound waves.,暗闇を飛ぶコウモリに対してフラッシュを炊きながら配信し、狂った音波で壁に激突させた。,你向黑暗中飞翔的蝙蝠发射了闪光，然后用疯狂的音波将它撞到了墙上。
+MSG_C_STREAMING_C_WIN,"The moment Cobra threatened you, you physically hit him in the face with a wad of bills that was a storm of super chats.",コブラが威嚇してきた瞬間、スーパーチャットの嵐である札束で物理的に顔面をぶん殴った。,当眼镜蛇威胁你的那一刻，你用一叠钞票打了他的脸，这是一场超级聊天风暴。
+MSG_C_STREAMING_D_WIN,"The dragon's subjugation was broadcast in real time, and with the help of millions of viewers, it was subdued with overwhelming violence.",ドラゴンの討伐をリアルタイム配信し、数百万人の視聴者の力で圧倒的な数の暴力で制圧した。,龙之讨伐是实时直播的，在数百万观众的帮助下，以压倒性的暴力将其制服。
+MSG_C_STREAMING_E_WIN,"He made a prank delivery while clinging to a huge Ent tree, and defeated the enraged tree with a flaming special attack.",エントの巨大な木材にしがみつきながらドッキリ配信を行い、激怒する大木を炎上特攻で倒した。,他抓住一棵巨大的恩特树进行了恶作剧送货，并用火焰特殊攻击击败了愤怒的树。
+MSG_C_STREAMING_F_LOSS,"The overwhelming number of comments from viewers made it impossible to track the fly's movements, causing you to lose sight of it at the critical moment and letting it escape.",視聴者のコメントが多すぎてハエの動きを追いきれなくなり、肝心の瞬間を見失って逃げられてしまった。,因为观众的评论太多，你无法追踪苍蝇的动作，在关键时刻跟丢了，让它逃脱了。
+MSG_C_STREAMING_G_LOSS,"While showing off the live stream to the goblin, it snatched the smartphone and took over your channel.",ライブ配信の画面をゴブリンに見せびらかしていたら、スマホごと奪われてチャンネルを乗っ取られた。,正向地精炫耀直播画面时，手机被抢走，频道也遭到了霸占。
+MSG_C_STREAMING_H_WIN,"He completed an RTA broadcast where he plucked the wings of a harpy attacking from the sky, and knocked him down along with a world record.",空から襲い来るハーピーの羽を引きむしるRTA配信を完走し、世界記録と共に奴を叩き落とした。,他完成了一次 RTA 广播，其中他拔下了从天上攻击的鹰身女妖的翅膀，并将其击倒，并创下了世界纪录。
+MSG_C_STREAMING_I_LOSS,"While trying to predict the Imp's teleport with audience participation, the resulting lag caused you to miss the timing and get struck from behind.",インプのテレポート先を視聴者参加型で予測しようとしたが、配信のラグのせいでタイミングを誤り、背後から急襲された。,虽然想通过观众参与来预测小鬼的传送目的地，但由于直播延迟导致时机错误，从后面遭到了急袭。
+MSG_C_STREAMING_J_LOSS,"You tried a Mentos Cola prank with Jerry, but the resulting slime explosion was so large that it destroyed your camera and blinded you.",ジェリーのスライム体でメントスコーラ企画をやろうとしたが、想像を絶する大爆発が起きてカメラ機材が全損し、あなたも粘液まみれになって敗北した。,杰瑞的史莱姆体想要进行曼妥思可乐的企划，但发生了超乎想象的大爆炸，摄像器材全部损坏，你也变得满身粘液而失败了。
+MSG_C_STREAMING_K_WIN,"He let out a loud singing voice to the crowd of kobolds, destroying everyone's eardrums and rendering them powerless.",コボルドの群れに対して歌枠配信の要領で爆音の歌声を響かせ、全員の鼓膜を破壊して無力化した。,他对着一群狗头人发出响亮的歌声，震碎了所有人的耳膜，让他们变得无力。
+MSG_C_STREAMING_L_LOSS,"The lizard's movement transcended the live stream's frame rate, and while you were caught off guard looking through the screen, your vital point was struck.",リザードの動きが生配信のフレームレートを超越しており、画面越しに油断した隙に急所を突かれた。,蜥蜴的动作超越了直播帧率，在你盯着屏幕看时趁机击中了你的要害。
+MSG_C_STREAMING_M_WIN,"You offset Mummy's ancient curse with a live-stream coin throwing effect, and physically tore off the bandage.",マミーの古代の呪いをライブ配信の投げ銭エフェクトで相殺し、物理で包帯を引きちぎった。,你用直播投硬币的效果抵消了木乃伊古老的诅咒，并用身体撕下了绷带。
+MSG_C_STREAMING_N_WIN,"The Naga's beautiful appearance was broadcast live to the world, and the overwhelming gaze of millions caused it to lose its will to fight, securing victory.",ナーガの美しき容姿を全世界へライブ中継し、無数の視線による羞恥心で戦意を喪失させて勝利した。,将娜迦美丽的姿容向全世界进行实况转播，利用无数视线带来的羞耻心让其丧失斗志，赢得胜利。
+MSG_C_STREAMING_O_WIN,The orc was so moved by the live stream's high-quality production that it pledged its loyalty to you as a moderator.,オークが配信の圧倒的なクオリティに感動し、あなたのチャンネルのモデレーターとして忠誠を誓ってくれた。,兽人被直播的高质量制作所感动，发誓效忠你作为版主。
+MSG_C_STREAMING_P_WIN,"The pixie got addicted to the viewer's live reactions and decided to become a YouTuber herself, leaving you in peace.",ピクシーがリスナーの反応の中毒になり、自分も配信者として活動するために森へ帰っていった。,小精灵迷上了观众的现场反应，决定自己做一名优兔，让你安心。
+MSG_C_STREAMING_Q_LOSS,"The entire distribution equipment short-circuited before Koar's tremendous electric shock, and was struck by intense lightning.",コアールの凄まじい電撃の前に配信機材一式がショートしてしまい、そのまま強烈な雷を落とされた。,整个配电设备在科尔巨大的电击面前短路，并被强烈的闪电击中。
+MSG_C_STREAMING_R_LOSS,Intimidating a large group of rats through live streaming was so ineffective that a few of them were roasted and then devoured to death.,ラットの大量の群れに対してライブ配信の威嚇はあまりにも非効率で、数匹焼いたところで嚙み殺された。,通过直播恐吓一大群老鼠效果不佳，有几只老鼠被烤死，然后被吃掉。
+MSG_C_STREAMING_S_WIN,"The high-quality live stream of the slime slowly dissolving went viral, providing the momentum to surround and annihilate it.",スライムがゆっくりと溶ける様子を高画質で世界にライブ配信し、バズった勢いで周囲を包囲して殲滅した。,将史莱姆慢慢溶解的样子进行高画质全球直播，顺着爆红之势将周围包围并将其歼灭。
+MSG_C_STREAMING_T_LOSS,"The troll's terrifying self-regeneration ability could not be tamed by the viewer's power, and it crushed you with both hands, leaving you unharmed.",トロールの恐るべき自己再生能力は、視聴者の力をもってしても削りきれず、無傷のままあなたを両手で握り潰した。,巨魔可怕的自我再生能力无法被观看者的力量驯服，它用双手压碎了你，让你毫发无伤。
+MSG_C_STREAMING_U_LOSS,"Since ghosts do not have a physical body, they do not appear on the live streaming screen at all, and you are cursed as the comment section becomes a mess due to psychic phenomena.",亡霊は実体を持たないためライブ配信の画面には一切映らず、コメント欄が心霊現象で荒れる中あなたは呪われた。,由于鬼魂没有肉身，根本不会出现在直播画面上，评论区也会因灵异现象而乱七八糟，你会被诅咒。
+MSG_C_STREAMING_V_LOSS,"The camera's frame rate couldn't keep up with the vampire's unnoticeable movements, and his neck was bitten off along with the video of the streaming accident.",吸血鬼の目にもとまらぬ動きの前にカメラのフレームレートが追いつかず、配信事故の映像と共に首筋を噛みちぎられた。,摄像机的帧率跟不上吸血鬼难以察觉的动作，他的脖子随着流媒体事故的视频被咬掉了。
+MSG_C_STREAMING_W_LOSS,"The wild wolf didn't feel threatened by the light from the live streaming smartphone, and just jumped straight at you and bit your throat.",荒野の狼はライブ配信のスマホの光など全く威嚇だと感じず、ただ真っ直ぐにあなたに向かって跳躍し喉笛を噛み切った。,野狼并没有感受到手机直播的光芒的威胁，径直扑向你，咬住了你的喉咙。
+MSG_C_STREAMING_X_LOSS,"Zarsis took away the existence of the stream with a single fingertip, and your very existence was deemed to have never existed in the first place.",ザルシスが配信の存在を指先一つで摘み取り、あなたの存在自体が「最初から存在しなかった」ことにして終わった。,扎尔西斯一指就夺走了溪流的存在，你的存在就被视为“本来就不存在”。
+MSG_C_STREAMING_Y_LOSS,"The Yeti's frigid air instantly killed the phone's battery, turning it into a cold slab of dust.",イエティの極寒の冷気によってスマホのバッテリーが瞬時に死亡し、ただの冷たい板になったところを粉砕された。,雪人的寒冷空气立即耗尽了手机的电池，将其变成了冰冷的灰尘。
+MSG_C_STREAMING_Z_LOSS,"He swings his tripod at a horde of zombies and boils his brain, but there are so many of them that he is swallowed up by a pile of corpses before the stream can be cut off.",ゾンビの大群に向かって三脚を振り回し脳を沸騰させるも、あまりの数に配信が途切れる前に屍の山に飲まれた。,他对着一群丧尸挥舞着三脚架，烧开了他的大脑，但丧尸太多了，还没等水流被切断，他就被一堆尸体吞没了。

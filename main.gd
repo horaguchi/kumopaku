@@ -11,6 +11,7 @@ const MASTER_BUS_INDEX := 0
 @onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
 @onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
+@onready var return_to_title_button: Button = $HBoxContainer/SkillContainer/ReturnToTitleButton
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
@@ -58,6 +59,7 @@ func _process(delta: float) -> void:
 
 func _ready() -> void:
 	mute_button.pressed.connect(_on_mute_button_pressed)
+	return_to_title_button.pressed.connect(_on_return_to_title_pressed)
 	# AudioServerの状態に合わせてボタン表示を同期
 	_update_mute_button_text()
 
@@ -83,6 +85,7 @@ func _start_game():
 	player_skills.clear()
 	player_skills.append("Punch")
 	active_skill_index = 0
+	return_to_title_button.visible = false
 	message_log.text = ""
 	_log_message(tr("MSG_ENTER_DUNGEON"))
 	_load_floor()
@@ -185,6 +188,8 @@ func _update_skills():
 func _on_skill_button_pressed(idx: int):
 	# ボタンのフォーカスを外さないとキー入力が吸われる
 	skill_buttons[idx].release_focus()
+	if map_data.is_empty(): # ゲームオーバー時の押下処理をスキップ
+		return
 
 	if is_skill_replace_mode:
 		if idx < 3 and idx < player_skills.size():
@@ -342,5 +347,8 @@ func _combat(enemy_idx: int) -> bool:
 		return true
 
 func _game_over():
-	await get_tree().create_timer(3.0).timeout
+	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")
+	return_to_title_button.visible = true
+
+func _on_return_to_title_pressed():
 	get_tree().change_scene_to_file("res://title.tscn")

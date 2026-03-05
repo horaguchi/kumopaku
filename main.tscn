@@ -66,6 +66,12 @@ visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 
+[node name="ReturnToTitleButton" type="Button" parent="HBoxContainer/SkillContainer" unique_id=999999999]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Return to Title"
+
 [node name="DialogPlayer" type="AudioStreamPlayer" parent="." unique_id=1382012761]
 stream = ExtResource("2_yyy")
 
