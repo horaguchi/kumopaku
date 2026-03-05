@@ -18,10 +18,10 @@ const COLOR_UNKNOWN = "magenta"
 const COLOR_DISCOVERED = "#cccccc"
 
 # --- UI Nodes ---
-@onready var map_label: RichTextLabel = $HBoxContainer/LeftVBox/MapLabel
-@onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
-@onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
-@onready var return_to_title_button: Button = $HBoxContainer/SkillContainer/ReturnToTitleButton
+@onready var map_label: RichTextLabel = $MainVBox/HBoxContainer/LeftVBox/MapLabel
+@onready var message_log: RichTextLabel = $MainVBox/MessageLog
+@onready var skill_container: VBoxContainer = $MainVBox/HBoxContainer/SkillContainer
+@onready var return_to_title_button: Button = $MainVBox/HBoxContainer/SkillContainer/ReturnToTitleButton
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
@@ -40,10 +40,10 @@ var is_printing_message := false
 # --- Audio ---
 @onready var audio_player: AudioStreamPlayer = $DialogPlayer
 @onready var walk_audio_player: AudioStreamPlayer = $WalkPlayer
-@onready var mute_button: Button = $MuteButton
+@onready var mute_button: Button = $MainVBox/MuteButton
 
 # --- Movement Repeat ---
-var move_delay := 0.2
+var move_delay := 0.15
 var move_timer := 0.0
 
 func _process(delta: float) -> void:

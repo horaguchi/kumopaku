@@ -939,7 +939,7 @@ const COMBAT_RESULTS = {
 		"D": {"win": true, "message": "MSG_C_DRONE_D_WIN"},
 		"E": {"win": true, "message": "MSG_C_DRONE_E_WIN"},
 		"F": {"win": true, "message": "MSG_C_DRONE_F_WIN"},
-		"G": {"win": false, "message": "MSG_C_DRONE_G_LOSS"},
+		"G": {"win": true, "message": "MSG_C_DRONE_G_WIN"},
 		"H": {"win": true, "message": "MSG_C_DRONE_H_WIN"},
 		"I": {"win": true, "message": "MSG_C_DRONE_I_WIN"},
 		"J": {"win": true, "message": "MSG_C_DRONE_J_WIN"},
