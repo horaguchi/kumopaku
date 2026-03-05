@@ -1390,7 +1390,7 @@ const COMBAT_RESULTS = {
 		"G": {"win": true, "message": "MSG_C_ASMR_G_WIN"},
 		"H": {"win": true, "message": "MSG_C_ASMR_H_WIN"},
 		"I": {"win": true, "message": "MSG_C_ASMR_I_WIN"},
-		"J": {"win": true, "message": "MSG_C_ASMR_J_LOSS"},
+		"J": {"win": false, "message": "MSG_C_ASMR_J_LOSS"},
 		"K": {"win": false, "message": "MSG_C_ASMR_K_LOSS"},
 		"L": {"win": false, "message": "MSG_C_ASMR_L_LOSS"},
 		"M": {"win": false, "message": "MSG_C_ASMR_M_LOSS"},
