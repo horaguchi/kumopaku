@@ -7,8 +7,18 @@ const ItemDataMap = preload("res://item_data.gd")
 
 const MASTER_BUS_INDEX := 0
 
+# --- Game Balance ---
+const FOV_RADIUS = 7
+
+# --- Map Display Colors ---
+const COLOR_PLAYER = "yellow"
+const COLOR_WIN = "green"
+const COLOR_LOSS = "red"
+const COLOR_UNKNOWN = "magenta"
+const COLOR_DISCOVERED = "#cccccc"
+
 # --- UI Nodes ---
-@onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
+@onready var map_label: RichTextLabel = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
 @onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
 @onready var return_to_title_button: Button = $HBoxContainer/SkillContainer/ReturnToTitleButton
@@ -83,7 +93,7 @@ func _update_mute_button_text():
 func _start_game():
 	current_floor = 1
 	player_skills.clear()
-	player_skills.append("Punch")
+	player_skills.append(ItemDataMap.SKILLS.pick_random())
 	active_skill_index = 0
 	return_to_title_button.visible = false
 	message_log.text = ""
@@ -148,21 +158,131 @@ func _update_map():
 	for item_pos in map_data.items:
 		grid[item_pos.y][item_pos.x] = "?"
 
-	for enemy in map_data.enemies:
-		grid[enemy.pos.y][enemy.pos.x] = enemy.char
+	var active_skill = player_skills[active_skill_index] if player_skills.size() > 0 else ""
 
-	grid[player_pos.y][player_pos.x] = "@"
+	for enemy in map_data.enemies:
+		var e_char = enemy.char
+		var key = active_skill + "_" + e_char
+		var mapped_char = e_char
+		if active_skill != "":
+			var color: String
+			if ItemDataMap.known_effectiveness.has(key):
+				color = COLOR_WIN if ItemDataMap.known_effectiveness[key] else COLOR_LOSS
+			else:
+				color = COLOR_UNKNOWN
+			mapped_char = "[color=%s]%s[/color]" % [color, e_char]
+		grid[enemy.pos.y][enemy.pos.x] = mapped_char
+
+	grid[player_pos.y][player_pos.x] = "[color=%s]@[/color]" % COLOR_PLAYER
+
+	var fov_visible = _compute_fov()
 
 	var map_str = ""
 	var max_y = grid.size()
 	var max_x = grid[0].size()
+
 	for y in range(max_y):
 		var row_str = ""
+		var current_color = ""
 		for x in range(max_x):
-			row_str += str(grid[y][x])
+			if fov_visible[y][x]:
+				if current_color != "":
+					row_str += "[/color]"
+					current_color = ""
+				row_str += str(grid[y][x])
+			elif map_data.discovered[y][x]:
+				if current_color != COLOR_DISCOVERED:
+					if current_color != "": row_str += "[/color]"
+					row_str += "[color=%s]" % COLOR_DISCOVERED
+					current_color = COLOR_DISCOVERED
+				var t = map_data.grid[y][x]
+				if map_data.has("stairs_pos") and map_data.stairs_pos == Vector2(x, y):
+					t = ">"
+				row_str += t
+			else:
+				if current_color != "":
+					row_str += "[/color]"
+					current_color = ""
+				row_str += " "
+		if current_color != "":
+			row_str += "[/color]"
 		map_str += row_str + "\n"
 
 	map_label.text = map_str
+
+func _compute_fov() -> Array:
+	var max_y = map_data.grid.size()
+	var max_x = map_data.grid[0].size()
+
+	if not map_data.has("discovered"):
+		map_data.discovered = []
+		for y in range(max_y):
+			var arr = []
+			arr.resize(max_x)
+			arr.fill(false)
+			map_data.discovered.append(arr)
+
+	var fov_visible = []
+	for y in range(max_y):
+		var arr = []
+		arr.resize(max_x)
+		arr.fill(false)
+		fov_visible.append(arr)
+
+	var p_x = int(player_pos.x)
+	var p_y = int(player_pos.y)
+
+	fov_visible[p_y][p_x] = true
+	map_data.discovered[p_y][p_x] = true
+
+	for i in range(-FOV_RADIUS, FOV_RADIUS + 1):
+		for j in range(-FOV_RADIUS, FOV_RADIUS + 1):
+			if i == -FOV_RADIUS or i == FOV_RADIUS or j == -FOV_RADIUS or j == FOV_RADIUS:
+				var target_x = p_x + i
+				var target_y = p_y + j
+				var line = _get_line(p_x, p_y, target_x, target_y)
+				for p in line:
+					var px = int(p.x)
+					var py = int(p.y)
+					if px < 0 or px >= max_x or py < 0 or py >= max_y:
+						break
+
+					if (px - p_x) * (px - p_x) + (py - p_y) * (py - p_y) > FOV_RADIUS * FOV_RADIUS:
+						break
+
+					fov_visible[py][px] = true
+					map_data.discovered[py][px] = true
+
+					var c = map_data.grid[py][px]
+					if c == "-" or c == "|" or c == " ":
+						break
+
+	return fov_visible
+
+func _get_line(x0: int, y0: int, x1: int, y1: int) -> Array:
+	var points = []
+	var dx = abs(x1 - x0)
+	var sx = 1 if x0 < x1 else -1
+	var dy = - abs(y1 - y0)
+	var sy = 1 if y0 < y1 else -1
+	var err = dx + dy
+
+	var cx = x0
+	var cy = y0
+
+	while true:
+		points.append(Vector2(cx, cy))
+		if cx == x1 and cy == y1:
+			break
+		var e2 = 2 * err
+		if e2 >= dy:
+			err += dy
+			cx += sx
+		if e2 <= dx:
+			err += dx
+			cy += sy
+
+	return points
 
 func _update_skills():
 	for i in range(4):
@@ -330,6 +450,8 @@ func _combat(enemy_idx: int) -> bool:
 	var enemy_data = EnemyDataMap.ENEMIES[e_char]
 	var skill = player_skills[active_skill_index]
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
+
+	ItemDataMap.known_effectiveness[skill + "_" + e_char] = result.win
 
 	_log_message(tr(result.message))
 

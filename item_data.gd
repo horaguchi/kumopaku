@@ -1,6 +1,8 @@
 class_name ItemData
 extends RefCounted
 
+static var known_effectiveness: Dictionary = {}
+
 static var SKILLS: Array:
 	get:
 		return COMBAT_RESULTS.keys()
@@ -1461,5 +1463,61 @@ const COMBAT_RESULTS = {
 		"X": {"win": false, "message": "MSG_C_STREAMING_X_LOSS"},
 		"Y": {"win": false, "message": "MSG_C_STREAMING_Y_LOSS"},
 		"Z": {"win": false, "message": "MSG_C_STREAMING_Z_LOSS"},
+	},
+	"Delivery": {
+		"A": {"win": true, "message": "MSG_C_DELIVERY_A_WIN"},
+		"B": {"win": true, "message": "MSG_C_DELIVERY_B_WIN"},
+		"C": {"win": true, "message": "MSG_C_DELIVERY_C_WIN"},
+		"D": {"win": true, "message": "MSG_C_DELIVERY_D_WIN"},
+		"E": {"win": true, "message": "MSG_C_DELIVERY_E_WIN"},
+		"F": {"win": true, "message": "MSG_C_DELIVERY_F_WIN"},
+		"G": {"win": true, "message": "MSG_C_DELIVERY_G_WIN"},
+		"H": {"win": true, "message": "MSG_C_DELIVERY_H_WIN"},
+		"I": {"win": false, "message": "MSG_C_DELIVERY_I_LOSS"},
+		"J": {"win": false, "message": "MSG_C_DELIVERY_J_LOSS"},
+		"K": {"win": true, "message": "MSG_C_DELIVERY_K_WIN"},
+		"L": {"win": true, "message": "MSG_C_DELIVERY_L_WIN"},
+		"M": {"win": true, "message": "MSG_C_DELIVERY_M_WIN"},
+		"N": {"win": false, "message": "MSG_C_DELIVERY_N_LOSS"},
+		"O": {"win": false, "message": "MSG_C_DELIVERY_O_LOSS"},
+		"P": {"win": true, "message": "MSG_C_DELIVERY_P_WIN"},
+		"Q": {"win": false, "message": "MSG_C_DELIVERY_Q_LOSS"},
+		"R": {"win": false, "message": "MSG_C_DELIVERY_R_LOSS"},
+		"S": {"win": false, "message": "MSG_C_DELIVERY_S_LOSS"},
+		"T": {"win": false, "message": "MSG_C_DELIVERY_T_LOSS"},
+		"U": {"win": true, "message": "MSG_C_DELIVERY_U_WIN"},
+		"V": {"win": false, "message": "MSG_C_DELIVERY_V_LOSS"},
+		"W": {"win": false, "message": "MSG_C_DELIVERY_W_LOSS"},
+		"X": {"win": false, "message": "MSG_C_DELIVERY_X_LOSS"},
+		"Y": {"win": false, "message": "MSG_C_DELIVERY_Y_LOSS"},
+		"Z": {"win": false, "message": "MSG_C_DELIVERY_Z_LOSS"},
+	},
+	"Webinar": {
+		"A": {"win": true, "message": "MSG_C_WEBINAR_A_WIN"},
+		"B": {"win": true, "message": "MSG_C_WEBINAR_B_WIN"},
+		"C": {"win": true, "message": "MSG_C_WEBINAR_C_WIN"},
+		"D": {"win": true, "message": "MSG_C_WEBINAR_D_WIN"},
+		"E": {"win": false, "message": "MSG_C_WEBINAR_E_LOSS"},
+		"F": {"win": true, "message": "MSG_C_WEBINAR_F_WIN"},
+		"G": {"win": true, "message": "MSG_C_WEBINAR_G_WIN"},
+		"H": {"win": true, "message": "MSG_C_WEBINAR_H_WIN"},
+		"I": {"win": true, "message": "MSG_C_WEBINAR_I_WIN"},
+		"J": {"win": true, "message": "MSG_C_WEBINAR_J_WIN"},
+		"K": {"win": true, "message": "MSG_C_WEBINAR_K_WIN"},
+		"L": {"win": true, "message": "MSG_C_WEBINAR_L_WIN"},
+		"M": {"win": false, "message": "MSG_C_WEBINAR_M_LOSS"},
+		"N": {"win": false, "message": "MSG_C_WEBINAR_N_LOSS"},
+		"O": {"win": false, "message": "MSG_C_WEBINAR_O_LOSS"},
+		"P": {"win": true, "message": "MSG_C_WEBINAR_P_WIN"},
+		"Q": {"win": true, "message": "MSG_C_WEBINAR_Q_WIN"},
+		"R": {"win": false, "message": "MSG_C_WEBINAR_R_LOSS"},
+		"S": {"win": false, "message": "MSG_C_WEBINAR_S_LOSS"},
+		"T": {"win": false, "message": "MSG_C_WEBINAR_T_LOSS"},
+		"U": {"win": true, "message": "MSG_C_WEBINAR_U_WIN"},
+		"V": {"win": false, "message": "MSG_C_WEBINAR_V_LOSS"},
+		"W": {"win": false, "message": "MSG_C_WEBINAR_W_LOSS"},
+		"X": {"win": false, "message": "MSG_C_WEBINAR_X_LOSS"},
+		"Y": {"win": false, "message": "MSG_C_WEBINAR_Y_LOSS"},
+		"Z": {"win": false, "message": "MSG_C_WEBINAR_Z_LOSS"},
 	}
 }
