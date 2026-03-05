@@ -1,4 +1,5 @@
 import random
+import os
 
 random.seed(42)
 
@@ -13,7 +14,7 @@ for i in range(26):
     enemies[char] = {'lvl': lvl, 'min_f': min_f, 'max_f': max_f, 'agro': agro}
 
 # Write enemy_data.gd
-with open('c:/Users/horah/Documents/kumopaku/enemy_data.gd', 'w', encoding='utf-8') as f:
+with open('enemy_data.gd', 'w', encoding='utf-8') as f:
     f.write('class_name EnemyData\n')
     f.write('extends RefCounted\n\n')
     f.write('const ENEMIES = {\n')
@@ -36,7 +37,7 @@ for char, d in enemies.items():
     win_map[char] = dict(zip(skills, skill_wins))
 
 # Write item_data.gd
-with open('c:/Users/horah/Documents/kumopaku/item_data.gd', 'w', encoding='utf-8') as f:
+with open('item_data.gd', 'w', encoding='utf-8') as f:
     f.write('class_name ItemData\n')
     f.write('extends RefCounted\n\n')
     f.write('const SKILLS = [\n')
@@ -54,4 +55,4 @@ with open('c:/Users/horah/Documents/kumopaku/item_data.gd', 'w', encoding='utf-8
         f.write('    },\n')
     f.write('}\n')
 
-print('Generated enemy_data.gd and item_data.gd')
+print(f'Generated enemy_data.gd and item_data.gd in {os.getcwd()}')

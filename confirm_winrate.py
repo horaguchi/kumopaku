@@ -67,20 +67,20 @@ def parse_item_data(file_path):
     return enemy_wins, num_skills
 
 def main():
-    # Attempt to find files in current or parent directory
+    # Look for data files in the current working directory
     enemy_file = 'enemy_data.gd'
     item_file = 'item_data.gd'
 
-    if not os.path.exists(enemy_file):
-        # Try local path if running from a specific directory
-        enemy_file = 'c:/Users/horah/Documents/kumopaku/enemy_data.gd'
-        item_file = 'c:/Users/horah/Documents/kumopaku/item_data.gd'
+    if not os.path.exists(enemy_file) or not os.path.exists(item_file):
+        print(f"Error: Missing data files in current directory.")
+        print(f"Required: {enemy_file} and {item_file}")
+        return
 
     enemies = parse_enemy_data(enemy_file)
     enemy_wins, num_skills = parse_item_data(item_file)
 
     if not enemies or num_skills == 0:
-        print("Error: Could not parse data files. Ensure enemy_data.gd and item_data.gd are in the same directory.")
+        print("Error: Could not parse data files. Check if they are valid Godot scripts.")
         return
 
     print(f"Analysis of Combat Balance")
