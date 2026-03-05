@@ -12,8 +12,8 @@ const FOV_RADIUS = 7
 
 # --- Map Display Colors ---
 const COLOR_PLAYER = "yellow"
-const COLOR_EFFECTIVE = "green"
-const COLOR_INEFFECTIVE = "red"
+const COLOR_WIN = "green"
+const COLOR_LOSS = "red"
 const COLOR_UNKNOWN = "magenta"
 const COLOR_DISCOVERED = "#cccccc"
 
@@ -165,13 +165,12 @@ func _update_map():
 		var key = active_skill + "_" + e_char
 		var mapped_char = e_char
 		if active_skill != "":
+			var color: String
 			if ItemDataMap.known_effectiveness.has(key):
-				if ItemDataMap.known_effectiveness[key]:
-					mapped_char = "[color=%s]%s[/color]" % [COLOR_EFFECTIVE, e_char]
-				else:
-					mapped_char = "[color=%s]%s[/color]" % [COLOR_INEFFECTIVE, e_char]
+				color = COLOR_WIN if ItemDataMap.known_effectiveness[key] else COLOR_LOSS
 			else:
-				mapped_char = "[color=%s]%s[/color]" % [COLOR_UNKNOWN, e_char]
+				color = COLOR_UNKNOWN
+			mapped_char = "[color=%s]%s[/color]" % [color, e_char]
 		grid[enemy.pos.y][enemy.pos.x] = mapped_char
 
 	grid[player_pos.y][player_pos.x] = "[color=%s]@[/color]" % COLOR_PLAYER
