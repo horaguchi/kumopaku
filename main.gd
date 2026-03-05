@@ -8,7 +8,7 @@ const ItemDataMap = preload("res://item_data.gd")
 const MASTER_BUS_INDEX := 0
 
 # --- UI Nodes ---
-@onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
+@onready var map_label: RichTextLabel = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
 @onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
 @onready var return_to_title_button: Button = $HBoxContainer/SkillContainer/ReturnToTitleButton
@@ -151,18 +151,118 @@ func _update_map():
 	for enemy in map_data.enemies:
 		grid[enemy.pos.y][enemy.pos.x] = enemy.char
 
-	grid[player_pos.y][player_pos.x] = "@"
+	grid[player_pos.y][player_pos.x] = "[color=yellow]@[/color]"
+
+	var visible = _compute_fov()
 
 	var map_str = ""
 	var max_y = grid.size()
 	var max_x = grid[0].size()
+	var current_color = ""
+
 	for y in range(max_y):
 		var row_str = ""
 		for x in range(max_x):
-			row_str += str(grid[y][x])
+			if visible[y][x]:
+				if current_color != "":
+					row_str += "[/color]"
+					current_color = ""
+				row_str += str(grid[y][x])
+			elif map_data.discovered[y][x]:
+				if current_color != "#cccccc":
+					if current_color != "": row_str += "[/color]"
+					row_str += "[color=#cccccc]"
+					current_color = "#cccccc"
+				var t = map_data.grid[y][x]
+				if map_data.has("stairs_pos") and map_data.stairs_pos == Vector2(x, y):
+					t = ">"
+				row_str += t
+			else:
+				if current_color != "":
+					row_str += "[/color]"
+					current_color = ""
+				row_str += " "
 		map_str += row_str + "\n"
 
+	if current_color != "":
+		map_str += "[/color]"
+
 	map_label.text = map_str
+
+func _compute_fov() -> Array:
+	var max_y = map_data.grid.size()
+	var max_x = map_data.grid[0].size()
+
+	if not map_data.has("discovered"):
+		map_data.discovered = []
+		for y in range(max_y):
+			var arr = []
+			arr.resize(max_x)
+			arr.fill(false)
+			map_data.discovered.append(arr)
+
+	var visible = []
+	for y in range(max_y):
+		var arr = []
+		arr.resize(max_x)
+		arr.fill(false)
+		visible.append(arr)
+
+	var radius = 7
+	var p_x = int(player_pos.x)
+	var p_y = int(player_pos.y)
+
+	visible[p_y][p_x] = true
+	map_data.discovered[p_y][p_x] = true
+
+	for i in range(-radius, radius + 1):
+		for j in range(-radius, radius + 1):
+			if i == -radius or i == radius or j == -radius or j == radius:
+				var target_x = p_x + i
+				var target_y = p_y + j
+				var line = _get_line(p_x, p_y, target_x, target_y)
+				for p in line:
+					var px = int(p.x)
+					var py = int(p.y)
+					if px < 0 or px >= max_x or py < 0 or py >= max_y:
+						break
+
+					if (px - p_x) * (px - p_x) + (py - p_y) * (py - p_y) > radius * radius:
+						break
+
+					visible[py][px] = true
+					map_data.discovered[py][px] = true
+
+					var c = map_data.grid[py][px]
+					if c == "-" or c == "|" or c == " ":
+						break
+
+	return visible
+
+func _get_line(x0: int, y0: int, x1: int, y1: int) -> Array:
+	var points = []
+	var dx = abs(x1 - x0)
+	var sx = 1 if x0 < x1 else -1
+	var dy = - abs(y1 - y0)
+	var sy = 1 if y0 < y1 else -1
+	var err = dx + dy
+
+	var cx = x0
+	var cy = y0
+
+	while true:
+		points.append(Vector2(cx, cy))
+		if cx == x1 and cy == y1:
+			break
+		var e2 = 2 * err
+		if e2 >= dy:
+			err += dy
+			cx += sx
+		if e2 <= dx:
+			err += dx
+			cy += sy
+
+	return points
 
 func _update_skills():
 	for i in range(4):

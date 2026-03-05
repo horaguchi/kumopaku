@@ -25,10 +25,11 @@ grow_vertical = 2
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MapLabel" type="Label" parent="HBoxContainer/LeftVBox" unique_id=1532993429]
+[node name="MapLabel" type="RichTextLabel" parent="HBoxContainer/LeftVBox" unique_id=1532993429]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
 horizontal_alignment = 1
 vertical_alignment = 1
 
