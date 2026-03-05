@@ -18,7 +18,7 @@ const ENEMIES = {
 	"N": {"name": "Naga", "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "Bite"},
 	"O": {"name": "Orc", "level": 3, "min_floor": 3, "max_floor": 4, "agro_range": 5, "skill": "Scratch"},
 	"P": {"name": "Pixie", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Scratch"},
-	"Q": {"name": "Coarl", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Venom"},
+	"Q": {"name": "Coeurl", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Venom"},
 	"R": {"name": "Rat", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Venom"},
 	"S": {"name": "Slime", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Bite"},
 	"T": {"name": "Troll", "level": 4, "min_floor": 4, "max_floor": 5, "agro_range": 6, "skill": "Venom"},
