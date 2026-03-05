@@ -29,7 +29,7 @@ theme_override_constants/separation = 20
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=657326216]
 layout_mode = 2
 theme_override_font_sizes/font_size = 48
-text = "Rogue-like Text Game"
+text = "KUMOPAKU"
 horizontal_alignment = 1
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer"]

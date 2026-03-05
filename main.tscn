@@ -13,7 +13,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_xxx")
 
-[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=59768364]
+[node name="MainVBox" type="VBoxContainer" parent="." unique_id=1000]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -21,11 +21,15 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="LeftVBox" type="VBoxContainer" parent="HBoxContainer" unique_id=1821228819]
+[node name="HBoxContainer" type="HBoxContainer" parent="MainVBox" unique_id=59768364]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="LeftVBox" type="VBoxContainer" parent="MainVBox/HBoxContainer" unique_id=1821228819]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MapLabel" type="RichTextLabel" parent="HBoxContainer/LeftVBox" unique_id=1532993429]
+[node name="MapLabel" type="RichTextLabel" parent="MainVBox/HBoxContainer/LeftVBox" unique_id=1532993429]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_font_sizes/normal_font_size = 32
@@ -33,7 +37,44 @@ bbcode_enabled = true
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="MessageLog" type="RichTextLabel" parent="HBoxContainer/LeftVBox" unique_id=982466060]
+[node name="SkillContainer" type="VBoxContainer" parent="MainVBox/HBoxContainer" unique_id=1567773191]
+custom_minimum_size = Vector2(250, 0)
+layout_mode = 2
+
+[node name="SkillButton0" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=169539288]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+
+[node name="SkillButton1" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=345274770]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+
+[node name="SkillButton2" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1625449188]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+
+[node name="SkillButton3" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1850920304]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+
+[node name="ReturnToTitleButton" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=999999999]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "Return to Title"
+
+[node name="MuteButton" type="Button" parent="MainVBox" unique_id=73928104]
+custom_minimum_size = Vector2(140, 50)
+layout_mode = 2
+size_flags_horizontal = 8
+theme_override_font_sizes/font_size = 24
+text = "🔊 ON"
+
+[node name="MessageLog" type="RichTextLabel" parent="MainVBox" unique_id=982466060]
 custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 theme_override_font_sizes/normal_font_size = 32
@@ -41,56 +82,11 @@ theme_override_font_sizes/bold_font_size = 32
 theme_override_font_sizes/bold_italics_font_size = 32
 theme_override_font_sizes/italics_font_size = 32
 theme_override_font_sizes/mono_font_size = 32
+bbcode_enabled = true
 scroll_following = true
-
-[node name="SkillContainer" type="VBoxContainer" parent="HBoxContainer" unique_id=1567773191]
-custom_minimum_size = Vector2(250, 0)
-layout_mode = 2
-
-[node name="SkillButton0" type="Button" parent="HBoxContainer/SkillContainer" unique_id=169539288]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-
-[node name="SkillButton1" type="Button" parent="HBoxContainer/SkillContainer" unique_id=345274770]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-
-[node name="SkillButton2" type="Button" parent="HBoxContainer/SkillContainer" unique_id=1625449188]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-
-[node name="SkillButton3" type="Button" parent="HBoxContainer/SkillContainer" unique_id=1850920304]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-
-[node name="ReturnToTitleButton" type="Button" parent="HBoxContainer/SkillContainer" unique_id=999999999]
-visible = false
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-text = "Return to Title"
 
 [node name="DialogPlayer" type="AudioStreamPlayer" parent="." unique_id=1382012761]
 stream = ExtResource("2_yyy")
 
 [node name="WalkPlayer" type="AudioStreamPlayer" parent="." unique_id=1759680520]
 stream = ExtResource("3_zzz")
-
-[node name="MuteButton" type="Button" parent="." unique_id=73928104]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -150.0
-offset_top = -60.0
-offset_right = -10.0
-offset_bottom = -10.0
-grow_horizontal = 0
-grow_vertical = 0
-theme_override_font_sizes/font_size = 24
-text = "🔊 ON"
