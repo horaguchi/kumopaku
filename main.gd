@@ -7,6 +7,16 @@ const ItemDataMap = preload("res://item_data.gd")
 
 const MASTER_BUS_INDEX := 0
 
+# --- Game Balance ---
+const FOV_RADIUS = 7
+
+# --- Map Display Colors ---
+const COLOR_PLAYER = "yellow"
+const COLOR_EFFECTIVE = "green"
+const COLOR_INEFFECTIVE = "red"
+const COLOR_UNKNOWN = "magenta"
+const COLOR_DISCOVERED = "#cccccc"
+
 # --- UI Nodes ---
 @onready var map_label: RichTextLabel = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
@@ -157,35 +167,35 @@ func _update_map():
 		if active_skill != "":
 			if ItemDataMap.known_effectiveness.has(key):
 				if ItemDataMap.known_effectiveness[key]:
-					mapped_char = "[color=green]" + e_char + "[/color]"
+					mapped_char = "[color=%s]%s[/color]" % [COLOR_EFFECTIVE, e_char]
 				else:
-					mapped_char = "[color=red]" + e_char + "[/color]"
+					mapped_char = "[color=%s]%s[/color]" % [COLOR_INEFFECTIVE, e_char]
 			else:
-				mapped_char = "[color=magenta]" + e_char + "[/color]"
+				mapped_char = "[color=%s]%s[/color]" % [COLOR_UNKNOWN, e_char]
 		grid[enemy.pos.y][enemy.pos.x] = mapped_char
 
-	grid[player_pos.y][player_pos.x] = "[color=yellow]@[/color]"
+	grid[player_pos.y][player_pos.x] = "[color=%s]@[/color]" % COLOR_PLAYER
 
-	var visible = _compute_fov()
+	var fov_visible = _compute_fov()
 
 	var map_str = ""
 	var max_y = grid.size()
 	var max_x = grid[0].size()
-	var current_color = ""
 
 	for y in range(max_y):
 		var row_str = ""
+		var current_color = ""
 		for x in range(max_x):
-			if visible[y][x]:
+			if fov_visible[y][x]:
 				if current_color != "":
 					row_str += "[/color]"
 					current_color = ""
 				row_str += str(grid[y][x])
 			elif map_data.discovered[y][x]:
-				if current_color != "#cccccc":
+				if current_color != COLOR_DISCOVERED:
 					if current_color != "": row_str += "[/color]"
-					row_str += "[color=#cccccc]"
-					current_color = "#cccccc"
+					row_str += "[color=%s]" % COLOR_DISCOVERED
+					current_color = COLOR_DISCOVERED
 				var t = map_data.grid[y][x]
 				if map_data.has("stairs_pos") and map_data.stairs_pos == Vector2(x, y):
 					t = ">"
@@ -195,10 +205,9 @@ func _update_map():
 					row_str += "[/color]"
 					current_color = ""
 				row_str += " "
+		if current_color != "":
+			row_str += "[/color]"
 		map_str += row_str + "\n"
-
-	if current_color != "":
-		map_str += "[/color]"
 
 	map_label.text = map_str
 
@@ -214,23 +223,22 @@ func _compute_fov() -> Array:
 			arr.fill(false)
 			map_data.discovered.append(arr)
 
-	var visible = []
+	var fov_visible = []
 	for y in range(max_y):
 		var arr = []
 		arr.resize(max_x)
 		arr.fill(false)
-		visible.append(arr)
+		fov_visible.append(arr)
 
-	var radius = 7
 	var p_x = int(player_pos.x)
 	var p_y = int(player_pos.y)
 
-	visible[p_y][p_x] = true
+	fov_visible[p_y][p_x] = true
 	map_data.discovered[p_y][p_x] = true
 
-	for i in range(-radius, radius + 1):
-		for j in range(-radius, radius + 1):
-			if i == -radius or i == radius or j == -radius or j == radius:
+	for i in range(-FOV_RADIUS, FOV_RADIUS + 1):
+		for j in range(-FOV_RADIUS, FOV_RADIUS + 1):
+			if i == -FOV_RADIUS or i == FOV_RADIUS or j == -FOV_RADIUS or j == FOV_RADIUS:
 				var target_x = p_x + i
 				var target_y = p_y + j
 				var line = _get_line(p_x, p_y, target_x, target_y)
@@ -240,17 +248,17 @@ func _compute_fov() -> Array:
 					if px < 0 or px >= max_x or py < 0 or py >= max_y:
 						break
 
-					if (px - p_x) * (px - p_x) + (py - p_y) * (py - p_y) > radius * radius:
+					if (px - p_x) * (px - p_x) + (py - p_y) * (py - p_y) > FOV_RADIUS * FOV_RADIUS:
 						break
 
-					visible[py][px] = true
+					fov_visible[py][px] = true
 					map_data.discovered[py][px] = true
 
 					var c = map_data.grid[py][px]
 					if c == "-" or c == "|" or c == " ":
 						break
 
-	return visible
+	return fov_visible
 
 func _get_line(x0: int, y0: int, x1: int, y1: int) -> Array:
 	var points = []
