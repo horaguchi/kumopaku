@@ -1,6 +1,8 @@
 class_name ItemData
 extends RefCounted
 
+static var known_effectiveness: Dictionary = {}
+
 static var SKILLS: Array:
 	get:
 		return COMBAT_RESULTS.keys()

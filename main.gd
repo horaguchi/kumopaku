@@ -148,8 +148,21 @@ func _update_map():
 	for item_pos in map_data.items:
 		grid[item_pos.y][item_pos.x] = "?"
 
+	var active_skill = player_skills[active_skill_index] if player_skills.size() > 0 else ""
+
 	for enemy in map_data.enemies:
-		grid[enemy.pos.y][enemy.pos.x] = enemy.char
+		var e_char = enemy.char
+		var key = active_skill + "_" + e_char
+		var mapped_char = e_char
+		if active_skill != "":
+			if ItemDataMap.known_effectiveness.has(key):
+				if ItemDataMap.known_effectiveness[key]:
+					mapped_char = "[color=green]" + e_char + "[/color]"
+				else:
+					mapped_char = "[color=red]" + e_char + "[/color]"
+			else:
+				mapped_char = "[color=magenta]" + e_char + "[/color]"
+		grid[enemy.pos.y][enemy.pos.x] = mapped_char
 
 	grid[player_pos.y][player_pos.x] = "[color=yellow]@[/color]"
 
@@ -430,6 +443,8 @@ func _combat(enemy_idx: int) -> bool:
 	var enemy_data = EnemyDataMap.ENEMIES[e_char]
 	var skill = player_skills[active_skill_index]
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
+
+	ItemDataMap.known_effectiveness[skill + "_" + e_char] = result.win
 
 	_log_message(tr(result.message))
 
