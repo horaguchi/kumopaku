@@ -11,12 +11,13 @@ const MASTER_BUS_INDEX := 0
 @onready var map_label: Label = $HBoxContainer/LeftVBox/MapLabel
 @onready var message_log: RichTextLabel = $HBoxContainer/LeftVBox/MessageLog
 @onready var skill_container: VBoxContainer = $HBoxContainer/SkillContainer
+@onready var return_to_title_button: Button = $HBoxContainer/SkillContainer/ReturnToTitleButton
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
 var current_floor := 1
 var player_pos := Vector2.ZERO
-var player_skills: Array[String] = ["殴る"]
+var player_skills: Array[String] = ["Punch"]
 var active_skill_index := 0
 var map_data := {}
 var is_skill_replace_mode := false
@@ -58,6 +59,7 @@ func _process(delta: float) -> void:
 
 func _ready() -> void:
 	mute_button.pressed.connect(_on_mute_button_pressed)
+	return_to_title_button.pressed.connect(_on_return_to_title_pressed)
 	# AudioServerの状態に合わせてボタン表示を同期
 	_update_mute_button_text()
 
@@ -81,14 +83,15 @@ func _update_mute_button_text():
 func _start_game():
 	current_floor = 1
 	player_skills.clear()
-	player_skills.append("殴る")
+	player_skills.append("Punch")
 	active_skill_index = 0
+	return_to_title_button.visible = false
 	message_log.text = ""
-	_log_message("ダンジョンに入った...")
+	_log_message(tr("MSG_ENTER_DUNGEON"))
 	_load_floor()
 
 func _load_floor():
-	_log_message(str(current_floor) + "F に到達した。")
+	_log_message(tr("MSG_REACH_FLOOR").format({"floor": current_floor}))
 	map_data = DungeonGeneratorData.generate(current_floor)
 	player_pos = map_data.start_pos
 
@@ -119,10 +122,10 @@ func _process_message_queue():
 	while not message_queue.is_empty():
 		var msg = message_queue.pop_front()
 
-		for char in msg:
-			message_log.text += char
+		for msg_char in msg:
+			message_log.text += msg_char
 			# サウンドを再生 (一文字ごと)
-			if char != " " and char != "　":
+			if msg_char != " " and msg_char != "　":
 				audio_player.play()
 			# 次の文字を表示する前に少し待つ
 			await get_tree().create_timer(0.02).timeout
@@ -168,34 +171,36 @@ func _update_skills():
 
 	for i in range(player_skills.size()):
 		skill_buttons[i].visible = true
-		skill_buttons[i].text = player_skills[i]
+		skill_buttons[i].text = tr(player_skills[i])
 		if i == active_skill_index:
-			skill_buttons[i].text = "[*] " + player_skills[i]
+			skill_buttons[i].text = "[*] " + tr(player_skills[i])
 			skill_buttons[i].add_theme_color_override("font_color", Color.YELLOW)
 
 	if is_skill_replace_mode:
 		skill_buttons[3].visible = true
-		skill_buttons[3].text = "[NEW] " + temp_new_skill
+		skill_buttons[3].text = "[NEW] " + tr(temp_new_skill)
 		skill_buttons[3].add_theme_color_override("font_color", Color.GREEN)
 	elif not map_data.is_empty() and map_data.has("stairs_pos") and player_pos == map_data.stairs_pos:
 		skill_buttons[3].visible = true
-		skill_buttons[3].text = "下に降りる"
+		skill_buttons[3].text = tr("DESC_GO_DOWN")
 		skill_buttons[3].add_theme_color_override("font_color", Color.CYAN)
 
 func _on_skill_button_pressed(idx: int):
 	# ボタンのフォーカスを外さないとキー入力が吸われる
 	skill_buttons[idx].release_focus()
+	if map_data.is_empty(): # ゲームオーバー時の押下処理をスキップ
+		return
 
 	if is_skill_replace_mode:
 		if idx < 3 and idx < player_skills.size():
-			_log_message(player_skills[idx] + " を捨て、「" + temp_new_skill + "」をセットした。")
+			_log_message(tr("MSG_REPLACE_SKILL").format({"old": tr(player_skills[idx]), "new": tr(temp_new_skill)}))
 			player_skills[idx] = temp_new_skill
 			is_skill_replace_mode = false
 			temp_new_skill = ""
 			_update_ui()
 			_process_enemies_turn()
 		elif idx == 3:
-			_log_message("「" + temp_new_skill + "」を諦めた。")
+			_log_message(tr("MSG_GIVE_UP_SKILL").format({"skill": tr(temp_new_skill)}))
 			is_skill_replace_mode = false
 			temp_new_skill = ""
 			_update_ui()
@@ -203,7 +208,7 @@ func _on_skill_button_pressed(idx: int):
 	elif player_pos == map_data.stairs_pos and idx == 3:
 		# 階段の上にいて「下に降りる」を押した
 		if current_floor == 5:
-			_log_message("全てのフロアを制覇した！ゲームクリア！！")
+			_log_message(tr("MSG_GAME_CLEAR"))
 			map_data.clear()
 			_update_ui()
 			_game_over()
@@ -213,7 +218,7 @@ func _on_skill_button_pressed(idx: int):
 	else:
 		if idx < player_skills.size():
 			active_skill_index = idx
-			_log_message("有効スキルを「" + player_skills[idx] + "」に変更した。")
+			_log_message(tr("MSG_CHANGE_SKILL").format({"skill": tr(player_skills[idx])}))
 			_update_ui()
 
 func _move(dir: Vector2):
@@ -254,18 +259,18 @@ func _move(dir: Vector2):
 	if picked_item_idx != -1:
 		map_data.items.remove_at(picked_item_idx)
 		var new_skill = ItemDataMap.SKILLS.pick_random()
-		_log_message("アイテムを拾った！「" + new_skill + "」を見つけた。")
+		_log_message(tr("MSG_FIND_ITEM").format({"skill": tr(new_skill)}))
 		if player_skills.size() < 3:
 			player_skills.append(new_skill)
 		else:
 			is_skill_replace_mode = true
 			temp_new_skill = new_skill
-			_log_message("スキルがいっぱいだ。左のリストから捨てるスキルをクリックするか、一番下をクリックして新しいスキルを捨ててくれ。")
+			_log_message(tr("MSG_SKILL_FULL"))
 			_update_ui()
 			return
 
 	if player_pos == map_data.stairs_pos:
-		_log_message("階段を見つけた。スキルエリアの「下に降りる」を押せば次の階に行ける。")
+		_log_message(tr("MSG_FIND_STAIRS"))
 		_update_ui() # スキルボタンを表示するためにUIを更新
 
 	_process_enemies_turn()
@@ -306,7 +311,7 @@ func _process_enemies_turn():
 			enemy.pos = n_pos
 
 			if enemy.pos == player_pos:
-				_log_message("敵 " + enemy_data.name + " の " + enemy_data.skill + " 攻撃！")
+				_log_message(tr("MSG_ENEMY_ATTACK").format({"name": tr(enemy_data.name), "skill": tr(enemy_data.skill)}))
 				var is_player_dead = _combat(i)
 				if is_player_dead:
 					return # 戦闘で死んだら終了
@@ -326,21 +331,24 @@ func _combat(enemy_idx: int) -> bool:
 	var skill = player_skills[active_skill_index]
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
 
-	_log_message(result.message)
+	_log_message(tr(result.message))
 
 	if result.win:
-		_log_message("敵 " + enemy_data.name + " を倒した！")
+		_log_message(tr("MSG_DEFEAT_ENEMY").format({"name": tr(enemy_data.name)}))
 		# プレイヤーから発信された攻撃ならここで削除
 		if player_pos != enemy.pos:
 			map_data.enemies.remove_at(enemy_idx)
 		return false # 死亡していない
 	else:
-		_log_message("あなたは死んでしまった... GAME OVER")
+		_log_message(tr("MSG_GAME_OVER"))
 		map_data.clear()
 		_update_ui()
 		call_deferred("_game_over")
 		return true
 
 func _game_over():
-	await get_tree().create_timer(3.0).timeout
+	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")
+	return_to_title_button.visible = true
+
+func _on_return_to_title_pressed():
 	get_tree().change_scene_to_file("res://title.tscn")
