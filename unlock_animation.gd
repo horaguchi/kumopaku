@@ -6,7 +6,7 @@ var _tw: Tween
 var _is_animating: bool = true
 
 @onready var title_lbl: Label = $VBoxContainer/TitleLabel
-@onready var new_skill_lbl: Label = $VBoxContainer/NewSkillLabel
+@onready var new_skill_lbl: RichTextLabel = $VBoxContainer/NewSkillLabel
 @onready var all_skills_lbl: RichTextLabel = $VBoxContainer/AllSkillsLabel
 
 func _ready():
@@ -19,7 +19,7 @@ func _ready():
 			newly_unlocked_items.append(ItemData.SKILLS[newly_idx + i])
 
 	var translated_new_skills = newly_unlocked_items.map(func(s): return tr(s))
-	new_skill_lbl.text = ", ".join(translated_new_skills)
+	new_skill_lbl.text = "[center]" + ", ".join(translated_new_skills) + "[/center]"
 
 	var all_unlocked_str = tr("MSG_UNLOCKED_SKILLS")
 	var start_idx = Global.INITIAL_SKILL_POOL_SIZE

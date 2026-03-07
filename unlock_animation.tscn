@@ -34,12 +34,13 @@ theme_override_font_sizes/font_size = 48
 text = "MSG_SKILL_UNLOCKED"
 horizontal_alignment = 1
 
-[node name="NewSkillLabel" type="Label" parent="VBoxContainer" unique_id=1605223797]
+[node name="NewSkillLabel" type="RichTextLabel" parent="VBoxContainer" unique_id=1605223797]
 modulate = Color(1, 1, 1, 0)
 layout_mode = 2
-theme_override_colors/font_color = Color(1, 1, 0, 1)
-theme_override_font_sizes/font_size = 64
-horizontal_alignment = 1
+theme_override_colors/default_color = Color(1, 1, 0, 1)
+theme_override_font_sizes/normal_font_size = 64
+bbcode_enabled = true
+fit_content = true
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer" unique_id=557467179]
 modulate = Color(1, 1, 1, 0)

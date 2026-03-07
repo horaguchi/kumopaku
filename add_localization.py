@@ -42,35 +42,43 @@ def validate_localization_csv():
     return is_valid
 
 def add_localization_entry(key, en, ja, zh):
-    """新しいエントリを追加する前にバリデーションを行い、問題なければ追記する。"""
+    """新しいエントリを追加、または既存のキーを更新する。"""
 
     # 事前バリデーション
-    print(f"Validating {CSV_FILE} before adding...")
+    print(f"Validating {CSV_FILE} before adding/updating...")
     if not validate_localization_csv():
-        print("Aborting addition due to existing CSV errors. Please fix the CSV first.")
+        print("Aborting due to existing CSV errors. Please fix the CSV first.")
         return
 
     try:
-        # ファイルの末尾の状態を確認
-        with open(CSV_FILE, 'r', encoding='utf-8') as f:
-            f.seek(0, os.SEEK_END)
-            filesize = f.tell()
-            if filesize > 0:
-                f.seek(filesize - 1)
-                last_char = f.read(1)
-            else:
-                last_char = '\n'
+        rows = []
+        updated = False
 
-        # 追記モードで開く
-        with open(CSV_FILE, 'a', encoding='utf-8', newline='') as f:
+        # 既存の内容を読み込む
+        if os.path.exists(CSV_FILE):
+            with open(CSV_FILE, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                for row in reader:
+                    if row and row[0] == key:
+                        rows.append([key, en, ja, zh])
+                        updated = True
+                        print(f"Key '{key}' already exists. Overwriting with new content...")
+                    else:
+                        rows.append(row)
+
+        # キーが見つからなかった場合は末尾に追加
+        if not updated:
+            rows.append([key, en, ja, zh])
+
+        # ファイルに書き出す
+        with open(CSV_FILE, 'w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator='\n')
+            writer.writerows(rows)
 
-            # ファイル末尾が改行でない場合は改行を先に追加
-            if last_char != '\n' and filesize > 0:
-                f.write('\n')
-
-            writer.writerow([key, en, ja, zh])
-            print(f"Successfully added entry: {key}")
+        if updated:
+            print(f"Successfully UPDATED entry: {key}")
+        else:
+            print(f"Successfully ADDED entry: {key}")
 
     except Exception as e:
         print(f"An error occurred: {e}")

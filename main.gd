@@ -2,8 +2,6 @@ class_name Main
 extends Control
 
 const DungeonGeneratorData = preload("res://dungeon_generator.gd")
-const EnemyDataMap = preload("res://enemy_data.gd")
-const ItemDataMap = preload("res://item_data.gd")
 
 const MASTER_BUS_INDEX := 0
 
@@ -36,6 +34,8 @@ var temp_new_skill := ""
 # --- Message Log Queue ---
 var message_queue: Array[String] = []
 var is_printing_message := false
+signal messages_finished
+var is_processing_action := false
 
 # --- Audio ---
 @onready var audio_player: AudioStreamPlayer = $DialogPlayer
@@ -52,14 +52,21 @@ func _input(event: InputEvent) -> void:
 
 	if event is InputEventKey and event.pressed and not event.is_echo():
 		if event.keycode == KEY_Q and not map_data.is_empty():
-			_log_message(tr("MSG_GAME_OVER"))
-			map_data.clear()
-			_update_ui()
-			call_deferred("_game_over")
+			if is_processing_action: return
+			_execute_give_up()
+
+func _execute_give_up():
+	_set_action_state(true)
+	_log_message(tr("MSG_GAME_OVER"))
+	await _wait_messages_done()
+	map_data.clear()
+	_update_ui()
+	_game_over()
+	_set_action_state(false)
 
 func _process(delta: float) -> void:
 	if is_skill_replace_mode: return
-	if is_printing_message: return
+	if is_processing_action: return
 
 	if move_timer > 0:
 		move_timer -= delta
@@ -76,8 +83,8 @@ func _process(delta: float) -> void:
 		dir = Vector2.RIGHT
 
 	if dir != Vector2.ZERO:
-		_move(dir)
 		move_timer = move_delay
+		_execute_movement(dir)
 
 func _ready() -> void:
 	mute_button.pressed.connect(_on_mute_button_pressed)
@@ -93,8 +100,8 @@ func _ready() -> void:
 	call_deferred("_start_game")
 
 func _get_random_skill() -> String:
-	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemDataMap.SKILLS.size())
-	var available = ItemDataMap.SKILLS.slice(0, max_items)
+	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemData.SKILLS.size())
+	var available = ItemData.SKILLS.slice(0, max_items)
 	return available.pick_random()
 
 func _on_mute_button_pressed():
@@ -108,23 +115,31 @@ func _update_mute_button_text():
 	mute_button.text = tr("MSG_AUDIO_OFF") if is_muted else tr("MSG_AUDIO_ON")
 
 func _start_game():
+	_set_action_state(true)
 	current_floor = 1
 	player_skills.clear()
-	player_skills.append(_get_random_skill())
+	if Global.favorite_skill != "":
+		player_skills.append(Global.favorite_skill)
+	else:
+		player_skills.append(_get_random_skill())
 	active_skill_index = 0
 	return_to_title_button.visible = false
 	message_log.text = ""
 	_log_message(tr("MSG_ENTER_DUNGEON"))
-	_load_floor()
+	await _wait_messages_done()
+	await _load_floor()
+	_set_action_state(false)
 
 func _load_floor():
 	_log_message(tr("MSG_REACH_FLOOR").format({"floor": current_floor}))
+	await _wait_messages_done()
+
 	map_data = DungeonGeneratorData.generate(current_floor)
 	player_pos = map_data.start_pos
 
 	var available_enemies = []
-	for e_char in EnemyDataMap.ENEMIES.keys():
-		var d = EnemyDataMap.ENEMIES[e_char]
+	for e_char in EnemyData.ENEMIES.keys():
+		var d = EnemyData.ENEMIES[e_char]
 		if d.min_floor <= current_floor and d.max_floor >= current_floor:
 			available_enemies.append(e_char)
 
@@ -144,8 +159,14 @@ func _log_message(msg: String):
 	if not is_printing_message:
 		_process_message_queue()
 
+func _wait_messages_done():
+	if is_printing_message or not message_queue.is_empty():
+		await messages_finished
+
 func _process_message_queue():
 	is_printing_message = true
+	_set_ui_buttons_disabled(true)
+
 	while not message_queue.is_empty():
 		var msg = message_queue.pop_front()
 
@@ -160,6 +181,17 @@ func _process_message_queue():
 		message_log.text += "\n"
 
 	is_printing_message = false
+	_set_ui_buttons_disabled(false)
+	messages_finished.emit()
+
+func _set_ui_buttons_disabled(disabled: bool) -> void:
+	for btn in skill_buttons:
+		btn.disabled = disabled
+	return_to_title_button.disabled = disabled
+	mute_button.disabled = disabled
+
+func _set_action_state(active: bool):
+	is_processing_action = active
 
 func _update_ui():
 	_update_map()
@@ -325,39 +357,53 @@ func _update_skills():
 func _on_skill_button_pressed(idx: int):
 	# ボタンのフォーカスを外さないとキー入力が吸われる
 	skill_buttons[idx].release_focus()
-	if map_data.is_empty(): # ゲームオーバー時の押下処理をスキップ
+	if map_data.is_empty() or is_processing_action: # ゲームオーバー時の押下処理をスキップ
 		return
 
+	_set_action_state(true)
+	await _handle_skill_button(idx)
+	_set_action_state(false)
+
+func _handle_skill_button(idx: int):
 	if is_skill_replace_mode:
 		if idx < 3 and idx < player_skills.size():
 			_log_message(tr("MSG_REPLACE_SKILL").format({"old": tr(player_skills[idx]), "new": tr(temp_new_skill)}))
+			await _wait_messages_done()
 			player_skills[idx] = temp_new_skill
 			is_skill_replace_mode = false
 			temp_new_skill = ""
 			_update_ui()
-			_process_enemies_turn()
+			await _process_enemies_turn()
 		elif idx == 3:
 			_log_message(tr("MSG_GIVE_UP_SKILL").format({"skill": tr(temp_new_skill)}))
+			await _wait_messages_done()
 			is_skill_replace_mode = false
 			temp_new_skill = ""
 			_update_ui()
-			_process_enemies_turn()
-	elif player_pos == map_data.stairs_pos and idx == 3:
+			await _process_enemies_turn()
+	elif map_data.has("stairs_pos") and player_pos == map_data.stairs_pos and idx == 3:
 		# 階段の上にいて「下に降りる」を押した
 		if current_floor == 5:
 			_log_message(tr("MSG_GAME_CLEAR"))
+			await _wait_messages_done()
 			map_data.clear()
 			_update_ui()
-			_game_over()
+			_game_over(true)
 		else:
 			current_floor += 1
 			Global.save_data()
-			_load_floor()
+			await _load_floor()
 	else:
 		if idx < player_skills.size():
 			active_skill_index = idx
 			_log_message(tr("MSG_CHANGE_SKILL").format({"skill": tr(player_skills[idx])}))
+			await _wait_messages_done()
 			_update_ui()
+
+func _execute_movement(dir: Vector2):
+	_set_action_state(true)
+	await _move(dir)
+	_set_action_state(false)
 
 func _move(dir: Vector2):
 	var next_pos = player_pos + dir
@@ -380,13 +426,16 @@ func _move(dir: Vector2):
 			break
 
 	if hit_enemy_idx != -1:
-		_combat(hit_enemy_idx)
-		_process_enemies_turn()
+		await _combat(hit_enemy_idx)
+		if not map_data.is_empty():
+			await _process_enemies_turn()
 		return
 
 	if player_pos != next_pos:
 		player_pos = next_pos
 		walk_audio_player.play()
+		_update_ui() # 移動直後に画面反映
+		await get_tree().create_timer(0.05).timeout
 
 	var picked_item_idx = -1
 	for i in range(map_data.items.size()):
@@ -398,20 +447,26 @@ func _move(dir: Vector2):
 		map_data.items.remove_at(picked_item_idx)
 		var new_skill = _get_random_skill()
 		_log_message(tr("MSG_FIND_SKILL").format({"skill": tr(new_skill)}))
+		await _wait_messages_done()
+
 		if player_skills.size() < 3:
 			player_skills.append(new_skill)
+			_update_ui()
 		else:
 			is_skill_replace_mode = true
 			temp_new_skill = new_skill
 			_log_message(tr("MSG_SKILL_FULL"))
+			await _wait_messages_done()
 			_update_ui()
 			return
 
-	if player_pos == map_data.stairs_pos:
+	if map_data.has("stairs_pos") and player_pos == map_data.stairs_pos:
 		_log_message(tr("MSG_FIND_STAIRS"))
+		await _wait_messages_done()
 		_update_ui() # スキルボタンを表示するためにUIを更新
 
-	_process_enemies_turn()
+	if not is_skill_replace_mode:
+		await _process_enemies_turn()
 
 func _process_enemies_turn():
 	if map_data.is_empty(): return
@@ -419,7 +474,7 @@ func _process_enemies_turn():
 	for i in range(map_data.enemies.size()):
 		var enemy = map_data.enemies[i]
 		var e_char = enemy.char
-		var enemy_data = EnemyDataMap.ENEMIES[e_char]
+		var enemy_data = EnemyData.ENEMIES[e_char]
 
 		var dist = abs(enemy.pos.x - player_pos.x) + abs(enemy.pos.y - player_pos.y)
 
@@ -450,7 +505,9 @@ func _process_enemies_turn():
 
 			if enemy.pos == player_pos:
 				_log_message(tr("MSG_ENEMY_ATTACK").format({"name": tr(enemy_data.name), "skill": tr(enemy_data.skill)}))
-				var is_player_dead = _combat(i)
+				await _wait_messages_done()
+
+				var is_player_dead = await _combat(i)
 				if is_player_dead:
 					return # 戦闘で死んだら終了
 				else:
@@ -460,35 +517,47 @@ func _process_enemies_turn():
 	for i in range(indices_to_remove.size() - 1, -1, -1):
 		map_data.enemies.remove_at(indices_to_remove[i])
 
-	_update_ui()
+	if not map_data.is_empty():
+		_update_ui()
 
 func _combat(enemy_idx: int) -> bool:
 	var enemy = map_data.enemies[enemy_idx]
 	var e_char = enemy.char
-	var enemy_data = EnemyDataMap.ENEMIES[e_char]
+	var enemy_data = EnemyData.ENEMIES[e_char]
 	var skill = player_skills[active_skill_index]
-	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
+	var result = ItemData.COMBAT_RESULTS[skill][e_char]
 
 	Global.known_effectiveness[skill + "_" + e_char] = result.win
 
 	_log_message(tr(result.message))
+	await _wait_messages_done()
 
 	if result.win:
 		_log_message(tr("MSG_DEFEAT_ENEMY").format({"name": tr(enemy_data.name)}))
+		await _wait_messages_done()
+
 		# プレイヤーから発信された攻撃ならここで削除
 		if player_pos != enemy.pos:
 			map_data.enemies.remove_at(enemy_idx)
+
+		_update_ui()
 		return false # 死亡していない
 	else:
 		_log_message(tr("MSG_GAME_OVER"))
+		await _wait_messages_done()
+
 		map_data.clear()
 		_update_ui()
-		call_deferred("_game_over")
+		_game_over(false)
 		return true
 
-func _game_over():
-	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
-		Global.unlock_next()
+func _game_over(is_clear: bool = false):
+	var unlock_amount = current_floor
+	if is_clear:
+		unlock_amount = 6
+
+	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemData.SKILLS.size():
+		Global.unlock_next(unlock_amount)
 	else:
 		Global.save_data()
 	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")
