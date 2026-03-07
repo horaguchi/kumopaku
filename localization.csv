@@ -3276,3 +3276,5 @@ MSG_C_ACID_Z_LOSS,"The zombie didn't react as the acid dissolved its features an
 "MSG_C_ERASER_Z_LOSS","The zombie stood gap-mouthed, and for a moment, saw its cold grey eyes turn bright in the glass. It eventually fell into a deep sleep that matched the ancient decay of the dungeon floor. The dead were given a reflective rest.","ゾンビは口をぽかんと開けて立ち尽くし、鏡の中で冷たい灰色の瞳が一瞬だけ輝きを取り戻すのを見た。やがてダンジョンの古びた腐敗と同調するように、魔物は深い眠りへと落ちる。死者たちは、鏡像の世界で安らぎを得たのである。","僵尸张大嘴巴站在那里，有一瞬间，看到它冷灰色的眼睛在玻璃中变亮了。它最终陷入了一场与地牢地板古老腐朽相匹配的沈睡中。死者获得了一个反射式的休息。"
 MSG_SKILL_UNLOCKED,SKILL UNLOCKED!,新スキル アンロック！,解锁新技能！
 MSG_UNLOCKED_SKILLS,"[center][color=gray]--- Unlocked Skills ---[/color]\n\n","[center][color=gray]--- アンロック済みのスキル ---[/color]\n\n","[center][color=gray]--- 已解锁的技能 ---[/color]\n\n"
+MSG_AUDIO_ON,AUDIO: ON,音声: ON,声音: 开启
+MSG_AUDIO_OFF,AUDIO: OFF,音声: OFF,声音: 关闭

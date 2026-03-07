@@ -63,10 +63,11 @@ func _on_mute_button_pressed():
 
 func _update_mute_button_text():
 	var is_muted = AudioServer.is_bus_mute(MASTER_BUS_INDEX)
-	mute_button.text = "🔇 OFF" if is_muted else "🔊 ON"
+	mute_button.text = tr("MSG_AUDIO_OFF") if is_muted else tr("MSG_AUDIO_ON")
 
 func _update_ui_text():
 	play_button.text = tr("PLAY")
+	_update_mute_button_text()
 
 func _input(event: InputEvent) -> void:
 	if not OS.is_debug_build():

@@ -105,7 +105,7 @@ func _on_mute_button_pressed():
 
 func _update_mute_button_text():
 	var is_muted = AudioServer.is_bus_mute(MASTER_BUS_INDEX)
-	mute_button.text = "🔇 OFF" if is_muted else "🔊 ON"
+	mute_button.text = tr("MSG_AUDIO_OFF") if is_muted else tr("MSG_AUDIO_ON")
 
 func _start_game():
 	current_floor = 1
