@@ -102,7 +102,7 @@ func _ready() -> void:
 func _get_random_skill() -> String:
 	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemData.SKILLS.size())
 	var available = ItemData.SKILLS.slice(0, max_items)
-	return available[randi() % available.size()]
+	return available.pick_random()
 
 func _on_mute_button_pressed():
 	mute_button.release_focus()
@@ -165,10 +165,7 @@ func _wait_messages_done():
 
 func _process_message_queue():
 	is_printing_message = true
-	for btn in skill_buttons:
-		btn.disabled = true
-	return_to_title_button.disabled = true
-	mute_button.disabled = true
+	_set_ui_buttons_disabled(true)
 
 	while not message_queue.is_empty():
 		var msg = message_queue.pop_front()
@@ -184,11 +181,14 @@ func _process_message_queue():
 		message_log.text += "\n"
 
 	is_printing_message = false
-	for btn in skill_buttons:
-		btn.disabled = false
-	return_to_title_button.disabled = false
-	mute_button.disabled = false
+	_set_ui_buttons_disabled(false)
 	messages_finished.emit()
+
+func _set_ui_buttons_disabled(disabled: bool) -> void:
+	for btn in skill_buttons:
+		btn.disabled = disabled
+	return_to_title_button.disabled = disabled
+	mute_button.disabled = disabled
 
 func _set_action_state(active: bool):
 	is_processing_action = active
