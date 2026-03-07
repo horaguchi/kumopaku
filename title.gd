@@ -1,6 +1,7 @@
 extends Control
 
 const MASTER_BUS_INDEX := 0
+const FAVORITE_MARKER = "★"
 
 @onready var play_button: Button = $VBoxContainer/Button
 @onready var language_option: OptionButton = $VBoxContainer/LanguageOption
@@ -18,7 +19,6 @@ const MASTER_BUS_INDEX := 0
 @onready var close_detail_button: Button = $SkillDetailModal/VBoxContainer/CloseDetailButton
 
 var current_viewing_skill: String = ""
-const EnemyDataMap = preload("res://enemy_data.gd")
 
 func _ready() -> void:
 	_init_language_option()
@@ -123,29 +123,24 @@ func _populate_skill_list() -> void:
 		btn.text = tr(skill_name)
 		btn.add_theme_font_size_override("font_size", 24)
 		if Global.favorite_skill == skill_name:
-			btn.text = "★ " + btn.text
+			btn.text = FAVORITE_MARKER + " " + btn.text
 			btn.add_theme_color_override("font_color", Color.YELLOW)
 		btn.pressed.connect(func(): _show_skill_detail(skill_name))
 		skill_grid.add_child(btn)
 
 func _show_skill_detail(skill_name: String) -> void:
 	current_viewing_skill = skill_name
-	skill_list_modal.hide()
 	skill_detail_modal.show()
 	_update_favorite_button()
 
-	var t_skill = tr(skill_name)
-	if Global.favorite_skill == skill_name:
-		skill_name_label.text = "[center][color=yellow]★[/color] " + t_skill + "[/center]"
-	else:
-		skill_name_label.text = "[center]" + t_skill + "[/center]"
+	_update_skill_name_label()
 
 	for child in effectiveness_list.get_children():
 		child.queue_free()
 
-	for e_char in EnemyDataMap.ENEMIES.keys():
+	for e_char in EnemyData.ENEMIES.keys():
 		var key = skill_name + "_" + e_char
-		var edata = EnemyDataMap.ENEMIES[e_char]
+		var edata = EnemyData.ENEMIES[e_char]
 		var lbl = RichTextLabel.new()
 		lbl.bbcode_enabled = true
 		lbl.fit_content = true
@@ -170,9 +165,12 @@ func _on_favorite_pressed() -> void:
 	Global.save_data()
 	_update_favorite_button()
 
+	_update_skill_name_label()
+
+func _update_skill_name_label() -> void:
 	var t_skill = tr(current_viewing_skill)
 	if Global.favorite_skill == current_viewing_skill:
-		skill_name_label.text = "[center][color=yellow]★[/color] " + t_skill + "[/center]"
+		skill_name_label.text = "[center][color=yellow]" + FAVORITE_MARKER + "[/color] " + t_skill + "[/center]"
 	else:
 		skill_name_label.text = "[center]" + t_skill + "[/center]"
 
@@ -188,4 +186,3 @@ func _on_close_list_pressed() -> void:
 func _on_close_detail_pressed() -> void:
 	skill_detail_modal.hide()
 	_populate_skill_list()
-	skill_list_modal.show()

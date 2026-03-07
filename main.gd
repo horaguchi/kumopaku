@@ -2,8 +2,6 @@ class_name Main
 extends Control
 
 const DungeonGeneratorData = preload("res://dungeon_generator.gd")
-const EnemyDataMap = preload("res://enemy_data.gd")
-const ItemDataMap = preload("res://item_data.gd")
 
 const MASTER_BUS_INDEX := 0
 
@@ -102,9 +100,9 @@ func _ready() -> void:
 	call_deferred("_start_game")
 
 func _get_random_skill() -> String:
-	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemDataMap.SKILLS.size())
-	var available = ItemDataMap.SKILLS.slice(0, max_items)
-	return available.pick_random()
+	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemData.SKILLS.size())
+	var available = ItemData.SKILLS.slice(0, max_items)
+	return available[randi() % available.size()]
 
 func _on_mute_button_pressed():
 	mute_button.release_focus()
@@ -140,8 +138,8 @@ func _load_floor():
 	player_pos = map_data.start_pos
 
 	var available_enemies = []
-	for e_char in EnemyDataMap.ENEMIES.keys():
-		var d = EnemyDataMap.ENEMIES[e_char]
+	for e_char in EnemyData.ENEMIES.keys():
+		var d = EnemyData.ENEMIES[e_char]
 		if d.min_floor <= current_floor and d.max_floor >= current_floor:
 			available_enemies.append(e_char)
 
@@ -476,7 +474,7 @@ func _process_enemies_turn():
 	for i in range(map_data.enemies.size()):
 		var enemy = map_data.enemies[i]
 		var e_char = enemy.char
-		var enemy_data = EnemyDataMap.ENEMIES[e_char]
+		var enemy_data = EnemyData.ENEMIES[e_char]
 
 		var dist = abs(enemy.pos.x - player_pos.x) + abs(enemy.pos.y - player_pos.y)
 
@@ -525,9 +523,9 @@ func _process_enemies_turn():
 func _combat(enemy_idx: int) -> bool:
 	var enemy = map_data.enemies[enemy_idx]
 	var e_char = enemy.char
-	var enemy_data = EnemyDataMap.ENEMIES[e_char]
+	var enemy_data = EnemyData.ENEMIES[e_char]
 	var skill = player_skills[active_skill_index]
-	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
+	var result = ItemData.COMBAT_RESULTS[skill][e_char]
 
 	Global.known_effectiveness[skill + "_" + e_char] = result.win
 
@@ -558,7 +556,7 @@ func _game_over(is_clear: bool = false):
 	if is_clear:
 		unlock_amount = 6
 
-	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
+	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemData.SKILLS.size():
 		Global.unlock_next(unlock_amount)
 	else:
 		Global.save_data()
