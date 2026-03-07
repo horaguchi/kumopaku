@@ -390,7 +390,7 @@ func _handle_skill_button(idx: int):
 			await _wait_messages_done()
 			map_data.clear()
 			_update_ui()
-			_game_over()
+			_game_over(true)
 		else:
 			current_floor += 1
 			Global.save_data()
@@ -550,12 +550,16 @@ func _combat(enemy_idx: int) -> bool:
 
 		map_data.clear()
 		_update_ui()
-		_game_over()
+		_game_over(false)
 		return true
 
-func _game_over():
+func _game_over(is_clear: bool = false):
+	var unlock_amount = current_floor
+	if is_clear:
+		unlock_amount = 6
+
 	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
-		Global.unlock_next()
+		Global.unlock_next(unlock_amount)
 	else:
 		Global.save_data()
 	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")

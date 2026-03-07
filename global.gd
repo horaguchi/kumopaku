@@ -28,7 +28,10 @@ func load_data():
 	known_effectiveness = config.get_value("game", "known_effectiveness", {})
 	favorite_skill = config.get_value("game", "favorite_skill", "")
 
-func unlock_next() -> void:
-	unlocked_skills_count += 1
-	newly_unlocked += 1
+func unlock_next(amount: int = 1) -> void:
+	var max_unlocked = ItemData.SKILLS.size() - INITIAL_SKILL_POOL_SIZE
+	var actual_amount = min(amount, max_unlocked - unlocked_skills_count)
+	if actual_amount > 0:
+		unlocked_skills_count += actual_amount
+		newly_unlocked += actual_amount
 	save_data()
