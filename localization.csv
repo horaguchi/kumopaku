@@ -104,7 +104,7 @@ MSG_REPLACE_SKILL,Discarded {old} and set {new}.,{old} を捨て、「{new}」�
 MSG_GIVE_UP_SKILL,Gave up on {skill}.,「{skill}」を諦めた。,放弃了 {skill}。
 MSG_GAME_CLEAR,Cleared all floors! GAME CLEAR!!,全てのフロアを制覇した！ゲームクリア！！,征服了所有楼层！游戏通关！！
 MSG_CHANGE_SKILL,Changed active skill to {skill}.,有効スキルを「{skill}」に変更した。,将有效技能更改为 {skill}。
-MSG_FIND_ITEM,Found an item! It was {skill}.,アイテムを拾った！「{skill}」を見つけた。,捡到了道具！发现了 {skill}。
+MSG_FIND_SKILL,Found a skill! It was {skill}.,スキルを拾った！「{skill}」を見つけた。,捡到了技能！发现了 {skill}。
 MSG_SKILL_FULL,Skills are full. Click a skill to discard or click the bottom to give up the new skill.,スキルがいっぱいだ。左のリストから捨てるスキルをクリックするか、一番下をクリックして新しいスキルを捨ててくれ。,技能已满。点击左侧列表中的技能进行丢弃，或点击最下方放弃新技能。
 MSG_FIND_STAIRS,Found the stairs.,階段を見つけた。,发现了楼梯。
 MSGUI_RETURN_TITLE,Return to Title,タイトルに戻る,返回标题
@@ -3274,3 +3274,5 @@ MSG_C_ACID_Z_LOSS,"The zombie didn't react as the acid dissolved its features an
 "MSG_C_ERASER_X_LOSS","Xalthis's multiple eyes twinkled as it followed a hundred different trails of scent that led nowhere. It spun once before its many legs collapsed, its central nervous system overwhelmed by the floral pulse. The multi-legged nightmare was ended.","ザルティスの無数の瞳は、どこにも辿り着かぬ百通りの香りの形跡を追い、その光を煌めかせた。花のパルスによって中枢神経が限界を迎え、一度だけ回転した後、その多足は崩れ落ちる。多足の悪夢は、終焉を迎えたのである。","扎尔提斯众多的眼睛在追踪一百条毫无结果的气味轨迹时闪烁其词。在它众多的腿塌下之前，由于中枢神经系统被花簇脉冲过载，它旋转了一圈。多肢噩梦就此终结。"
 "MSG_C_ERASER_Y_LOSS","The yeti thought the fragrance was a message from a lost spring and reached out in wonder. His white fur soon smelled of mountain lilies, shining like the peaks of his home. The mountain king was fascinated by the perfume.","イエティはこの芳香を、失われた春からの便りだと思い込んで手を伸ばした。その毛皮はすぐに山百合の香りに包まれ、故郷の山頂のように白く輝き始める。嶺の王は、香水の魅力に魅了されたのである。","雪人以为这阵芬芳是来自失落之春的消息，惊喜地伸手去届。它的白毛很快由于散发出山百合的清香，像它家乡的山峰一样闪耀。雪山之王被香水迷住了。"
 "MSG_C_ERASER_Z_LOSS","The zombie stood gap-mouthed, and for a moment, saw its cold grey eyes turn bright in the glass. It eventually fell into a deep sleep that matched the ancient decay of the dungeon floor. The dead were given a reflective rest.","ゾンビは口をぽかんと開けて立ち尽くし、鏡の中で冷たい灰色の瞳が一瞬だけ輝きを取り戻すのを見た。やがてダンジョンの古びた腐敗と同調するように、魔物は深い眠りへと落ちる。死者たちは、鏡像の世界で安らぎを得たのである。","僵尸张大嘴巴站在那里，有一瞬间，看到它冷灰色的眼睛在玻璃中变亮了。它最终陷入了一场与地牢地板古老腐朽相匹配的沈睡中。死者获得了一个反射式的休息。"
+MSG_SKILL_UNLOCKED,SKILL UNLOCKED!,新スキル アンロック！,解锁新技能！
+MSG_UNLOCKED_SKILLS,"[center][color=gray]--- Unlocked Skills ---[/color]\n\n","[center][color=gray]--- アンロック済みのスキル ---[/color]\n\n","[center][color=gray]--- 已解锁的技能 ---[/color]\n\n"

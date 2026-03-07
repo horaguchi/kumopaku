@@ -5,11 +5,30 @@ const MASTER_BUS_INDEX := 0
 @onready var play_button: Button = $VBoxContainer/Button
 @onready var language_option: OptionButton = $VBoxContainer/LanguageOption
 @onready var mute_button: Button = $MuteButton
+@onready var unlocked_count_label: Label = $UnlockedCountLabel
 
 func _ready() -> void:
 	_init_language_option()
 	_update_ui_text()
 	_update_mute_button_text()
+	_update_unlocked_count_label()
+
+	if Global.newly_unlocked > 0:
+		_play_unlock_animation()
+
+func _update_unlocked_count_label():
+	if Global.unlocked_skills_count > 0:
+		unlocked_count_label.text = tr("★ ") + str(Global.unlocked_skills_count)
+		unlocked_count_label.show()
+	else:
+		unlocked_count_label.hide()
+
+const UnlockAnimationScene = preload("res://unlock_animation.tscn")
+
+func _play_unlock_animation():
+	var anim_scene = UnlockAnimationScene.instantiate()
+	add_child(anim_scene)
+	anim_scene.animation_finished.connect(_update_unlocked_count_label)
 
 func _on_play_pressed() -> void:
 	get_tree().change_scene_to_file("res://main.tscn")
@@ -48,3 +67,20 @@ func _update_mute_button_text():
 
 func _update_ui_text():
 	play_button.text = tr("PLAY")
+
+func _input(event: InputEvent) -> void:
+	if not OS.is_debug_build():
+		return
+
+	if event is InputEventKey and event.pressed and not event.is_echo():
+		if event.keycode == KEY_LEFT:
+			Global.unlocked_skills_count = 0
+			Global.known_effectiveness = {}
+			Global.save_data()
+			_update_unlocked_count_label()
+		elif event.keycode == KEY_RIGHT:
+			var max_unlocks = ItemData.SKILLS.size() - 4
+			if Global.unlocked_skills_count < max_unlocks:
+				Global.unlocked_skills_count += 1
+				Global.save_data()
+				_update_unlocked_count_label()

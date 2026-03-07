@@ -63,6 +63,20 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 24
 text = "🔊 ON"
 
+[node name="UnlockedCountLabel" type="Label" parent="." unique_id=532847921]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -150.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 60.0
+grow_horizontal = 0
+theme_override_font_sizes/font_size = 24
+text = "★ 0"
+horizontal_alignment = 2
+
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_play_pressed"]
 [connection signal="item_selected" from="VBoxContainer/LanguageOption" to="." method="_on_language_option_item_selected"]
 [connection signal="pressed" from="MuteButton" to="." method="_on_mute_button_pressed"]
