@@ -28,7 +28,11 @@ const UnlockAnimationScene = preload("res://unlock_animation.tscn")
 func _play_unlock_animation():
 	var anim_scene = UnlockAnimationScene.instantiate()
 	add_child(anim_scene)
-	anim_scene.animation_finished.connect(_update_unlocked_count_label)
+	anim_scene.animation_finished.connect(_on_unlock_animation_finished)
+
+func _on_unlock_animation_finished():
+	Global.newly_unlocked = 0
+	_update_unlocked_count_label()
 
 func _on_play_pressed() -> void:
 	get_tree().change_scene_to_file("res://main.tscn")
@@ -80,7 +84,7 @@ func _input(event: InputEvent) -> void:
 			Global.save_data()
 			_update_unlocked_count_label()
 		elif event.keycode == KEY_RIGHT:
-			var max_unlocks = ItemData.SKILLS.size() - 4
+			var max_unlocks = ItemData.SKILLS.size() - Global.INITIAL_SKILL_POOL_SIZE
 			if Global.unlocked_skills_count < max_unlocks:
 				Global.unlocked_skills_count += 1
 				Global.save_data()

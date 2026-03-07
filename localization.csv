@@ -3275,6 +3275,6 @@ MSG_C_ACID_Z_LOSS,"The zombie didn't react as the acid dissolved its features an
 "MSG_C_ERASER_Y_LOSS","The yeti thought the fragrance was a message from a lost spring and reached out in wonder. His white fur soon smelled of mountain lilies, shining like the peaks of his home. The mountain king was fascinated by the perfume.","イエティはこの芳香を、失われた春からの便りだと思い込んで手を伸ばした。その毛皮はすぐに山百合の香りに包まれ、故郷の山頂のように白く輝き始める。嶺の王は、香水の魅力に魅了されたのである。","雪人以为这阵芬芳是来自失落之春的消息，惊喜地伸手去届。它的白毛很快由于散发出山百合的清香，像它家乡的山峰一样闪耀。雪山之王被香水迷住了。"
 "MSG_C_ERASER_Z_LOSS","The zombie stood gap-mouthed, and for a moment, saw its cold grey eyes turn bright in the glass. It eventually fell into a deep sleep that matched the ancient decay of the dungeon floor. The dead were given a reflective rest.","ゾンビは口をぽかんと開けて立ち尽くし、鏡の中で冷たい灰色の瞳が一瞬だけ輝きを取り戻すのを見た。やがてダンジョンの古びた腐敗と同調するように、魔物は深い眠りへと落ちる。死者たちは、鏡像の世界で安らぎを得たのである。","僵尸张大嘴巴站在那里，有一瞬间，看到它冷灰色的眼睛在玻璃中变亮了。它最终陷入了一场与地牢地板古老腐朽相匹配的沈睡中。死者获得了一个反射式的休息。"
 MSG_SKILL_UNLOCKED,SKILL UNLOCKED!,新スキル アンロック！,解锁新技能！
-MSG_UNLOCKED_SKILLS,"[center][color=gray]--- Unlocked Skills ---[/color]\n\n","[center][color=gray]--- アンロック済みのスキル ---[/color]\n\n","[center][color=gray]--- 已解锁的技能 ---[/color]\n\n"
+MSG_UNLOCKED_SKILLS,"[color=gray]--- Unlocked Skills ---[/color]\n\n","[color=gray]--- アンロック済みのスキル ---[/color]\n\n","[color=gray]--- 已解锁的技能 ---[/color]\n\n"
 MSG_AUDIO_ON,AUDIO: ON,音声: ON,声音: 开启
 MSG_AUDIO_OFF,AUDIO: OFF,音声: OFF,声音: 关闭

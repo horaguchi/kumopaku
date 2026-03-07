@@ -60,3 +60,4 @@ custom_minimum_size = Vector2(800, 0)
 layout_mode = 2
 bbcode_enabled = true
 fit_content = true
+horizontal_alignment = 1

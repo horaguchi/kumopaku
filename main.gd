@@ -93,7 +93,7 @@ func _ready() -> void:
 	call_deferred("_start_game")
 
 func _get_random_skill() -> String:
-	var max_items = clampi(4 + Global.unlocked_skills_count, 4, ItemDataMap.SKILLS.size())
+	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemDataMap.SKILLS.size())
 	var available = ItemDataMap.SKILLS.slice(0, max_items)
 	return available.pick_random()
 
@@ -351,6 +351,7 @@ func _on_skill_button_pressed(idx: int):
 			_game_over()
 		else:
 			current_floor += 1
+			Global.save_data()
 			_load_floor()
 	else:
 		if idx < player_skills.size():
@@ -469,7 +470,6 @@ func _combat(enemy_idx: int) -> bool:
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
 
 	Global.known_effectiveness[skill + "_" + e_char] = result.win
-	Global.save_data()
 
 	_log_message(tr(result.message))
 
@@ -487,8 +487,10 @@ func _combat(enemy_idx: int) -> bool:
 		return true
 
 func _game_over():
-	if 4 + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
+	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
 		Global.unlock_next()
+	else:
+		Global.save_data()
 	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")
 	return_to_title_button.visible = true
 

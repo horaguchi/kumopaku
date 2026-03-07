@@ -1,6 +1,7 @@
 extends Node
 
 const SAVE_PATH = "user://save_data.cfg"
+const INITIAL_SKILL_POOL_SIZE = 4
 
 var unlocked_skills_count: int = 0
 var newly_unlocked: int = 0
@@ -17,16 +18,11 @@ func save_data():
 
 func load_data():
 	var config = ConfigFile.new()
-	var err = config.load(SAVE_PATH)
-	if err == OK:
-		unlocked_skills_count = config.get_value("game", "unlocked", 0)
-		known_effectiveness = config.get_value("game", "known_effectiveness", {})
-	else:
-		unlocked_skills_count = 0
-		known_effectiveness = {}
+	config.load(SAVE_PATH)
+	unlocked_skills_count = config.get_value("game", "unlocked", 0)
+	known_effectiveness = config.get_value("game", "known_effectiveness", {})
 
-func unlock_next() -> bool:
+func unlock_next() -> void:
 	unlocked_skills_count += 1
 	newly_unlocked += 1
 	save_data()
-	return true

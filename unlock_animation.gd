@@ -14,7 +14,7 @@ func _ready():
 	z_index = 100
 
 	var newly_unlocked_items = []
-	var newly_idx = 4 + Global.unlocked_skills_count - Global.newly_unlocked
+	var newly_idx = Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count - Global.newly_unlocked
 	for i in range(Global.newly_unlocked):
 		if newly_idx + i < ItemData.SKILLS.size():
 			newly_unlocked_items.append(ItemData.SKILLS[newly_idx + i])
@@ -26,10 +26,9 @@ func _ready():
 	new_skill_lbl.text = joined_skills
 
 	var all_unlocked_str = tr("MSG_UNLOCKED_SKILLS")
-	for i in range(4, 4 + Global.unlocked_skills_count):
+	for i in range(Global.INITIAL_SKILL_POOL_SIZE, Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count):
 		if i < ItemData.SKILLS.size():
 			all_unlocked_str += tr(ItemData.SKILLS[i]) + "  "
-	all_unlocked_str += "[/center]"
 	all_skills_lbl.text = all_unlocked_str
 
 	_tw = create_tween()
@@ -61,6 +60,5 @@ func _on_action() -> void:
 		new_skill_lbl.modulate = Color.WHITE
 		all_skills_lbl.modulate = Color.WHITE
 	else:
-		Global.newly_unlocked = 0
 		animation_finished.emit()
 		queue_free()
