@@ -18,7 +18,10 @@ func save_data():
 
 func load_data():
 	var config = ConfigFile.new()
-	config.load(SAVE_PATH)
+	var error = config.load(SAVE_PATH)
+	if error != OK and error != ERR_FILE_NOT_FOUND:
+		printerr("Failed to load save data, file may be corrupt. Error code: %s" % error)
+
 	unlocked_skills_count = config.get_value("game", "unlocked", 0)
 	known_effectiveness = config.get_value("game", "known_effectiveness", {})
 
