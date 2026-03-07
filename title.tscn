@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://ciyb0xki1f6hn"]
 
-[ext_resource type="Script" path="res://title.gd" id="1_xxx"]
+[ext_resource type="Script" uid="uid://clfete8u175cg" path="res://title.gd" id="1_xxx"]
 
 [node name="Title" type="Control" unique_id=607238477]
 layout_mode = 3
@@ -28,23 +28,28 @@ theme_override_constants/separation = 20
 
 [node name="Label" type="Label" parent="VBoxContainer" unique_id=657326216]
 layout_mode = 2
-theme_override_font_sizes/font_size = 48
+theme_override_font_sizes/font_size = 64
 text = "KUMOPAKU"
 horizontal_alignment = 1
 
-[node name="HSeparator" type="HSeparator" parent="VBoxContainer"]
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer" unique_id=1139164116]
 modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=527801322]
 layout_mode = 2
-theme_override_font_sizes/font_size = 32
+theme_override_font_sizes/font_size = 48
 text = "PLAY"
+
+[node name="SkillsButton" type="Button" parent="VBoxContainer" unique_id=1260858826]
+layout_mode = 2
+theme_override_font_sizes/font_size = 32
+text = "SKILLS"
 
 [node name="LanguageOption" type="OptionButton" parent="VBoxContainer" unique_id=123456789]
 layout_mode = 2
-theme_override_font_sizes/font_size = 24
+theme_override_font_sizes/font_size = 32
 alignment = 1
 
 [node name="MuteButton" type="Button" parent="." unique_id=73928104]
@@ -77,6 +82,104 @@ theme_override_font_sizes/font_size = 24
 text = "★ 0"
 horizontal_alignment = 2
 
+[node name="SkillListModal" type="Panel" parent="." unique_id=587656088]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="SkillListModal" unique_id=1270830357]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 50.0
+offset_top = 100.0
+offset_right = -50.0
+offset_bottom = -100.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SkillGrid" type="HFlowContainer" parent="SkillListModal/ScrollContainer" unique_id=857742936]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="CloseListButton" type="Button" parent="SkillListModal" unique_id=371344644]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -80.0
+offset_right = 100.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_font_sizes/font_size = 24
+text = "CLOSE"
+
+[node name="SkillDetailModal" type="Panel" parent="." unique_id=1272274936]
+visible = false
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -300.0
+offset_right = 250.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="SkillDetailModal" unique_id=194420556]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 10
+
+[node name="SkillNameLabel" type="RichTextLabel" parent="SkillDetailModal/VBoxContainer" unique_id=1859754429]
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 32
+bbcode_enabled = true
+fit_content = true
+
+[node name="FavoriteButton" type="Button" parent="SkillDetailModal/VBoxContainer" unique_id=1392340401]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "Favorite"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="SkillDetailModal/VBoxContainer" unique_id=196171526]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="EffectivenessList" type="VBoxContainer" parent="SkillDetailModal/VBoxContainer/ScrollContainer" unique_id=307385049]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="CloseDetailButton" type="Button" parent="SkillDetailModal/VBoxContainer" unique_id=741938134]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "BACK"
+
 [connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/SkillsButton" to="." method="_on_skills_button_pressed"]
 [connection signal="item_selected" from="VBoxContainer/LanguageOption" to="." method="_on_language_option_item_selected"]
 [connection signal="pressed" from="MuteButton" to="." method="_on_mute_button_pressed"]
+[connection signal="pressed" from="SkillListModal/CloseListButton" to="." method="_on_close_list_pressed"]
+[connection signal="pressed" from="SkillDetailModal/VBoxContainer/FavoriteButton" to="." method="_on_favorite_pressed"]
+[connection signal="pressed" from="SkillDetailModal/VBoxContainer/CloseDetailButton" to="." method="_on_close_detail_pressed"]

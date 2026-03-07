@@ -3760,3 +3760,8 @@ MSG_AUDIO_OFF,AUDIO: OFF,音声: OFF,声音: 关闭
 "Flashlight","Flashlight","懐中電灯","手电筒"
 "Compass","Compass","コンパス","指南针"
 "Eraser","Eraser","消しゴム","橡皮擦"
+SKILLS,Skills,スキル,技能
+CLOSE,Close,閉じる,关闭
+BACK,Back,戻る,返回
+ADD_FAVORITE,Favorite,お気に入り登録,加入收藏
+REMOVE_FAVORITE,Unfavorite,お気に入り解除,取消收藏

@@ -4,8 +4,21 @@ const MASTER_BUS_INDEX := 0
 
 @onready var play_button: Button = $VBoxContainer/Button
 @onready var language_option: OptionButton = $VBoxContainer/LanguageOption
+@onready var skills_button: Button = $VBoxContainer/SkillsButton
 @onready var mute_button: Button = $MuteButton
 @onready var unlocked_count_label: Label = $UnlockedCountLabel
+
+@onready var skill_list_modal: Panel = $SkillListModal
+@onready var skill_grid: HFlowContainer = $SkillListModal/ScrollContainer/SkillGrid
+@onready var skill_detail_modal: Panel = $SkillDetailModal
+@onready var skill_name_label: RichTextLabel = $SkillDetailModal/VBoxContainer/SkillNameLabel
+@onready var favorite_button: Button = $SkillDetailModal/VBoxContainer/FavoriteButton
+@onready var effectiveness_list: VBoxContainer = $SkillDetailModal/VBoxContainer/ScrollContainer/EffectivenessList
+@onready var close_list_button: Button = $SkillListModal/CloseListButton
+@onready var close_detail_button: Button = $SkillDetailModal/VBoxContainer/CloseDetailButton
+
+var current_viewing_skill: String = ""
+const EnemyDataMap = preload("res://enemy_data.gd")
 
 func _ready() -> void:
 	_init_language_option()
@@ -71,7 +84,12 @@ func _update_mute_button_text():
 
 func _update_ui_text():
 	play_button.text = tr("PLAY")
+	skills_button.text = tr("SKILLS")
+	close_list_button.text = tr("CLOSE")
+	close_detail_button.text = tr("BACK")
 	_update_mute_button_text()
+	if current_viewing_skill != "":
+		_update_favorite_button()
 
 func _input(event: InputEvent) -> void:
 	if not OS.is_debug_build():
@@ -89,3 +107,85 @@ func _input(event: InputEvent) -> void:
 				Global.unlocked_skills_count += 1
 				Global.save_data()
 				_update_unlocked_count_label()
+
+func _on_skills_button_pressed() -> void:
+	_populate_skill_list()
+	skill_list_modal.show()
+
+func _populate_skill_list() -> void:
+	for child in skill_grid.get_children():
+		child.queue_free()
+
+	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemData.SKILLS.size())
+	for i in range(max_items):
+		var skill_name = ItemData.SKILLS[i]
+		var btn = Button.new()
+		btn.text = tr(skill_name)
+		btn.add_theme_font_size_override("font_size", 24)
+		if Global.favorite_skill == skill_name:
+			btn.text = "★ " + btn.text
+			btn.add_theme_color_override("font_color", Color.YELLOW)
+		btn.pressed.connect(func(): _show_skill_detail(skill_name))
+		skill_grid.add_child(btn)
+
+func _show_skill_detail(skill_name: String) -> void:
+	current_viewing_skill = skill_name
+	skill_list_modal.hide()
+	skill_detail_modal.show()
+	_update_favorite_button()
+
+	var t_skill = tr(skill_name)
+	if Global.favorite_skill == skill_name:
+		skill_name_label.text = "[center][color=yellow]★[/color] " + t_skill + "[/center]"
+	else:
+		skill_name_label.text = "[center]" + t_skill + "[/center]"
+
+	for child in effectiveness_list.get_children():
+		child.queue_free()
+
+	for e_char in EnemyDataMap.ENEMIES.keys():
+		var key = skill_name + "_" + e_char
+		var edata = EnemyDataMap.ENEMIES[e_char]
+		var lbl = RichTextLabel.new()
+		lbl.bbcode_enabled = true
+		lbl.fit_content = true
+		lbl.add_theme_font_size_override("normal_font_size", 24)
+
+		var t_enemy = tr(edata.name)
+		if Global.known_effectiveness.has(key):
+			var win = Global.known_effectiveness[key]
+			var color = "green" if win else "red"
+			var res_text = "WIN" if win else "LOSS"
+			lbl.text = "[color=%s]%s[/color] VS %s" % [color, res_text, t_enemy]
+		else:
+			lbl.text = "[color=gray]? VS %s[/color]" % t_enemy
+
+		effectiveness_list.add_child(lbl)
+
+func _on_favorite_pressed() -> void:
+	if Global.favorite_skill == current_viewing_skill:
+		Global.favorite_skill = ""
+	else:
+		Global.favorite_skill = current_viewing_skill
+	Global.save_data()
+	_update_favorite_button()
+
+	var t_skill = tr(current_viewing_skill)
+	if Global.favorite_skill == current_viewing_skill:
+		skill_name_label.text = "[center][color=yellow]★[/color] " + t_skill + "[/center]"
+	else:
+		skill_name_label.text = "[center]" + t_skill + "[/center]"
+
+func _update_favorite_button() -> void:
+	if Global.favorite_skill == current_viewing_skill:
+		favorite_button.text = tr("REMOVE_FAVORITE")
+	else:
+		favorite_button.text = tr("ADD_FAVORITE")
+
+func _on_close_list_pressed() -> void:
+	skill_list_modal.hide()
+
+func _on_close_detail_pressed() -> void:
+	skill_detail_modal.hide()
+	_populate_skill_list()
+	skill_list_modal.show()
