@@ -46,6 +46,17 @@ var is_printing_message := false
 var move_delay := 0.15
 var move_timer := 0.0
 
+func _input(event: InputEvent) -> void:
+	if not OS.is_debug_build():
+		return
+
+	if event is InputEventKey and event.pressed and not event.is_echo():
+		if event.keycode == KEY_Q and not map_data.is_empty():
+			_log_message(tr("MSG_GAME_OVER"))
+			map_data.clear()
+			_update_ui()
+			call_deferred("_game_over")
+
 func _process(delta: float) -> void:
 	if is_skill_replace_mode: return
 	if is_printing_message: return
@@ -81,6 +92,11 @@ func _ready() -> void:
 
 	call_deferred("_start_game")
 
+func _get_random_skill() -> String:
+	var max_items = clampi(Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count, Global.INITIAL_SKILL_POOL_SIZE, ItemDataMap.SKILLS.size())
+	var available = ItemDataMap.SKILLS.slice(0, max_items)
+	return available.pick_random()
+
 func _on_mute_button_pressed():
 	mute_button.release_focus()
 	var is_muted = not AudioServer.is_bus_mute(MASTER_BUS_INDEX)
@@ -89,12 +105,12 @@ func _on_mute_button_pressed():
 
 func _update_mute_button_text():
 	var is_muted = AudioServer.is_bus_mute(MASTER_BUS_INDEX)
-	mute_button.text = "🔇 OFF" if is_muted else "🔊 ON"
+	mute_button.text = tr("MSG_AUDIO_OFF") if is_muted else tr("MSG_AUDIO_ON")
 
 func _start_game():
 	current_floor = 1
 	player_skills.clear()
-	player_skills.append(ItemDataMap.SKILLS.pick_random())
+	player_skills.append(_get_random_skill())
 	active_skill_index = 0
 	return_to_title_button.visible = false
 	message_log.text = ""
@@ -167,8 +183,8 @@ func _update_map():
 		var mapped_char = e_char
 		if active_skill != "":
 			var color: String
-			if ItemDataMap.known_effectiveness.has(key):
-				color = COLOR_WIN if ItemDataMap.known_effectiveness[key] else COLOR_LOSS
+			if Global.known_effectiveness.has(key):
+				color = COLOR_WIN if Global.known_effectiveness[key] else COLOR_LOSS
 			else:
 				color = COLOR_UNKNOWN
 			mapped_char = "[color=%s]%s[/color]" % [color, e_char]
@@ -335,6 +351,7 @@ func _on_skill_button_pressed(idx: int):
 			_game_over()
 		else:
 			current_floor += 1
+			Global.save_data()
 			_load_floor()
 	else:
 		if idx < player_skills.size():
@@ -379,8 +396,8 @@ func _move(dir: Vector2):
 
 	if picked_item_idx != -1:
 		map_data.items.remove_at(picked_item_idx)
-		var new_skill = ItemDataMap.SKILLS.pick_random()
-		_log_message(tr("MSG_FIND_ITEM").format({"skill": tr(new_skill)}))
+		var new_skill = _get_random_skill()
+		_log_message(tr("MSG_FIND_SKILL").format({"skill": tr(new_skill)}))
 		if player_skills.size() < 3:
 			player_skills.append(new_skill)
 		else:
@@ -452,7 +469,7 @@ func _combat(enemy_idx: int) -> bool:
 	var skill = player_skills[active_skill_index]
 	var result = ItemDataMap.COMBAT_RESULTS[skill][e_char]
 
-	ItemDataMap.known_effectiveness[skill + "_" + e_char] = result.win
+	Global.known_effectiveness[skill + "_" + e_char] = result.win
 
 	_log_message(tr(result.message))
 
@@ -470,6 +487,10 @@ func _combat(enemy_idx: int) -> bool:
 		return true
 
 func _game_over():
+	if Global.INITIAL_SKILL_POOL_SIZE + Global.unlocked_skills_count < ItemDataMap.SKILLS.size():
+		Global.unlock_next()
+	else:
+		Global.save_data()
 	return_to_title_button.text = tr("MSGUI_RETURN_TITLE")
 	return_to_title_button.visible = true
 
