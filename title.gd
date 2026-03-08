@@ -8,6 +8,7 @@ const FAVORITE_MARKER = "★"
 @onready var skills_button: Button = $VBoxContainer/SkillsButton
 @onready var mute_button: Button = $MuteButton
 @onready var unlocked_count_label: Label = $UnlockedCountLabel
+@onready var tips_label: Label = $VBoxContainer/TipsLabel
 
 @onready var skill_list_modal: Panel = $SkillListModal
 @onready var skill_grid: HFlowContainer = $SkillListModal/ScrollContainer/SkillGrid
@@ -95,6 +96,7 @@ func _update_ui_text():
 	skills_button.text = tr("SKILLS")
 	close_list_button.text = tr("CLOSE")
 	close_detail_button.text = tr("BACK")
+	tips_label.text = tr("MSG_TIPS_MOVE")
 	_update_mute_button_text()
 	if current_viewing_skill != "":
 		_update_favorite_button()

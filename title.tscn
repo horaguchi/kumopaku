@@ -37,6 +37,18 @@ modulate = Color(1, 1, 1, 0)
 custom_minimum_size = Vector2(0, 20)
 layout_mode = 2
 
+[node name="TipsLabel" type="Label" parent="VBoxContainer" unique_id=842957301]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.7, 1)
+theme_override_font_sizes/font_size = 16
+text = "Move: Arrow Keys / WASD / HJKL"
+horizontal_alignment = 1
+
+[node name="HSeparator2" type="HSeparator" parent="VBoxContainer" unique_id=1459748707]
+modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(0, 20)
+layout_mode = 2
+
 [node name="Button" type="Button" parent="VBoxContainer" unique_id=527801322]
 layout_mode = 2
 theme_override_font_sizes/font_size = 48
