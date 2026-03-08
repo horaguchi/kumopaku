@@ -16,7 +16,7 @@ const COLOR_UNKNOWN = "magenta"
 const COLOR_DISCOVERED = "#cccccc"
 
 # --- UI Nodes ---
-@onready var map_label: RichTextLabel = $MainVBox/HBoxContainer/LeftVBox/MapLabel
+@onready var map_label: RichTextLabel = $MainVBox/HBoxContainer/LeftVBox/MapScroll/MapLabel
 @onready var message_log: RichTextLabel = $MainVBox/MessageLog
 @onready var skill_container: VBoxContainer = $MainVBox/HBoxContainer/SkillContainer
 @onready var return_to_title_button: Button = $MainVBox/HBoxContainer/SkillContainer/ReturnToTitleButton

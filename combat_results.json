@@ -2075,8 +2075,8 @@
             "message": "MSG_C_CHEER_O_WIN"
         },
         "P": {
-            "win": false,
-            "message": "MSG_C_CHEER_P_LOSS"
+            "win": true,
+            "message": "MSG_C_CHEER_P_WIN"
         },
         "Q": {
             "win": false,
@@ -3555,8 +3555,8 @@
             "message": "MSG_C_DRONE_N_WIN"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_DRONE_O_WIN"
+            "win": false,
+            "message": "MSG_C_DRONE_O_LOSS"
         },
         "P": {
             "win": false,
@@ -4325,8 +4325,8 @@
             "message": "MSG_C_GAMINGPC_U_LOSS"
         },
         "V": {
-            "win": false,
-            "message": "MSG_C_GAMINGPC_V_LOSS"
+            "win": true,
+            "message": "MSG_C_GAMINGPC_V_WIN"
         },
         "W": {
             "win": true,
@@ -6491,8 +6491,8 @@
             "message": "MSG_C_VOLCANO_F_WIN"
         },
         "G": {
-            "win": false,
-            "message": "MSG_C_VOLCANO_G_LOSS"
+            "win": true,
+            "message": "MSG_C_VOLCANO_G_WIN"
         },
         "H": {
             "win": true,
@@ -6503,32 +6503,32 @@
             "message": "MSG_C_VOLCANO_I_WIN"
         },
         "J": {
-            "win": true,
-            "message": "MSG_C_VOLCANO_J_WIN"
+            "win": false,
+            "message": "MSG_C_VOLCANO_J_LOSS"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_VOLCANO_K_LOSS"
+            "win": true,
+            "message": "MSG_C_VOLCANO_K_WIN"
         },
         "L": {
-            "win": false,
-            "message": "MSG_C_VOLCANO_L_LOSS"
+            "win": true,
+            "message": "MSG_C_VOLCANO_L_WIN"
         },
         "M": {
             "win": false,
             "message": "MSG_C_VOLCANO_M_LOSS"
         },
         "N": {
-            "win": true,
-            "message": "MSG_C_VOLCANO_N_WIN"
+            "win": false,
+            "message": "MSG_C_VOLCANO_N_LOSS"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_VOLCANO_O_WIN"
+            "win": false,
+            "message": "MSG_C_VOLCANO_O_LOSS"
         },
         "P": {
-            "win": false,
-            "message": "MSG_C_VOLCANO_P_LOSS"
+            "win": true,
+            "message": "MSG_C_VOLCANO_P_WIN"
         },
         "Q": {
             "win": false,
@@ -6539,20 +6539,20 @@
             "message": "MSG_C_VOLCANO_R_LOSS"
         },
         "S": {
-            "win": true,
-            "message": "MSG_C_VOLCANO_S_WIN"
+            "win": false,
+            "message": "MSG_C_VOLCANO_S_LOSS"
         },
         "T": {
             "win": false,
             "message": "MSG_C_VOLCANO_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_VOLCANO_U_LOSS"
+            "win": true,
+            "message": "MSG_C_VOLCANO_U_WIN"
         },
         "V": {
-            "win": true,
-            "message": "MSG_C_VOLCANO_V_WIN"
+            "win": false,
+            "message": "MSG_C_VOLCANO_V_LOSS"
         },
         "W": {
             "win": false,
@@ -6573,8 +6573,8 @@
     },
     "Dynamite": {
         "A": {
-            "win": false,
-            "message": "MSG_C_DYNAMITE_A_LOSS"
+            "win": true,
+            "message": "MSG_C_DYNAMITE_A_WIN"
         },
         "B": {
             "win": true,
@@ -6593,8 +6593,8 @@
             "message": "MSG_C_DYNAMITE_E_WIN"
         },
         "F": {
-            "win": false,
-            "message": "MSG_C_DYNAMITE_F_LOSS"
+            "win": true,
+            "message": "MSG_C_DYNAMITE_F_WIN"
         },
         "G": {
             "win": true,
@@ -6613,16 +6613,16 @@
             "message": "MSG_C_DYNAMITE_J_LOSS"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_DYNAMITE_K_LOSS"
+            "win": true,
+            "message": "MSG_C_DYNAMITE_K_WIN"
         },
         "L": {
-            "win": false,
-            "message": "MSG_C_DYNAMITE_L_LOSS"
+            "win": true,
+            "message": "MSG_C_DYNAMITE_L_WIN"
         },
         "M": {
-            "win": true,
-            "message": "MSG_C_DYNAMITE_M_WIN"
+            "win": false,
+            "message": "MSG_C_DYNAMITE_M_LOSS"
         },
         "N": {
             "win": true,
@@ -6641,8 +6641,8 @@
             "message": "MSG_C_DYNAMITE_Q_WIN"
         },
         "R": {
-            "win": true,
-            "message": "MSG_C_DYNAMITE_R_WIN"
+            "win": false,
+            "message": "MSG_C_DYNAMITE_R_LOSS"
         },
         "S": {
             "win": false,
@@ -6653,8 +6653,8 @@
             "message": "MSG_C_DYNAMITE_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_DYNAMITE_U_LOSS"
+            "win": true,
+            "message": "MSG_C_DYNAMITE_U_WIN"
         },
         "V": {
             "win": false,
@@ -7061,8 +7061,8 @@
             "message": "MSG_C_METEOR_P_WIN"
         },
         "Q": {
-            "win": true,
-            "message": "MSG_C_METEOR_Q_WIN"
+            "win": false,
+            "message": "MSG_C_METEOR_Q_LOSS"
         },
         "R": {
             "win": false,
@@ -7159,8 +7159,8 @@
             "message": "MSG_C_LASER_N_WIN"
         },
         "O": {
-            "win": false,
-            "message": "MSG_C_LASER_O_LOSS"
+            "win": true,
+            "message": "MSG_C_LASER_O_WIN"
         },
         "P": {
             "win": false,
@@ -7179,12 +7179,12 @@
             "message": "MSG_C_LASER_S_LOSS"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_LASER_T_LOSS"
+            "win": true,
+            "message": "MSG_C_LASER_T_WIN"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_LASER_U_LOSS"
+            "win": true,
+            "message": "MSG_C_LASER_U_WIN"
         },
         "V": {
             "win": false,
@@ -7277,12 +7277,12 @@
             "message": "MSG_C_ACID_Q_LOSS"
         },
         "R": {
-            "win": true,
-            "message": "MSG_C_ACID_R_WIN"
+            "win": false,
+            "message": "MSG_C_ACID_R_LOSS"
         },
         "S": {
-            "win": true,
-            "message": "MSG_C_ACID_S_WIN"
+            "win": false,
+            "message": "MSG_C_ACID_S_LOSS"
         },
         "T": {
             "win": false,
@@ -8973,8 +8973,8 @@
             "message": "MSG_C_SHADOWBIND_Q_WIN"
         },
         "R": {
-            "win": true,
-            "message": "MSG_C_SHADOWBIND_R_WIN"
+            "win": false,
+            "message": "MSG_C_SHADOWBIND_R_LOSS"
         },
         "S": {
             "win": false,
@@ -9083,8 +9083,8 @@
             "message": "MSG_C_IRONMAIDEN_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_IRONMAIDEN_S_LOSS"
+            "win": true,
+            "message": "MSG_C_IRONMAIDEN_S_WIN"
         },
         "T": {
             "win": false,
@@ -9153,8 +9153,8 @@
             "message": "MSG_C_ABDUCTION_I_WIN"
         },
         "J": {
-            "win": false,
-            "message": "MSG_C_ABDUCTION_J_LOSS"
+            "win": true,
+            "message": "MSG_C_ABDUCTION_J_WIN"
         },
         "K": {
             "win": false,
@@ -9197,28 +9197,28 @@
             "message": "MSG_C_ABDUCTION_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_ABDUCTION_U_LOSS"
+            "win": true,
+            "message": "MSG_C_ABDUCTION_U_WIN"
         },
         "V": {
             "win": false,
             "message": "MSG_C_ABDUCTION_V_LOSS"
         },
         "W": {
-            "win": true,
-            "message": "MSG_C_ABDUCTION_W_WIN"
+            "win": false,
+            "message": "MSG_C_ABDUCTION_W_LOSS"
         },
         "X": {
-            "win": false,
-            "message": "MSG_C_ABDUCTION_X_LOSS"
+            "win": true,
+            "message": "MSG_C_ABDUCTION_X_WIN"
         },
         "Y": {
-            "win": false,
-            "message": "MSG_C_ABDUCTION_Y_LOSS"
+            "win": true,
+            "message": "MSG_C_ABDUCTION_Y_WIN"
         },
         "Z": {
-            "win": false,
-            "message": "MSG_C_ABDUCTION_Z_LOSS"
+            "win": true,
+            "message": "MSG_C_ABDUCTION_Z_WIN"
         }
     },
     "CyberAttack": {
@@ -9279,32 +9279,32 @@
             "message": "MSG_C_CYBERATTACK_N_WIN"
         },
         "O": {
-            "win": false,
-            "message": "MSG_C_CYBERATTACK_O_LOSS"
+            "win": true,
+            "message": "MSG_C_CYBERATTACK_O_WIN"
         },
         "P": {
             "win": false,
             "message": "MSG_C_CYBERATTACK_P_LOSS"
         },
         "Q": {
-            "win": false,
-            "message": "MSG_C_CYBERATTACK_Q_LOSS"
+            "win": true,
+            "message": "MSG_C_CYBERATTACK_Q_WIN"
         },
         "R": {
-            "win": true,
-            "message": "MSG_C_CYBERATTACK_R_WIN"
+            "win": false,
+            "message": "MSG_C_CYBERATTACK_R_LOSS"
         },
         "S": {
             "win": false,
             "message": "MSG_C_CYBERATTACK_S_LOSS"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_CYBERATTACK_T_LOSS"
+            "win": true,
+            "message": "MSG_C_CYBERATTACK_T_WIN"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_CYBERATTACK_U_LOSS"
+            "win": true,
+            "message": "MSG_C_CYBERATTACK_U_WIN"
         },
         "V": {
             "win": false,
@@ -9405,8 +9405,8 @@
             "message": "MSG_C_STEAMROLL_S_WIN"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_STEAMROLL_T_LOSS"
+            "win": true,
+            "message": "MSG_C_STEAMROLL_T_WIN"
         },
         "U": {
             "win": false,
@@ -9467,8 +9467,8 @@
             "message": "MSG_C_GUILLOTINE_H_LOSS"
         },
         "I": {
-            "win": false,
-            "message": "MSG_C_GUILLOTINE_I_LOSS"
+            "win": true,
+            "message": "MSG_C_GUILLOTINE_I_WIN"
         },
         "J": {
             "win": true,
@@ -9491,24 +9491,24 @@
             "message": "MSG_C_GUILLOTINE_N_LOSS"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_GUILLOTINE_O_WIN"
+            "win": false,
+            "message": "MSG_C_GUILLOTINE_O_LOSS"
         },
         "P": {
             "win": false,
             "message": "MSG_C_GUILLOTINE_P_LOSS"
         },
         "Q": {
-            "win": false,
-            "message": "MSG_C_GUILLOTINE_Q_LOSS"
+            "win": true,
+            "message": "MSG_C_GUILLOTINE_Q_WIN"
         },
         "R": {
             "win": false,
             "message": "MSG_C_GUILLOTINE_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_GUILLOTINE_S_LOSS"
+            "win": true,
+            "message": "MSG_C_GUILLOTINE_S_WIN"
         },
         "T": {
             "win": true,
@@ -9519,16 +9519,16 @@
             "message": "MSG_C_GUILLOTINE_U_LOSS"
         },
         "V": {
-            "win": false,
-            "message": "MSG_C_GUILLOTINE_V_LOSS"
+            "win": true,
+            "message": "MSG_C_GUILLOTINE_V_WIN"
         },
         "W": {
             "win": false,
             "message": "MSG_C_GUILLOTINE_W_LOSS"
         },
         "X": {
-            "win": false,
-            "message": "MSG_C_GUILLOTINE_X_LOSS"
+            "win": true,
+            "message": "MSG_C_GUILLOTINE_X_WIN"
         },
         "Y": {
             "win": false,
@@ -9541,8 +9541,8 @@
     },
     "Exorcism": {
         "A": {
-            "win": true,
-            "message": "MSG_C_EXORCISM_A_WIN"
+            "win": false,
+            "message": "MSG_C_EXORCISM_A_LOSS"
         },
         "B": {
             "win": true,
@@ -9561,8 +9561,8 @@
             "message": "MSG_C_EXORCISM_E_WIN"
         },
         "F": {
-            "win": true,
-            "message": "MSG_C_EXORCISM_F_WIN"
+            "win": false,
+            "message": "MSG_C_EXORCISM_F_LOSS"
         },
         "G": {
             "win": true,
@@ -9573,28 +9573,28 @@
             "message": "MSG_C_EXORCISM_H_WIN"
         },
         "I": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_I_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_I_WIN"
         },
         "J": {
             "win": false,
             "message": "MSG_C_EXORCISM_J_LOSS"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_K_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_K_WIN"
         },
         "L": {
-            "win": true,
-            "message": "MSG_C_EXORCISM_L_WIN"
+            "win": false,
+            "message": "MSG_C_EXORCISM_L_LOSS"
         },
         "M": {
             "win": true,
             "message": "MSG_C_EXORCISM_M_WIN"
         },
         "N": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_N_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_N_WIN"
         },
         "O": {
             "win": false,
@@ -9613,24 +9613,24 @@
             "message": "MSG_C_EXORCISM_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_S_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_S_WIN"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_T_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_T_WIN"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_U_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_U_WIN"
         },
         "V": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_V_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_V_WIN"
         },
         "W": {
-            "win": false,
-            "message": "MSG_C_EXORCISM_W_LOSS"
+            "win": true,
+            "message": "MSG_C_EXORCISM_W_WIN"
         },
         "X": {
             "win": false,
@@ -9683,16 +9683,16 @@
             "message": "MSG_C_TIMESTOP_I_WIN"
         },
         "J": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_J_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_J_WIN"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_K_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_K_WIN"
         },
         "L": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_L_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_L_WIN"
         },
         "M": {
             "win": true,
@@ -9719,36 +9719,36 @@
             "message": "MSG_C_TIMESTOP_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_S_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_S_WIN"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_T_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_T_WIN"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_U_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_U_WIN"
         },
         "V": {
             "win": false,
             "message": "MSG_C_TIMESTOP_V_LOSS"
         },
         "W": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_W_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_W_WIN"
         },
         "X": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_X_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_X_WIN"
         },
         "Y": {
             "win": false,
             "message": "MSG_C_TIMESTOP_Y_LOSS"
         },
         "Z": {
-            "win": false,
-            "message": "MSG_C_TIMESTOP_Z_LOSS"
+            "win": true,
+            "message": "MSG_C_TIMESTOP_Z_WIN"
         }
     },
     "Kraken": {
@@ -9773,88 +9773,88 @@
             "message": "MSG_C_KRAKEN_E_WIN"
         },
         "F": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_F_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_F_WIN"
         },
         "G": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_G_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_G_WIN"
         },
         "H": {
             "win": true,
             "message": "MSG_C_KRAKEN_H_WIN"
         },
         "I": {
-            "win": true,
-            "message": "MSG_C_KRAKEN_I_WIN"
+            "win": false,
+            "message": "MSG_C_KRAKEN_I_LOSS"
         },
         "J": {
-            "win": true,
-            "message": "MSG_C_KRAKEN_J_WIN"
+            "win": false,
+            "message": "MSG_C_KRAKEN_J_LOSS"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_K_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_K_WIN"
         },
         "L": {
             "win": false,
             "message": "MSG_C_KRAKEN_L_LOSS"
         },
         "M": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_M_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_M_WIN"
         },
         "N": {
-            "win": true,
-            "message": "MSG_C_KRAKEN_N_WIN"
+            "win": false,
+            "message": "MSG_C_KRAKEN_N_LOSS"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_KRAKEN_O_WIN"
+            "win": false,
+            "message": "MSG_C_KRAKEN_O_LOSS"
         },
         "P": {
             "win": false,
             "message": "MSG_C_KRAKEN_P_LOSS"
         },
         "Q": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_Q_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_Q_WIN"
         },
         "R": {
-            "win": true,
-            "message": "MSG_C_KRAKEN_R_WIN"
+            "win": false,
+            "message": "MSG_C_KRAKEN_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_S_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_S_WIN"
         },
         "T": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_T_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_T_WIN"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_U_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_U_WIN"
         },
         "V": {
             "win": false,
             "message": "MSG_C_KRAKEN_V_LOSS"
         },
         "W": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_W_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_W_WIN"
         },
         "X": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_X_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_X_WIN"
         },
         "Y": {
             "win": false,
             "message": "MSG_C_KRAKEN_Y_LOSS"
         },
         "Z": {
-            "win": false,
-            "message": "MSG_C_KRAKEN_Z_LOSS"
+            "win": true,
+            "message": "MSG_C_KRAKEN_Z_WIN"
         }
     },
     "Fireworks": {
@@ -10893,8 +10893,8 @@
             "message": "MSG_C_UMBRELLA_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_UMBRELLA_U_LOSS"
+            "win": true,
+            "message": "MSG_C_UMBRELLA_U_WIN"
         },
         "V": {
             "win": false,
@@ -10947,8 +10947,8 @@
             "message": "MSG_C_GROOMING_G_WIN"
         },
         "H": {
-            "win": true,
-            "message": "MSG_C_GROOMING_H_WIN"
+            "win": false,
+            "message": "MSG_C_GROOMING_H_LOSS"
         },
         "I": {
             "win": false,
@@ -10999,8 +10999,8 @@
             "message": "MSG_C_GROOMING_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_GROOMING_U_LOSS"
+            "win": true,
+            "message": "MSG_C_GROOMING_U_WIN"
         },
         "V": {
             "win": false,
@@ -11105,8 +11105,8 @@
             "message": "MSG_C_MICROPHONE_T_LOSS"
         },
         "U": {
-            "win": false,
-            "message": "MSG_C_MICROPHONE_U_LOSS"
+            "win": true,
+            "message": "MSG_C_MICROPHONE_U_WIN"
         },
         "V": {
             "win": false,
@@ -11159,8 +11159,8 @@
             "message": "MSG_C_FLASHLIGHT_G_WIN"
         },
         "H": {
-            "win": true,
-            "message": "MSG_C_FLASHLIGHT_H_WIN"
+            "win": false,
+            "message": "MSG_C_FLASHLIGHT_H_LOSS"
         },
         "I": {
             "win": false,
@@ -11265,8 +11265,8 @@
             "message": "MSG_C_COMPASS_G_WIN"
         },
         "H": {
-            "win": true,
-            "message": "MSG_C_COMPASS_H_WIN"
+            "win": false,
+            "message": "MSG_C_COMPASS_H_LOSS"
         },
         "I": {
             "win": false,
@@ -11297,8 +11297,8 @@
             "message": "MSG_C_COMPASS_O_LOSS"
         },
         "P": {
-            "win": true,
-            "message": "MSG_C_COMPASS_P_WIN"
+            "win": false,
+            "message": "MSG_C_COMPASS_P_LOSS"
         },
         "Q": {
             "win": false,
@@ -11371,8 +11371,8 @@
             "message": "MSG_C_ERASER_G_WIN"
         },
         "H": {
-            "win": true,
-            "message": "MSG_C_ERASER_H_WIN"
+            "win": false,
+            "message": "MSG_C_ERASER_H_LOSS"
         },
         "I": {
             "win": false,
@@ -11387,8 +11387,8 @@
             "message": "MSG_C_ERASER_K_WIN"
         },
         "L": {
-            "win": true,
-            "message": "MSG_C_ERASER_L_WIN"
+            "win": false,
+            "message": "MSG_C_ERASER_L_LOSS"
         },
         "M": {
             "win": false,
@@ -11403,8 +11403,8 @@
             "message": "MSG_C_ERASER_O_LOSS"
         },
         "P": {
-            "win": true,
-            "message": "MSG_C_ERASER_P_WIN"
+            "win": false,
+            "message": "MSG_C_ERASER_P_LOSS"
         },
         "Q": {
             "win": false,
@@ -12851,40 +12851,40 @@
             "message": "MSG_C_EASEL_F_WIN"
         },
         "G": {
-            "win": false,
-            "message": "MSG_C_EASEL_G_LOSS"
+            "win": true,
+            "message": "MSG_C_EASEL_G_WIN"
         },
         "H": {
-            "win": false,
-            "message": "MSG_C_EASEL_H_LOSS"
+            "win": true,
+            "message": "MSG_C_EASEL_H_WIN"
         },
         "I": {
-            "win": true,
-            "message": "MSG_C_EASEL_I_WIN"
+            "win": false,
+            "message": "MSG_C_EASEL_I_LOSS"
         },
         "J": {
-            "win": true,
-            "message": "MSG_C_EASEL_J_WIN"
+            "win": false,
+            "message": "MSG_C_EASEL_J_LOSS"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_EASEL_K_LOSS"
+            "win": true,
+            "message": "MSG_C_EASEL_K_WIN"
         },
         "L": {
-            "win": false,
-            "message": "MSG_C_EASEL_L_LOSS"
+            "win": true,
+            "message": "MSG_C_EASEL_L_WIN"
         },
         "M": {
-            "win": false,
-            "message": "MSG_C_EASEL_M_LOSS"
+            "win": true,
+            "message": "MSG_C_EASEL_M_WIN"
         },
         "N": {
-            "win": true,
-            "message": "MSG_C_EASEL_N_WIN"
+            "win": false,
+            "message": "MSG_C_EASEL_N_LOSS"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_EASEL_O_WIN"
+            "win": false,
+            "message": "MSG_C_EASEL_O_LOSS"
         },
         "P": {
             "win": false,
@@ -12993,8 +12993,8 @@
             "message": "MSG_C_STYLUS_O_WIN"
         },
         "P": {
-            "win": false,
-            "message": "MSG_C_STYLUS_P_LOSS"
+            "win": true,
+            "message": "MSG_C_STYLUS_P_WIN"
         },
         "Q": {
             "win": false,
@@ -13083,12 +13083,12 @@
             "message": "MSG_C_CRAYON_K_WIN"
         },
         "L": {
-            "win": true,
-            "message": "MSG_C_CRAYON_L_WIN"
+            "win": false,
+            "message": "MSG_C_CRAYON_L_LOSS"
         },
         "M": {
-            "win": true,
-            "message": "MSG_C_CRAYON_M_WIN"
+            "win": false,
+            "message": "MSG_C_CRAYON_M_LOSS"
         },
         "N": {
             "win": false,
@@ -13103,16 +13103,16 @@
             "message": "MSG_C_CRAYON_P_LOSS"
         },
         "Q": {
-            "win": true,
-            "message": "MSG_C_CRAYON_Q_WIN"
+            "win": false,
+            "message": "MSG_C_CRAYON_Q_LOSS"
         },
         "R": {
             "win": false,
             "message": "MSG_C_CRAYON_R_LOSS"
         },
         "S": {
-            "win": false,
-            "message": "MSG_C_CRAYON_S_LOSS"
+            "win": true,
+            "message": "MSG_C_CRAYON_S_WIN"
         },
         "T": {
             "win": false,
@@ -13189,16 +13189,16 @@
             "message": "MSG_C_MARKER_K_LOSS"
         },
         "L": {
-            "win": true,
-            "message": "MSG_C_MARKER_L_WIN"
+            "win": false,
+            "message": "MSG_C_MARKER_L_LOSS"
         },
         "M": {
-            "win": true,
-            "message": "MSG_C_MARKER_M_WIN"
+            "win": false,
+            "message": "MSG_C_MARKER_M_LOSS"
         },
         "N": {
-            "win": true,
-            "message": "MSG_C_MARKER_N_WIN"
+            "win": false,
+            "message": "MSG_C_MARKER_N_LOSS"
         },
         "O": {
             "win": false,
@@ -13245,8 +13245,8 @@
             "message": "MSG_C_MARKER_Y_LOSS"
         },
         "Z": {
-            "win": true,
-            "message": "MSG_C_MARKER_Z_WIN"
+            "win": false,
+            "message": "MSG_C_MARKER_Z_LOSS"
         }
     },
     "Spray": {
@@ -13283,24 +13283,24 @@
             "message": "MSG_C_SPRAY_H_WIN"
         },
         "I": {
-            "win": false,
-            "message": "MSG_C_SPRAY_I_LOSS"
+            "win": true,
+            "message": "MSG_C_SPRAY_I_WIN"
         },
         "J": {
-            "win": false,
-            "message": "MSG_C_SPRAY_J_LOSS"
+            "win": true,
+            "message": "MSG_C_SPRAY_J_WIN"
         },
         "K": {
-            "win": false,
-            "message": "MSG_C_SPRAY_K_LOSS"
+            "win": true,
+            "message": "MSG_C_SPRAY_K_WIN"
         },
         "L": {
             "win": false,
             "message": "MSG_C_SPRAY_L_LOSS"
         },
         "M": {
-            "win": false,
-            "message": "MSG_C_SPRAY_M_LOSS"
+            "win": true,
+            "message": "MSG_C_SPRAY_M_WIN"
         },
         "N": {
             "win": true,
@@ -13413,8 +13413,8 @@
             "message": "MSG_C_CHARCOAL_N_LOSS"
         },
         "O": {
-            "win": true,
-            "message": "MSG_C_CHARCOAL_O_WIN"
+            "win": false,
+            "message": "MSG_C_CHARCOAL_O_LOSS"
         },
         "P": {
             "win": false,
@@ -13507,12 +13507,12 @@
             "message": "MSG_C_SCULPTINGKNIFE_K_WIN"
         },
         "L": {
-            "win": true,
-            "message": "MSG_C_SCULPTINGKNIFE_L_WIN"
+            "win": false,
+            "message": "MSG_C_SCULPTINGKNIFE_L_LOSS"
         },
         "M": {
-            "win": true,
-            "message": "MSG_C_SCULPTINGKNIFE_M_WIN"
+            "win": false,
+            "message": "MSG_C_SCULPTINGKNIFE_M_LOSS"
         },
         "N": {
             "win": false,
