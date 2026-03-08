@@ -517,13 +517,12 @@ func _process_enemies_turn():
 				if t_pos.x >= 0 and t_pos.x < max_x and t_pos.y >= 0 and t_pos.y < max_y:
 					var c = map_data.grid[t_pos.y][t_pos.x]
 					if c == "#" or c == "+" or c == ".":
-						var has_enemy = false
-						if t_pos != player_pos:
-							for j in range(map_data.enemies.size()):
-								if i != j and map_data.enemies[j].pos == t_pos:
-									has_enemy = true
-									break
-						if not has_enemy:
+						var is_occupied = false
+						for j in range(map_data.enemies.size()):
+							if i != j and map_data.enemies[j].pos == t_pos:
+								is_occupied = true
+								break
+						if t_pos == player_pos or not is_occupied:
 							n_pos = t_pos
 							break
 
