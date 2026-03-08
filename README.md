@@ -12,3 +12,7 @@ Kumopaku is a 2D roguelike game developed for the [7DRL Challenge 2026](https://
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Play
+
+[Kumopaku](https://horaguchi.itch.io/kumopaku)
