@@ -512,6 +512,7 @@ func _process_enemies_turn():
 				try_positions.append(Vector2(enemy.pos.x + dx, enemy.pos.y))
 			if dy != 0:
 				try_positions.append(Vector2(enemy.pos.x, enemy.pos.y + dy))
+			try_positions.shuffle()
 
 			for t_pos in try_positions:
 				if t_pos.x >= 0 and t_pos.x < max_x and t_pos.y >= 0 and t_pos.y < max_y:
