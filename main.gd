@@ -507,20 +507,26 @@ func _process_enemies_turn():
 			var max_y = map_data.grid.size()
 			var max_x = map_data.grid[0].size()
 
+			var try_positions = []
 			if dx != 0:
-				var nx = enemy.pos.x + dx
-				if nx >= 0 and nx < max_x:
-					var cx = map_data.grid[enemy.pos.y][nx]
-					if cx == "#" or cx == "+" or cx == ".":
-						n_pos.x += dx
-			elif dy != 0:
-				var ny = enemy.pos.y + dy
-				if ny >= 0 and ny < max_y:
-					var cy = map_data.grid[ny][enemy.pos.x]
-					if cy == "#" or cy == "+" or cy == ".":
-						n_pos.y += dy
+				try_positions.append(Vector2(enemy.pos.x + dx, enemy.pos.y))
+			if dy != 0:
+				try_positions.append(Vector2(enemy.pos.x, enemy.pos.y + dy))
+			try_positions.shuffle()
 
-			# 味方同士の衝突は省略。文字ベースなので無視。
+			for t_pos in try_positions:
+				if t_pos.x >= 0 and t_pos.x < max_x and t_pos.y >= 0 and t_pos.y < max_y:
+					var c = map_data.grid[t_pos.y][t_pos.x]
+					if c == "#" or c == "+" or c == ".":
+						var is_occupied = false
+						for j in range(map_data.enemies.size()):
+							if i != j and map_data.enemies[j].pos == t_pos:
+								is_occupied = true
+								break
+						if t_pos == player_pos or not is_occupied:
+							n_pos = t_pos
+							break
+
 			enemy.pos = n_pos
 
 			if enemy.pos == player_pos:
