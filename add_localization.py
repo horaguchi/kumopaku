@@ -3,8 +3,8 @@ import os
 import csv
 
 MAIN_CSV = 'localization.csv'
-EXPECTED_COLUMNS = 4
-HEADER = ['keys', 'en', 'ja', 'zh']
+HEADER = ['keys', 'en', 'ja', 'zh', 'ru', 'es', 'pt', 'de', 'ko']
+EXPECTED_COLUMNS = len(HEADER)
 
 
 def get_csv_file_for_key(key):
@@ -17,6 +17,15 @@ def get_csv_file_for_key(key):
         letter = key[6].lower()
         return f'localization_msg_{letter}.csv'
     return MAIN_CSV
+
+
+def expand_row(row):
+    """既存の行を最新のヘッダー数に合わせて拡張する。"""
+    if not row:
+        return row
+    if len(row) < EXPECTED_COLUMNS:
+        return row + [""] * (EXPECTED_COLUMNS - len(row))
+    return row[:EXPECTED_COLUMNS]
 
 
 def validate_localization_csv(csv_file=None):
@@ -38,7 +47,7 @@ def validate_localization_csv(csv_file=None):
                     is_valid = False
                     continue
 
-                # カラム数チェック
+                # カラム数チェック (バリデーション時は厳密にチェック)
                 if len(row) != EXPECTED_COLUMNS:
                     print(f"L{i}: Error - Expected {EXPECTED_COLUMNS} columns, but found {len(row)}: {row}")
                     is_valid = False
@@ -71,43 +80,81 @@ def validate_all():
     return all_valid
 
 
-def add_localization_entry(key, en, ja, zh):
+def migrate_csv_to_new_format(target_csv):
+    """既存の CSV を新しい 9 列フォーマットに変換する。"""
+    if not os.path.exists(target_csv):
+        return
+
+    # すでに最新フォーマットかチェック
+    try:
+        with open(target_csv, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            header = next(reader, None)
+            if header == HEADER:
+                return # すでに最新
+    except:
+        pass
+
+    print(f"Migrating {target_csv} to new {EXPECTED_COLUMNS}-column format...")
+    try:
+        rows = []
+        with open(target_csv, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            for row in reader:
+                if not row: continue
+                if row[0] == 'keys':
+                    rows.append(HEADER) # ヘッダーを最新のものに置き換え
+                else:
+                    rows.append(expand_row(row))
+
+        with open(target_csv, 'w', encoding='utf-8', newline='') as f:
+            writer = csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator='\n')
+            writer.writerows(rows)
+        print(f"Migration successful for {target_csv}.")
+    except Exception as e:
+        print(f"Migration failed for {target_csv}: {e}")
+
+
+def add_localization_entry(key, en, ja, zh, ru, es, pt, de, ko):
     """新しいエントリを追加、または既存のキーを更新する。"""
 
     target_csv = get_csv_file_for_key(key)
 
-    # 事前バリデーション
-    print(f"Validating {target_csv} before adding/updating...")
-    if not validate_localization_csv(target_csv):
-        print("Aborting due to existing CSV errors. Please fix the CSV first.")
-        return
+    # 既存ファイルがあれば、まずは形式をアップグレード
+    if os.path.exists(target_csv):
+        migrate_csv_to_new_format(target_csv)
 
     try:
         rows = []
         updated = False
         header_exists = False
+        new_entry = [key, en, ja, zh, ru, es, pt, de, ko]
 
         # 既存の内容を読み込む
         if os.path.exists(target_csv):
             with open(target_csv, 'r', encoding='utf-8') as f:
                 reader = csv.reader(f)
                 for row in reader:
-                    if row and row[0] == 'keys':
+                    if not row: continue
+                    if row[0] == 'keys':
                         header_exists = True
-                    if row and row[0] == key:
-                        rows.append([key, en, ja, zh])
+                        rows.append(HEADER)
+                        continue
+                    
+                    if row[0] == key:
+                        rows.append(new_entry)
                         updated = True
                         print(f"Key '{key}' already exists. Overwriting with new content...")
                     else:
-                        rows.append(row)
+                        rows.append(expand_row(row))
 
-        # サブファイルにヘッダーがない場合は先頭に追加
-        if not header_exists and target_csv != MAIN_CSV:
+        # ヘッダーがない場合は先頭に追加
+        if not header_exists:
             rows.insert(0, HEADER)
 
         # キーが見つからなかった場合は末尾に追加
         if not updated:
-            rows.append([key, en, ja, zh])
+            rows.append(new_entry)
 
         # ファイルに書き出す
         with open(target_csv, 'w', encoding='utf-8', newline='') as f:
@@ -124,17 +171,27 @@ def add_localization_entry(key, en, ja, zh):
 
 
 if __name__ == "__main__":
-    # バリデーションのみのモード
+    # 全バリデーション
     if len(sys.argv) == 2 and sys.argv[1] == "--validate":
         validate_all()
         sys.exit(0)
 
+    # 全マイグレーション（既存の全ファイルを新形式に変換）
+    if len(sys.argv) == 2 and sys.argv[1] == "--migrate-all":
+        import glob
+        files = [MAIN_CSV] + sorted(glob.glob('localization_msg_*.csv'))
+        for f in files:
+            migrate_csv_to_new_format(f)
+        sys.exit(0)
+
     # 追加モード
-    if len(sys.argv) != 5:
+    if len(sys.argv) != 10:
         print("Usage:")
-        print("  Add:      python add_localization.py <KEY> <EN> <JA> <ZH>")
+        print(f"  Add:      python add_localization.py <KEY> <EN> <JA> <ZH> <RU> <ES> <PT> <DE> <KO>")
         print("  Validate: python add_localization.py --validate")
+        print("  Migrate:  python add_localization.py --migrate-all")
         sys.exit(1)
 
-    key_arg, en_arg, ja_arg, zh_arg = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
-    add_localization_entry(key_arg, en_arg, ja_arg, zh_arg)
+    key_arg = sys.argv[1]
+    args = sys.argv[2:] # en, ja, zh, ru, es, pt, de, ko
+    add_localization_entry(key_arg, *args)

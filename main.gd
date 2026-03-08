@@ -73,13 +73,13 @@ func _process(delta: float) -> void:
 		return
 
 	var dir = Vector2.ZERO
-	if Input.is_key_pressed(KEY_UP) or Input.is_key_pressed(KEY_W):
+	if Input.is_key_pressed(KEY_UP) or Input.is_key_pressed(KEY_W) or Input.is_key_pressed(KEY_K):
 		dir = Vector2.UP
-	elif Input.is_key_pressed(KEY_DOWN) or Input.is_key_pressed(KEY_S):
+	elif Input.is_key_pressed(KEY_DOWN) or Input.is_key_pressed(KEY_S) or Input.is_key_pressed(KEY_J):
 		dir = Vector2.DOWN
-	elif Input.is_key_pressed(KEY_LEFT) or Input.is_key_pressed(KEY_A):
+	elif Input.is_key_pressed(KEY_LEFT) or Input.is_key_pressed(KEY_A) or Input.is_key_pressed(KEY_H):
 		dir = Vector2.LEFT
-	elif Input.is_key_pressed(KEY_RIGHT) or Input.is_key_pressed(KEY_D):
+	elif Input.is_key_pressed(KEY_RIGHT) or Input.is_key_pressed(KEY_D) or Input.is_key_pressed(KEY_L):
 		dir = Vector2.RIGHT
 
 	if dir != Vector2.ZERO:

@@ -53,7 +53,12 @@ func _on_play_pressed() -> void:
 const LANGUAGES = [
 	{"name": "日本語", "code": "ja"},
 	{"name": "English", "code": "en"},
-	{"name": "简体中文", "code": "zh"}
+	{"name": "简体中文", "code": "zh"},
+	{"name": "Русский", "code": "ru"},
+	{"name": "Español", "code": "es"},
+	{"name": "Português", "code": "pt"},
+	{"name": "Deutsch", "code": "de"},
+	{"name": "한국어", "code": "ko"}
 ]
 
 func _init_language_option():
@@ -69,7 +74,10 @@ func _init_language_option():
 
 func _on_language_option_item_selected(index: int) -> void:
 	if index >= 0 and index < LANGUAGES.size():
-		TranslationServer.set_locale(LANGUAGES[index].code)
+		var code = LANGUAGES[index].code
+		TranslationServer.set_locale(code)
+		Global.locale = code
+		Global.save_data()
 		_update_ui_text()
 
 func _on_mute_button_pressed():
