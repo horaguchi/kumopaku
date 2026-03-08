@@ -55,6 +55,9 @@ func _input(event: InputEvent) -> void:
 		if event.keycode == KEY_Q and not map_data.is_empty():
 			if is_processing_action: return
 			_execute_give_up()
+		elif event.keycode == KEY_E and not map_data.is_empty():
+			if is_processing_action: return
+			_execute_debug_next_floor()
 
 func _execute_give_up():
 	_set_action_state(true)
@@ -63,6 +66,20 @@ func _execute_give_up():
 	map_data.clear()
 	_update_ui()
 	_game_over()
+	_set_action_state(false)
+
+func _execute_debug_next_floor():
+	_set_action_state(true)
+	if current_floor == 5:
+		_log_message(tr("MSG_GAME_CLEAR"))
+		await _wait_messages_done()
+		map_data.clear()
+		_update_ui()
+		_game_over(true)
+	else:
+		current_floor += 1
+		Global.save_data()
+		await _load_floor()
 	_set_action_state(false)
 
 func _process(delta: float) -> void:
