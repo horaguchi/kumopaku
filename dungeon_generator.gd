@@ -58,7 +58,7 @@ static func _try_generate(floor_num: int) -> Dictionary:
 		if carved_cells.size() > 0:
 			items.append(carved_cells.pop_back())
 
-	var num_enemies = 2 + floor_num
+	var num_enemies = randi_range(4 + floor_num, 6 + int(floor_num * 2))
 	var enemies = []
 	for i in range(num_enemies):
 		if carved_cells.size() > 0:
