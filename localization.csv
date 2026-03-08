@@ -112,6 +112,7 @@
 "MSG_DEFEAT_ENEMY","Defeated enemy {name}!","敵 {name} を倒した！","打败了敌人 {name}！","Победил врага {name}!","¡Derrotaste al enemigo {name}!","Derrotou o inimigo {name}!","Gegner {name} besiegt!","적 {name}을(를) 처치했다!"
 "MSG_GAME_OVER","You died... GAME OVER","あなたは死んでしまった... GAME OVER","你死了... 游戏结束","Вы погибли... ИГРА ОКОНЧЕНА","Has muerto... JUEGO TERMINADO","Você morreu... FIM DE JOGO","Du bist gestorben... GAME OVER","당신은 죽었습니다... GAME OVER"
 "PLAY","PLAY","プレイ","进入游戏","ИГРАТЬ","JUGAR","JOGAR","SPIELEN","플레이"
+"MSG_FLOOR_LABEL","Floor {floor}","{floor}F","第{floor}层","Этаж {floor}","Piso {floor}","Andar {floor}","Etage {floor}","{floor}층"
 "MSG_TIPS_MOVE","Move: Arrow Keys / WASD / HJKL","移動: 矢印キー / WASD / HJKL","移动: 方向键 / WASD / HJKL","Движение: Стрелки / WASD / HJKL","Mover: Flechas / WASD / HJKL","Mover: Setas / WASD / HJKL","Bewegen: Pfeiltasten / WASD / HJKL","이동: 방향키 / WASD / HJKL"
 "LANG_NAME","English","日本語","简体中文","Русский","Español","Português","Deutsch","한국어"
 "Shock","Shock","衝撃","冲击","Шок","Choque","Choque","Schock","충격"

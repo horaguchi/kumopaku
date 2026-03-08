@@ -20,6 +20,7 @@ const COLOR_DISCOVERED = "#cccccc"
 @onready var message_log: RichTextLabel = $MainVBox/MessageLog
 @onready var skill_container: VBoxContainer = $MainVBox/HBoxContainer/SkillContainer
 @onready var return_to_title_button: Button = $MainVBox/HBoxContainer/SkillContainer/ReturnToTitleButton
+@onready var floor_label: Label = $MainVBox/HBoxContainer/SkillContainer/FloorLabel
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
@@ -93,7 +94,7 @@ func _ready() -> void:
 	_update_mute_button_text()
 
 	for i in range(4):
-		var btn = skill_container.get_child(i) as Button
+		var btn = skill_container.get_child(i + 1) as Button # +1: FloorLabel が index 0 のためオフセット
 		btn.pressed.connect(func(): _on_skill_button_pressed(i))
 		skill_buttons.append(btn)
 
@@ -334,6 +335,7 @@ func _get_line(x0: int, y0: int, x1: int, y1: int) -> Array:
 	return points
 
 func _update_skills():
+	floor_label.text = tr("MSG_FLOOR_LABEL").format({"floor": current_floor})
 	for i in range(4):
 		skill_buttons[i].visible = false
 		skill_buttons[i].remove_theme_color_override("font_color")
