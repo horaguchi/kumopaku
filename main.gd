@@ -20,6 +20,7 @@ const COLOR_DISCOVERED = "#cccccc"
 @onready var message_log: RichTextLabel = $MainVBox/MessageLog
 @onready var skill_container: VBoxContainer = $MainVBox/HBoxContainer/SkillContainer
 @onready var return_to_title_button: Button = $MainVBox/HBoxContainer/SkillContainer/ReturnToTitleButton
+@onready var floor_label: Label = $MainVBox/HBoxContainer/SkillContainer/FloorLabel
 var skill_buttons: Array[Button] = []
 
 # --- Game State ---
@@ -54,6 +55,9 @@ func _input(event: InputEvent) -> void:
 		if event.keycode == KEY_Q and not map_data.is_empty():
 			if is_processing_action: return
 			_execute_give_up()
+		elif event.keycode == KEY_E and not map_data.is_empty():
+			if is_processing_action: return
+			_execute_debug_next_floor()
 
 func _execute_give_up():
 	_set_action_state(true)
@@ -62,6 +66,20 @@ func _execute_give_up():
 	map_data.clear()
 	_update_ui()
 	_game_over()
+	_set_action_state(false)
+
+func _execute_debug_next_floor():
+	_set_action_state(true)
+	if current_floor == 5:
+		_log_message(tr("MSG_GAME_CLEAR"))
+		await _wait_messages_done()
+		map_data.clear()
+		_update_ui()
+		_game_over(true)
+	else:
+		current_floor += 1
+		Global.save_data()
+		await _load_floor()
 	_set_action_state(false)
 
 func _process(delta: float) -> void:
@@ -92,8 +110,9 @@ func _ready() -> void:
 	# AudioServerの状態に合わせてボタン表示を同期
 	_update_mute_button_text()
 
-	for i in range(4):
-		var btn = skill_container.get_child(i) as Button
+	var buttons_in_group = get_tree().get_nodes_in_group("skill_buttons")
+	for i in range(buttons_in_group.size()):
+		var btn = buttons_in_group[i] as Button
 		btn.pressed.connect(func(): _on_skill_button_pressed(i))
 		skill_buttons.append(btn)
 
@@ -334,6 +353,7 @@ func _get_line(x0: int, y0: int, x1: int, y1: int) -> Array:
 	return points
 
 func _update_skills():
+	floor_label.text = tr("MSG_FLOOR_LABEL").format({"floor": current_floor})
 	for i in range(4):
 		skill_buttons[i].visible = false
 		skill_buttons[i].remove_theme_color_override("font_color")
