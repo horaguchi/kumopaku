@@ -6,10 +6,10 @@ uid="uid://bp6gyvfkv8716"
 
 [deps]
 
-files=["res://localization_msg_t.en.translation", "res://localization_msg_t.ja.translation", "res://localization_msg_t.zh.translation"]
+files=["res://localization_msg_t.en.translation", "res://localization_msg_t.ja.translation", "res://localization_msg_t.zh.translation", "res://localization_msg_t.ru.translation", "res://localization_msg_t.es.translation", "res://localization_msg_t.pt.translation", "res://localization_msg_t.de.translation", "res://localization_msg_t.ko.translation"]
 
 source_file="res://localization_msg_t.csv"
-dest_files=["res://localization_msg_t.en.translation", "res://localization_msg_t.ja.translation", "res://localization_msg_t.zh.translation"]
+dest_files=["res://localization_msg_t.en.translation", "res://localization_msg_t.ja.translation", "res://localization_msg_t.zh.translation", "res://localization_msg_t.ru.translation", "res://localization_msg_t.es.translation", "res://localization_msg_t.pt.translation", "res://localization_msg_t.de.translation", "res://localization_msg_t.ko.translation"]
 
 [params]
 

@@ -85,6 +85,16 @@ def migrate_csv_to_new_format(target_csv):
     if not os.path.exists(target_csv):
         return
 
+    # すでに最新フォーマットかチェック
+    try:
+        with open(target_csv, 'r', encoding='utf-8') as f:
+            reader = csv.reader(f)
+            header = next(reader, None)
+            if header == HEADER:
+                return # すでに最新
+    except:
+        pass
+
     print(f"Migrating {target_csv} to new {EXPECTED_COLUMNS}-column format...")
     try:
         rows = []

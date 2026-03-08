@@ -6,10 +6,10 @@ uid="uid://dnibcyb460avg"
 
 [deps]
 
-files=["res://localization_msg_e.en.translation", "res://localization_msg_e.ja.translation", "res://localization_msg_e.zh.translation"]
+files=["res://localization_msg_e.en.translation", "res://localization_msg_e.ja.translation", "res://localization_msg_e.zh.translation", "res://localization_msg_e.ru.translation", "res://localization_msg_e.es.translation", "res://localization_msg_e.pt.translation", "res://localization_msg_e.de.translation", "res://localization_msg_e.ko.translation"]
 
 source_file="res://localization_msg_e.csv"
-dest_files=["res://localization_msg_e.en.translation", "res://localization_msg_e.ja.translation", "res://localization_msg_e.zh.translation"]
+dest_files=["res://localization_msg_e.en.translation", "res://localization_msg_e.ja.translation", "res://localization_msg_e.zh.translation", "res://localization_msg_e.ru.translation", "res://localization_msg_e.es.translation", "res://localization_msg_e.pt.translation", "res://localization_msg_e.de.translation", "res://localization_msg_e.ko.translation"]
 
 [params]
 
