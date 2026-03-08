@@ -110,8 +110,9 @@ func _ready() -> void:
 	# AudioServerの状態に合わせてボタン表示を同期
 	_update_mute_button_text()
 
-	for i in range(4):
-		var btn = skill_container.get_child(i + 1) as Button # +1: FloorLabel が index 0 のためオフセット
+	var buttons_in_group = get_tree().get_nodes_in_group("skill_buttons")
+	for i in range(buttons_in_group.size()):
+		var btn = buttons_in_group[i] as Button
 		btn.pressed.connect(func(): _on_skill_button_pressed(i))
 		skill_buttons.append(btn)
 

@@ -54,22 +54,22 @@ layout_mode = 2
 theme_override_font_sizes/font_size = 32
 horizontal_alignment = 1
 
-[node name="SkillButton0" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=169539288]
+[node name="SkillButton0" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1354546551 groups=["skill_buttons"]]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 
-[node name="SkillButton1" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=345274770]
+[node name="SkillButton1" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=3615236 groups=["skill_buttons"]]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 
-[node name="SkillButton2" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1625449188]
+[node name="SkillButton2" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1955899290 groups=["skill_buttons"]]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
 
-[node name="SkillButton3" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1850920304]
+[node name="SkillButton3" type="Button" parent="MainVBox/HBoxContainer/SkillContainer" unique_id=1116340460 groups=["skill_buttons"]]
 visible = false
 layout_mode = 2
 theme_override_font_sizes/font_size = 32
